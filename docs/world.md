@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.26, 2026-11-09**
+**World v0.27, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -118,3 +118,12 @@ This file holds the world facts that become the planet data file (A2R-101).
 - Detailed biomes per region.
 - Fixed places: cities, spaceport, landmarks.
 - Which peoples live where, and who is in charge locally.
+
+## Lancer canon notes (alignment reference)
+
+Paraphrased by Claudia from the Lancer core book's history section, 2026-11-09.  Concepts only, no Massif text, per the Lancer Third Party License.
+
+- The "initial outward push" in canon is the Ten: ten huge sublight generation ships launched from Cradle during Old Humanity's collapse, roughly 6000 to 4900 years before Union's year zero (about 10,000 to 11,000 years before 5016u).  The Ten cut contact with Cradle by choice.
+- Karrakis, homeworld of the Karrakin Trade Baronies, was settled by the Apollo, the first of the Ten.  Settlers "from the same places as the KTB" therefore points to Apollo lineage: Verlassen could be an early Karrakin daughter colony or a related landfall.
+- Karrakin culture developed apart from Union for thousands of years.  Union first contacted it around 2800u; the Baronies became a Union member state after the Interest War around 4630u.  By 5016u the KTB is technically part of Union, so Union reaches Verlassen only indirectly, through Baronic trade.
+- Canon cold world to stay distinct from: Sparr, settled by the Yggdrasil (one of the Ten).  It shares tundra, thermal-vent life, megafauna, clans, a habitable equator, a years-long overland trek, and Norse-flavored culture.  Verlassen stays distinct through its Japanese-hybrid culture, the three-year cold cycle (Sparr is frozen year-round), alien mirror-chemistry life, the crystal infection, and the clone premise.

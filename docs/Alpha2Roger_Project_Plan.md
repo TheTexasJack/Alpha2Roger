@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.12, 2026-11-09**
+**Plan v0.13, 2026-11-09**
 
 ## What this project is
 
@@ -88,6 +88,7 @@ Goal: the core loop.
 - The journey to the city
 - The city, the spaceport, and the identity questline (inbox UI)
 - The franken-mech and recognition
+- In-game credits screen carrying the Lancer Third Party License requirements: the acknowledgement, "Lancer is copyright Massif Press", thanks to Massif Press, and a "Powered by Lancer" mark.  Required in the final product.
 - NPC content lists, kept as data files: backstories, traits, orientations, speech styles.  These feed NPC creation and the dialogue model.
   - Dependency: backstories need the world first (planet, lore, era, places, peoples).  Traits, orientations, and speech styles are mostly world-agnostic and can come earlier.
 - NPC voices, ElevenLabs style: much later.  **Draft (Claudia):** local text-to-speech is also an option, in line with the zero-token-cost local model.
@@ -96,6 +97,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.13, 2026-11-09 (Claudia): in-game credits task added after checking the full Lancer Third Party License text.
 - Plan v0.12, 2026-11-09 (Nathan): globe locked to candidate B, seed 2718.
 - Plan v0.11, 2026-11-09 (Nathan): globe approach approved; candidate generator and map saved to the repo.  Naming rule recorded in concept v0.21.
 - Plan v0.10, 2026-11-09 (Nathan): planet physical details decided.

@@ -1,6 +1,6 @@
 # License
 
-**LICENSE v0.1, 2026-11-09**
+**LICENSE v0.2, 2026-11-09**
 
 Copyright (c) 2026 Nathan (TheTexasJack).  All rights reserved.
 
@@ -22,6 +22,8 @@ Rules we follow under that license:
 - No content that directs hate toward protected groups.
 - The acknowledgement above, thanks to Massif Press, and a "Powered by Lancer" text mark appear in the credits of every release.
 
-Re-check the current Lancer Third Party License before any public release.
+Checked against the full license text Nathan provided on 2026-11-09.  Re-check the current Lancer Third Party License before any public release.
+
+The acknowledgement, the copyright line, the thanks to Massif Press, and the "Powered by Lancer" mark must also appear in the final product itself (the game's credits), not only in this repository.
 
 This license may be revised later.  Any change will bump the version above.
