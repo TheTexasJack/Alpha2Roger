@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.9, 2026-11-09**
+**World v0.10, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -43,6 +43,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - About 10 million people.  Enough for cities, with plenty of hundreds of miles of nothing.
 - **Draft (Claudia):** distribution: one big spaceport city of a couple million (the only real off-world contact); 3 to 5 regional cities of a few hundred thousand each, linked by long roads or rail; towns and outposts (farming, mining, waystations); small, scattered clans and homesteaders in the deep wilderness; most of the planet empty.  The cold-year cycle pushes settlement toward the warmer bands.
+- In the third (cold) year, the cities become very Frostpunk.
+- **Draft (Claudia):** cold-year cities huddle around central heat plants, with districts ranked by distance to the heat; cold-year laws bring rationing, curfews, and work quotas; refugees pour in from the wilds.  With no ID there is no ration card, heat allocation, or work permit.  Arriving in a normal year means a gritty but open city; arriving in a cold year means being an unwanted refugee, though the chaos means fewer people checking papers.
 
 ## The warning
 
