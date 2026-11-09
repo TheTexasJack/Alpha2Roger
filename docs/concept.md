@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.1, 2026-11-09**
+**Concept v0.2, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -33,7 +33,20 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Zone distances are set between fixed areas.
 - Zone based, not open world.
 - Future expansions may add planets.
-- **Draft (Claudia):** randomize the crash site per seed; make route lengths a range (for example 4 to 6 zones) chosen by the seed; tie wilderness biomes to a fixed climate layer; build each planet as a data module so expansions do not require engine rewrites.
+- Future planets are planned from the start: each planet is built as a data module, so new planets do not require engine rewrites.
+- **Draft (Claudia):** randomize the crash site per seed; make route lengths a range (for example 4 to 6 zones) chosen by the seed; tie wilderness biomes to a fixed climate layer.
+
+## Goals and endings
+
+- Alpha2-Roger is Nathan's passion project: the game he wants to play.
+- Playthroughs establish the endings.  We find them by playing.
+- Endings are marked as milestones.  The game keeps going after an ending is reached.
+- The game pushes toward future planets.
+- Fade points are design signals: when play starts to fade, that is the point where we add something.
+- Replayability: make a new character each run.  The core duplicate and bureaucratic loop remains, but the approach can change.  For example, one run you fight for your identity; another you tell them to fuck off and just be yourself.
+- **Draft (Claudia):** keep a boredom log during playtests, recording when and where play fades.  At each fade point, choose between adding a system and pushing the player into the next act.
+- **Draft (Claudia):** candidate ending milestones to test in play: Union recognition under a new name; refusing Union and living as yourself; building your own way off planet; staying, with the planet as home.
+- **Draft (Claudia):** vary the duplicate setup per run (a sympathetic backup, a backup whose life yours would wreck, a failed restore where nobody claimed your name).
 
 ## Play style
 
