@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.16, 2026-11-09**
+**World v0.17, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -51,6 +51,19 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
 
+## Climate bands
+
+- Similar to Earth: warmest along the equator, colder toward the poles.
+
+## Peoples
+
+- People are of various races, and they do not need to be human.  We make them as we pick.
+- In Lancer lore aliens exist, but SecComm holds a humans-first stance; there is a whole thing about it.  We have the option to expand on that.
+- Not a lot of animalistic people.
+- Moth people exist in Lancer, but probably not on a cold planet.
+- Genetic (bioengineered) people could be cool, like Alex's goat people, who are only slightly goatish.  We can science some hybrids.
+- **Draft (Claudia):** goat traits suit a cold, mountainous world, so a goatfolk line fits Verlassen.  Any goatfolk here are a separate engineered line from the Halas family in Errans Inter Astra.
+
 ## Population
 
 - About 10 million people.  Enough for cities, with plenty of hundreds of miles of nothing.
@@ -82,6 +95,6 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Open
 
-- Climate bands and biomes.
+- Detailed biomes per region.
 - Fixed places: cities, spaceport, landmarks.
-- Peoples and who is in charge locally.
+- Which peoples live where, and who is in charge locally.
