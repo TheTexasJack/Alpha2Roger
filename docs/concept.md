@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.30, 2026-11-09**
+**Concept v0.31, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -24,6 +24,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - A difference from RimWorld: no slave cat people and no coats made from human skin.  Cruelty exists in the world to be opposed; the player never profits from it.
 - **Draft (Claudia):** concretely, no player-owned slaves, no crafting from human remains, and no organ harvesting.
 - The closest thing to "slavery" (in quotation marks) is NPCs the player won over with the right choices, who help around the base.
+- Negative traits are not limited.  Some NPCs may have negative traits, including dark ones, that have to be balanced.  They are never glorified, and helping people with them is something we work in later.
 - **Draft (Claudia):** companions are free people, recruited by persuasion, help, rescue, or trade, and tracked by the relationship system.  If they are treated badly or grow unhappy, they can leave.
 
 ## Design approach
