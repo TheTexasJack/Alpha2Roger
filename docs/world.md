@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.13, 2026-11-09**
+**World v0.14, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -43,6 +43,9 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - Volcanic and geothermal areas that do not freeze: springs and Yellowstone-type geysers.
 - Salt lakes that might never freeze, except on the coldest days of the third year.
+- Rivers.  All major cities sit near rivers.
+- Three infection impact sites on the globe.
+- **Draft (Claudia):** salt lakes are terminal basins where interior rivers end, as real salt lakes do.
 - **Draft (Claudia):** a cold planet shows more land than Earth (water locked in ice lowers sea level), about 50 to 60% ocean, with drier interiors (cold steppe and tundra, forests near coasts) and large permanent ice caps.
 - **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
