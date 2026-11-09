@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.22, 2026-11-09**
+**Concept v0.23, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -139,6 +139,13 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - Per Lancer lore, messages across blinkspace are bundled and take time.  A reply may come weeks or months later.
 - **Draft (Claudia):** each transmission costs Manna (holo calls most, text least), and at some point letters arrive from your other self.
+
+## Language and translation
+
+- The player has cybernetics: an implanted universal translator.
+- Right after the crash, a calibration process in the tutorial runs through a bunch of sample languages spoken on the planet, then calibrates.  After that, everything is in English.
+- No constructed languages and no coded dialects.
+- **Draft (Claudia):** the calibration samples double as a first taste of the planet's peoples and regions.
 
 ## Licenses and the scrap mech
 

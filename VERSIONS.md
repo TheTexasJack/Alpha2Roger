@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.1 | 2026-11-09 | Initial README with Lancer Third Party License credits |
 | LICENSE.md | v0.1 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms we follow |
-| docs/concept.md | v0.22 | 2026-11-09 | Crash site: player selects or random |
+| docs/concept.md | v0.23 | 2026-11-09 | Language: implanted translator, tutorial calibration |
 | docs/Alpha2Roger_Project_Plan.md | v0.12 | 2026-11-09 | Globe locked: seed 2718 |
 | docs/world.md | v0.20 | 2026-11-09 | Logical placement locked; cities near water and heat; remote places rare |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
