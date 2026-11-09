@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.30, 2026-11-09**
+**World v0.31, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -77,21 +77,37 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## The ten fixed places
 
-Accepted by Nathan 2026-11-09 from `docs/maps/verlassen_pins_draft_v0.1.png` (grid: column letter A to X, row number 1 to 12; the equator sits between rows 6 and 7).  Names come later.
+Accepted by Nathan 2026-11-09.  Map: `docs/maps/verlassen_places_v1.0.png` (grid: column letter A to X, row number 1 to 12; the equator sits between rows 6 and 7).
 
-1. Spaceport city (H7)
-2. Major city (L9), near geothermal heat
-3. Major city (E4), near geothermal heat
-4. Major city (L5)
-5. Onsen town (A10)
-6. Salt-lake trade town (K10)
-7. Salt-lake trade town (V4)
-8. River-mouth port (H5)
-9. Remote holdfast with its own heat source (N3)
-10. River town (R8)
+| # | Name | Meaning | Type | Grid |
+|---|---|---|---|---|
+| 1 | Setareh Minato | Star Harbor | Spaceport city | H7 |
+| 2 | Ikh Gawa | Great River | Major city, near geothermal heat | L9 |
+| 3 | Warmes Tani | Warm Valley | Major city, near geothermal heat | E4 |
+| 4 | Svetla Hama | Bright Shore | Major city | L5 |
+| 5 | Khaluun Onsen | Hot Hot Springs (a real-world style redundant name) | Onsen town | A10 |
+| 6 | Davs Mizuumi | Salt Lake | Salt-lake trade town | K10 |
+| 7 | Shio Loch | Salt Lake | Salt-lake trade town | V4 |
+| 8 | Darya Kako | Sea Mouth | River-mouth port | H5 |
+| 9 | Zimna Toride | Cold Fort | Remote holdfast with its own heat source | N3 |
+| 10 | Kawa Fada | Long River | River town | R8 |
 
 - The west holds most places; the east (columns P to X) is largely empty wilderness.
 - The purple infection impact sites on the map are still provisional and separate from the ten places.
+
+## Regions and second cultures
+
+Japanese is the base everywhere.  Each region's second culture flavors its names, art, clothing, and culture.  Each region keeps its own word order in hybrid names.
+
+| Region | Second culture | Word order | Places |
+|---|---|---|---|
+| Spaceport coast | Persian (KTB) | Persian first | Setareh Minato, Darya Kako |
+| West continent north | German | German first | Warmes Tani |
+| Southern steppe belt | Mongolian | Mongolian first | Ikh Gawa, Khaluun Onsen, Davs Mizuumi |
+| Central-north island | Slavic | Slavic first | Svetla Hama, Zimna Toride |
+| The empty east | Gaelic (Irish) | Japanese first | Shio Loch, Kawa Fada |
+
+- The point is easy generation: the region tells the generator which culture and word order to use.
 
 ## Local life around the player
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.16, 2026-11-09**
+**Plan v0.17, 2026-11-09**
 
 ## What this project is
 
@@ -27,7 +27,7 @@ Goal: settle the decisions that everything else is built on.
 | A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  **Draft (Claudia):** defer the palette to the art stage |
 | A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
 | A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
-| A2R-006 | Planet basics | In progress | Recorded in `docs/world.md`.  Decided: name (Kepler-64432p, locally Verlassen), era 5016u, about 50 years from the current tables, location between Cinder Crown and the KTB, temperate but cold, 14-month year, every third year a cold year, weather sensor warning.  Physical: slightly larger than Earth with Earth gravity, Sun-like yellow star, no moons, no rings.  Globe: seeded candidates in `docs/maps/verlassen_globe_candidates_v0.3.1.png` (generator `tools/globe_candidates.py`), Globe locked: candidate B, seed 2718 (`docs/maps/verlassen_globe_v1.0.png`).  Ten fixed places accepted (`docs/maps/verlassen_pins_draft_v0.1.png`).  Climate bands, peoples, and naming culture decided.  Open: who is in charge locally (feudal concept drafted), names for the ten places, final infection impact sites |
+| A2R-006 | Planet basics | In progress | Recorded in `docs/world.md`.  Decided: name (Kepler-64432p, locally Verlassen), era 5016u, about 50 years from the current tables, location between Cinder Crown and the KTB, temperate but cold, 14-month year, every third year a cold year, weather sensor warning.  Physical: slightly larger than Earth with Earth gravity, Sun-like yellow star, no moons, no rings.  Globe: seeded candidates in `docs/maps/verlassen_globe_candidates_v0.3.1.png` (generator `tools/globe_candidates.py`), Globe locked: candidate B, seed 2718 (`docs/maps/verlassen_globe_v1.0.png`).  Ten fixed places accepted and named (`docs/maps/verlassen_places_v1.0.png`); regional second cultures locked.  Climate bands, peoples, and naming culture decided.  Open: who is in charge locally (feudal concept drafted), final infection impact sites |
 | A2R-007 | Local currency | Deferred | Planned after the lore and era are established |
 
 **Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.
@@ -116,6 +116,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.17, 2026-11-09 (Nathan): regional second cultures and names for the ten places locked.
 - Plan v0.16, 2026-11-09 (Nathan): Stage S added: guided workstation setup with safety first (Claude drafted the steps).
 - Plan v0.15, 2026-11-09 (Nathan): note to generate about 200 random settlement names.
 - Plan v0.14, 2026-11-09 (Nathan): ten fixed places accepted; local life and remoteness rule recorded.

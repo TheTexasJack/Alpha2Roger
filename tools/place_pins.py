@@ -1,4 +1,4 @@
-"""Verlassen pin draft v0.1: 10 fixed places on the canonical globe (seed 2718), with a grid overlay.
+"""Verlassen places v1.0 (from pin draft v0.1): 10 fixed places on the canonical globe (seed 2718), with a grid overlay.
 
 Placement follows the world rules: major cities near water and heat, spaceport near the equator on flat
 ground, salt-lake towns as trade hubs, onsen towns on geothermal sites, one remote holdfast with its own heat.
@@ -122,7 +122,7 @@ out = Image.new("RGB", (big.width + left + 20, big.height + top + 210), (12, 14,
 out.paste(big, (left, top))
 d = ImageDraw.Draw(out, "RGBA")
 fb = ImageFont.truetype("DejaVuSans-Bold.ttf", 22); f = ImageFont.truetype("DejaVuSans.ttf", 15); fbs = ImageFont.truetype("DejaVuSans-Bold.ttf", 14)
-d.text((left, 20), "Verlassen pin draft v0.1   seed 2718   (grid: column letter + row number)", fill=(235, 235, 240), font=fb)
+d.text((left, 20), "Verlassen places v1.0   seed 2718   (grid: column letter + row number)", fill=(235, 235, 240), font=fb)
 letters = "ABCDEFGHIJKLMNOPQRSTUVWX"
 for c in range(cols + 1):
     x = left + c * cw
@@ -137,21 +137,23 @@ for r in range(rows + 1):
 colors = {"Spaceport city": (255, 220, 60), "Major city": (255, 255, 255), "Onsen town": (232, 96, 48),
           "Salt-lake trade town": (236, 230, 214), "River-mouth port": (96, 200, 255),
           "Remote holdfast (own heat source)": (170, 255, 170), "River town": (200, 200, 200)}
+NAMES = {1: 'Setareh Minato', 2: 'Ikh Gawa', 3: 'Warmes Tani', 4: 'Svetla Hama', 5: 'Khaluun Onsen',
+         6: 'Davs Mizuumi', 7: 'Shio Loch', 8: 'Darya Kako', 9: 'Zimna Toride', 10: 'Kawa Fada'}
 legend_lines = []
 for i, (kind, (y, x)) in enumerate(pins, 1):
     px, py = left + x * S, top + y * S
     col = colors.get(kind, (255, 255, 255))
     d.ellipse([px - 9, py - 9, px + 9, py + 9], fill=col + (255,), outline=(0, 0, 0, 255), width=2)
-    d.text((px + 11, py - 11), str(i), fill=(255, 255, 255), font=fb, stroke_width=3, stroke_fill=(0, 0, 0))
+    d.text((px + 11, py - 11), f"{i} {NAMES[i]}", fill=(255, 255, 255), font=fbs, stroke_width=3, stroke_fill=(0, 0, 0))
     gref = f"{letters[int(x * S // cw)]}{int(y * S // rh) + 1}"
     legend_lines.append((i, kind, gref, col))
 ly = top + big.height + 16
 for j, (i, kind, gref, col) in enumerate(legend_lines):
-    cx = left + (j // 5) * 560; cy = ly + (j % 5) * 26
+    cx = left + (j // 5) * 720; cy = ly + (j % 5) * 26
     d.ellipse([cx, cy + 3, cx + 14, cy + 17], fill=col, outline=(0, 0, 0))
-    d.text((cx + 22, cy), f"{i}.  {kind}   ({gref})", fill=(220, 225, 235), font=f)
-d.text((left, ly + 5 * 26 + 14), "Draft by Claudia: placed by the world rules (water and heat, equator spaceport, salt-lake hubs).  Names come after placement.", fill=(150, 155, 165), font=f)
+    d.text((cx + 22, cy), f"{i}.  {NAMES[i]}: {kind}   ({gref})", fill=(220, 225, 235), font=f)
+d.text((left, ly + 5 * 26 + 14), "Placed by the world rules (water and heat, equator spaceport, salt-lake hubs).  Names: Japanese plus regional second culture.", fill=(150, 155, 165), font=f)
 d.text((left, ly + 5 * 26 + 36), "Purple infection impacts are still provisional and not counted among the 10 places.", fill=(150, 155, 165), font=f)
-out.save(__file__.replace("tools/place_pins.py", "docs/maps/verlassen_pins_draft_v0.1.png"))
+out.save(__file__.replace("tools/place_pins.py", "docs/maps/verlassen_places_v1.0.png"))
 for i, kind, gref, _ in legend_lines:
     print(i, kind, gref)
