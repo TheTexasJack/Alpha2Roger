@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.6, 2026-11-09**
+**World v0.7, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -18,7 +18,11 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - Official name: Kepler-64432p.
 - Local name: Verlassen (German for abandoned, forsaken, left behind).
-- The system is crowded: "p" makes Verlassen at least the 15th planet catalogued around its star.  Possibly a massive star.  This leaves room for the gas giant behind the cold year.
+- The system is crowded: "p" makes Verlassen at least the 15th planet catalogued around its star.  This leaves room for the gas giant behind the cold year.
+- The star: Sun-like and yellow (G type), about one solar mass.  Chosen by the physics: with a 14-month year, Verlassen orbits at about 1.1 times Earth's distance and receives roughly 80% of Earth's sunlight, which matches temperate but colder than some.  A massive star would put the temperate zone so far out that a year would take decades; an orange star would leave a 14-month orbit too cold.
+- Science and physics win over hip shots: when a stated detail conflicts with real physics, the physics decides.
+- **Draft (Claudia):** with the 3:1 resonance mechanism, the gas giant orbits about every 3.5 years.
+- **Draft (Claudia):** optional lore: the star is aging, for flavor only.
 - Temperate, but colder than some.
 - Year: 14 Earth months.
 - Every third year is a cold year.  The whole planet goes through a cold phase lasting about a planet year as it moves away from the sun.
@@ -41,7 +45,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Open
 
-- Planet size, star, moons or rings.
+- Planet size, moons or rings.
 - Climate bands and biomes.
 - Fixed places: cities, spaceport, landmarks.
 - Peoples and who is in charge locally.
