@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.12, 2026-11-09**
+**Concept v0.13, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -73,6 +73,8 @@ The model: top-down dungeon crawler and open explorer.  Old brain, old gaming st
 - Peg people, RimWorld style: layered body, head, hat, and gun, maybe circle hands.  Easy to add new weapons and gear, and no animation of hands, arms, legs, or running, which saves the engine for other things.
 - The feel comes from the weapon effects.  Good weapon feel makes or breaks immersion.  Effects stay snappy, with a speed-up option.
 - Palette: open.
+- Placeholders (Nathan delegated this call to Claudia): early stages use simple glyph-image placeholder tiles, swapped for real peg sprites once the core loop works.  The peg layering system is built early with rough placeholder layers.  No permanent ASCII mode.
+- Game logic never depends on how anything looks; the renderer is separate, so swapping art is a texture change.
 
 ## Lancer vocabulary
 
