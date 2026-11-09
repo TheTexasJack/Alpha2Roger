@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.6, 2026-11-09**
+**Concept v0.7, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -40,6 +40,8 @@ More to come.
 - **Draft (Claudia):** layered peg sprites, so gear is visible on the character and character creation comes from mixing parts.
 - **Draft (Claudia):** keep weapon effects snappy (under about half a second) with a speed-up option, so turns never drag.
 - **Draft (Claudia):** since growing takes full seasons, early food must come from scavenging, hunting, and trading, so a new camp is not doomed before its first harvest.
+- Idea (Nathan): an early food printer in the mech.  The food is not good; it is just enough to survive, and that is it.  Details to work out.
+- **Draft (Claudia):** the food printer is the one printer that works for the player, since nutrient paste needs no license.  Eating only paste costs mood or morale, and its feedstock (mech power or a finite cartridge) slowly pushes the player toward hunting, trading, and the first harvest.
 - **Draft (Claudia):** walls exist for shelter and warmth; threats come mostly from the environment, so walling in is never the answer to everything.
 
 ## Premise
