@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.10, 2026-11-09**
+**World v0.11, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -45,6 +45,16 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** distribution: one big spaceport city of a couple million (the only real off-world contact); 3 to 5 regional cities of a few hundred thousand each, linked by long roads or rail; towns and outposts (farming, mining, waystations); small, scattered clans and homesteaders in the deep wilderness; most of the planet empty.  The cold-year cycle pushes settlement toward the warmer bands.
 - In the third (cold) year, the cities become very Frostpunk.
 - **Draft (Claudia):** cold-year cities huddle around central heat plants, with districts ranked by distance to the heat; cold-year laws bring rationing, curfews, and work quotas; refugees pour in from the wilds.  With no ID there is no ration card, heat allocation, or work permit.  Arriving in a normal year means a gritty but open city; arriving in a cold year means being an unwanted refugee, though the chaos means fewer people checking papers.
+
+## Life
+
+- The cold is the big bad.  Nothing thrives in the cold year except small critters, fat bears, and various things that adapt.
+- Native life is alien.
+- A meteoric impact infection: something crystalline (the silicon idea) arrived by meteor.  This leans into the fantasy.
+- The infection is weaker in the third (cold) year, so the cold stays the main threat.
+- **Draft (Claudia):** native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
+- **Draft (Claudia):** fauna follow Bergmann's rule: cold-adapted animals run large and shaggy, nothing kaiju sized, no giant insects.  Flora is hardy (conifer-like forests, tundra scrub, lichens).  Animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
+- **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  It spreads from a fixed impact crater landmark, wakes with the thaw after a cold year, and can infect native fauna.
 
 ## The warning
 
