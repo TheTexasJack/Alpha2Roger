@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.14, 2026-11-09**
+**World v0.15, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -64,6 +64,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 - A meteoric impact infection: something crystalline (the silicon idea) arrived by meteor.  This leans into the fantasy.
 - The infection is weaker in the third (cold) year, so the cold stays the main threat.
 - The infection is relevant to the player, but exists in only a few places on the globe.
+- Each run, a small random infection spawns somewhere on the map, a distance away from the player.  If the player crashes in a remote area far from the major sites, they still have to deal with the infection, just a small bit.
+- **Draft (Claudia):** the small spawn is placed by the run's seed, a few zones from the crash site (never adjacent), and stays small compared to the impact sites.
 - Native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
 - Big, shaggy, cold-adapted fauna (Bergmann's rule), with migrations as the temperatures change.  Nothing kaiju sized, no giant insects.  Flora is hardy (conifer-like forests, tundra scrub, lichens).
 - **Draft (Claudia):** animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
