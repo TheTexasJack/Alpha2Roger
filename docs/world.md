@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.32, 2026-11-09**
+**World v0.33, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -114,6 +114,14 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 
 - Person names follow the region's word order: regional given name plus Japanese family name, flipped to Japanese given name plus regional family name in the Gaelic east.
 
+## Government
+
+- A mix of Lords and Mayors leads the places.
+- Each town has a council, not defined yet.
+- We follow the 3 tier government method.
+- **Draft (Claudia):** read as three branches: the leader (lord or mayor), the council, and the courts (a magistrate).  Alternative reading: three levels (town, region, planet).
+- **Draft (Claudia):** lords rule where someone holds the heat (Warmes Tani, Ikh Gawa, Khaluun Onsen, Zimna Toride); mayors lead the trade towns (Setareh Minato, Darya Kako, Davs Mizuumi, Shio Loch, Svetla Hama, Kawa Fada).
+
 ## Regions and second cultures
 
 Japanese is the base everywhere.  Each region's second culture flavors its names, art, clothing, and culture.  Each region keeps its own word order in hybrid names.
@@ -184,7 +192,7 @@ Japanese is the base everywhere.  Each region's second culture flavors its names
 
 - Detailed biomes per region.
 - Fixed places: cities, spaceport, landmarks.
-- Which peoples live where, and who is in charge locally.
+- Which peoples live where.
 
 ## Lancer canon notes (alignment reference)
 
