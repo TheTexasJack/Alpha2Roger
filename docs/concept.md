@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.17, 2026-11-09**
+**Concept v0.18, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -79,6 +79,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - Pillar: old-school bones, modern effects.  Caves of Qud does this in places.
 - Effects rule: this is Nathan A, not triple A.  No ambient occlusion, no motion blur, and nothing that every player just turns off.  A little frost creeping in is fine.
+- A little screen shake is fine in places: short moments only, never constant, since constant shake makes the screen hard to read.
 - **Draft (Claudia):** also out by that rule: film grain, chromatic aberration, depth of field, heavy bloom, and lens flare.  Screen shake stays tiny and has a toggle.  Every effect that remains should tell the player something (cold, damage, light).
 - **Draft (Claudia):** where modern effects shine: real 2D lighting (a campfire glow pushing back the fog of war), frost creeping in at the screen edges as it gets colder, weather particles that build through the cold year, and light shader polish (heat shimmer near the reactor, screen flicker when the mech computer glitches).
 - Simple 2D top-down sprites.
