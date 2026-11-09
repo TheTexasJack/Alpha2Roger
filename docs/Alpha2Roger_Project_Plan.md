@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.14, 2026-11-09**
+**Plan v0.15, 2026-11-09**
 
 ## What this project is
 
@@ -89,6 +89,7 @@ Goal: the core loop.
 - The city, the spaceport, and the identity questline (inbox UI)
 - The franken-mech and recognition
 - In-game credits screen carrying the Lancer Third Party License requirements: the acknowledgement, "Lancer is copyright Massif Press", thanks to Massif Press, and a "Powered by Lancer" mark.  Required in the final product.
+- Random settlement name list: about 200 names for small local settlements, built with the hybrid naming rule (Japanese base plus the region's second culture), kept as a data file.  Depends on the regional culture assignments.
 - NPC content lists, kept as data files: backstories, traits, orientations, speech styles.  These feed NPC creation and the dialogue model.
   - Dependency: backstories need the world first (planet, lore, era, places, peoples).  Traits, orientations, and speech styles are mostly world-agnostic and can come earlier.
 - NPC voices, ElevenLabs style: much later.  **Draft (Claudia):** local text-to-speech is also an option, in line with the zero-token-cost local model.
@@ -97,6 +98,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.15, 2026-11-09 (Nathan): note to generate about 200 random settlement names.
 - Plan v0.14, 2026-11-09 (Nathan): ten fixed places accepted; local life and remoteness rule recorded.
 - Plan v0.13, 2026-11-09 (Claudia): in-game credits task added after checking the full Lancer Third Party License text.
 - Plan v0.12, 2026-11-09 (Nathan): globe locked to candidate B, seed 2718.

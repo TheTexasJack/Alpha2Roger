@@ -5,7 +5,7 @@
 | README.md | v0.1 | 2026-11-09 | Initial README with Lancer Third Party License credits |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
 | docs/concept.md | v0.27 | 2026-11-09 | The M.U.L.E. |
-| docs/Alpha2Roger_Project_Plan.md | v0.14 | 2026-11-09 | A2R-006: fixed places accepted |
+| docs/Alpha2Roger_Project_Plan.md | v0.15 | 2026-11-09 | 200 settlement names task |
 | docs/world.md | v0.30 | 2026-11-09 | Ten fixed places accepted; local life and remoteness rule |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
 | docs/maps/verlassen_globe_candidates_v0.3.1.png | v0.3.1 | 2026-11-09 | Four candidate globes (seeds 1042, 2718, 5016, 64432) |
