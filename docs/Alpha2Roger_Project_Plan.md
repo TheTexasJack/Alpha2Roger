@@ -1,6 +1,10 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.1, 2026-11-09**
+**Plan v0.2, 2026-11-09**
+
+## What this project is
+
+Alpha2-Roger is Nathan's passion project.  It is the game Nathan wants to play, built for Nathan.  Anyone else just gets to go along for the ride.  Design calls are judged by one test: would Nathan want to play it.
 
 Nathan owns this plan.  Claudia (or Mara) updates it in place and notes each change in the changelog.  Suggestions are marked **Draft (Claudia)** until Nathan approves them.
 
@@ -11,7 +15,6 @@ Nathan owns this plan.  Claudia (or Mara) updates it in place and notes each cha
 - Every deliverable carries a visible version number, bumped on every change.
 - Commits go straight to `main`.
 - Agents only for bounded tasks with a short written brief.  No copying full context into multiple agents.
-- PERMA's November first set (due 2026-11-27) takes priority.  Alpha2-Roger runs as a side track until then.
 
 ## Stage 0: Concept lock
 
@@ -88,4 +91,5 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.2, 2026-11-09 (Nathan): Alpha2-Roger is the passion project, built for Nathan.  Removed the PERMA priority line; this plan is measured on its own terms.
 - Plan v0.1, 2026-11-09 (Claudia): first plan.  Stages 0 to 4 detailed, later stages outlined.
