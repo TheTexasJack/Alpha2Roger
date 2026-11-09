@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.5, 2026-11-09**
+**Concept v0.6, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -10,6 +10,37 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - A traditional RPG in its rules and structure.  It does not use Lancer's narrative rules.
 - A separate game from Lancer, the tabletop RPG, and from the video game Lancer Tactics.
 - Mechs are secondary.  They may appear later in a run (for example the scrap-built mech in the story arc), and they never replace the survival core.
+
+## Model and inspirations
+
+The model: top-down dungeon crawler and open explorer.  Old brain, old gaming style.  Simple 2D, with enough on screen that the imagination does the rest.
+
+- Sword of Fargoal
+- Decklin's Domain: Demise: Rise of the Ku'tan and Demise: Ascension
+- Caves of Qud
+- RimWorld
+
+## Core concepts
+
+- Fog of war.
+- Turn based: enemies move when you do.
+- RPG-style character creation.
+- Survival-lite: challenging, but fun.  Balance should not take a degree to figure out.
+- No exploits that trivialize the game.  In RimWorld, building walls trivializes almost everything, and seeds are basically free.
+- No tree punching.
+- No free plants.  Seeds must be found, and growing takes full seasons.
+- Seasons.
+- Not a full community: 5 or 6 companions.
+- Relationships: an organic system similar to RimWorld.
+- Not everything is a faction.  No Qud-style reputation web where plants turn hostile because someone wronged a deer.
+- Art: simple 2D top-down sprites.  Peg people like RimWorld (body, head, hat, gun, maybe circle hands) or a single sprite; the feel comes from the weapon effects.
+
+More to come.
+
+- **Draft (Claudia):** layered peg sprites, so gear is visible on the character and character creation comes from mixing parts.
+- **Draft (Claudia):** keep weapon effects snappy (under about half a second) with a speed-up option, so turns never drag.
+- **Draft (Claudia):** since growing takes full seasons, early food must come from scavenging, hunting, and trading, so a new camp is not doomed before its first harvest.
+- **Draft (Claudia):** walls exist for shelter and warmth; threats come mostly from the environment, so walling in is never the answer to everything.
 
 ## Premise
 
@@ -65,7 +96,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 ## Play style
 
 - Grid based, like Caves of Qud or old school RPGs.
-- Qud-style turn sync (everything moves when you move) is fine; RimWorld-style free movement with combat math is also acceptable.
+- Turn based, Qud-style: enemies move when you do.
 - Survival logic closer to RimWorld than to most RPGs.
 - No constant raiders or mech battles.  A few NPCs: 5 or 6 in camp, not a colony sim.
 - Rules: pick what fits the game, borrowing lore elements from Lancer.  No adaptation of Lancer's narrative rules.
@@ -79,5 +110,4 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Feel and timing of the journey and of the years spent stranded.
 - Local currency name.
-- Movement model: Qud turn sync or free movement.
 - Engine choice.

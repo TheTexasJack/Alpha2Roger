@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.2, 2026-11-09**
+**Plan v0.3, 2026-11-09**
 
 ## What this project is
 
@@ -22,9 +22,9 @@ Goal: settle the decisions that everything else is built on.
 
 | ID | Task | Status | Notes |
 |---|---|---|---|
-| A2R-001 | Movement model | Open | Qud turn sync, or free movement with combat math.  **Draft (Claudia):** Qud-style turns on expeditions, compressed time in camp |
+| A2R-001 | Movement model | Decided | Turn based: enemies move when you do (Nathan, 2026-11-09).  Still open: **Draft (Claudia)** compressed time in camp |
 | A2R-002 | Engine | Open | **Draft (Claudia):** prototype in Python, build in Godot 4 |
-| A2R-003 | Art style | Open | Two-shade sprites, EGA retro, or other.  Decide before any art |
+| A2R-003 | Art style | In progress | Simple 2D top-down sprites (Nathan, 2026-11-09).  Still open: layered peg people or a single sprite; palette |
 | A2R-004 | Time scale | Open | How long a day, a season, and a year take in play.  How many years a typical run lasts |
 | A2R-005 | Survival pressures | Open | **Draft (Claudia):** 3 or 4, biome-specific (cold, air, water, heat) |
 | A2R-006 | Planet basics | Open | Name, size, climate bands, number of fixed cities, where the spaceport is |
@@ -91,5 +91,6 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.3, 2026-11-09 (Nathan): A2R-001 decided (turn based); A2R-003 in progress (simple 2D top-down sprites).  Inspirations and core concepts recorded in concept v0.6.
 - Plan v0.2, 2026-11-09 (Nathan): Alpha2-Roger is the passion project, built for Nathan.  Removed the PERMA priority line; this plan is measured on its own terms.
 - Plan v0.1, 2026-11-09 (Claudia): first plan.  Stages 0 to 4 detailed, later stages outlined.
