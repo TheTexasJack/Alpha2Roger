@@ -6,4 +6,4 @@
 | LICENSE.md | v0.1 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms we follow |
 | docs/concept.md | v0.20 | 2026-11-09 | Physics stays real; the setting shifts to fit play |
 | docs/Alpha2Roger_Project_Plan.md | v0.10 | 2026-11-09 | A2R-006: physical details decided |
-| docs/world.md | v0.8 | 2026-11-09 | Size and gravity, no moons, no rings |
+| docs/world.md | v0.9 | 2026-11-09 | Population: about 10 million |

@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.8, 2026-11-09**
+**World v0.9, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -38,6 +38,11 @@ This file holds the world facts that become the planet data file (A2R-101).
   - A gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Fits "moves away from the sun" best, and works with normal axial-tilt seasons in the other years.
   - A variable star that dims on a 42-month cycle.
   - A binary companion star whose closest pass lines up every third year.
+
+## Population
+
+- About 10 million people.  Enough for cities, with plenty of hundreds of miles of nothing.
+- **Draft (Claudia):** distribution: one big spaceport city of a couple million (the only real off-world contact); 3 to 5 regional cities of a few hundred thousand each, linked by long roads or rail; towns and outposts (farming, mining, waystations); small, scattered clans and homesteaders in the deep wilderness; most of the planet empty.  The cold-year cycle pushes settlement toward the warmer bands.
 
 ## The warning
 
