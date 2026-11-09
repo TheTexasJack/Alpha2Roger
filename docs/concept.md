@@ -1,8 +1,15 @@
 # Alpha2-Roger Concept
 
-**Concept v0.2, 2026-11-09**
+**Concept v0.3, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
+
+## Scope: what this game is
+
+- A survival game set in the Lancer world.  Survival comes first.
+- A traditional RPG in its rules and structure.  It does not use Lancer's narrative rules.
+- A separate game from Lancer, the tabletop RPG, and from the video game Lancer Tactics.
+- Mechs are secondary.  They may appear later in a run (for example the scrap-built mech in the story arc), and they never replace the survival core.
 
 ## Premise
 
