@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.3, 2026-11-09**
+**Concept v0.4, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -24,6 +24,11 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Reaching the spaceport is allowed at any time.  Once there, you cannot print anything and your ID is taken, so you start over.  That becomes a quest line.
 - Printers will not fabricate without a valid license, which is why you cannot simply print a way off planet.
 
+## The crash
+
+- The cause of the crash is shown only as flashes and a glimpse, then the crash.  Nothing is explained, ever.
+- Idea: the attacker could be the Black Fleet or the Ants from Errans Inter Astra.  Since this game is for Nathan, it does not need to match the other games.
+
 ## Story arc
 
 1. Survive the crash and the wilderness.  Build a camp.
@@ -41,6 +46,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Zone based, not open world.
 - Future expansions may add planets.
 - Future planets are planned from the start: each planet is built as a data module, so new planets do not require engine rewrites.
+- Idea: after two or three expansions, the player can return to the first planet and find their old crashed mech, while flying something far better than that old mess.
 - **Draft (Claudia):** randomize the crash site per seed; make route lengths a range (for example 4 to 6 zones) chosen by the seed; tie wilderness biomes to a fixed climate layer.
 
 ## Goals and endings
