@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.13, 2026-11-09**
+**Concept v0.14, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -66,6 +66,12 @@ The model: top-down dungeon crawler and open explorer.  Old brain, old gaming st
 - Every pawn is different, worked through pawn to pawn.  Orientations vary: one might be straight, one might be ace.
 - Ace pawns can still be sexual; they just care less about sex than other people might.
 - **Draft (Claudia):** track romantic interest and sexual interest as two separate dials per pawn, so an ace companion can still fall hard for someone romantically.
+
+## NPC creation
+
+- Like the engine, we build the base of the NPCs first.  NPCs may be randomized at creation.
+- What is rolled at creation is solidified into who they are.  That profile is what gets sent to the dialogue model later.
+- **Draft (Claudia):** split each NPC into a core that is locked at creation (name, backstory, traits, orientation, speech style) and a state that changes in play (mood, needs, relationship scores, recent events).  Both go to the model.  Rolls use the run's seed, so the same seed gives the same crew.
 
 ## Art and feel
 
