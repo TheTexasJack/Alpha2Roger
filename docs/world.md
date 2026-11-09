@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.12, 2026-11-09**
+**World v0.13, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -38,6 +38,14 @@ This file holds the world facts that become the planet data file (A2R-101).
   - A gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Fits "moves away from the sun" best, and works with normal axial-tilt seasons in the other years.
   - A variable star that dims on a 42-month cycle.
   - A binary companion star whose closest pass lines up every third year.
+
+## Geography
+
+- Volcanic and geothermal areas that do not freeze: springs and Yellowstone-type geysers.
+- Salt lakes that might never freeze, except on the coldest days of the third year.
+- **Draft (Claudia):** a cold planet shows more land than Earth (water locked in ice lowers sea level), about 50 to 60% ocean, with drier interiors (cold steppe and tundra, forests near coasts) and large permanent ice caps.
+- **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
+- **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
 
 ## Population
 
