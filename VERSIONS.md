@@ -14,3 +14,5 @@
 | tools/place_pins.py | v1.0 | 2026-11-09 | Pin placement by world rules, with grid overlay and names |
 | docs/maps/verlassen_pins_draft_v0.1.png | v0.1 | 2026-11-09 | Ten draft places on the canonical globe, grid A-X by 1-12 |
 | docs/maps/verlassen_places_v1.0.png | v1.0 | 2026-11-09 | Ten named places on the canonical globe |
+| tools/name_gen.py | v0.1 | 2026-11-09 | Seeded person name generator: regional plus Japanese names by region rule |
+| tools/data/names_v0.1.json | v0.1 | 2026-11-09 | Name lists per culture, region rules, blacklist |

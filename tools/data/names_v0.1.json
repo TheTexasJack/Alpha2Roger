@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "note": "Real names from each culture.  Famous historical figures and well-known clan names are skipped.  Blacklist is never generated.",
+  "blacklist": ["Voss", "Kael", "Elara", "Thorne", "Lyra", "Vex", "Nyx", "Zephyr", "Seraphina", "Aria", "Kaelen"],
+  "japanese": {
+    "given": ["Haruto", "Ren", "Aoi", "Hina", "Sora", "Yui", "Kaito", "Mei", "Riku", "Akane", "Daichi", "Kaede", "Shun", "Natsuki", "Yuzu", "Takumi", "Chiyo", "Ibuki"],
+    "family": ["Kuroda", "Ishikawa", "Hayashi", "Sakai", "Okada", "Nishimura", "Matsuda", "Kobayashi", "Yamaguchi", "Shimizu", "Ogawa", "Fujita", "Murakami", "Hirano", "Kondo", "Arai", "Tsuchiya", "Noguchi"]
+  },
+  "cultures": {
+    "persian":   {"given": ["Bahram", "Shirin", "Farrokh", "Parisa", "Kaveh", "Roxana", "Nasrin", "Arash", "Golnar", "Bijan", "Taraneh", "Mehrdad"], "family": ["Farahani", "Jafari", "Karimi", "Rostami", "Tehrani", "Moradi"]},
+    "german":    {"given": ["Adelheid", "Konrad", "Hedwig", "Leopold", "Margarete", "Ruprecht", "Ottilie", "Gebhard", "Irmgard", "Walther", "Liesel", "Anselm"], "family": ["Brandt", "Kessler", "Vogt", "Lindner", "Hartmann", "Weber"]},
+    "mongolian": {"given": ["Altan", "Bolormaa", "Oyun", "Ganbaatar", "Saran", "Erdene", "Khulan", "Naran", "Batbayar", "Tuya", "Munkh", "Delger"], "family": ["Bayar", "Ochir", "Tumur", "Davaa", "Sukh", "Baatar"]},
+    "slavic":    {"given": ["Bogdan", "Mirela", "Radoslav", "Zlata", "Vesna", "Dragomir", "Ljuba", "Stanislava", "Borys", "Milena", "Jaromir", "Dobrava"], "family": ["Novak", "Kowal", "Petrova", "Zelenko", "Horvat", "Sokol"]},
+    "gaelic":    {"given": ["Aoife", "Cormac", "Siobhan", "Fionnuala", "Diarmuid", "Niamh", "Eoghan", "Roisin", "Tadhg", "Brigid", "Ciaran", "Orla"], "family": ["Doyle", "Kavanagh", "Brennan", "Quinn", "Rafferty", "Gallagher", "Keane"]}
+  },
+  "regions": {
+    "spaceport_coast": {"culture": "persian",   "order": "regional_first"},
+    "west_north":      {"culture": "german",    "order": "regional_first"},
+    "southern_steppe": {"culture": "mongolian", "order": "regional_first"},
+    "central_north":   {"culture": "slavic",    "order": "regional_first"},
+    "empty_east":      {"culture": "gaelic",    "order": "japanese_first"}
+  }
+}
