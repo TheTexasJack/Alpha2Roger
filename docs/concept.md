@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.27, 2026-11-09**
+**Concept v0.28, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -85,6 +85,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - Like the engine, we build the base of the NPCs first.  NPCs may be randomized at creation.
 - What is rolled at creation is solidified into who they are.  That profile is what gets sent to the dialogue model later.
+- Nickname system: the player's character can call NPCs whatever they like.
+- **Draft (Claudia):** a nickname is a display layer over the NPC's real name, which stays locked in their core; other NPCs keep using the real name.
 - **Draft (Claudia):** split each NPC into a core that is locked at creation (name, backstory, traits, orientation, speech style) and a state that changes in play (mood, needs, relationship scores, recent events).  Both go to the model.  Rolls use the run's seed, so the same seed gives the same crew.
 
 ## Art and feel

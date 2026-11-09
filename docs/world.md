@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.31, 2026-11-09**
+**World v0.32, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -94,6 +94,25 @@ Accepted by Nathan 2026-11-09.  Map: `docs/maps/verlassen_places_v1.0.png` (grid
 
 - The west holds most places; the east (columns P to X) is largely empty wilderness.
 - The purple infection impact sites on the map are still provisional and separate from the ten places.
+
+## Notable people of the ten places
+
+Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09.  One notable person per place; their roles are set when we decide who is in charge.
+
+| # | Place | Person |
+|---|---|---|
+| 1 | Setareh Minato | Parisa Kuroda |
+| 2 | Ikh Gawa | Erdene Yamaguchi |
+| 3 | Warmes Tani | Leopold Matsuda |
+| 4 | Svetla Hama | Bogdan Ogawa |
+| 5 | Khaluun Onsen | Bolormaa Kobayashi |
+| 6 | Davs Mizuumi | Altan Arai |
+| 7 | Shio Loch | Akane Keane |
+| 8 | Darya Kako | Farrokh Okada |
+| 9 | Zimna Toride | Radoslav Nishimura |
+| 10 | Kawa Fada | Hina Rafferty |
+
+- Person names follow the region's word order: regional given name plus Japanese family name, flipped to Japanese given name plus regional family name in the Gaelic east.
 
 ## Regions and second cultures
 
