@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.24, 2026-11-09**
+**World v0.25, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -71,6 +71,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - History: in Lancer lore, Verlassen was settled by ships sent in the initial outward push from Cradle.  Settlement is old, which fits the archaic languages and the long drift into 563 languages.
 - KTB languages are among those spoken on the planet.
+- Primary culture: Japanese (names romanized), with influence from all the major cultures.  An easy feudal concept for how power works.
+- **Draft (Claudia):** feudal lords hold the heat sources; villages pay tribute for warmth.  This meshes with the KTB's baronial style.
 - The settlers came from the same places as the Karrakin Trade Baronies.
 - The KTB is the closest trading location, so there is some influence from KTB proper.
 - **Draft (Claudia):** the colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
