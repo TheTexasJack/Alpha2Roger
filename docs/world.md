@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.35, 2026-11-09**
+**World v0.36, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -123,7 +123,7 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 - **Draft (Claudia):** in each town, the lord or mayor is the executive, the council is the legislative, and a magistrate or court is the judicial.
 - Towns are adjusted to different standards as we play.  Some lords have no power and are purely for show; some hold all the power.  Some places practice slavery; some ban it.  There may be culture wars, or actual wars.
 - **Draft (Claudia):** regions are political territories around each capital, drafted in `docs/maps/verlassen_regions_draft_v0.1.png` (generator `tools/regions.py`): each capital claims the land it reaches overland first, up to about 2,400 km; seas block claims; about 65% of habitable land stays unclaimed wilderness.  These ten political regions sit inside the five cultural regions below.
-- **Draft (Claudia):** in keeping with Lancer's tone, cruelty such as slavery exists in the world to be opposed, never celebrated.
+- In keeping with Lancer's tone, cruelty such as slavery exists in the world to be opposed, never celebrated.  It has to exist so the player can save people from it.
 - **Draft (Claudia):** lords rule where someone holds the heat (Warmes Tani, Ikh Gawa, Khaluun Onsen, Zimna Toride); mayors lead the trade towns (Setareh Minato, Darya Kako, Davs Mizuumi, Shio Loch, Svetla Hama, Kawa Fada).
 
 ## Regions and second cultures
