@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.21, 2026-11-09**
+**World v0.22, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -67,8 +67,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 ## Peoples
 
 - History: in Lancer lore, Verlassen was settled by ships sent in the initial outward push from Cradle.  Settlement is old, which fits the archaic languages and the long drift into 563 languages.
-- Later arrivals include the Karrakin Trade Baronies (KTB).
-- **Draft (Claudia):** the colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
+- KTB languages are among those spoken on the planet.
+- **Draft (Claudia):** KTB speakers arrived in a later wave.  The colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
 - People are of various races, and they do not need to be human.  We make them as we pick.
 - In Lancer lore aliens exist, but SecComm holds a humans-first stance; there is a whole thing about it.  We have the option to expand on that.
 - Not a lot of animalistic people.
