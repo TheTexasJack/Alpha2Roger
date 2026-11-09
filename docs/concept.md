@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.20, 2026-11-09**
+**Concept v0.21, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -28,6 +28,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Engine first.  Build the systems and let the interactions fall into place, then fine tune later.  This gives the most versatility, instead of writing in every option step by step.
 - **Draft (Claudia):** keep traits, needs, moods, and relationship rules in data files, so tuning means editing numbers instead of rewriting code.
 - **Draft (Claudia):** systems drive the people (pawns, survival, relationships); the story spine stays authored (the crash, the twist, the cities, the legal path).
+
+## Naming
+
+- Names can be generated randomly.
+- Use old reference names from past cultures.  There are already a million names in the world; no reason to reinvent them.  This avoids typical AI names (like Voss).
+- **Draft (Claudia):** give each region one or two source cultures so its names feel consistent; skip famous historical figures; keep a blacklist of AI-cliche names (Voss, Kael, Elara, Thorne, Lyra, Vex, Nyx, Zephyr, Seraphina, Aria) and never generate them.
 
 ## Model and inspirations
 

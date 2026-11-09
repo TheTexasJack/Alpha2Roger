@@ -4,6 +4,8 @@
 |---|---|---|---|
 | README.md | v0.1 | 2026-11-09 | Initial README with Lancer Third Party License credits |
 | LICENSE.md | v0.1 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms we follow |
-| docs/concept.md | v0.20 | 2026-11-09 | Physics stays real; the setting shifts to fit play |
-| docs/Alpha2Roger_Project_Plan.md | v0.10 | 2026-11-09 | A2R-006: physical details decided |
+| docs/concept.md | v0.21 | 2026-11-09 | Naming: old names from past cultures |
+| docs/Alpha2Roger_Project_Plan.md | v0.11 | 2026-11-09 | Globe candidates saved; seed pick open |
 | docs/world.md | v0.15 | 2026-11-09 | Small random infection spawn per run |
+| tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
+| docs/maps/verlassen_globe_candidates_v0.3.1.png | v0.3.1 | 2026-11-09 | Four candidate globes (seeds 1042, 2718, 5016, 64432) |
