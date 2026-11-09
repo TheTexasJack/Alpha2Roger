@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.15, 2026-11-09**
+**Plan v0.16, 2026-11-09**
 
 ## What this project is
 
@@ -31,6 +31,24 @@ Goal: settle the decisions that everything else is built on.
 | A2R-007 | Local currency | Deferred | Planned after the lore and era are established |
 
 **Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.
+
+## Stage S: Workstation setup (guided)
+
+Goal: Claude hand-holds Nathan through setting up Beast for local Godot development with Claude Code, and secures the machine first so nothing gets accidentally wiped.  One step at a time, each confirmed before the next.
+
+| ID | Task | Status | Notes |
+|---|---|---|---|
+| A2R-S01 | Safety net first | Not started | Timeshift system snapshot (built into Linux Mint) before anything else; confirm a backup of the home folder |
+| A2R-S02 | Fence the workspace | Not started | One dedicated project folder; Claude Code runs only inside it, never as root or with sudo |
+| A2R-S03 | Install Claude Code | Not started | Native Linux install; log in with the Claude plan (no API key set, so usage stays on the plan) |
+| A2R-S04 | Lock down Claude Code permissions | Not started | Ask-before-acting permission mode; deny rules for destructive commands (for example recursive deletes and anything outside the project folder) |
+| A2R-S05 | Git as the undo button | Not started | Clone the repo into the project folder; GitHub is the off-machine backup; small commits to main |
+| A2R-S06 | Install Godot 4 | Not started | Pin the exact version in the README |
+| A2R-S07 | Shared rules file | Not started | `AGENTS.md` at the repo root (read by Claude Code and by Codex-style tools on Mara's side): style, versioning, compartmentalized steps, one AI per file at a time |
+| A2R-S08 | Headless test check | Not started | A Godot test add-on runs from the command line, so changes can be verified without clicking through the game |
+| A2R-S09 | Plan check | Not started | Start on the current plan; move to Max, then Ultra, only if usage limits actually bite |
+
+**Gate:** Nathan restores a test file from Timeshift and from git, confirming both safety nets work, and Claude Code runs one harmless test command inside the fenced folder.
 
 ## Stage 1: Zone graph generator (text only)
 
@@ -98,6 +116,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.16, 2026-11-09 (Nathan): Stage S added: guided workstation setup with safety first (Claude drafted the steps).
 - Plan v0.15, 2026-11-09 (Nathan): note to generate about 200 random settlement names.
 - Plan v0.14, 2026-11-09 (Nathan): ten fixed places accepted; local life and remoteness rule recorded.
 - Plan v0.13, 2026-11-09 (Claudia): in-game credits task added after checking the full Lancer Third Party License text.
