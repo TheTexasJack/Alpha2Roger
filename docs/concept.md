@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.28, 2026-11-09**
+**Concept v0.29, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -21,6 +21,8 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Adult.  Language, violence, and mature themes are fine.
 - Not ridiculously sexual.  Intimacy, if it ever comes up, stays abstract (sheets and hearts), since animating anything complex, even with pegs, becomes more art than mechanics.  Details figured out along the way.
 - Brawl mechanics: to be dealt with later.
+- A difference from RimWorld: no slave cat people and no coats made from human skin.  Cruelty exists in the world to be opposed; the player never profits from it.
+- **Draft (Claudia):** concretely, no player-owned slaves, no crafting from human remains, and no organ harvesting.
 
 ## Design approach
 
