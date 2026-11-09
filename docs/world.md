@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.5, 2026-11-09**
+**World v0.6, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -18,6 +18,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - Official name: Kepler-64432p.
 - Local name: Verlassen (German for abandoned, forsaken, left behind).
+- The system is crowded: "p" makes Verlassen at least the 15th planet catalogued around its star.  Possibly a massive star.  This leaves room for the gas giant behind the cold year.
 - Temperate, but colder than some.
 - Year: 14 Earth months.
 - Every third year is a cold year.  The whole planet goes through a cold phase lasting about a planet year as it moves away from the sun.
