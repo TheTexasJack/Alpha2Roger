@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.2, 2026-11-09**
+**World v0.3, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -29,7 +29,9 @@ This file holds the world facts that become the planet data file (A2R-101).
 ## The warning
 
 - A working weather sensor on the mech wreckage gives notice.  As things get colder, it warns that the winter will last months.
+- Like Subnautica: scripted computer voice lines, ElevenLabs style, explain the weather patterns of the planet the player just crashed on.
 - **Draft (Claudia):** repairing the mech's sensors extends the forecast, so the first repair buys warning time.
+- **Draft (Claudia):** the mech computer's voice doubles as the tutorial.  Subtitles are always on, with a log the player can reread.  The voice glitches and cuts out with damage and cleans up as systems are repaired, and late in a cold year it gets quieter as power runs low.  Because it is a fixed, hand-written set of lines generated once, it can come well before live NPC voices.
 - **Draft (Claudia):** the seed picks where in the three-year cycle the crash happens.  Crashing just before a cold year makes a brutal run.
 
 ## Open
