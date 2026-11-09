@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.25, 2026-11-09**
+**Concept v0.26, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -35,7 +35,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Use old reference names from past cultures.  There are already a million names in the world; no reason to reinvent them.  This avoids typical AI names (like Voss).
 - Primary naming culture: Japanese, with English spellings (romanized).  Influence from all the major cultures on top.  This gives a central feel and an easy feudal concept.  American-style Japanese (as familiar to Western audiences) is a common thing to lean on.
 - **Draft (Claudia):** generate place names from real Japanese name parts matched to terrain (-yama mountain, -kawa river, -mura village, -machi town, -jima island, -zaki cape), and skip famous real cities.  Geothermal cities become onsen towns.
-- **Draft (Claudia):** note the planet's German local name (Verlassen) against the Japanese primary culture; lore option: the name came from an early founding crew or an old chart and stuck.
+- The German local name Verlassen stays.
+- Hybrid place names: split a name half Japanese and half another culture.  Each area pairs Japanese with a second culture.  Example, in a Japanese and German area: Traurige Heigen (German traurige, sad, plus Japanese heigen, plains: the Sad Plains).
+- **Draft (Claudia):** the generator builds hybrid names from a Japanese terrain word matched to the land (heigen plains, yama mountain, kawa river, mori forest, mizuumi lake) plus a word from the region's second culture, so each region has its own recognizable pair.
 - **Draft (Claudia):** give each region one or two source cultures so its names feel consistent; skip famous historical figures; keep a blacklist of AI-cliche names (Voss, Kael, Elara, Thorne, Lyra, Vex, Nyx, Zephyr, Seraphina, Aria) and never generate them.
 
 ## Model and inspirations
