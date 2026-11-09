@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.22, 2026-11-09**
+**World v0.23, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -12,7 +12,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
 - Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
 - **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
-- **Draft (Claudia):** the Karrakin Trade Baronies are the nearest real power; Baronic traders may keep the spaceport alive while the locals keep them at arm's length.
+- The Karrakin Trade Baronies are the nearest real power and the closest trading location.
+- **Draft (Claudia):** Baronic traders may keep the spaceport alive while the locals keep them at arm's length.
 
 ## The planet
 
@@ -68,7 +69,9 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - History: in Lancer lore, Verlassen was settled by ships sent in the initial outward push from Cradle.  Settlement is old, which fits the archaic languages and the long drift into 563 languages.
 - KTB languages are among those spoken on the planet.
-- **Draft (Claudia):** KTB speakers arrived in a later wave.  The colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
+- The settlers came from the same places as the Karrakin Trade Baronies.
+- The KTB is the closest trading location, so there is some influence from KTB proper.
+- **Draft (Claudia):** the colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
 - People are of various races, and they do not need to be human.  We make them as we pick.
 - In Lancer lore aliens exist, but SecComm holds a humans-first stance; there is a whole thing about it.  We have the option to expand on that.
 - Not a lot of animalistic people.
