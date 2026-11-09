@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.33, 2026-11-09**
+**World v0.34, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -118,8 +118,8 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 
 - A mix of Lords and Mayors leads the places.
 - Each town has a council, not defined yet.
-- We follow the 3 tier government method.
-- **Draft (Claudia):** read as three branches: the leader (lord or mayor), the council, and the courts (a magistrate).  Alternative reading: three levels (town, region, planet).
+- We follow the 3 tier government method: executive, legislative, and judicial.
+- **Draft (Claudia):** in each town, the lord or mayor is the executive, the council is the legislative, and a magistrate or court is the judicial.
 - **Draft (Claudia):** lords rule where someone holds the heat (Warmes Tani, Ikh Gawa, Khaluun Onsen, Zimna Toride); mayors lead the trade towns (Setareh Minato, Darya Kako, Davs Mizuumi, Shio Loch, Svetla Hama, Kawa Fada).
 
 ## Regions and second cultures
