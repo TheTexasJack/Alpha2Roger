@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.7, 2026-11-09**
+**World v0.8, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -24,6 +24,10 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** with the 3:1 resonance mechanism, the gas giant orbits about every 3.5 years.
 - **Draft (Claudia):** optional lore: the star is aging, for flavor only.
 - Temperate, but colder than some.
+- Size: slightly larger than Earth (about 10% wider), with about Earth's gravity, so nothing new needs inventing.  Physics note: same gravity at a larger size means a slightly less dense planet (a smaller iron core).
+- Moons: none.  No moonlight.  Physics note: tides are small (from the sun only); a moon's long-term tilt stabilizing works over millions of years and does not matter in play.
+- Rings: none.
+- **Draft (Claudia):** with no moon, nights are pitch black under starlight only.  Darkness becomes a survival pressure that pairs with fog of war and 2D lighting.  The gas giant may be the brightest object in the night sky.
 - Year: 14 Earth months.
 - Every third year is a cold year.  The whole planet goes through a cold phase lasting about a planet year as it moves away from the sun.
 - Normal years have a full standard seasonal year.
@@ -45,7 +49,6 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Open
 
-- Planet size, moons or rings.
 - Climate bands and biomes.
 - Fixed places: cities, spaceport, landmarks.
 - Peoples and who is in charge locally.
