@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.19, 2026-11-09**
+**Concept v0.20, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -24,7 +24,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 ## Design approach
 
-- Gameplay over realism.  The experience is the game play; if the science or structure needs fudging to fit the play, that is fine.  The world still stays consistent with itself.
+- Gameplay first.  The experience is the game play.  Science and physics stay real, so nothing needs awkward explaining (the cold year, orbits, exposure).  The rest of the galaxy and universe can shift to fit our needs (the map, the star system's layout, where things sit).
 - Engine first.  Build the systems and let the interactions fall into place, then fine tune later.  This gives the most versatility, instead of writing in every option step by step.
 - **Draft (Claudia):** keep traits, needs, moods, and relationship rules in data files, so tuning means editing numbers instead of rewriting code.
 - **Draft (Claudia):** systems drive the people (pawns, survival, relationships); the story spine stays authored (the crash, the twist, the cities, the legal path).
