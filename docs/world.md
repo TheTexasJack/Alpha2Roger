@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.1, 2026-11-09**
+**World v0.2, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -17,9 +17,12 @@ This file holds the world facts that become the planet data file (A2R-101).
 - Temperate, but colder than some.
 - Year: 14 Earth months.
 - Every third year is a cold year.  The whole planet goes through a cold phase lasting about a planet year as it moves away from the sun.
+- Normal years have a full standard seasonal year.
+- In the cold year, everything shifts down about 50 degrees Fahrenheit.  Summers that would hit 100 only reach about 50, and even summers can sit in the 30s.  Winters that would sit around 0 drop to -50 or colder.
 - The cold year is something the player builds up for.
+- **Draft (Claudia):** consequences to design around: the cold year has no real growing season, so the camp must stockpile about a full year of food beforehand; -50 and colder makes exposure lethal fast, so shelter, heat, and clothing layers matter; long journeys during a cold year are effectively impossible.
 - **Draft (Claudia):** the mechanism behind the three-year cycle (pick one later):
-  - A gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Fits "moves away from the sun" best.
+  - A gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Fits "moves away from the sun" best, and works with normal axial-tilt seasons in the other years.
   - A variable star that dims on a 42-month cycle.
   - A binary companion star whose closest pass lines up every third year.
 
