@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.17, 2026-11-09**
+**World v0.18, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -54,6 +54,14 @@ This file holds the world facts that become the planet data file (A2R-101).
 ## Climate bands
 
 - Similar to Earth: warmest along the equator, colder toward the poles.
+
+## Fixed places: placement criteria
+
+- Fixed places (cities, spaceport, landmarks, impact sites) are placed logically, once, and stay canon.  Random is for the wilderness and the crash site.
+- At least one spaceport.
+- All major cities sit near rivers.
+- A spaceport across the globe from the crash site can mean years of travel.  That is fine.
+- **Draft (Claudia):** the spaceport sits near the equator on flat ground (real physics: launches near the equator get a boost from the planet's spin, and it is the warmest band).  Big cities sit on geothermal sites where possible (Frostpunk heat).  Trade cities sit at river mouths and coasts.  Salt-lake towns are trade hubs.  Impact sites are placed for story and never on top of a city.
 
 ## Peoples
 

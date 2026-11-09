@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.21, 2026-11-09**
+**Concept v0.22, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -150,7 +150,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - A fixed overall planet map.  Cities and landmarks are fixed.
 - Wilderness is random per seed.
 - Wilderness biomes are tied to a fixed climate layer.
-- The crash site is randomized per seed, always away from civilization.
+- Crash site: the player selects a crash region or picks random.  Always away from civilization.  Crashing far from the spaceport can mean years of travel; if that is an issue, do not pick a crash site that far, or live with the random roll.
+- **Draft (Claudia):** the crash selection screen shows a rough distance to the spaceport for each region.
 - Zone distances are set between fixed areas.  Exact route lengths are decided when we design the maps.
 - Zone based, not open world.
 - Future planets are planned from the start: each planet is built as a data module, so new planets do not require engine rewrites.
