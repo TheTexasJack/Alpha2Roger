@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.15, 2026-11-09**
+**World v0.16, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -41,6 +41,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Geography
 
+- The globe: candidate B, seed 2718, is canon.  Map: `docs/maps/verlassen_globe_v1.0.png` (generator `tools/globe_candidates.py`).  Its continents stretch across the globe, so in the cold year, with frozen straits, the whole planet can be traversed on foot.  Climate bands on the map are placeholders; cities, spaceport, and final impact sites are still to be placed.
 - Volcanic and geothermal areas that do not freeze: springs and Yellowstone-type geysers.
 - Salt lakes that might never freeze, except on the coldest days of the third year.
 - Rivers.  All major cities sit near rivers.
