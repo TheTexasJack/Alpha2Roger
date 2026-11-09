@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.3, 2026-11-09**
+**World v0.4, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -10,6 +10,9 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - Current Lancer time: 5016u.
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
+- Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
+- **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
+- **Draft (Claudia):** the Karrakin Trade Baronies are the nearest real power; Baronic traders may keep the spaceport alive while the locals keep them at arm's length.
 
 ## The planet
 
