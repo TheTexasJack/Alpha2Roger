@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.8, 2026-11-09**
+**Concept v0.9, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -15,6 +15,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - A traditional RPG in its rules and structure.  It does not use Lancer's narrative rules.
 - A separate game from Lancer, the tabletop RPG, and from the video game Lancer Tactics.
 - Mechs are secondary.  They may appear later in a run (for example the scrap-built mech in the story arc), and they never replace the survival core.
+
+## Content rating
+
+- Adult.  Language, violence, and mature themes are fine.
+- Not ridiculously sexual.  Intimacy, if it ever comes up, stays abstract (sheets and hearts), since animating anything complex, even with pegs, becomes more art than mechanics.  Details figured out along the way.
+- Brawl mechanics: to be dealt with later.
 
 ## Model and inspirations
 
