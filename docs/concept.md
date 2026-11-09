@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.10, 2026-11-09**
+**Concept v0.11, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -58,7 +58,7 @@ The model: top-down dungeon crawler and open explorer.  Old brain, old gaming st
 - A light relationship mechanic, organic like RimWorld.
 - Relationships matter for the journey: companions may not like you enough to come along, or you might have a poly relationship.  The engine and the player decide.
 - Every pawn is different, worked through pawn to pawn.  Orientations vary: one might be straight, one might be ace.
-- Ace does not mean non-sexual.  Ace pawns just care less about sex than other people might.
+- Ace pawns can still be sexual; they just care less about sex than other people might.
 - **Draft (Claudia):** track romantic interest and sexual interest as two separate dials per pawn, so an ace companion can still fall hard for someone romantically.
 
 ## Art and feel
