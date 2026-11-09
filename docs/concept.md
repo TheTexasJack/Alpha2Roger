@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.23, 2026-11-09**
+**Concept v0.24, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -144,7 +144,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - The player has cybernetics: an implanted universal translator.
 - Right after the crash, a calibration process in the tutorial runs through a bunch of sample languages spoken on the planet, then calibrates.  After that, everything is in English.
+- The calibration reports 563 independent languages detected: some archaic, some Karrakin Trade Baronies (KTB), and a lot of deviations and newly evolved languages.
 - No constructed languages and no coded dialects.
+- **Draft (Claudia):** real-world check: Papua New Guinea has about 10 million people and 800+ languages, so 563 on Verlassen is believable.  It implies old settlement in many waves.  Like PNG's Tok Pisin, a trade creole likely grew up around the spaceport and salt-lake hubs as the common market tongue.
 - **Draft (Claudia):** the calibration samples double as a first taste of the planet's peoples and regions.
 
 ## Licenses and the scrap mech
