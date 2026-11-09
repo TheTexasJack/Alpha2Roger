@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.29, 2026-11-09**
+**World v0.30, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -74,6 +74,30 @@ This file holds the world facts that become the planet data file (A2R-101).
 - Remote, tiny places are rare, unless they can secure a heat source for the cold year.
 - A spaceport across the globe from the crash site can mean years of travel.  That is fine.
 - **Draft (Claudia):** the spaceport sits near the equator on flat ground (real physics: launches near the equator get a boost from the planet's spin, and it is the warmest band).  Trade cities sit at river mouths and coasts.  Salt-lake towns are trade hubs.  Impact sites are placed for story and never on top of a city.
+
+## The ten fixed places
+
+Accepted by Nathan 2026-11-09 from `docs/maps/verlassen_pins_draft_v0.1.png` (grid: column letter A to X, row number 1 to 12; the equator sits between rows 6 and 7).  Names come later.
+
+1. Spaceport city (H7)
+2. Major city (L9), near geothermal heat
+3. Major city (E4), near geothermal heat
+4. Major city (L5)
+5. Onsen town (A10)
+6. Salt-lake trade town (K10)
+7. Salt-lake trade town (V4)
+8. River-mouth port (H5)
+9. Remote holdfast with its own heat source (N3)
+10. River town (R8)
+
+- The west holds most places; the east (columns P to X) is largely empty wilderness.
+- The purple infection impact sites on the map are still provisional and separate from the ten places.
+
+## Local life around the player
+
+- When local maps are created, a few small settlements and a few enemy locations are placed near the player, RimWorld style, so the area has some life.
+- The more remote the player is, the less they are interacted with.  A crash at R5 or X7 means running into no one.
+- **Draft (Claudia):** local settlement and enemy density scales with distance from the nearest fixed place, placed by the run's seed.  The small random infection spawn still appears even in the most remote starts.
 
 ## Peoples
 
