@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.18, 2026-11-09**
+**World v0.19, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -57,7 +57,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Fixed places: placement criteria
 
-- Fixed places (cities, spaceport, landmarks, impact sites) are placed logically, once, and stay canon.  Random is for the wilderness and the crash site.
+- **Draft (Claudia):** fixed places (cities, spaceport, landmarks, impact sites) are placed logically, once, and stay canon.  Random is for the wilderness and the crash site.
 - At least one spaceport.
 - All major cities sit near rivers.
 - A spaceport across the globe from the crash site can mean years of travel.  That is fine.
