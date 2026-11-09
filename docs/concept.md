@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.11, 2026-11-09**
+**Concept v0.12, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -21,6 +21,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Adult.  Language, violence, and mature themes are fine.
 - Not ridiculously sexual.  Intimacy, if it ever comes up, stays abstract (sheets and hearts), since animating anything complex, even with pegs, becomes more art than mechanics.  Details figured out along the way.
 - Brawl mechanics: to be dealt with later.
+
+## Design approach
+
+- Engine first.  Build the systems and let the interactions fall into place, then fine tune later.  This gives the most versatility, instead of writing in every option step by step.
+- **Draft (Claudia):** keep traits, needs, moods, and relationship rules in data files, so tuning means editing numbers instead of rewriting code.
+- **Draft (Claudia):** systems drive the people (pawns, survival, relationships); the story spine stays authored (the crash, the twist, the cities, the legal path).
 
 ## Model and inspirations
 
