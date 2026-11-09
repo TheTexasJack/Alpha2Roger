@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.11, 2026-11-09**
+**World v0.12, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -52,9 +52,11 @@ This file holds the world facts that become the planet data file (A2R-101).
 - Native life is alien.
 - A meteoric impact infection: something crystalline (the silicon idea) arrived by meteor.  This leans into the fantasy.
 - The infection is weaker in the third (cold) year, so the cold stays the main threat.
-- **Draft (Claudia):** native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
-- **Draft (Claudia):** fauna follow Bergmann's rule: cold-adapted animals run large and shaggy, nothing kaiju sized, no giant insects.  Flora is hardy (conifer-like forests, tundra scrub, lichens).  Animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
-- **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  It spreads from a fixed impact crater landmark, wakes with the thaw after a cold year, and can infect native fauna.
+- The infection is relevant to the player, but exists in only a few places on the globe.
+- Native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
+- Big, shaggy, cold-adapted fauna (Bergmann's rule), with migrations as the temperatures change.  Nothing kaiju sized, no giant insects.  Flora is hardy (conifer-like forests, tundra scrub, lichens).
+- **Draft (Claudia):** animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
+- **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  Each infected place centers on an impact crater landmark; the infection wakes with the thaw after a cold year, and can infect native fauna.
 
 ## The warning
 
