@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.27, 2026-11-09**
+**World v0.28, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -53,6 +53,13 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** a cold planet shows more land than Earth (water locked in ice lowers sea level), about 50 to 60% ocean, with drier interiors (cold steppe and tundra, forests near coasts) and large permanent ice caps.
 - **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
+
+## Technology and NHPs
+
+- Verlassen has almost no NHPs.  That is all outside this colony.
+- There may be one or two NHPs at the spaceport, but they would be new and foreign.
+- Locals know nothing about RA; the main character would.
+- **Draft (Claudia):** the mech's computer is a plain, non-NHP system, so the voiced computer stays simple and NHPs stay rare and strange.  The player's knowledge of NHPs, RA, and paracausal science is outsider knowledge nobody local shares.
 
 ## Climate bands
 
