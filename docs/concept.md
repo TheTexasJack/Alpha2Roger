@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.26, 2026-11-09**
+**Concept v0.27, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -153,6 +153,16 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No constructed languages and no coded dialects.
 - **Draft (Claudia):** real-world check: Papua New Guinea has about 10 million people and 800+ languages, so 563 on Verlassen is believable.  It implies old settlement in many waves.  Like PNG's Tok Pisin, a trade creole likely grew up around the spaceport and salt-lake hubs as the common market tongue.
 - **Draft (Claudia):** the calibration samples double as a first taste of the planet's peoples and regions.
+
+## The M.U.L.E.
+
+- M.U.L.E.: Multimodal Utility Language Entity.  Based on Nathan's hand-crafted miniature (later variants adjusted with Mara); references in `docs/art/mule/`.
+- The CompCon assumes the M.U.L.E. early on.  It follows the player as a utility workhorse.  Not big enough to ride.
+- Maybe an early second fighter, defending while the player prepares.
+- No need to go back to the mech every time to talk to the CompCon.
+- **Draft (Claudia):** as the Language Entity, the M.U.L.E. carries the translator and the computer voice.  It carries cargo, which ties into journey prep and weight limits.
+- **Draft (Claudia):** limits so it never trivializes survival: it runs on batteries that lose capacity in the cold, so it weakens in the cold year; it can be knocked out and repaired, and while it is down the CompCon falls back to the mech.
+- **Draft (Claudia):** keep the no-animation rule with a two-frame skitter or a simple bob for its legs.
 
 ## Licenses and the scrap mech
 
