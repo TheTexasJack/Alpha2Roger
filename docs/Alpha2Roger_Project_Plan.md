@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.3, 2026-11-09**
+**Plan v0.4, 2026-11-09**
 
 ## What this project is
 
@@ -22,15 +22,15 @@ Goal: settle the decisions that everything else is built on.
 
 | ID | Task | Status | Notes |
 |---|---|---|---|
-| A2R-001 | Movement model | Decided | Turn based: enemies move when you do (Nathan, 2026-11-09).  Still open: **Draft (Claudia)** compressed time in camp |
-| A2R-002 | Engine | Open | **Draft (Claudia):** prototype in Python, build in Godot 4 |
-| A2R-003 | Art style | In progress | Simple 2D top-down sprites (Nathan, 2026-11-09).  Still open: layered peg people or a single sprite; palette |
-| A2R-004 | Time scale | Open | How long a day, a season, and a year take in play.  How many years a typical run lasts |
-| A2R-005 | Survival pressures | Open | **Draft (Claudia):** 3 or 4, biome-specific (cold, air, water, heat) |
+| A2R-001 | Movement model | Decided | Turn based: enemies move when you do.  Camp time (compressed or not) deferred until we see gameplay |
+| A2R-002 | Engine | Decided | Godot 4, 2D.  Nathan is new to Godot; a learning experience |
+| A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  Palette still open |
+| A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
+| A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
 | A2R-006 | Planet basics | Open | Name, size, climate bands, number of fixed cities, where the spaceport is |
-| A2R-007 | Local currency | Open | Name and how it trades against Manna |
+| A2R-007 | Local currency | Deferred | Planned after the lore and era are established |
 
-**Gate:** every Stage 0 item decided and recorded in `docs/concept.md`.
+**Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.
 
 ## Stage 1: Zone graph generator (text only)
 
@@ -40,7 +40,7 @@ Goal: prove the seeded map works before any graphics exist.
 |---|---|---|---|
 | A2R-101 | Planet data file | Not started | Fixed cities, landmarks, biome regions, route distance ranges.  Data only, no engine code |
 | A2R-102 | Generator spec | Not started | Inputs (planet file, seed) and outputs (zone graph).  Written and approved before code |
-| A2R-103 | Generator prototype | Not started | Outputs a readable text map, for example "Crash Site > Spore Thicket > Collapsed Arcology" |
+| A2R-103 | Generator prototype | Not started | Built in Godot, outputs a readable text map, for example "Crash Site > Spore Thicket > Collapsed Arcology".  Doubles as a first Godot lesson (**Draft (Claudia)**) |
 | A2R-104 | Determinism test | Not started | Same seed gives the same map every time; different seeds give different maps |
 
 **Gate:** Nathan runs several seeds and approves the results.
@@ -91,6 +91,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.4, 2026-11-09 (Nathan): Stage 0 review.  Decided A2R-001, 002, 003, 005.  Deferred A2R-004 and 007.  A2R-006 open.  Concept v0.8 records all answers.
 - Plan v0.3, 2026-11-09 (Nathan): A2R-001 decided (turn based); A2R-003 in progress (simple 2D top-down sprites).  Inspirations and core concepts recorded in concept v0.6.
 - Plan v0.2, 2026-11-09 (Nathan): Alpha2-Roger is the passion project, built for Nathan.  Removed the PERMA priority line; this plan is measured on its own terms.
 - Plan v0.1, 2026-11-09 (Claudia): first plan.  Stages 0 to 4 detailed, later stages outlined.
