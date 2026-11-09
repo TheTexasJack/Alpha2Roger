@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.14, 2026-11-09**
+**Concept v0.15, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -36,6 +36,8 @@ The model: top-down dungeon crawler and open explorer.  Old brain, old gaming st
 - Decklin's Domain: Demise: Rise of the Ku'tan and Demise: Ascension
 - Caves of Qud
 - RimWorld
+
+What sets us apart from those games: a voiced mech computer, Subnautica style, that explains the planet and its weather (see `docs/world.md`).  None of the reference games do that.
 
 ## Core concepts
 
