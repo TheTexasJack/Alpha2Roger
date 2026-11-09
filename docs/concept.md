@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.4, 2026-11-09**
+**Concept v0.5, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -27,7 +27,8 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 ## The crash
 
 - The cause of the crash is shown only as flashes and a glimpse, then the crash.  Nothing is explained, ever.
-- Idea: the attacker could be the Black Fleet or the Ants from Errans Inter Astra.  Since this game is for Nathan, it does not need to match the other games.
+- The attacker is never named in game.  It is an open slot: any player can plug in their own mystery ship.
+- Nathan's private headcanon may be the Black Fleet or the Ants from Errans Inter Astra.  Since this game is for Nathan, it does not need to match the other games.
 
 ## Story arc
 
