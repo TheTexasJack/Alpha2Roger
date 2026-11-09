@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.8, 2026-11-09**
+**Plan v0.9, 2026-11-09**
 
 ## What this project is
 
@@ -27,7 +27,7 @@ Goal: settle the decisions that everything else is built on.
 | A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  **Draft (Claudia):** defer the palette to the art stage |
 | A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
 | A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
-| A2R-006 | Planet basics | In progress | Recorded in `docs/world.md`.  Decided: era 5016u, about 50 years from the current tables, temperate but cold, 14-month year, every third year a cold year, weather sensor warning.  Open: name and physical details, climate bands, fixed places, peoples |
+| A2R-006 | Planet basics | In progress | Recorded in `docs/world.md`.  Decided: name (Kepler-64432p, locally Verlassen), era 5016u, about 50 years from the current tables, location between Cinder Crown and the KTB, temperate but cold, 14-month year, every third year a cold year, weather sensor warning.  Open: physical details, climate bands, fixed places, peoples |
 | A2R-007 | Local currency | Deferred | Planned after the lore and era are established |
 
 **Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.
@@ -96,6 +96,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.9, 2026-11-09 (Nathan): planet named Kepler-64432p, locally Verlassen; location set.
 - Plan v0.8, 2026-11-09 (Nathan): A2R-006 in progress; first world facts in new `docs/world.md` v0.1.
 - Plan v0.7, 2026-11-09 (Nathan): backstories depend on the world being established first.
 - Plan v0.6, 2026-11-09 (Nathan): NPC content lists (backstory, traits, orientation, speech style) and much-later NPC voices added to later stages.

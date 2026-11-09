@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.4, 2026-11-09**
+**World v0.5, 2026-11-09**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -16,7 +16,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## The planet
 
-- Name: open.
+- Official name: Kepler-64432p.
+- Local name: Verlassen (German for abandoned, forsaken, left behind).
 - Temperate, but colder than some.
 - Year: 14 Earth months.
 - Every third year is a cold year.  The whole planet goes through a cold phase lasting about a planet year as it moves away from the sun.
@@ -39,7 +40,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Open
 
-- Planet name, size, star, moons or rings.
+- Planet size, star, moons or rings.
 - Climate bands and biomes.
 - Fixed places: cities, spaceport, landmarks.
 - Peoples and who is in charge locally.
