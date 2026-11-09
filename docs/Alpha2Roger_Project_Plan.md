@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.5, 2026-11-09**
+**Plan v0.6, 2026-11-09**
 
 ## What this project is
 
@@ -88,11 +88,14 @@ Goal: the core loop.
 - The journey to the city
 - The city, the spaceport, and the identity questline (inbox UI)
 - The franken-mech and recognition
+- NPC content lists, kept as data files: backstories, traits, orientations, speech styles.  These feed NPC creation and the dialogue model.
+- NPC voices, ElevenLabs style: much later.  **Draft (Claudia):** local text-to-speech is also an option, in line with the zero-token-cost local model.
 - Local AI dialogue for NPCs: planned after the base game works, during NPC and interaction work.  Rules: the engine owns all game state and the model only voices it (fed a character card of traits, mood, relationship, recent events); a local model on Nathan's PC, zero token cost; authored fallback lines when the model is off; the story spine stays hand-written; a lore sheet in the prompt to limit drift.
 - Headless sim mode for automated testing (seed sweeps, balance runs such as surviving year one on paste), possible because game logic is separate from rendering.  **Draft (Claudia)**
 
 ## Changelog
 
+- Plan v0.6, 2026-11-09 (Nathan): NPC content lists (backstory, traits, orientation, speech style) and much-later NPC voices added to later stages.
 - Plan v0.5, 2026-11-09 (Nathan): local AI NPC dialogue noted for after the base game, during NPC and interaction work.  Headless sim testing added as a draft.
 - Plan v0.4, 2026-11-09 (Nathan): Stage 0 review.  Decided A2R-001, 002, 003, 005.  Deferred A2R-004 and 007.  A2R-006 open.  Concept v0.8 records all answers.
 - Plan v0.3, 2026-11-09 (Nathan): A2R-001 decided (turn based); A2R-003 in progress (simple 2D top-down sprites).  Inspirations and core concepts recorded in concept v0.6.
