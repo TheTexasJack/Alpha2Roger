@@ -1,0 +1,82 @@
+[
+ {
+  "id": 1,
+  "name": "Setareh Minato",
+  "type": "Spaceport city",
+  "y": 199,
+  "x": 217,
+  "grid": "H7"
+ },
+ {
+  "id": 2,
+  "name": "Ikh Gawa",
+  "type": "Major city",
+  "y": 241,
+  "x": 336,
+  "grid": "L9"
+ },
+ {
+  "id": 3,
+  "name": "Warmes Tani",
+  "type": "Major city",
+  "y": 114,
+  "x": 134,
+  "grid": "E4"
+ },
+ {
+  "id": 4,
+  "name": "Svetla Hama",
+  "type": "Major city",
+  "y": 137,
+  "x": 354,
+  "grid": "L5"
+ },
+ {
+  "id": 5,
+  "name": "Khaluun Onsen",
+  "type": "Onsen town",
+  "y": 278,
+  "x": 17,
+  "grid": "A10"
+ },
+ {
+  "id": 6,
+  "name": "Davs Mizuumi",
+  "type": "Salt-lake trade town",
+  "y": 282,
+  "x": 321,
+  "grid": "K10"
+ },
+ {
+  "id": 7,
+  "name": "Shio Loch",
+  "type": "Salt-lake trade town",
+  "y": 93,
+  "x": 658,
+  "grid": "V4"
+ },
+ {
+  "id": 8,
+  "name": "Darya Kako",
+  "type": "River-mouth port",
+  "y": 128,
+  "x": 217,
+  "grid": "H5"
+ },
+ {
+  "id": 9,
+  "name": "Zimna Toride",
+  "type": "Remote holdfast (own heat source)",
+  "y": 74,
+  "x": 419,
+  "grid": "N3"
+ },
+ {
+  "id": 10,
+  "name": "Kawa Fada",
+  "type": "River town",
+  "y": 227,
+  "x": 526,
+  "grid": "R8"
+ }
+]
