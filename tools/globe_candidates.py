@@ -3,6 +3,8 @@
 About 45% land, drier interiors, big ice caps, geothermal hotspots, salt basins.
 Equirectangular, wraps east-west.
 """
+__version__ = "0.3.1"
+
 import heapq
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont

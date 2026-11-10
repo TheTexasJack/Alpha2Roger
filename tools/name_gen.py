@@ -4,6 +4,8 @@ regional_first:  regional given name + Japanese family name   (e.g. Shirin Kurod
 japanese_first:  Japanese given name + regional family name   (e.g. Ren Gallagher)
 Seeded, so the same seed always gives the same names.
 """
+__version__ = "0.1"
+
 import json, random, sys
 from pathlib import Path
 

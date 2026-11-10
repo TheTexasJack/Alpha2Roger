@@ -4,6 +4,8 @@ Claims spread across land only (seas block them, straits do not freeze in this d
 and stop at a reach limit, so land beyond every capital's reach is unclaimed wilderness.
 Scale: 720 px around the planet; about 60 km per pixel east-west at the equator.
 """
+__version__ = "0.1"
+
 import heapq, json
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -14,7 +16,7 @@ src = (HERE / "globe_candidates.py").read_text().split("seeds = [")[0]
 G = {}; exec(src, G)
 W, H = G["W"], G["H"]
 REACH = 40          # pixels, about 2,400 km
-places = json.loads((HERE / "data" / "places_v1.0.json").read_text())
+places = json.loads((HERE / "data" / "places_v1.0.json").read_text())["places"]
 
 rng = np.random.default_rng(2718)
 elev, LAT = G["sphere_field"](rng)

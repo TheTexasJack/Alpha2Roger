@@ -1,6 +1,6 @@
 # AGENTS.md: Rules for AI collaborators
 
-**AGENTS v0.1, 2026-11-10**
+**AGENTS v0.2, 2026-11-10**
 
 This file is for any AI working in this repository: Claudia (Claude, in chat or Claude Code), Mara (ChatGPT or Codex), or anyone else.  Read it fully before changing anything.
 
@@ -71,3 +71,20 @@ This file is for any AI working in this repository: Claudia (Claude, in chat or 
 
 - Commit straight to `main`.  No branches or pull requests unless Nathan asks.
 - Small commits with clear messages.
+
+## Versions and diagnostics
+
+Every file carries a version until the game ships.  Where it lives:
+
+| Type | Where the version goes |
+|---|---|
+| .md | Bold line near the top: `**Name vX.Y, date**` |
+| .py | `__version__ = "X.Y"` after the docstring |
+| .json | Top-level `"version"` field |
+| Images | `_vN` in the file name |
+| .gitignore | `# gitignore vX.Y` comment |
+
+- Bump the version whenever you change a file, and update its row in `VERSIONS.md`.
+- Before every commit, run `python3 tools/version_check.py`.  It must report 0 problems.
+- When something looks wrong, Nathan runs `python3 tools/system_report.py` and sends the file it writes in `diagnostics/`.  That folder is git-ignored.  Read the report before guessing.
+- When the Godot game exists, it gets the same export from an in-game key (mechanic #92).

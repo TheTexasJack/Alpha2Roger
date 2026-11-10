@@ -1,3 +1,5 @@
+# gitignore v0.2
+
 # Godot 4
 .godot/
 *.translation
@@ -12,3 +14,6 @@ __pycache__/
 Thumbs.db
 *.swp
 *~
+
+# Local diagnostic reports (may contain machine details)
+diagnostics/

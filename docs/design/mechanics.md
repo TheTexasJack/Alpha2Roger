@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.20, 2026-11-10**
+**Mechanics v0.21, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -156,3 +156,4 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 89 | Options menu | Draft | Effect toggles, speed-up, temperature units |
 | 90 | Credits screen | Decided | Lancer Third Party License requirements in the game itself |
 | 91 | Boredom log | Decided | Nathan reports fade points |
+| 92 | Diagnostics export | Draft | One key writes a report: build version, seed, save state, log tail, settings.  Mirrors tools/system_report.py |
