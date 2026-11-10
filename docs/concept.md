@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.37, 2026-11-10**
+**Concept v0.38, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -81,6 +81,13 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - **Open (Nathan to decide later):** in regions that practice slavery, capture might mean a work camp to escape from, and maybe return to liberate.
 - **Draft (Claudia):** "temptation without coercion" applies to how the game treats the player; coercion mechanics are things the player can do to NPCs in the world.  The two rules do not conflict.
 - **Draft (Claudia):** failure is never a game-over screen; its consequences persist in the world.  Capture uses non-lethal tools (knockouts, nets, sedatives).  Conversion runs through the relationship system.  The chance that a held prisoner joins their captors grows the longer they are held.
+
+## Death and succession
+
+- There are death scenes.
+- Not a Man in Black (Dread Pirate Roberts) handoff.  Instead: a narrative few years pass, and a lost small girl enters the camp and sees a robot sitting there.  The robot introduces itself and states the weather, and the girl starts over where the player died.  A new playthrough.
+- **Draft (Claudia):** the time skip happens after she arrives: the M.U.L.E. finds her and raises her, and the new playthrough begins when she is an adult.  The M.U.L.E. carries continuity across lives; the old camp, graves, and half-finished repairs remain to inherit, RimWorld style.  Born on Verlassen, she has no Union record either, keeping the identity theme.
+- **Draft (Claudia):** hard stop: no minors in the relationship, intimacy, or capture systems, ever.  The player character is always an adult.
 
 ## Model and inspirations
 

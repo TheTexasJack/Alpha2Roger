@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.37 | 2026-11-10 | Kenshi-style capture instead of death |
+| docs/concept.md | v0.38 | 2026-11-10 | Death and succession: the M.U.L.E. and the lost girl |
 | docs/Alpha2Roger_Project_Plan.md | v0.18 | 2026-11-09 | Government recorded |
 | docs/world.md | v0.36 | 2026-11-09 | Tone on slavery confirmed |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
