@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.31, 2026-11-09**
+**Concept v0.32, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -44,6 +44,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Hybrid place names: split a name half Japanese and half another culture.  Each area pairs Japanese with a second culture.  Example, in a Japanese and German area: Traurige Heigen (German traurige, sad, plus Japanese heigen, plains: the Sad Plains).
 - **Draft (Claudia):** the generator builds hybrid names from a Japanese terrain word matched to the land (heigen plains, yama mountain, kawa river, mori forest, mizuumi lake) plus a word from the region's second culture, so each region has its own recognizable pair.
 - **Draft (Claudia):** give each region one or two source cultures so its names feel consistent; skip famous historical figures; keep a blacklist of AI-cliche names (Voss, Kael, Elara, Thorne, Lyra, Vex, Nyx, Zephyr, Seraphina, Aria) and never generate them.
+
+## Heroism
+
+- Not every player has to be a hero.  Every playthrough gives the opportunity to be a hero.
+- We lead the player to the oasis, but we do not make them drink.
+- **Draft (Claudia):** heroic options are always present in every run and never forced; the world reacts to what the player chooses, and the ending milestones reflect it.  The world itself still never glorifies cruelty.
 
 ## Model and inspirations
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger
 
-**README v0.1, 2026-11-09**
+**README v0.2, 2026-11-10**
 
 A Lancer-adjacent survival RPG.  Your mech went down on a rim world far beyond Union's reach.  Survive the wilderness, cross hundreds of miles to the spaceport, and discover that someone already went home in your place.
 
@@ -11,7 +11,7 @@ Status: concept stage.  See `docs/concept.md` for the design decisions so far.
 - Survival first: grid-based, turn-synced expeditions in the style of Caves of Qud, with a small camp of 5 or 6 NPCs.
 - A fixed planet with seeded wilderness: cities and landmarks are authored, the land between them is generated per seed.
 - Lancer lore, our own rules: we borrow the setting and vocabulary of Lancer and build game systems that fit survival.
-- The protagonist is a hero, in the Lancer spirit: cruelty in the world is opposed and never celebrated.
+- Every playthrough offers the opportunity to be a hero, in the Lancer spirit.  The game leads the player to the oasis; it never makes them drink.  Cruelty in the world is never celebrated.
 
 ## License and credits
 

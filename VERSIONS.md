@@ -2,9 +2,9 @@
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| README.md | v0.1 | 2026-11-09 | Initial README with Lancer Third Party License credits |
+| README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.31 | 2026-11-09 | Negative traits allowed, balanced, never glorified |
+| docs/concept.md | v0.32 | 2026-11-10 | Heroism: lead to the oasis, never force the drink |
 | docs/Alpha2Roger_Project_Plan.md | v0.18 | 2026-11-09 | Government recorded |
 | docs/world.md | v0.36 | 2026-11-09 | Tone on slavery confirmed |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
