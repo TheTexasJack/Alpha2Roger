@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.47, 2026-11-10**
+**Concept v0.48, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -116,6 +116,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - Fog of war, from Sword of Fargoal: the map reveals as you explore.
 - Line of sight, brutal as in Caves of Qud.  Combined with Fargoal's fog of war and the RimWorld view, it should be cool, and brutal.
+- An area around the M.U.L.E. is always visible.  Bring it and see more, maybe some outlines, but it is a liability.
+- Sensor arrays: a buildable device the player puts down to reveal an area.
+- **Draft (Claudia):** the M.U.L.E. gives silhouettes past the player's own sight (something is there, not what).  It gives the player away (its glowing eye, its noise), drains power faster in the cold, and is a target for raiders; losing it costs the voice, the translator, and the extra vision.  Sensor arrays need power, can be found and wrecked by raiders, and weaken in the cold year.
 - **Draft (Claudia):** the player's own camp stays fully visible (roofs see-through), while the wilderness runs on line of sight plus fog.  Night shrinks sight to the light radius (no moon); blizzards cut sight range, worst in the cold year; M.U.L.E. sensor repairs can extend vision.
 - Turn based: enemies move when you do.
 - RPG-style character creation.
