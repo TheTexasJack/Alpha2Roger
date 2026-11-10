@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.45, 2026-11-10**
+**Concept v0.46, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -154,7 +154,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 ## Art and feel
 
 - Equipment: no separate armor slots.  Hand slots for weapons and tools.  Details are worked out with character creation.
-- **Draft (Claudia):** check later how visible clothing layers (cold gear) fit with having no separate armor slots.
+- Clothing works the same way as RimWorld: parkas, hats, and gear are drawn layered on the peg; we just do not draw the arms.
+- In RimWorld the peg has a body and a head and the gun floats.  We can deviate with dot hands or basic hands.
+- RimWorld has a style; we decide later whether to borrow it or adapt what works in our world.
+- Some conventions simply persist, such as see-through roofs and the top-down camera angle.
 - Pillar: old-school bones, modern effects.  Caves of Qud does this in places.
 - Effects rule: this is Nathan A, not triple A.  No ambient occlusion, no motion blur, and nothing that every player just turns off.  A little frost creeping in is fine.
 - A little screen shake is fine in places: short moments only, never constant, since constant shake makes the screen hard to read.
