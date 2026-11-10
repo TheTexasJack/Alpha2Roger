@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.36, 2026-11-09**
+**World v0.37, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -14,6 +14,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
 - The Karrakin Trade Baronies are the nearest real power and the closest trading location.
 - The region also has a few small colonies on some other planets, and a single space station.
+- Who runs the space station is deferred to later.
 - **Draft (Claudia):** some of those colonies may sit in Verlassen's own crowded star system.  They are natural candidates for future expansion planets.
 - **Draft (Claudia):** Baronic traders may keep the spaceport alive while the locals keep them at arm's length.
 
@@ -24,7 +25,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 - The system is crowded: "p" makes Verlassen at least the 15th planet catalogued around its star.  This leaves room for the gas giant behind the cold year.
 - The star: Sun-like and yellow (G type), about one solar mass.  Chosen by the physics: with a 14-month year, Verlassen orbits at about 1.1 times Earth's distance and receives roughly 80% of Earth's sunlight, which matches temperate but colder than some.  A massive star would put the temperate zone so far out that a year would take decades; an orange star would leave a 14-month orbit too cold.
 - Science and physics win over hip shots: when a stated detail conflicts with real physics, the physics decides.
-- **Draft (Claudia):** with the 3:1 resonance mechanism, the gas giant orbits about every 3.5 years.
+- **Draft (Claudia):** with the 3:1 resonance, the gas giant orbits about every 3.5 years.
 - **Draft (Claudia):** optional lore: the star is aging, for flavor only.
 - Temperate, but colder than some.
 - Size: slightly larger than Earth (about 10% wider), with about Earth's gravity, so nothing new needs inventing.  Physics note: same gravity at a larger size means a slightly less dense planet (a smaller iron core).
@@ -37,10 +38,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 - In the cold year, everything shifts down about 50 degrees Fahrenheit.  Summers that would hit 100 only reach about 50, and even summers can sit in the 30s.  Winters that would sit around 0 drop to -50 or colder.
 - The cold year is something the player builds up for.
 - **Draft (Claudia):** consequences to design around: the cold year has no real growing season, so the camp must stockpile about a full year of food beforehand; -50 and colder makes exposure lethal fast, so shelter, heat, and clothing layers matter; long journeys during a cold year are effectively impossible.
-- **Draft (Claudia):** the mechanism behind the three-year cycle (pick one later):
-  - A gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Fits "moves away from the sun" best, and works with normal axial-tilt seasons in the other years.
-  - A variable star that dims on a 42-month cycle.
-  - A binary companion star whose closest pass lines up every third year.
+- The mechanism behind the three-year cycle: a gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Normal axial-tilt seasons happen in the other years.
 
 ## Geography
 
@@ -93,7 +91,7 @@ Accepted by Nathan 2026-11-09.  Map: `docs/maps/verlassen_places_v1.0.png` (grid
 | 10 | Kawa Fada | Long River | River town | R8 |
 
 - The west holds most places; the east (columns P to X) is largely empty wilderness.
-- The purple infection impact sites on the map are still provisional and separate from the ten places.
+- The three infection impact sites on the map are accepted (grid M3, T3, J10).  They sit close to the cold areas, which may benefit the player and the story.  What the infection mechanic does is decided later.
 
 ## Notable people of the ten places
 
@@ -122,7 +120,8 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 - We follow the 3 tier government method: executive, legislative, and judicial.
 - **Draft (Claudia):** in each town, the lord or mayor is the executive, the council is the legislative, and a magistrate or court is the judicial.
 - Towns are adjusted to different standards as we play.  Some lords have no power and are purely for show; some hold all the power.  Some places practice slavery; some ban it.  There may be culture wars, or actual wars.
-- **Draft (Claudia):** regions are political territories around each capital, drafted in `docs/maps/verlassen_regions_draft_v0.1.png` (generator `tools/regions.py`): each capital claims the land it reaches overland first, up to about 2,400 km; seas block claims; about 65% of habitable land stays unclaimed wilderness.  These ten political regions sit inside the five cultural regions below.
+- Regions are political territories around each capital, as in `docs/maps/verlassen_regions_draft_v0.1.png` (generator `tools/regions.py`): each capital claims the land it reaches overland first, up to about 2,400 km; seas block claims; about 65% of habitable land stays unclaimed wilderness.  These ten political regions sit inside the five cultural regions below.  Accepted as is; borders get established more clearly as we zoom in to zones.
+- Work camps: maybe.  Some are just for profit; some are for labor.  Slaves were always those things.  Some NPCs justify it; some say the enslaved are better off.  We know all these stories because history tells us them, and we do not sugar coat or hide from history as many do.
 - In keeping with Lancer's tone, cruelty such as slavery exists in the world to be opposed, never celebrated.  It has to exist so the player can save people from it.
 - **Draft (Claudia):** lords rule where someone holds the heat (Warmes Tani, Ikh Gawa, Khaluun Onsen, Zimna Toride); mayors lead the trade towns (Setareh Minato, Darya Kako, Davs Mizuumi, Shio Loch, Svetla Hama, Kawa Fada).
 

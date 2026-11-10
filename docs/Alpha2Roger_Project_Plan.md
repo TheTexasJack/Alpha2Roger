@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.18, 2026-11-09**
+**Plan v0.19, 2026-11-10**
 
 ## What this project is
 
@@ -24,13 +24,13 @@ Goal: settle the decisions that everything else is built on.
 |---|---|---|---|
 | A2R-001 | Movement model | Decided | Turn based: enemies move when you do.  Camp time (compressed or not) deferred until we see gameplay |
 | A2R-002 | Engine | Decided | Godot 4, 2D.  Nathan is new to Godot; a learning experience |
-| A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  **Draft (Claudia):** defer the palette to the art stage |
+| A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  Older style with modern color selection |
 | A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
 | A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
-| A2R-006 | Planet basics | In progress | Recorded in `docs/world.md`.  Decided: name (Kepler-64432p, locally Verlassen), era 5016u, about 50 years from the current tables, location between Cinder Crown and the KTB, temperate but cold, 14-month year, every third year a cold year, weather sensor warning.  Physical: slightly larger than Earth with Earth gravity, Sun-like yellow star, no moons, no rings.  Globe: seeded candidates in `docs/maps/verlassen_globe_candidates_v0.3.1.png` (generator `tools/globe_candidates.py`), Globe locked: candidate B, seed 2718 (`docs/maps/verlassen_globe_v1.0.png`).  Ten fixed places accepted and named (`docs/maps/verlassen_places_v1.0.png`); regional second cultures locked.  Climate bands, peoples, and naming culture decided.  Government: lords and mayors, a council per town, the 3 tier method.  Open: final infection impact sites |
+| A2R-006 | Planet basics | Decided | All recorded in `docs/world.md`: Verlassen (Kepler-64432p), 5016u, between Cinder Crown and the KTB; Sun-like star, 14-month year, cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
 | A2R-007 | Local currency | Deferred | Planned after the lore and era are established |
 
-**Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.
+**Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.  **Passed 2026-11-10: Stage 0 closed.**
 
 ## Stage S: Workstation setup (guided)
 
@@ -116,6 +116,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.19, 2026-11-10 (Nathan): A2R-003 and A2R-006 decided; Stage 0 closed.
 - Plan v0.18, 2026-11-09 (Nathan): government recorded: lords and mayors, councils, the 3 tier method.
 - Plan v0.17, 2026-11-09 (Nathan): regional second cultures and names for the ten places locked.
 - Plan v0.16, 2026-11-09 (Nathan): Stage S added: guided workstation setup with safety first (Claude drafted the steps).

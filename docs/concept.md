@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.40, 2026-11-10**
+**Concept v0.41, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -78,7 +78,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Prisoners who are not rescued have a chance to join the group holding them, implied from the same behaviors.
 - Borrowed from Kenshi: if the player is "killed" during a raid, instead of dying they wake up in that camp's prison.
 - **Draft (Claudia):** capture turns into escape play (locks, bribes, a fellow prisoner who may become a companion).  The M.U.L.E. or companions may come to the rescue, depending on relationships.  Capture depends on who won: people take prisoners or loot and leave the player for dead; beasts and the cold take no prisoners, so freezing to death stays final.
-- **Open (Nathan to decide later):** in regions that practice slavery, capture might mean a work camp to escape from, and maybe return to liberate.
+- In regions that practice slavery, capture might mean a work camp to escape from, and maybe return to liberate (see work camps in `docs/world.md`).
 - **Draft (Claudia):** "temptation without coercion" applies to how the game treats the player; coercion mechanics are things the player can do to NPCs in the world.  The two rules do not conflict.
 - **Draft (Claudia):** failure is never a game-over screen; its consequences persist in the world.  Capture uses non-lethal tools (knockouts, nets, sedatives).  Conversion runs through the relationship system.  The chance that a held prisoner joins their captors grows the longer they are held.
 
@@ -156,7 +156,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Simple 2D top-down sprites.
 - Peg people, RimWorld style: layered body, head, hat, and gun, maybe circle hands.  Easy to add new weapons and gear, and no animation of hands, arms, legs, or running, which saves the engine for other things.
 - The feel comes from the weapon effects.  Good weapon feel makes or breaks immersion.  Effects stay snappy, with a speed-up option.
-- Palette: open.
+- The style is older, but the art color selection is modern.
 - Placeholders (Nathan delegated this call to Claudia): early stages use simple glyph-image placeholder tiles, swapped for real peg sprites once the core loop works.  The peg layering system is built early with rough placeholder layers.  No permanent ASCII mode.
 - Game logic never depends on how anything looks; the renderer is separate, so swapping art is a texture change.
 
