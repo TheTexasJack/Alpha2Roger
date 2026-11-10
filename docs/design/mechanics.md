@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.28, 2026-11-10**
+**Mechanics v0.29, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -106,7 +106,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 57 | Local life by remoteness | Decided | Small settlements and enemy camps near the player; the more remote, the fewer encounters |
 | 57b | Tracked enemy groups | Decided | Persistent headcounts; no endless waves; groups learn (after 12 of them die, they stop going there).  Finite numbers and revenge exceptions (Draft) |
 | 57c | Roads and bridges | Decided | Basic, RimWorld style; mostly fixed main roads; random offshoot paths to wild settlements and bandit camps |
-| 58 | Infection | Decided | Three impact sites plus a small random spawn per run; weaker in the cold year; Crystalline damage type; beams refract off crystal; complicators that drive story (infected survivors, infected dead); seed crystal: converts salt, minerals, bone, teeth; piezoelectric control of the infected; behavior details open |
+| 58 | Infection | Decided | Three impact sites plus a small random spawn per run; weaker in the cold year; Crystalline damage type; beams refract off crystal; complicators that drive story (infected survivors, infected dead); seed crystal: converts salt, minerals, bone, teeth; piezoelectric control of the infected; standalone crystal entities or infected versions of existing enemies, decide with gameplay |
 | 59 | Regions and control | Decided | Ten capitals, no global government |
 | 60 | Factions and reputation | Decided | Faction-based reputation, no Qud web; bandits are factionless (the factionless faction) but tracked per group (#57b) |
 | 61 | Town governments | Decided | Lords or mayors, councils, judiciary |
