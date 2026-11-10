@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.68, 2026-11-10**
+**Concept v0.69, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -270,14 +270,14 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
   - Against crystalline targets, Energy and Burn may be ineffective and only Kinetic and Explosive work.  Specifics later.
   - Refraction (Nathan): beams and lasers do nothing to the crystal; they get refracted.  In a hallway the beam bends and can hit anything, which can be good or bad.
   - **Draft (Claudia):** refraction pairs with the Line pattern.  A Line beam that hits a crystal keeps going at a new angle from that tile, so a crystal room turns laser fire into a gamble for both sides.
-  - Open: the infection's role.  Antagonist, complicator, or the narrative McGuffin that makes the wars and survival tougher, or something not found yet.
   - Like Nausicaä's toxic jungle, the infection is not the main villain.  People are (Nathan, 2026-11-10).
-  - **Draft (Claudia):** the locked rule that the cold stays the main threat already rules out the infection as the main antagonist.  Complicator fits best, and a complicator can still carry a mystery.
-  - Open: what a crystal can and cannot do.
-  - Open: what the infection is like.  Ghosts, as in D&D, where only special weapons can hurt them?  Or a standard zombie-style infection?  Can it infect anything that can be a crystal, such as salt, sugar, and parts of the body?
-  - **Draft (Claudia):** if salt can be infected, it hits the salt road war and food preservation hard, since salt is the near-universal trade good.
-  - **Draft (Claudia):** native life already has silica armor (`world.md`, Life).  Keep the two apart so ordinary alien animals do not shrug off lasers.
-- **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
+  - Role (Nathan, 2026-11-10): the infected are complicators.  They give the game something alien, and they drive story: a survivor who is infected and needs a cure, or someone who dies of infection and leaves an infected person in the base.
+  - The infection actively infests anything that can be crystalline, which is why salt and similar things are at risk (Nathan, 2026-11-10).
+  - **Draft (Claudia):** "anything that forms crystals" covers almost everything (ice and snow, metals, rock, bone, teeth), so it needs a narrower rule:
+    - Infectable: crystals that grow from a solution or a living body, such as salt, sugar, mineral deposits, bone, and teeth.
+    - Safe: ice, which explains why the infection is weaker in the cold year.  Metals, so gear and the M.U.L.E. stay safe.  Glass and other amorphous solids, which also keeps native silica armor (mostly glass) apart from the infection.
+    - Glass jars become the safe way to store salt and sugar.
+- **Range and Line (Nathan, 2026-11-10):**- **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
   - **Draft (Claudia):** Range hits one target within that many tiles, and needs line of sight.  Line hits every target along a straight line of that many tiles, stopping at the first wall.  Lancer's other patterns (Threat, Cone, Blast, Burst) wait until a weapon needs one.
 
 ## Naming
@@ -336,6 +336,6 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Time scale: day, season, and run length.  Decide after seeing gameplay.
 - Stats and skills (the character sheet).
 - Trade: shops and traders.
-- What the infection actually does: ghost-like or zombie-like, what crystals can and cannot do, and what it can infect (see Lancer vocabulary, Crystalline).
+- What the infection actually does: ghost-like or zombie-like, what crystals can and cannot do, and the exact line on what it can infect (see Lancer vocabulary, Crystalline).
 - How environmental heat works in combat.
 - How visible clothing layers and hand slots come together at character creation.
