@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.4, 2026-11-10**
+**Mechanics v0.5, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -60,6 +60,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
 | 34 | Character creation | Decided | RPG style, built from peg parts |
+| 34b | Equipment slots | Decided | No separate armor slots; hand slots for weapons and tools; details with character creation |
 | 35 | Stats and skills | Open | Not designed yet |
 | 36 | NPC generation | Decided | Rolled once and locked; core plus changing state (Draft) |
 | 37 | Traits | Decided | Includes negative and dark traits, balanced, never glorified |

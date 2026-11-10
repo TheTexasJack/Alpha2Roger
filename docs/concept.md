@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.44, 2026-11-10**
+**Concept v0.45, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -77,7 +77,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - A prisoner's fate: free them, kill them, or convert them.
 - Prisoners who are not rescued have a chance to join the group holding them, implied from the same behaviors.
 - A prisoner the player lets go might show up later (RimWorld does this).
-- No limb mechanic: no cutting off arms or legs.  This also fits the peg sprites, which have no limbs.
+- No limb mechanic: no cutting off arms or legs.  (RimWorld pawns have no visible limbs either; its limbs live in the health and armor systems.)
 - **Draft (Claudia):** injuries are tracked as general wounds and conditions rather than per limb.
 - Borrowed from Kenshi: if the player is "killed" during a raid, instead of dying they wake up in that camp's prison.
 - **Draft (Claudia):** capture turns into escape play (locks, bribes, a fellow prisoner who may become a companion).  The M.U.L.E. or companions may come to the rescue, depending on relationships.  Capture depends on who won: people take prisoners or loot and leave the player for dead; beasts and the cold take no prisoners, so freezing to death stays final.
@@ -153,6 +153,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 ## Art and feel
 
+- Equipment: no separate armor slots.  Hand slots for weapons and tools.  Details are worked out with character creation.
+- **Draft (Claudia):** check later how visible clothing layers (cold gear) fit with having no separate armor slots.
 - Pillar: old-school bones, modern effects.  Caves of Qud does this in places.
 - Effects rule: this is Nathan A, not triple A.  No ambient occlusion, no motion blur, and nothing that every player just turns off.  A little frost creeping in is fine.
 - A little screen shake is fine in places: short moments only, never constant, since constant shake makes the screen hard to read.
