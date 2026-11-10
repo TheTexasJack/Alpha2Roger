@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.42, 2026-11-10**
+**World v0.43, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -165,6 +165,12 @@ Japanese is the base everywhere.  Each region's second culture flavors its names
 | The empty east | Gaelic (Irish) | Japanese first | Shio Loch, Kawa Fada |
 
 - The point is easy generation: the region tells the generator which culture and word order to use.
+
+## Roads and bridges
+
+- A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
+- Small offshoots are random: random settlements in the wild, bandit camps, and similar may have paths.
+- **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads while sea ice opens new routes.
 
 ## Local life around the player
 
