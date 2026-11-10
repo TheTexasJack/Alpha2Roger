@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.20, 2026-11-10**
+**Plan v0.21, 2026-11-10**
 
 ## What this project is
 
@@ -106,6 +106,7 @@ Goal: the core loop.
 - The journey to the city
 - The city, the spaceport, and the identity questline (inbox UI)
 - The franken-mech and recognition
+- Town banks: currency exchange, storage, loans (see Currency in `docs/world.md`).
 - In-game credits screen carrying the Lancer Third Party License requirements: the acknowledgement, "Lancer is copyright Massif Press", thanks to Massif Press, and a "Powered by Lancer" mark.  Required in the final product.
 - Random settlement name list: about 200 names for small local settlements, built with the hybrid naming rule (Japanese base plus the region's second culture), kept as a data file.  Depends on the regional culture assignments.
 - NPC content lists, kept as data files: backstories, traits, orientations, speech styles.  These feed NPC creation and the dialogue model.
@@ -116,6 +117,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.21, 2026-11-10 (Nathan): town banks added to later stages.
 - Plan v0.20, 2026-11-10 (Nathan): A2R-007 in progress: five regional currencies grouped.
 - Plan v0.19, 2026-11-10 (Nathan): A2R-003 and A2R-006 decided; Stage 0 closed.
 - Plan v0.18, 2026-11-09 (Nathan): government recorded: lords and mayors, councils, the 3 tier method.

@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.38, 2026-11-10**
+**World v0.39, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -139,6 +139,8 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 
 - Kawa Fada is weird and uses Shio Loch's currency.  We lore in a reason later if we need one.
 - Manna is for off-world business at the spaceport.
+- Towns have banks.
+- **Draft (Claudia):** banks exchange currencies for a cut, offer safe storage away from camp raids, and make loans; loan sharks offer a darker, no-questions version.  A real bank needs ID, so early on the player relies on cash, barter, wilderness caches, or a shady back-room bank.  Opening a first real account is a quiet milestone in the identity questline.
 - **Draft (Claudia):** the engine tracks one hidden value unit; each currency is a display name plus an exchange rate in a data file, so the code stays simple.  Barter and commodities work everywhere, with salt as the closest thing to a universal currency (the word salary traces back to salt).  Money changers in each city convert currencies and take a cut.  Rates shift with the world: in a cold year, currencies backed by heat-holding lords rise and trade-town currencies fall.
 
 ## Regions and second cultures
