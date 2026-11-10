@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.46, 2026-11-10**
+**Concept v0.47, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -114,7 +114,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 ## Core concepts
 
-- Fog of war.
+- Fog of war, from Sword of Fargoal: the map reveals as you explore.
+- Line of sight, brutal as in Caves of Qud.  Combined with Fargoal's fog of war and the RimWorld view, it should be cool, and brutal.
+- **Draft (Claudia):** the player's own camp stays fully visible (roofs see-through), while the wilderness runs on line of sight plus fog.  Night shrinks sight to the light radius (no moon); blizzards cut sight range, worst in the cold year; M.U.L.E. sensor repairs can extend vision.
 - Turn based: enemies move when you do.
 - RPG-style character creation.
 - Survival-lite: challenging, but fun.  Balance should not take a degree to figure out.

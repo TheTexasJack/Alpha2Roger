@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.5, 2026-11-10**
+**Mechanics v0.6, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -16,7 +16,8 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 3 | Zone tile maps | Decided | Grid based, generated from seed plus biome |
 | 4 | Delta saves | Draft | Save only what the player changed |
 | 5 | Turn-based grid movement | Decided | Enemies move when you do |
-| 6 | Fog of war | Decided | |
+| 6 | Fog of war | Decided | Sword of Fargoal style: explored map remembered |
+| 6b | Line of sight | Decided | Brutal, Caves of Qud style; camp stays visible, wilderness on line of sight (Draft); night and blizzards shrink it (Draft) |
 | 7 | Renderer separate from logic | Decided | Glyph-image placeholders first, swapped later |
 | 8 | Layered peg sprites | Decided | Body, head, hat, gun, maybe circle hands; no limb animation |
 | 9 | One survival pressure | Decided | First test of the survival loop |
