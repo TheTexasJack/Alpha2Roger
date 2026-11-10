@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.58, 2026-11-10**
+**Concept v0.59, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -214,11 +214,13 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Reaching the spaceport is allowed at any time.  Once there, you cannot print anything and your ID is taken, so you start over.  That becomes a quest line.
 - Printers will not fabricate without a valid license, which is why you cannot simply print a way off planet.
 - The player will never meet anyone they knew previously.
-- **Draft (Claudia):** the rule is about meeting: letters from the other self across blinkspace still work, but the player never stands face to face with the duplicate or anyone else from the old life.
+- The rule is about meeting: letters from the other self across blinkspace still work, but the player never stands face to face with the duplicate or anyone else from the old life.
 
 ## The crash
 
 - The cause of the crash is shown only as flashes and a glimpse, then the crash.  Nothing is explained, ever.
+- The thing that flung the player here and crashed them was extremely far away: they were flung through what is basically an Iconian gate.  We do not define it, but that is how they got so far away and alone.
+- **Draft (Claudia):** as far as Union knows, the pilot went through something and never came out, which is why the backup was restored.
 - The attacker is never named in game.  It is an open slot: any player can plug in their own mystery ship.
 - Nathan's private headcanon may be the Black Fleet or the Ants from Errans Inter Astra.  Since this game is for Nathan, it does not need to match the other games.
 
