@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.74, 2026-11-10**
+**Concept v0.75, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -157,6 +157,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Heat and cold.
 - Food and sleep.
 - Sanity, light: some depression mood debuffs at most.  No insanity and no RimWorld-style mental breaks (nobody digs up a corpse).  You were once a Lancer; you can handle a little hardship.
+
+- **Plants and seeds (Nathan, 2026-11-10):** a plant analyzer tells what a plant is and who can eat it.  No free seeds, unlike RimWorld: seeds are found, planted, and grown.  That means a lot of hunting before the crops are running, which is why there is fauna people can eat.
+- **Draft (Claudia):** the analyzer is a M.U.L.E. or CompCon function, upgraded by repairs.  Unscanned plants are a gamble, like unidentified items in Caves of Qud.  It can also check salt for the seed crystal.
+- **Draft (Claudia):** seeds come from the plant itself, gathered at the right season, and some plants grow from cuttings or tubers instead.  Miss the harvest window and you wait a year, or three if a cold year comes between.
 
 ## Relationships
 

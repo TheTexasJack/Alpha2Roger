@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.32, 2026-11-10**
+**Mechanics v0.33, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -38,8 +38,9 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 17 | Paste food printer | Decided | Bare survival for the player and companions; limited feedstock, morale cost |
 | 18 | Native food processing | Decided | Mirror chemistry: native food must be processed |
 | 19 | Hunting | Decided | Big shaggy cold-adapted fauna with migrations; Terran game seeded by the settlers' terraforming is edible, native meat needs processing; Terran game near settled land (Draft) |
+| 20 | Farming | Decided | No free seeds; seeds are found, planted, and grown; Terran crops from rare seeds; growing takes full seasons; hunting carries the early game |
 | 20b | Gathering plants | Decided | Terran-edible plants for people and Terran animals, native plants for native animals; matters for animal farming and pets |
-| 20 | Farming | Decided | No free seeds; Terran crops from rare seeds; growing takes full seasons |
+| 20c | Plant analyzer | Decided | Identifies plants and who can eat them; M.U.L.E. or CompCon function, also checks salt for infection (Draft) |
 | 21 | Food preservation and stockpiling | Draft | Salt preserves food; stock a year of food before the cold year |
 | 22 | Shelter and walls | Decided | Walls for warmth and shelter, never a trivial defense |
 | 23 | Clothing layers | Draft | Visible on the peg sprite |
