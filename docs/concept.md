@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.57, 2026-11-10**
+**Concept v0.58, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -213,6 +213,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - The duplicate setup varies per run (for example a sympathetic backup, a backup whose life yours would wreck, or a failed restore where nobody claimed your name).
 - Reaching the spaceport is allowed at any time.  Once there, you cannot print anything and your ID is taken, so you start over.  That becomes a quest line.
 - Printers will not fabricate without a valid license, which is why you cannot simply print a way off planet.
+- The player will never meet anyone they knew previously.
+- **Draft (Claudia):** the rule is about meeting: letters from the other self across blinkspace still work, but the player never stands face to face with the duplicate or anyone else from the old life.
 
 ## The crash
 
