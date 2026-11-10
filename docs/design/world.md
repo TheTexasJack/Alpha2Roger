@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.49, 2026-11-10**
+**World v0.50, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -40,6 +40,18 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** consequences to design around: the cold year has no real growing season, so the camp must stockpile about a full year of food beforehand; -50 and colder makes exposure lethal fast, so shelter, heat, and clothing layers matter; long journeys during a cold year are effectively impossible.
 - The mechanism behind the three-year cycle: a gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Normal axial-tilt seasons happen in the other years.
 
+## The warning
+
+- A working weather sensor on the mech wreckage gives notice.  As things get colder, it warns that the winter will last months.
+- Like Subnautica: scripted computer voice lines, ElevenLabs style, explain the weather patterns of the planet the player just crashed on.
+- **Draft (Claudia):** repairing the mech's sensors extends the forecast, so the first repair buys warning time.
+- **Draft (Claudia):** the mech computer's voice doubles as the tutorial.  Subtitles are always on, with a log the player can reread.  The voice glitches and cuts out with damage and cleans up as systems are repaired, and late in a cold year it gets quieter as power runs low.  Because it is a fixed, hand-written set of lines generated once, it can come well before live NPC voices.
+- **Draft (Claudia):** the seed picks where in the three-year cycle the crash happens.  Crashing just before a cold year makes a brutal run.
+
+## Climate bands
+
+- Similar to Earth: warmest along the equator, colder toward the poles.
+
 ## Geography
 
 - The globe: candidate B, seed 2718, is canon.  Map: `docs/maps/verlassen_globe_v1.0.png` (generator `tools/globe_candidates.py`).  Its continents stretch across the globe, so in the cold year, with frozen straits, the whole planet can be traversed on foot.  Climate bands on the map are placeholders; cities, spaceport, and final impact sites are still to be placed.
@@ -51,6 +63,51 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** a cold planet shows more land than Earth (water locked in ice lowers sea level), about 50 to 60% ocean, with drier interiors (cold steppe and tundra, forests near coasts) and large permanent ice caps.
 - **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
+
+## Life
+
+- The cold is the big bad.  Nothing thrives in the cold year except small critters, fat bears, and various things that adapt.
+- Native life is alien.
+- A meteoric impact infection: something crystalline (the silicon idea) arrived by meteor.  This leans into the fantasy.
+- The infection is weaker in the third (cold) year, so the cold stays the main threat.
+- The infection is relevant to the player, but exists in only a few places on the globe.
+- Each run, a small random infection spawns somewhere on the map, a distance away from the player.  If the player crashes in a remote area far from the major sites, they still have to deal with the infection, just a small bit.
+- **Draft (Claudia):** the small spawn is placed by the run's seed, a few zones from the crash site (never adjacent), and stays small compared to the impact sites.
+- Native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
+- Big, shaggy, cold-adapted fauna (Bergmann's rule), with migrations as the temperatures change.  Nothing kaiju sized, no giant insects, no Ohmu-style creatures.  Mammoths and giant water creatures are about the largest (water's buoyancy allows whale-scale animals).  Flora is hardy (conifer-like forests, tundra scrub, lichens).
+- **Draft (Claudia):** animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
+- **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  Each infected place centers on an impact crater landmark; the infection wakes with the thaw after a cold year, and can infect native fauna.
+
+## Roads and bridges
+
+- A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
+- Small offshoots are random: random settlements in the wild, bandit camps, and similar may have paths.
+- Sea roads: in the cold year the sea ice opens new routes.  Suddenly, getting from Setareh Minato to Ikh Gawa is a land trip.
+- **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads.  In normal years, crossings like Setareh Minato to Ikh Gawa mean a boat or a long trek around the coast.
+
+## Population
+
+- About 10 million people.  Enough for cities, with plenty of hundreds of miles of nothing.
+- **Draft (Claudia):** distribution: one big spaceport city of a couple million (the only real off-world contact); 3 to 5 regional cities of a few hundred thousand each, linked by long roads or rail; towns and outposts (farming, mining, waystations); small, scattered clans and homesteaders in the deep wilderness; most of the planet empty.  The cold-year cycle pushes settlement toward the warmer bands.
+- In the third (cold) year, the cities become very Frostpunk.
+- **Draft (Claudia):** cold-year cities huddle around central heat plants, with districts ranked by distance to the heat; cold-year laws bring rationing, curfews, and work quotas; refugees pour in from the wilds.  With no ID there is no ration card, heat allocation, or work permit.  Arriving in a normal year means a gritty but open city; arriving in a cold year means being an unwanted refugee, though the chaos means fewer people checking papers.
+
+## Peoples
+
+- History: in Lancer lore, Verlassen was settled by ships sent in the initial outward push from Cradle.  Settlement is old, which fits the archaic languages and the long drift into 563 languages.
+- People have been on Verlassen longer than Earth has recorded history (over about 5,000 years).  Names and languages have drifted and blended so far that they no longer fit any original grammar.
+- KTB languages are among those spoken on the planet.
+- Primary culture: Japanese (names romanized), with influence from all the major cultures.  An easy feudal concept for how power works.
+- **Draft (Claudia):** feudal lords hold the heat sources; villages pay tribute for warmth.  This meshes with the KTB's baronial style.
+- The settlers came from the same places as the Karrakin Trade Baronies.
+- The KTB is the closest trading location, so there is some influence from KTB proper.
+- **Draft (Claudia):** the colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
+- People are of various races, and they do not need to be human.  We make them as we pick.
+- In Lancer lore aliens exist, but SecComm holds a humans-first stance; there is a whole thing about it.  We have the option to expand on that.
+- Not a lot of animalistic people.
+- Moth people exist in Lancer, but probably not on a cold planet.
+- Genetic (bioengineered) people could be cool, like Alex's goat people, who are only slightly goatish.  We can science some hybrids.
+- **Draft (Claudia):** goat traits suit a cold, mountainous world, so a goatfolk line fits Verlassen.  Any goatfolk here are a separate engineered line from the Halas family in Errans Inter Astra.
 
 ## Technology and NHPs
 
@@ -64,10 +121,6 @@ This file holds the world facts that become the planet data file (A2R-101).
 - In Lancer, NHPs are an everyday thing.  On Verlassen they are mythical, almost wizards.
 - The mech's computer is a CompCon (not an NHP): a particularly smart CompCon.
 - **Draft (Claudia):** the player's knowledge of NHPs, RA, and paracausal science is outsider knowledge nobody local shares.
-
-## Climate bands
-
-- Similar to Earth: warmest along the equator, colder toward the poles.
 
 ## Fixed places: placement criteria
 
@@ -117,6 +170,20 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 
 - Person names follow the region's word order: regional given name plus Japanese family name, flipped to Japanese given name plus regional family name in the Gaelic east.
 
+## Regions and second cultures
+
+Japanese is the base everywhere.  Each region's second culture flavors its names, art, clothing, and culture.  Each region keeps its own word order in hybrid names.
+
+| Region | Second culture | Word order | Places |
+|---|---|---|---|
+| Spaceport coast | Persian (KTB) | Persian first | Setareh Minato, Darya Kako |
+| West continent north | German | German first | Warmes Tani |
+| Southern steppe belt | Mongolian | Mongolian first | Ikh Gawa, Khaluun Onsen, Davs Mizuumi |
+| Central-north island | Slavic | Slavic first | Svetla Hama, Zimna Toride |
+| The empty east | Gaelic (Irish) | Japanese first | Shio Loch, Kawa Fada |
+
+- The point is easy generation: the region tells the generator which culture and word order to use.
+
 ## Government
 
 - There is no central global government.  Each of the ten places is the capital of its region.
@@ -157,84 +224,19 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 4. Zimna Toride is our version of The Wall, or the battles in Lord of the Rings that no one knows about: a fight goes on there that others only hear rumors of.  The other two impact sites (T3, J10) are usually too cold to be an issue, sitting close to the frozen borders.
 - **Draft (Claudia):** planet-wide tensions: heat holders (lords) versus traders (mayors), sharpest in cold years; slavers versus abolitionists over work camps; locals versus outsiders (KTB traders, Union rumors, the player).  Cold-year raids target stored food and salt, and refugee waves head for the heat cities.
 
-## Regions and second cultures
-
-Japanese is the base everywhere.  Each region's second culture flavors its names, art, clothing, and culture.  Each region keeps its own word order in hybrid names.
-
-| Region | Second culture | Word order | Places |
-|---|---|---|---|
-| Spaceport coast | Persian (KTB) | Persian first | Setareh Minato, Darya Kako |
-| West continent north | German | German first | Warmes Tani |
-| Southern steppe belt | Mongolian | Mongolian first | Ikh Gawa, Khaluun Onsen, Davs Mizuumi |
-| Central-north island | Slavic | Slavic first | Svetla Hama, Zimna Toride |
-| The empty east | Gaelic (Irish) | Japanese first | Shio Loch, Kawa Fada |
-
-- The point is easy generation: the region tells the generator which culture and word order to use.
-
-## Roads and bridges
-
-- A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
-- Small offshoots are random: random settlements in the wild, bandit camps, and similar may have paths.
-- Sea roads: in the cold year the sea ice opens new routes.  Suddenly, getting from Setareh Minato to Ikh Gawa is a land trip.
-- **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads.  In normal years, crossings like Setareh Minato to Ikh Gawa mean a boat or a long trek around the coast.
-
 ## Local life around the player
 
 - When local maps are created, a few small settlements and a few enemy locations are placed near the player, RimWorld style, so the area has some life.
 - The more remote the player is, the less they are interacted with.  A crash at R5 or X7 means running into no one.
 - **Draft (Claudia):** local settlement and enemy density scales with distance from the nearest fixed place, placed by the run's seed.  The small random infection spawn still appears even in the most remote starts.
 
-## Peoples
-
-- History: in Lancer lore, Verlassen was settled by ships sent in the initial outward push from Cradle.  Settlement is old, which fits the archaic languages and the long drift into 563 languages.
-- People have been on Verlassen longer than Earth has recorded history (over about 5,000 years).  Names and languages have drifted and blended so far that they no longer fit any original grammar.
-- KTB languages are among those spoken on the planet.
-- Primary culture: Japanese (names romanized), with influence from all the major cultures.  An easy feudal concept for how power works.
-- **Draft (Claudia):** feudal lords hold the heat sources; villages pay tribute for warmth.  This meshes with the KTB's baronial style.
-- The settlers came from the same places as the Karrakin Trade Baronies.
-- The KTB is the closest trading location, so there is some influence from KTB proper.
-- **Draft (Claudia):** the colony drifted out of contact for ages, which is why Union is only a rumor here.  The name Verlassen may come from the first settlers, once the ships stopped coming.
-- People are of various races, and they do not need to be human.  We make them as we pick.
-- In Lancer lore aliens exist, but SecComm holds a humans-first stance; there is a whole thing about it.  We have the option to expand on that.
-- Not a lot of animalistic people.
-- Moth people exist in Lancer, but probably not on a cold planet.
-- Genetic (bioengineered) people could be cool, like Alex's goat people, who are only slightly goatish.  We can science some hybrids.
-- **Draft (Claudia):** goat traits suit a cold, mountainous world, so a goatfolk line fits Verlassen.  Any goatfolk here are a separate engineered line from the Halas family in Errans Inter Astra.
-
-## Population
-
-- About 10 million people.  Enough for cities, with plenty of hundreds of miles of nothing.
-- **Draft (Claudia):** distribution: one big spaceport city of a couple million (the only real off-world contact); 3 to 5 regional cities of a few hundred thousand each, linked by long roads or rail; towns and outposts (farming, mining, waystations); small, scattered clans and homesteaders in the deep wilderness; most of the planet empty.  The cold-year cycle pushes settlement toward the warmer bands.
-- In the third (cold) year, the cities become very Frostpunk.
-- **Draft (Claudia):** cold-year cities huddle around central heat plants, with districts ranked by distance to the heat; cold-year laws bring rationing, curfews, and work quotas; refugees pour in from the wilds.  With no ID there is no ration card, heat allocation, or work permit.  Arriving in a normal year means a gritty but open city; arriving in a cold year means being an unwanted refugee, though the chaos means fewer people checking papers.
-
-## Life
-
-- The cold is the big bad.  Nothing thrives in the cold year except small critters, fat bears, and various things that adapt.
-- Native life is alien.
-- A meteoric impact infection: something crystalline (the silicon idea) arrived by meteor.  This leans into the fantasy.
-- The infection is weaker in the third (cold) year, so the cold stays the main threat.
-- The infection is relevant to the player, but exists in only a few places on the globe.
-- Each run, a small random infection spawns somewhere on the map, a distance away from the player.  If the player crashes in a remote area far from the major sites, they still have to deal with the infection, just a small bit.
-- **Draft (Claudia):** the small spawn is placed by the run's seed, a few zones from the crash site (never adjacent), and stays small compared to the impact sites.
-- Native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
-- Big, shaggy, cold-adapted fauna (Bergmann's rule), with migrations as the temperatures change.  Nothing kaiju sized, no giant insects, no Ohmu-style creatures.  Mammoths and giant water creatures are about the largest (water's buoyancy allows whale-scale animals).  Flora is hardy (conifer-like forests, tundra scrub, lichens).
-- **Draft (Claudia):** animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
-- **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  Each infected place centers on an impact crater landmark; the infection wakes with the thaw after a cold year, and can infect native fauna.
-
-## The warning
-
-- A working weather sensor on the mech wreckage gives notice.  As things get colder, it warns that the winter will last months.
-- Like Subnautica: scripted computer voice lines, ElevenLabs style, explain the weather patterns of the planet the player just crashed on.
-- **Draft (Claudia):** repairing the mech's sensors extends the forecast, so the first repair buys warning time.
-- **Draft (Claudia):** the mech computer's voice doubles as the tutorial.  Subtitles are always on, with a log the player can reread.  The voice glitches and cuts out with damage and cleans up as systems are repaired, and late in a cold year it gets quieter as power runs low.  Because it is a fixed, hand-written set of lines generated once, it can come well before live NPC voices.
-- **Draft (Claudia):** the seed picks where in the three-year cycle the crash happens.  Crashing just before a cold year makes a brutal run.
-
 ## Open
 
 - Detailed biomes per region.
-- Fixed places: cities, spaceport, landmarks.
-- Which peoples live where.
+- Currency names and exchange rates.
+- The two brothers' names, and where the fleeing brother came from.
+- Who runs the region's single space station.
+- Final road network on the globe.
 
 ## Lancer canon notes (alignment reference)
 

@@ -1,8 +1,8 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.19, 2026-11-10**
+**Mechanics v0.20, 2026-11-10**
 
-Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
+Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
 Status: **Decided** (Nathan's call), **Draft** (Claudia's suggestion, not yet approved), **Open** (needs a decision), **Later** (parked on purpose).
 Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on the ones before it.

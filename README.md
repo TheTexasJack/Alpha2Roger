@@ -1,10 +1,23 @@
 # Alpha2-Roger
 
-**README v0.2, 2026-11-10**
+**README v0.3, 2026-11-10**
 
 A Lancer-adjacent survival RPG.  Your mech went down on a rim world far beyond Union's reach.  Survive the wilderness, cross hundreds of miles to the spaceport, and discover that someone already went home in your place.
 
-Status: concept stage.  See `docs/concept.md` for the design decisions so far.
+Status: Stage 0 (concept) closed; building starts next.  See `STATUS.md`.
+
+## Where things are
+
+- `STATUS.md`: where the project stands and what is next.
+- `docs/design/concept.md`: the game design.
+- `docs/design/world.md`: the planet Verlassen.
+- `docs/design/mechanics.md`: every mechanic, in build order.
+- `docs/plan/Alpha2Roger_Project_Plan.md`: stages, tasks, and gates.
+- `docs/maps/`, `docs/art/`: maps and art.
+- `tools/`: world-building tools and their data.
+- `VERSIONS.md`: the current version of everything.
+
+AI collaborators: read `AGENTS.md` before changing anything.
 
 ## Core pillars
 

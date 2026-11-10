@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.21, 2026-11-10**
+**Plan v0.22, 2026-11-10**
 
 ## What this project is
 
@@ -27,10 +27,10 @@ Goal: settle the decisions that everything else is built on.
 | A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  Older style with modern color selection |
 | A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
 | A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
-| A2R-006 | Planet basics | Decided | All recorded in `docs/world.md`: Verlassen (Kepler-64432p), 5016u, between Cinder Crown and the KTB; Sun-like star, 14-month year, cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
-| A2R-007 | Local currency | In progress | Five regional currencies grouped by place (see `docs/world.md`); Manna off-world.  Open: currency names, exchange rates |
+| A2R-006 | Planet basics | Decided | All recorded in `docs/design/world.md`: Verlassen (Kepler-64432p), 5016u, between Cinder Crown and the KTB; Sun-like star, 14-month year, cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
+| A2R-007 | Local currency | In progress | Five regional currencies grouped by place (see `docs/design/world.md`); Manna off-world.  Open: currency names, exchange rates |
 
-**Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/concept.md`.  **Passed 2026-11-10: Stage 0 closed.**
+**Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/design/concept.md`.  **Passed 2026-11-10: Stage 0 closed.**
 
 ## Stage S: Workstation setup (guided)
 
@@ -106,7 +106,7 @@ Goal: the core loop.
 - The journey to the city
 - The city, the spaceport, and the identity questline (inbox UI)
 - The franken-mech and recognition
-- Town banks: currency exchange, storage, loans (see Currency in `docs/world.md`).
+- Town banks: currency exchange, storage, loans (see Currency in `docs/design/world.md`).
 - In-game credits screen carrying the Lancer Third Party License requirements: the acknowledgement, "Lancer is copyright Massif Press", thanks to Massif Press, and a "Powered by Lancer" mark.  Required in the final product.
 - Random settlement name list: about 200 names for small local settlements, built with the hybrid naming rule (Japanese base plus the region's second culture), kept as a data file.  Depends on the regional culture assignments.
 - NPC content lists, kept as data files: backstories, traits, orientations, speech styles.  These feed NPC creation and the dialogue model.
@@ -117,6 +117,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.22, 2026-11-10 (Claudia): repo cleanup; plan moved to `docs/plan/`, design docs to `docs/design/`; `AGENTS.md` and `STATUS.md` added.
 - Plan v0.21, 2026-11-10 (Nathan): town banks added to later stages.
 - Plan v0.20, 2026-11-10 (Nathan): A2R-007 in progress: five regional currencies grouped.
 - Plan v0.19, 2026-11-10 (Nathan): A2R-003 and A2R-006 decided; Stage 0 closed.
@@ -130,7 +131,7 @@ Goal: the core loop.
 - Plan v0.11, 2026-11-09 (Nathan): globe approach approved; candidate generator and map saved to the repo.  Naming rule recorded in concept v0.21.
 - Plan v0.10, 2026-11-09 (Nathan): planet physical details decided.
 - Plan v0.9, 2026-11-09 (Nathan): planet named Kepler-64432p, locally Verlassen; location set.
-- Plan v0.8, 2026-11-09 (Nathan): A2R-006 in progress; first world facts in new `docs/world.md` v0.1.
+- Plan v0.8, 2026-11-09 (Nathan): A2R-006 in progress; first world facts in new `docs/design/world.md` v0.1.
 - Plan v0.7, 2026-11-09 (Nathan): backstories depend on the world being established first.
 - Plan v0.6, 2026-11-09 (Nathan): NPC content lists (backstory, traits, orientation, speech style) and much-later NPC voices added to later stages.
 - Plan v0.5, 2026-11-09 (Nathan): local AI NPC dialogue noted for after the base game, during NPC and interaction work.  Headless sim testing added as a draft.
