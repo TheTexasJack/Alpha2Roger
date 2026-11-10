@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.34, 2026-11-10**
+**Concept v0.35, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -56,6 +56,8 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Not every path is golden.  Some are hard, bad choices, full of depressed and hurting people, only to be met with the realization that all you were was taken from you and you have to start over.
 - Feeling heroic only works because the player could have chosen another path and did not.  That means the other path is darker, and we have to make some dark decisions.
 - Hard stops: no skinning people, no baby grinders.
+- A blanket ban on buying people was a fault: if the camp holding the NPC has 20 guards with massive lasers and the player has a knife but a lot of money, buying them may be the only way to free them.
+- **Draft (Claudia):** the test for a hard stop: it belongs only on acts that can never serve a heroic purpose.  Everything else is judged by purpose and consequence.
 - Approaches differ.  To rescue an NPC, the player might slaughter the entire camp (and maybe did not need to), sneak in and get them out, or, because of a decision from earlier, buy the NPC and then free them.
 - Maybe the NPC never wanted to be free in the first place, like something from Shield Hero.
 - **Draft (Claudia):** heroic options are always present in every run and never forced; the world reacts to what the player chooses, and the ending milestones reflect it.  The world itself still never glorifies cruelty.
