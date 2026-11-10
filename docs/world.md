@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.48, 2026-11-10**
+**World v0.49, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -61,6 +61,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 - It happened once, recently (the spaceport NHPs are new), when a lord tried to take the port.  Eyewitnesses are still around, the story is already legend, and no one has tried since.  To locals it is like seeing Son Goku or Dr. Manhattan: "Superman is real, and he's in Setareh Minato."
 - **Draft (Claudia):** this makes the spaceport neutral, untouchable ground, and is one reason the Warmes Tani feud stays cultural and political.
 - Locals know nothing about RA; the main character would.
+- In Lancer, NHPs are an everyday thing.  On Verlassen they are mythical, almost wizards.
 - The mech's computer is a CompCon (not an NHP): a particularly smart CompCon.
 - **Draft (Claudia):** the player's knowledge of NHPs, RA, and paracausal science is outsider knowledge nobody local shares.
 
