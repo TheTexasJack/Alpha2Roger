@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.33, 2026-11-10**
+**Mechanics v0.34, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -152,6 +152,8 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 87b | Crystal hive mind | Later | Sidelined; a possible future expansion, not part of the base game |
 | 87 | Expansion planets | Later | Return to the old wreck after a few expansions |
 | 88 | Headless sim testing | Draft | Seed sweeps and balance runs |
+| 93 | Forced truce | Later | On hold.  Engine mechanic; criteria established later.  Idea: wars pause in the cold year, restart with the thaw |
+| 94 | Downed flier event | Later | Future seed-spawned random event; resources, someone to save, faction gains |
 
 ## Always on
 

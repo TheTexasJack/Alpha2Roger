@@ -1,6 +1,6 @@
 # Versions
 
-**VERSIONS v1.21, 2026-11-10**
+**VERSIONS v1.22, 2026-11-10**
 
 Current version of every deliverable.  Update the row whenever a file changes.  Run `python3 tools/version_check.py` to confirm every row matches its file.
 
@@ -8,17 +8,17 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| VERSIONS.md | v1.21 | 2026-11-10 | This table |
+| VERSIONS.md | v1.22 | 2026-11-10 | This table |
 | README.md | v0.4 | 2026-11-10 | Pitch, pillars, repo map, license credits |
 | AGENTS.md | v0.3 | 2026-11-10 | Rules for AI collaborators: lanes, conventions, versions, diagnostics |
 | CLAUDE.md | v0.1 | 2026-11-10 | Pointer to AGENTS.md for Claude Code |
-| STATUS.md | v0.7 | 2026-11-10 | Where things stand and next steps |
+| STATUS.md | v0.8 | 2026-11-10 | Where things stand and next steps |
 | LICENSE.md | v0.2 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms |
 | .gitignore | v0.2 | 2026-11-10 | Ignores caches, Godot imports, diagnostics/ |
 | docs/design/concept.md | v0.75 | 2026-11-10 | Game design |
-| docs/design/world.md | v0.61 | 2026-11-10 | The planet Verlassen |
-| docs/design/mechanics.md | v0.33 | 2026-11-10 | Master mechanics checklist by build tier |
-| docs/plan/Alpha2Roger_Project_Plan.md | v0.23 | 2026-11-10 | Stages, task IDs, gates, changelog |
+| docs/design/world.md | v0.62 | 2026-11-10 | The planet Verlassen |
+| docs/design/mechanics.md | v0.34 | 2026-11-10 | Master mechanics checklist by build tier |
+| docs/plan/Alpha2Roger_Project_Plan.md | v0.24 | 2026-11-10 | Stages, task IDs, gates, changelog |
 
 ## Tools and data
 
@@ -32,7 +32,7 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 | tools/version_check.py | v0.1 | 2026-11-10 | Checks every file has a version and VERSIONS.md matches |
 | tools/system_report.py | v0.1 | 2026-11-10 | One-command diagnostic report for Claudia |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| tools/data/planet_verlassen.json | v0.1 | 2026-11-10 | Planet data file the engine reads: seed, places, landmarks, regions, currencies (A2R-101, in review) |
+| tools/data/planet_verlassen.json | v0.1 | 2026-11-10 | Planet data file the engine reads: seed, places, landmarks, regions, currencies (A2R-101, locked) |
 | tools/data/names_v0.1.json | v0.1 | 2026-11-09 | Name lists per culture, region rules, blacklist |
 
 ## Maps and art

@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.61, 2026-11-10**
+**World v0.62, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -246,11 +246,13 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 
 - The long distances between rivals are good.  Feuds run at continent scale, like the wars in Nausicaa of the Valley of the Wind: airplanes, missiles, and other long-range attacks make them feasible.
 - Some areas are low tech, but this is the far, far future.  Fliers, droids, and mutants all exist.  The planet was terraformed, and these people live thousands of years after that.
-- Cold-year grounding: at -50 and colder, fuel gels, aircraft ice up, and visibility fails, so air fleets mostly sit out the cold year.
+- **Draft (Claudia), awaiting Nathan:** cold-year grounding: at -50 and colder, fuel gels, aircraft ice up, and visibility fails, so air fleets mostly sit out the cold year.
 - Remote crashes: downed fliers and wreckage out in the deep wild are places for the player to find resources, maybe someone to save, and potential faction increases.
-- **Draft (Claudia):** droids are ordinary machines at CompCon level or below, so they fit "almost no NHPs."  Mutants trace back to the terraforming, the infection, or old bioengineering, case by case.
-- **Draft (Claudia):** the cold-year grounding works as a forced truce: wars pause in the cold year and restart with the thaw, the same time the infection wakes.
-- **Draft (Claudia):** the run's seed can place a downed flier a few zones from a remote crash.  The survivor belongs to one of the feuding powers, so saving them is an early faction hook, and the war shows up even where no one lives.
+- Droids are dumber than a CompCon.  The M.U.L.E. is smarter than a standard CompCon, and very smart compared to most common droids.
+- **Draft (Claudia):** mutants trace back to the terraforming, the infection, or old bioengineering, case by case.
+- Forced truce: on hold.  It will be an engine mechanic, with criteria established later (mechanic #93).  The idea on the table: wars pause in the cold year and restart with the thaw, the same time the infection wakes.
+- Downed flier: a future seed-spawned event that can happen, and it is random (mechanic #94).
+- **Draft (Claudia):** the survivor belongs to one of the feuding powers, so saving them is a faction hook, and the war shows up even where no one lives.
 
 ## Local life around the player
 

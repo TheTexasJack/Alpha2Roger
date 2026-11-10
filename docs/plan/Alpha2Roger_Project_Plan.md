@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.23, 2026-11-10**
+**Plan v0.24, 2026-11-10**
 
 ## What this project is
 
@@ -56,8 +56,8 @@ Goal: prove the seeded map works before any graphics exist.
 
 | ID | Task | Status | Notes |
 |---|---|---|---|
-| A2R-101 | Planet data file | In review | Fixed cities, landmarks, biome regions, route distance ranges.  Data only, no engine code.  v0.1 at `tools/data/planet_verlassen.json` (built by `tools/planet_pack.py`): seed, ten places, impact sites, regions, cultures, currencies, straight-line distances.  Biomes and route distance ranges stay open |
-| A2R-102 | Generator spec | Not started | Inputs (planet file, seed) and outputs (zone graph).  Written and approved before code |
+| A2R-101 | Planet data file | Done | Locked by Nathan 2026-11-10 at v0.1: `tools/data/planet_verlassen.json` (built by `tools/planet_pack.py`), with seed, ten places, impact sites, regions, cultures, currencies, straight-line distances.  Data only, no engine code.  Fixed file name, version inside.  Biome regions and route distance ranges moved to A2R-102 |
+| A2R-102 | Generator spec | Not started | Inputs (planet file, seed) and outputs (zone graph).  Also defines biome regions and route distance ranges (moved from A2R-101).  Written and approved before code |
 | A2R-103 | Generator prototype | Not started | Built in Godot, outputs a readable text map, for example "Crash Site > Spore Thicket > Collapsed Arcology".  Doubles as a first Godot lesson (**Draft (Claudia)**) |
 | A2R-104 | Determinism test | Not started | Same seed gives the same map every time; different seeds give different maps |
 
@@ -117,6 +117,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.24, 2026-11-10 (Nathan): A2R-101 locked and done; biome regions and route distance ranges moved to A2R-102.
 - Plan v0.23, 2026-11-10 (Claudia): A2R-101 in review; planet data file v0.1 packed.
 - Plan v0.22, 2026-11-10 (Claudia): repo cleanup; plan moved to `docs/plan/`, design docs to `docs/design/`; `AGENTS.md` and `STATUS.md` added.
 - Plan v0.21, 2026-11-10 (Nathan): town banks added to later stages.

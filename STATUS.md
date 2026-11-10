@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.7, 2026-11-10**
+**STATUS v0.8, 2026-11-10**
 
 ## Where things stand
 
@@ -11,8 +11,8 @@
 
 ## Next steps (Nathan picks the order)
 
-1. **Stage 1, A2R-101 (in review):** Nathan reviews `tools/data/planet_verlassen.json` v0.1 and locks it, or sends changes.
-2. **Stage 1, A2R-102:** write the zone generator spec for Nathan's review before any code.
+1. **Stage 1, A2R-102:** write the zone generator spec for Nathan's review before any code, including biome regions and route distance ranges.
+2. **Pending on Nathan:** cold-year grounding (world.md, still a draft).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), trade (#70), currency names and rates, what the infection does.
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): A2R-101 locked and done at planet data v0.1.  Nathan: droids are dumber than a CompCon, the M.U.L.E. is smarter than a standard CompCon; forced truce on hold as engine mechanic #93; downed flier is random seed-spawned event #94.  Cold-year grounding back to draft until discussed.
 
 - 2026-11-10 (Claudia): world.md v0.61.  Nathan: a remote start can be years before the player reaches a main settlement.  Distances from habitable land to the nearest place measured on the canon globe and recorded.
 
