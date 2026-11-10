@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.14, 2026-11-10**
+**Mechanics v0.15, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -104,7 +104,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 57b | Tracked enemy groups | Decided | Persistent headcounts; no endless waves; groups learn (after 12 of them die, they stop going there).  Finite numbers and revenge exceptions (Draft) |
 | 58 | Infection | Decided | Three impact sites plus a small random spawn per run; weaker in the cold year; mechanic to design |
 | 59 | Regions and control | Decided | Ten capitals, no global government |
-| 60 | Factions-lite | Decided | Not everything is a faction; no Qud reputation web |
+| 60 | Factions and reputation | Decided | Faction-based reputation, no Qud web; bandits are factionless (the factionless faction) but tracked per group (#57b) |
 | 61 | Town governments | Decided | Lords or mayors, councils, judiciary |
 | 62 | Cold-year city laws | Draft | Frostpunk: rationing, curfews, heat allocation |
 | 63 | Work camps | Decided | Maybe: profit or labor; NPCs justify them; no sugar coating |

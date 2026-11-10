@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.55, 2026-11-10**
+**Concept v0.56, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -141,6 +141,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Not a full community: 5 or 6 companions.
 - Enemy groups are tracked.  No endless waves of enemies as in RimWorld: groups learn.  After 12 of their people die, they do not go there.
 - **Draft (Claudia):** groups remember losses and avoid the player's area as its reputation grows; headcounts are finite, so a bled group must recruit or rebuild before raiding again; most groups back off, but a proud or desperate one may return for revenge, or out of hunger in a cold year.
+- Reputation is faction based, never Qud based.
+- Bandits have no faction: the factionless faction.
+- **Draft (Claudia):** the real powers (capitals, regions, settlements) each hold one reputation with the player.  Bandit groups hold no reputation, but each group still keeps its own headcount and memory of losses.
 - Not everything is a faction.  No Qud-style reputation web where plants turn hostile because someone wronged a deer.
 - Walls are for warmth and shelter.  Threats are mostly environmental.
 - Early food: a food printer in the mech.  It makes paste: just enough to survive.  It works for the companions too, and it is still just paste.  Eating only paste costs mood or morale, and its limited feedstock slowly pushes the camp toward hunting, trading, and the first harvest.  It is the one printer that works for you, since paste needs no license.
