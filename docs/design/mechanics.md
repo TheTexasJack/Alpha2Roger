@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.23, 2026-11-10**
+**Mechanics v0.24, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -85,6 +85,8 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
 | 47 | Turn-based combat | Decided | Combat math on the grid |
+| 47b | Damage types | Decided | Lean on Lancer; Kinetic, Energy, Explosive, Burn, with resistance halving (Draft) |
+| 47c | Range and Line | Decided | Lancer attack patterns; Range needs line of sight, Line stops at walls (Draft) |
 | 48 | Weapon feel | Decided | Snappy effects, short shake moments only, speed-up option |
 | 49 | Capture | Decided | Non-lethal tools (Draft) |
 | 50 | Coercion | Decided | Player can coerce NPCs |

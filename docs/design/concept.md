@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.64, 2026-11-10**
+**Concept v0.65, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -263,6 +263,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 ## Lancer vocabulary
 
 - Heat, HASE, Structure, and Stress stay out until mechs come into play, but are referenced when needed to keep the lore intact.
+- **Damage types (Nathan, 2026-11-10):** lean on Lancer's damage types.
+  - **Draft (Claudia):** Kinetic (bullets, blades, claws, falls), Energy (lasers, the cutting beam, electrical), and Explosive (grenades, mines), plus Burn as damage that keeps ticking each turn until put out.  Heat stays out as a damage type under the rule above.  Creatures, clothing, and cover can resist a type, which halves it, so the type matters.
+- **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
+  - **Draft (Claudia):** Range hits one target within that many tiles, and needs line of sight.  Line hits every target along a straight line of that many tiles, stopping at the first wall.  Lancer's other patterns (Threat, Cone, Blast, Burst) wait until a weapon needs one.
 
 ## Naming
 
