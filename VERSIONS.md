@@ -6,7 +6,7 @@
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
 | docs/concept.md | v0.41 | 2026-11-10 | Modern color selection; work camp capture |
 | docs/Alpha2Roger_Project_Plan.md | v0.21 | 2026-11-10 | Town banks in later stages |
-| docs/world.md | v0.39 | 2026-11-10 | Banks in towns |
+| docs/world.md | v0.40 | 2026-11-10 | Conflicts |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
 | docs/maps/verlassen_globe_candidates_v0.3.1.png | v0.3.1 | 2026-11-09 | Four candidate globes (seeds 1042, 2718, 5016, 64432) |
 | docs/maps/verlassen_globe_v1.0.png | v1.0 | 2026-11-09 | Canonical globe, seed 2718 |

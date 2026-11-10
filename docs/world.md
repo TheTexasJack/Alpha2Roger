@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.39, 2026-11-10**
+**World v0.40, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -142,6 +142,15 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 - Towns have banks.
 - **Draft (Claudia):** banks exchange currencies for a cut, offer safe storage away from camp raids, and make loans; loan sharks offer a darker, no-questions version.  A real bank needs ID, so early on the player relies on cash, barter, wilderness caches, or a shady back-room bank.  Opening a first real account is a quiet milestone in the identity questline.
 - **Draft (Claudia):** the engine tracks one hidden value unit; each currency is a display name plus an exchange rate in a data file, so the code stays simple.  Barter and commodities work everywhere, with salt as the closest thing to a universal currency (the word salary traces back to salt).  Money changers in each city convert currencies and take a cut.  Rates shift with the world: in a cold year, currencies backed by heat-holding lords rise and trade-town currencies fall.
+
+## Conflicts
+
+1. Warmes Tani versus the spaceport mayors (Setareh Minato, Darya Kako): a cultural and political war, never a physical one.  The spaceport area is where most people live, and people do not live in a war-torn area.
+2. Khaluun Onsen versus Ikh Gawa: two Mongolian heat lords with different currencies, fighting over the steppe and the salt road to Davs Mizuumi.  Whoever controls salt controls the cold-year food supply.
+3. Shio Loch and Kawa Fada: the old-fashioned two brothers trope.
+   - Note: their notable people (Akane Keane, Hina Rafferty) carry names usually given to women and different family names.  **Draft (Claudia):** either make it two sisters, or have the towns founded by two brothers long ago with today's leaders inheriting the feud (which would also explain why Kawa Fada uses Shio Loch's currency).
+4. Zimna Toride is our version of The Wall, or the battles in Lord of the Rings that no one knows about: a fight goes on there that others only hear rumors of.  The other two impact sites (T3, J10) are usually too cold to be an issue, sitting close to the frozen borders.
+- **Draft (Claudia):** planet-wide tensions: heat holders (lords) versus traders (mayors), sharpest in cold years; slavers versus abolitionists over work camps; locals versus outsiders (KTB traders, Union rumors, the player).  Cold-year raids target stored food and salt, and refugee waves head for the heat cities.
 
 ## Regions and second cultures
 
