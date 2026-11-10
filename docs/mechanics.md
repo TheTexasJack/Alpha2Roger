@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.3, 2026-11-10**
+**Mechanics v0.4, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -83,6 +83,8 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 50 | Coercion | Decided | Player can coerce NPCs |
 | 51 | Prisoner fates | Decided | Free, kill, or convert; no slave labor |
 | 52 | Prisoners turning | Decided | Unrescued prisoners may join their captors |
+| 52b | Released prisoners return | Decided | A prisoner let go might show up later |
+| 52c | Injuries | Decided | No limb mechanic; general wounds and conditions (Draft) |
 | 53 | Player capture instead of death | Decided | Kenshi style: wake up in the camp's prison; escape play (Draft) |
 | 54 | Death | Decided | The cold and the wild kill for real |
 | 55 | Succession | Decided | Years pass; a random person, such as a lost 16-year-old, finds the M.U.L.E.; new playthrough (adult start, Draft).  Anyone who left the camp is first in line |
