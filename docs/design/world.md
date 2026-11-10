@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.59, 2026-11-10**
+**World v0.60, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -239,6 +239,16 @@ Five regional currencies, grouped by place (names and exchange rates still open)
    - **Draft (Claudia):** the fleeing brother brought his home town's coin, which is why Kawa Fada uses Shio Loch's currency.
 4. Zimna Toride is our version of The Wall, or the battles in Lord of the Rings that no one knows about: a fight goes on there that others only hear rumors of.  The other two impact sites (T3, J10) are usually too cold to be an issue, sitting close to the frozen borders.
 - **Draft (Claudia):** planet-wide tensions: heat holders (lords) versus traders (mayors), sharpest in cold years; slavers versus abolitionists over work camps; locals versus outsiders (KTB traders, Union rumors, the player).  Cold-year raids target stored food and salt, and refugee waves head for the heat cities.
+
+## War at continent scale (Nathan, 2026-11-10)
+
+- The long distances between rivals are good.  Feuds run at continent scale, like the wars in Nausicaa of the Valley of the Wind: airplanes, missiles, and other long-range attacks make them feasible.
+- Some areas are low tech, but this is the far, far future.  Fliers, droids, and mutants all exist.  The planet was terraformed, and these people live thousands of years after that.
+- Cold-year grounding: at -50 and colder, fuel gels, aircraft ice up, and visibility fails, so air fleets mostly sit out the cold year.
+- Remote crashes: downed fliers and wreckage out in the deep wild are places for the player to find resources, maybe someone to save, and potential faction increases.
+- **Draft (Claudia):** droids are ordinary machines at CompCon level or below, so they fit "almost no NHPs."  Mutants trace back to the terraforming, the infection, or old bioengineering, case by case.
+- **Draft (Claudia):** the cold-year grounding works as a forced truce: wars pause in the cold year and restart with the thaw, the same time the infection wakes.
+- **Draft (Claudia):** the run's seed can place a downed flier a few zones from a remote crash.  The survivor belongs to one of the feuding powers, so saving them is an early faction hook, and the war shows up even where no one lives.
 
 ## Local life around the player
 
