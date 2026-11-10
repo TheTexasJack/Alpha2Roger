@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.61, 2026-11-10**
+**Concept v0.62, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -208,7 +208,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 ## The M.U.L.E.
 
-- M.U.L.E.: Multimodal Utility Language Entity.  Based on Nathan's hand-crafted miniature (later variants adjusted with Mara); references in `docs/art/mule/`.
+- M.U.L.E.: Multimodal Utility Language Entity.  Based on Nathan's hand-crafted miniature (later variants adjusted with Mara); references in `assets/art/mule/`.
 - The CompCon assumes the M.U.L.E. early on.  It follows the player as a utility workhorse.  Not big enough to ride.
 - Maybe an early second fighter, defending while the player prepares.
 - No need to go back to the mech every time to talk to the CompCon.

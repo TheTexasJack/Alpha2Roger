@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.50, 2026-11-10**
+**World v0.51, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -54,7 +54,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## Geography
 
-- The globe: candidate B, seed 2718, is canon.  Map: `docs/maps/verlassen_globe_v1.0.png` (generator `tools/globe_candidates.py`).  Its continents stretch across the globe, so in the cold year, with frozen straits, the whole planet can be traversed on foot.  Climate bands on the map are placeholders; cities, spaceport, and final impact sites are still to be placed.
+- The globe: candidate B, seed 2718, is canon.  Map: `assets/maps/verlassen_globe_v1.0.png` (generator `tools/globe_candidates.py`).  Its continents stretch across the globe, so in the cold year, with frozen straits, the whole planet can be traversed on foot.  Climate bands on the map are placeholders; cities, spaceport, and final impact sites are still to be placed.
 - Volcanic and geothermal areas that do not freeze: springs and Yellowstone-type geysers.
 - Salt lakes that might never freeze, except on the coldest days of the third year.
 - Rivers.  All major cities sit near rivers.
@@ -133,7 +133,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 ## The ten fixed places
 
-Accepted by Nathan 2026-11-09.  Map: `docs/maps/verlassen_places_v1.0.png` (grid: column letter A to X, row number 1 to 12; the equator sits between rows 6 and 7).
+Accepted by Nathan 2026-11-09.  Map: `assets/maps/verlassen_places_v1.0.png` (grid: column letter A to X, row number 1 to 12; the equator sits between rows 6 and 7).
 
 | # | Name | Meaning | Type | Grid |
 |---|---|---|---|---|
@@ -192,7 +192,7 @@ Japanese is the base everywhere.  Each region's second culture flavors its names
 - We follow the 3 tier government method: executive, legislative, and judicial.
 - **Draft (Claudia):** in each town, the lord or mayor is the executive, the council is the legislative, and a magistrate or court is the judicial.
 - Towns are adjusted to different standards as we play.  Some lords have no power and are purely for show; some hold all the power.  Some places practice slavery; some ban it.  There may be culture wars, or actual wars.
-- Regions are political territories around each capital, as in `docs/maps/verlassen_regions_draft_v0.1.png` (generator `tools/regions.py`): each capital claims the land it reaches overland first, up to about 2,400 km; seas block claims; about 65% of habitable land stays unclaimed wilderness.  These ten political regions sit inside the five cultural regions below.  Accepted as is; borders get established more clearly as we zoom in to zones.
+- Regions are political territories around each capital, as in `assets/maps/verlassen_regions_draft_v0.1.png` (generator `tools/regions.py`): each capital claims the land it reaches overland first, up to about 2,400 km; seas block claims; about 65% of habitable land stays unclaimed wilderness.  These ten political regions sit inside the five cultural regions below.  Accepted as is; borders get established more clearly as we zoom in to zones.
 - Work camps: maybe.  Some are just for profit; some are for labor.  Slaves were always those things.  Some NPCs justify it; some say the enslaved are better off.  We know all these stories because history tells us them, and we do not sugar coat or hide from history as many do.
 - In keeping with Lancer's tone, cruelty such as slavery exists in the world to be opposed, never celebrated.  It has to exist so the player can save people from it.
 - **Draft (Claudia):** lords rule where someone holds the heat (Warmes Tani, Ikh Gawa, Khaluun Onsen, Zimna Toride); mayors lead the trade towns (Setareh Minato, Darya Kako, Davs Mizuumi, Shio Loch, Svetla Hama, Kawa Fada).

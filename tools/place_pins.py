@@ -3,7 +3,7 @@
 Placement follows the world rules: major cities near water and heat, spaceport near the equator on flat
 ground, salt-lake towns as trade hubs, onsen towns on geothermal sites, one remote holdfast with its own heat.
 """
-__version__ = "1.0"
+__version__ = "1.0.1"
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -156,7 +156,7 @@ for j, (i, kind, gref, col) in enumerate(legend_lines):
     d.text((cx + 22, cy), f"{i}.  {NAMES[i]}: {kind}   ({gref})", fill=(220, 225, 235), font=f)
 d.text((left, ly + 5 * 26 + 14), "Placed by the world rules (water and heat, equator spaceport, salt-lake hubs).  Names: Japanese plus regional second culture.", fill=(150, 155, 165), font=f)
 d.text((left, ly + 5 * 26 + 36), "Purple infection impacts are still provisional and not counted among the 10 places.", fill=(150, 155, 165), font=f)
-out.save(__file__.replace("tools/place_pins.py", "docs/maps/verlassen_places_v1.0.png"))
+out.save(__file__.replace("tools/place_pins.py", "assets/maps/verlassen_places_v1.0.png"))
 import json
 json.dump({"version": "1.0", "places": [{"id": i, "name": NAMES[i], "type": kind, "y": int(y), "x": int(x), "grid": g}
            for (i, kind, g, _), (_, (y, x)) in zip(legend_lines, pins)]},
