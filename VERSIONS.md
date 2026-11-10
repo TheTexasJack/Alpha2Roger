@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.41 | 2026-11-10 | Modern color selection; work camp capture |
+| docs/concept.md | v0.42 | 2026-11-10 | Successor is a random person |
 | docs/Alpha2Roger_Project_Plan.md | v0.21 | 2026-11-10 | Town banks in later stages |
 | docs/world.md | v0.41 | 2026-11-10 | Two brothers: one fled to lead Kawa Fada |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
@@ -19,4 +19,4 @@
 | tools/regions.py | v0.1 | 2026-11-09 | Draft political regions: overland reach from each capital |
 | docs/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Ten draft regions, unclaimed wilderness |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| docs/mechanics.md | v0.1 | 2026-11-10 | Master mechanics checklist, 91 items in 7 tiers |
+| docs/mechanics.md | v0.2 | 2026-11-10 | Succession: a random person, such as a lost 16-year-old |
