@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.10, 2026-11-10**
+**STATUS v0.11, 2026-11-10**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-1. **Stage 1, A2R-102:** write the zone generator spec for Nathan's review before any code, including biome regions and route distance ranges.
+1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.1 holds Nathan's direction and Claudia's drafts.  Next: Nathan reviews the drafts, then the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), trade (#70), currency names and rates, what the infection does.
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): started `docs/design/zones.md` v0.1 for A2R-102.  Nathan: three layers (globe, region map as the RimWorld world map equivalent, local maps); RimWorld map sizes; Oregon Trail montage travel; walking the full distance allowed; catch-up run on returning to a site; handcrafted walled cities with gates, built one at a time, only important areas mapped; most landmarks random by seed, key areas fixed; landmarks follow the land; seeds tied to generator version.
 
 - 2026-11-10 (Claudia): world.md v0.64.  Nathan: the upper edges take the -50 shift on top of their cold and might reach -150 F in an established cold year.
 
