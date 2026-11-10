@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.21, 2026-11-10**
+**Mechanics v0.22, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -115,7 +115,8 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 66 | Currencies | Decided | Five regional currencies plus Manna; one hidden value inside (Draft) |
 | 67 | Barter and salt | Draft | Salt as the near-universal trade good |
 | 68 | Exchange rates | Draft | Rates shift in cold years |
-| 69 | Banks | Decided | Exchange, storage, loans; real banks need ID (Draft) |
+| 69 | Banks | Decided | Exchange and loans; real banks need ID (Draft); storage superseded by #69b |
+| 69b | Money on the M.U.L.E. | Decided | Weightless, stored with the M.U.L.E., transfers on death; access and theft rules Draft |
 | 70 | Trade | Open | Shops and traders not designed yet |
 
 ## Tier 7: Journey, story, and endings

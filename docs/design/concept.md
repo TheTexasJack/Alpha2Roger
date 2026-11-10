@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.62, 2026-11-10**
+**Concept v0.63, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -214,6 +214,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No need to go back to the mech every time to talk to the CompCon.
 - **Draft (Claudia):** as the Language Entity, the M.U.L.E. carries the translator and the computer voice.  It carries cargo, which ties into journey prep and weight limits.
 - **Draft (Claudia):** limits so it never trivializes survival: it runs on batteries that lose capacity in the cold, so it weakens in the cold year; it can be knocked out and repaired, and while it is down the CompCon falls back to the mech.
+- The M.U.L.E. stores the money.  Money has no weight, and it transfers if anyone dies (Nathan, 2026-11-10; details in `world.md`, Currency).
 - **Draft (Claudia):** keep the no-animation rule with a two-frame skitter or a simple bob for its legs.
 
 ## Language and translation
