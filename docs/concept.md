@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.59, 2026-11-10**
+**Concept v0.60, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -221,6 +221,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - The cause of the crash is shown only as flashes and a glimpse, then the crash.  Nothing is explained, ever.
 - The thing that flung the player here and crashed them was extremely far away: they were flung through what is basically an Iconian gate.  We do not define it, but that is how they got so far away and alone.
 - **Draft (Claudia):** as far as Union knows, the pilot went through something and never came out, which is why the backup was restored.
+- A short intro movie, comic, or similar shows just the basics, and then the game starts.
+- Option to skip cinematics.
+- **Draft (Claudia):** comic-style panels keep the intro cheap and fit the art style; the crash glimpse and the gate live inside it.
 - The attacker is never named in game.  It is an open slot: any player can plug in their own mystery ship.
 - Nathan's private headcanon may be the Black Fleet or the Ants from Errans Inter Astra.  Since this game is for Nathan, it does not need to match the other games.
 

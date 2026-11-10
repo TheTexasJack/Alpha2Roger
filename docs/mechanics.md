@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.18, 2026-11-10**
+**Mechanics v0.19, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -151,6 +151,8 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
+| 88b | Intro sequence | Decided | Short intro movie or comic showing the basics |
+| 88c | Skip cinematics | Decided | Option to skip cinematics |
 | 89 | Options menu | Draft | Effect toggles, speed-up, temperature units |
 | 90 | Credits screen | Decided | Lancer Third Party License requirements in the game itself |
 | 91 | Boredom log | Decided | Nathan reports fade points |

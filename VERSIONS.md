@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.59 | 2026-11-10 | Flung through an Iconian-style gate |
+| docs/concept.md | v0.60 | 2026-11-10 | Intro and skip cinematics |
 | docs/Alpha2Roger_Project_Plan.md | v0.21 | 2026-11-10 | Town banks in later stages |
 | docs/world.md | v0.49 | 2026-11-10 | NHPs as mythical wizards |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
@@ -19,5 +19,5 @@
 | tools/regions.py | v0.1 | 2026-11-09 | Draft political regions: overland reach from each capital |
 | docs/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Ten draft regions, unclaimed wilderness |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| docs/mechanics.md | v0.18 | 2026-11-10 | Sea roads decided |
+| docs/mechanics.md | v0.19 | 2026-11-10 | Intro sequence; skip cinematics |
 | docs/art/reference/rimworld_reference_pegs_clothing.png | v1 | 2026-11-10 | RimWorld screenshot: pegs, clothing, floating weapons, see-through roofs |
