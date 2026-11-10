@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.52, 2026-11-10**
+**World v0.53, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -212,12 +212,13 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 - Kawa Fada is weird and uses Shio Loch's currency (see Conflicts: the two brothers).
 - Manna is for off-world business at the spaceport.
 - Towns have banks.
-- **Money (Nathan, 2026-11-10):** money has no weight.  It is stored with the M.U.L.E.  If anyone dies, the money transfers.
-- **Draft (Claudia), open questions from the money rule:**
-  - Can the player spend while the M.U.L.E. is away or knocked out?  Proposed: no, or only cash on hand at a small limit, so losing the M.U.L.E. stings.
-  - Can money be stolen?  Proposed: a raid that captures or disables the M.U.L.E. can drain part of it; the M.U.L.E. otherwise keeps it safe.
-  - Does money transfer to the successor (#55) automatically?  Proposed: yes, the successor inherits the M.U.L.E. and everything on it.
-- **Draft (Claudia):** banks exchange currencies for a cut, and make loans (the safe-storage idea is superseded by the money rule above, since the M.U.L.E. already keeps money safe); loan sharks offer a darker, no-questions version.  A real bank needs ID, so early on the player relies on cash, barter, wilderness caches, or a shady back-room bank.  Opening a first real account is a quiet milestone in the identity questline.
+- **Money (Nathan, 2026-11-10):**
+  - Money has no weight.  It is stored with the M.U.L.E.
+  - Banks are still a thing; the accounts are held under the M.U.L.E.
+  - If the M.U.L.E. is knocked out or away, the player cannot spend.  Rescue it or wait for its return.
+  - No theft.  The M.U.L.E.'s tech is beyond anyone on the planet; it would take an NHP to hack it.
+  - On death, the money transfers to the successor with the M.U.L.E.
+- **Draft (Claudia):** banks exchange currencies for a cut, and make loans; loan sharks offer a darker, no-questions version.  A real bank needs ID, so early on the player relies on cash, barter, wilderness caches, or a shady back-room bank.  Opening a first real account is a quiet milestone in the identity questline.
 - **Draft (Claudia):** the engine tracks one hidden value unit; each currency is a display name plus an exchange rate in a data file, so the code stays simple.  Barter and commodities work everywhere, with salt as the closest thing to a universal currency (the word salary traces back to salt).  Money changers in each city convert currencies and take a cut.  Rates shift with the world: in a cold year, currencies backed by heat-holding lords rise and trade-town currencies fall.
 
 ## Conflicts
