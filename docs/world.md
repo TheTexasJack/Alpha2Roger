@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.47, 2026-11-10**
+**World v0.48, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -58,7 +58,7 @@ This file holds the world facts that become the planet data file (A2R-101).
 - There may be one or two NHPs at the spaceport, but they would be new and foreign.
 - Because of the NHPs at the spaceport, no one is going to successfully attack it: not with missiles, armies, or anything.
 - In Lancer, NHPs can network into a gestalt called a fleet legion (canon: the ships' NHPs build a virtual war room, a hybrid one-and-many mind, for space battles).  On Verlassen, the spaceport's NHPs forming one would be an epic, almost magical thing.
-- **Draft (Claudia):** it happened once, recently (the spaceport NHPs are new), when a lord tried to take the port.  Eyewitnesses are still around, the story is already legend, and no one has tried since.
+- It happened once, recently (the spaceport NHPs are new), when a lord tried to take the port.  Eyewitnesses are still around, the story is already legend, and no one has tried since.  To locals it is like seeing Son Goku or Dr. Manhattan: "Superman is real, and he's in Setareh Minato."
 - **Draft (Claudia):** this makes the spaceport neutral, untouchable ground, and is one reason the Warmes Tani feud stays cultural and political.
 - Locals know nothing about RA; the main character would.
 - The mech's computer is a CompCon (not an NHP): a particularly smart CompCon.
