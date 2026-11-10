@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.38, 2026-11-10**
+**Concept v0.39, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -86,8 +86,15 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - There are death scenes.
 - Not a Man in Black (Dread Pirate Roberts) handoff.  Instead: a narrative few years pass, and a lost small girl enters the camp and sees a robot sitting there.  The robot introduces itself and states the weather, and the girl starts over where the player died.  A new playthrough.
-- **Draft (Claudia):** the time skip happens after she arrives: the M.U.L.E. finds her and raises her, and the new playthrough begins when she is an adult.  The M.U.L.E. carries continuity across lives; the old camp, graves, and half-finished repairs remain to inherit, RimWorld style.  Born on Verlassen, she has no Union record either, keeping the identity theme.
-- **Draft (Claudia):** hard stop: no minors in the relationship, intimacy, or capture systems, ever.  The player character is always an adult.
+- The lost girl is old enough to care for herself: 16, not a small child.
+- **Draft (Claudia):** she arrives at 16, the M.U.L.E. keeps her alive through the next couple of years, and the new playthrough begins when she is 18.  The M.U.L.E. carries continuity across lives; the old camp, graves, and half-finished repairs remain to inherit, RimWorld style.  Born on Verlassen, she has no Union record either, keeping the identity theme.
+
+## Ages and lifespans
+
+- Pawns are all 16 and older.  We should have young people, but not small children.
+- Babies may come much later, the way they came much later in RimWorld.
+- Once we work through a genetics system, people may live for a very long time.
+- Hard stop: romance and intimacy systems unlock only at 18.  Pawns aged 16 and 17 can survive, work, and fight, but are never part of romance or intimacy.
 
 ## Model and inspirations
 
