@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.66, 2026-11-10**
+**Concept v0.67, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -268,6 +268,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Heat is environmental (Nathan, 2026-11-10):** heat belongs to the temperature system (needs #11, temperature #14).  Any heat in combat turns into environmental heat.  How to work it in is open.
 - **Crystalline (Nathan, 2026-11-10):** the infection gets its own damage type, Crystalline.
   - Against crystalline targets, Energy and Burn may be ineffective and only Kinetic and Explosive work.  Specifics later.
+  - Refraction (Nathan): beams and lasers do nothing to the crystal; they get refracted.  In a hallway the beam bends and can hit anything, which can be good or bad.
+  - **Draft (Claudia):** refraction pairs with the Line pattern.  A Line beam that hits a crystal keeps going at a new angle from that tile, so a crystal room turns laser fire into a gamble for both sides.
+  - Open: the infection's role.  Antagonist, complicator, or the narrative McGuffin that makes the wars and survival tougher, or something not found yet.
+  - **Draft (Claudia):** the locked rule that the cold stays the main threat already rules out the infection as the main antagonist.  Complicator fits best, and a complicator can still carry a mystery.
   - Open: what a crystal can and cannot do.
   - Open: what the infection is like.  Ghosts, as in D&D, where only special weapons can hurt them?  Or a standard zombie-style infection?  Can it infect anything that can be a crystal, such as salt, sugar, and parts of the body?
   - **Draft (Claudia):** if salt can be infected, it hits the salt road war and food preservation hard, since salt is the near-universal trade good.
