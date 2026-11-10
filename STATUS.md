@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.4, 2026-11-10**
+**STATUS v0.5, 2026-11-10**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-1. **Stage 1, A2R-101:** pack the planet data (globe seed 2718, ten places, regions, cultures, currencies) into one data file the engine will read.
+1. **Stage 1, A2R-101 (in review):** Nathan reviews `tools/data/planet_verlassen.json` v0.1 and locks it, or sends changes.
 2. **Stage 1, A2R-102:** write the zone generator spec for Nathan's review before any code.
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), trade (#70), currency names and rates, what the infection does.
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): A2R-101 planet data file v0.1.  `tools/planet_pack.py` packs the locked facts from `world.md`, `places_v1.0.json`, `names_v0.1.json`, and the seed 2718 globe into `tools/data/planet_verlassen.json`.  Decisions only; open items are null and listed under `open`.  Impact sites recomputed from the globe and checked against M3, T3, J10.  Straight-line distances use a planet 1.1 times Earth's width (about 61 km per map pixel).
 
 - 2026-11-10 (Claudia): design decisions.  Money is weightless and held by the M.U.L.E., bank accounts included; no spending while it is out, no theft, transfers to the successor.  Damage types lean on Lancer (Crystalline for the infection; heat is environmental).  Range and Line attack patterns.  The infection is the seed crystal: an alien mineral that converts salt, minerals, bone, and teeth, refracts beams, is brittle to Kinetic and Explosive, slows in the cold, and moves the infected by piezoelectric control.  The infected are complicators; people are the villains.  Crystal hive mind parked as a possible expansion.
 - Next thread (Nathan): the planet data file, A2R-101.

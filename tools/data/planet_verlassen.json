@@ -1,0 +1,571 @@
+{
+ "version": "0.1",
+ "planet_id": "verlassen",
+ "generated_by": "tools/planet_pack.py v0.1",
+ "sources": {
+  "world": "docs/design/world.md v0.58",
+  "places": "tools/data/places_v1.0.json v1.0",
+  "names": "tools/data/names_v0.1.json v0.1",
+  "globe": "tools/globe_candidates.py v0.3.1"
+ },
+ "planet": {
+  "official_name": "Kepler-64432p",
+  "local_name": "Verlassen",
+  "local_name_meaning": "abandoned, forsaken, left behind (German)",
+  "era_u": 5016,
+  "star": {
+   "class": "G",
+   "color": "yellow",
+   "mass_solar": 1.0
+  },
+  "orbit_au": 1.1,
+  "insolation_earth": 0.8,
+  "radius_earths": 1.1,
+  "gravity_g": 1.0,
+  "moons": 0,
+  "rings": 0,
+  "year_earth_months": 14,
+  "cold_year": {
+   "every_n_years": 3,
+   "length_planet_years": 1,
+   "temperature_shift_f": -50,
+   "cause": "gas giant neighbor in a 3:1 orbital resonance"
+  },
+  "population": 10000000,
+  "union_presence": "none; Union holds no sway, reached only through Baronic trade",
+  "nearest_power": "Karrakin Trade Baronies"
+ },
+ "globe": {
+  "seed": 2718,
+  "generator": "tools/globe_candidates.py",
+  "map": "assets/maps/verlassen_globe_v1.0.png",
+  "width_px": 720,
+  "height_px": 360,
+  "projection": "equirectangular, wraps east-west",
+  "grid": {
+   "cols": 24,
+   "rows": 12,
+   "col_letters": "A-X",
+   "equator_between_rows": [
+    6,
+    7
+   ]
+  },
+  "circumference_km": 44082,
+  "km_per_px_equator": 61.2
+ },
+ "places": [
+  {
+   "id": 1,
+   "name": "Setareh Minato",
+   "meaning": "Star Harbor",
+   "type": "Spaceport city",
+   "grid": "H7",
+   "px": {
+    "x": 217,
+    "y": 199
+   },
+   "lat": -9.78,
+   "lon": -71.5,
+   "cultural_region": "spaceport_coast",
+   "political_region": 1,
+   "currency": "B",
+   "notable_person": {
+    "name": "Parisa Kuroda",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 2,
+   "name": "Ikh Gawa",
+   "meaning": "Great River",
+   "type": "Major city, near geothermal heat",
+   "grid": "L9",
+   "px": {
+    "x": 336,
+    "y": 241
+   },
+   "lat": -30.84,
+   "lon": -12.0,
+   "cultural_region": "southern_steppe",
+   "political_region": 2,
+   "currency": "C",
+   "notable_person": {
+    "name": "Erdene Yamaguchi",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 3,
+   "name": "Warmes Tani",
+   "meaning": "Warm Valley",
+   "type": "Major city, near geothermal heat",
+   "grid": "E4",
+   "px": {
+    "x": 134,
+    "y": 114
+   },
+   "lat": 32.84,
+   "lon": -113.0,
+   "cultural_region": "west_north",
+   "political_region": 3,
+   "currency": "B",
+   "notable_person": {
+    "name": "Leopold Matsuda",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 4,
+   "name": "Svetla Hama",
+   "meaning": "Bright Shore",
+   "type": "Major city",
+   "grid": "L5",
+   "px": {
+    "x": 354,
+    "y": 137
+   },
+   "lat": 21.31,
+   "lon": -3.0,
+   "cultural_region": "central_north",
+   "political_region": 4,
+   "currency": "E",
+   "notable_person": {
+    "name": "Bogdan Ogawa",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 5,
+   "name": "Khaluun Onsen",
+   "meaning": "Hot Hot Springs",
+   "type": "Onsen town",
+   "grid": "A10",
+   "px": {
+    "x": 17,
+    "y": 278
+   },
+   "lat": -49.39,
+   "lon": -171.5,
+   "cultural_region": "southern_steppe",
+   "political_region": 5,
+   "currency": "A",
+   "notable_person": {
+    "name": "Bolormaa Kobayashi",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 6,
+   "name": "Davs Mizuumi",
+   "meaning": "Salt Lake",
+   "type": "Salt-lake trade town",
+   "grid": "K10",
+   "px": {
+    "x": 321,
+    "y": 282
+   },
+   "lat": -51.39,
+   "lon": -19.5,
+   "cultural_region": "southern_steppe",
+   "political_region": 6,
+   "currency": "C",
+   "notable_person": {
+    "name": "Altan Arai",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 7,
+   "name": "Shio Loch",
+   "meaning": "Salt Lake",
+   "type": "Salt-lake trade town",
+   "grid": "V4",
+   "px": {
+    "x": 658,
+    "y": 93
+   },
+   "lat": 43.37,
+   "lon": 149.0,
+   "cultural_region": "empty_east",
+   "political_region": 7,
+   "currency": "D",
+   "notable_person": {
+    "name": "Akane Keane",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 8,
+   "name": "Darya Kako",
+   "meaning": "Sea Mouth",
+   "type": "River-mouth port",
+   "grid": "H5",
+   "px": {
+    "x": 217,
+    "y": 128
+   },
+   "lat": 25.82,
+   "lon": -71.5,
+   "cultural_region": "spaceport_coast",
+   "political_region": 8,
+   "currency": "B",
+   "notable_person": {
+    "name": "Farrokh Okada",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 9,
+   "name": "Zimna Toride",
+   "meaning": "Cold Fort",
+   "type": "Remote holdfast with its own heat source",
+   "grid": "N3",
+   "px": {
+    "x": 419,
+    "y": 74
+   },
+   "lat": 52.9,
+   "lon": 29.5,
+   "cultural_region": "central_north",
+   "political_region": 9,
+   "currency": "E",
+   "notable_person": {
+    "name": "Radoslav Nishimura",
+    "role": null
+   },
+   "leader_title": null
+  },
+  {
+   "id": 10,
+   "name": "Kawa Fada",
+   "meaning": "Long River",
+   "type": "River town",
+   "grid": "R8",
+   "px": {
+    "x": 526,
+    "y": 227
+   },
+   "lat": -23.82,
+   "lon": 83.0,
+   "cultural_region": "empty_east",
+   "political_region": 10,
+   "currency": "D",
+   "notable_person": {
+    "name": "Hina Rafferty",
+    "role": null
+   },
+   "leader_title": null
+  }
+ ],
+ "landmarks": {
+  "infection_impact_sites": [
+   {
+    "grid": "M3",
+    "px": {
+     "x": 377,
+     "y": 83
+    },
+    "lat": 48.38,
+    "lon": 8.5,
+    "id": 1
+   },
+   {
+    "grid": "T3",
+    "px": {
+     "x": 591,
+     "y": 64
+    },
+    "lat": 57.91,
+    "lon": 115.5,
+    "id": 2
+   },
+   {
+    "grid": "J10",
+    "px": {
+     "x": 291,
+     "y": 287
+    },
+    "lat": -53.9,
+    "lon": -34.5,
+    "id": 3
+   }
+  ]
+ },
+ "regions": {
+  "cultural": [
+   {
+    "id": "spaceport_coast",
+    "name": "Spaceport coast",
+    "base_culture": "japanese",
+    "second_culture": "persian",
+    "word_order": "regional_first",
+    "places": [
+     1,
+     8
+    ]
+   },
+   {
+    "id": "west_north",
+    "name": "West continent north",
+    "base_culture": "japanese",
+    "second_culture": "german",
+    "word_order": "regional_first",
+    "places": [
+     3
+    ]
+   },
+   {
+    "id": "southern_steppe",
+    "name": "Southern steppe belt",
+    "base_culture": "japanese",
+    "second_culture": "mongolian",
+    "word_order": "regional_first",
+    "places": [
+     2,
+     5,
+     6
+    ]
+   },
+   {
+    "id": "central_north",
+    "name": "Central-north island",
+    "base_culture": "japanese",
+    "second_culture": "slavic",
+    "word_order": "regional_first",
+    "places": [
+     4,
+     9
+    ]
+   },
+   {
+    "id": "empty_east",
+    "name": "The empty east",
+    "base_culture": "japanese",
+    "second_culture": "gaelic",
+    "word_order": "japanese_first",
+    "places": [
+     7,
+     10
+    ]
+   }
+  ],
+  "political": {
+   "rule": "each capital claims the land it reaches overland first; seas block claims",
+   "reach_km": 2400,
+   "unclaimed_habitable_land_share": 0.65,
+   "generator": "tools/regions.py",
+   "map": "assets/maps/verlassen_regions_draft_v0.1.png",
+   "capitals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ },
+ "currencies": {
+  "regional": [
+   {
+    "id": "A",
+    "name": null,
+    "rate": null,
+    "issued_by": [
+     5
+    ],
+    "also_used_in": []
+   },
+   {
+    "id": "B",
+    "name": null,
+    "rate": null,
+    "issued_by": [
+     3,
+     8,
+     1
+    ],
+    "also_used_in": []
+   },
+   {
+    "id": "C",
+    "name": null,
+    "rate": null,
+    "issued_by": [
+     2,
+     6
+    ],
+    "also_used_in": []
+   },
+   {
+    "id": "D",
+    "name": null,
+    "rate": null,
+    "issued_by": [
+     7
+    ],
+    "also_used_in": [
+     10
+    ]
+   },
+   {
+    "id": "E",
+    "name": null,
+    "rate": null,
+    "issued_by": [
+     4,
+     9
+    ],
+    "also_used_in": []
+   }
+  ],
+  "offworld": {
+   "name": "Manna",
+   "exchange": "spaceport only",
+   "where": [
+    1
+   ]
+  },
+  "rules": [
+   "money has no weight and is held by the M.U.L.E., bank accounts included",
+   "no spending while the M.U.L.E. is knocked out or away",
+   "no theft",
+   "on death, money transfers to the successor with the M.U.L.E.",
+   "towns have banks"
+  ]
+ },
+ "straight_line_km": {
+  "1": {
+   "2": 7212,
+   "3": 7118,
+   "4": 9068,
+   "5": 10897,
+   "6": 7255,
+   "7": 16091,
+   "8": 4359,
+   "9": 12785,
+   "10": 16919
+  },
+  "2": {
+   "1": 7212,
+   "3": 14028,
+   "4": 6473,
+   "5": 11966,
+   "6": 2606,
+   "7": 19644,
+   "8": 9829,
+   "9": 11168,
+   "10": 10045
+  },
+  "3": {
+   "1": 7118,
+   "2": 14028,
+   "4": 11517,
+   "5": 11907,
+   "6": 14341,
+   "7": 8975,
+   "8": 4484,
+   "9": 10807,
+   "10": 19997
+  },
+  "4": {
+   "1": 9068,
+   "2": 6473,
+   "3": 11517,
+   "5": 18426,
+   "6": 9077,
+   "7": 13517,
+   "8": 7622,
+   "9": 4922,
+   "10": 11634
+  },
+  "5": {
+   "1": 10897,
+   "2": 11966,
+   "3": 11907,
+   "4": 18426,
+   "6": 9359,
+   "7": 12121,
+   "8": 14158,
+   "9": 20378,
+   "10": 9982
+  },
+  "6": {
+   "1": 7255,
+   "2": 2606,
+   "3": 14341,
+   "4": 9077,
+   "5": 9359,
+   "7": 20676,
+   "8": 10982,
+   "9": 13727,
+   "10": 9665
+  },
+  "7": {
+   "1": 16091,
+   "2": 19644,
+   "3": 8975,
+   "4": 13517,
+   "5": 12121,
+   "6": 20676,
+   "8": 12423,
+   "9": 8648,
+   "10": 11069
+  },
+  "8": {
+   "1": 4359,
+   "2": 9829,
+   "3": 4484,
+   "4": 7622,
+   "5": 14158,
+   "6": 10982,
+   "7": 12423,
+   "9": 9293,
+   "10": 19201
+  },
+  "9": {
+   "1": 12785,
+   "2": 11168,
+   "3": 10807,
+   "4": 4922,
+   "5": 20378,
+   "6": 13727,
+   "7": 8648,
+   "8": 9293,
+   "10": 10978
+  },
+  "10": {
+   "1": 16919,
+   "2": 10045,
+   "3": 19997,
+   "4": 11634,
+   "5": 9982,
+   "6": 9665,
+   "7": 11069,
+   "8": 19201,
+   "9": 10978
+  }
+ },
+ "open": [
+  "currency names and exchange rates",
+  "leader title (lord or mayor) per place",
+  "notable people's roles",
+  "detailed biomes per region",
+  "final road network and route distance ranges",
+  "the two brothers' names",
+  "who runs the region's space station"
+ ]
+}

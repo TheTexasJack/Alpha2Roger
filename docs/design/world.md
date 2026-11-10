@@ -1,10 +1,10 @@
 # Alpha2-Roger World
 
-**World v0.58, 2026-11-10**
+**World v0.59, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
-This file holds the world facts that become the planet data file (A2R-101).
+This file holds the world facts that become the planet data file (A2R-101).  The packed file is `tools/data/planet_verlassen.json`, built by `tools/planet_pack.py`.  Only decisions go into it; drafts stay here until approved.  Change a fact here first, then update the pack and rerun it.
 
 ## Era and location
 
