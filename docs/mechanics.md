@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.7, 2026-11-10**
+**Mechanics v0.8, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -54,6 +54,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 28 | CompCon voice | Decided | Particularly smart CompCon, not an NHP; Subnautica-style voiced lines |
 | 29 | M.U.L.E. follower | Decided | Utility workhorse, not rideable, maybe an early second fighter |
 | 30 | M.U.L.E. cargo | Draft | Carries goods; ties into journey weight |
+| 31b | M.E.W.L. mode | Decided | If captured, the M.U.L.E. escapes as M.E.W.L. (Murder Everything With Lasers); comes back damaged (Draft) |
 | 31 | M.U.L.E. limits | Draft | Batteries drain faster in the cold; can be knocked out and repaired |
 | 32 | Translator calibration | Decided | Tutorial calibrates through sample languages (563 detected), then English |
 | 33 | Subtitles and message log | Draft | Always on, rereadable |

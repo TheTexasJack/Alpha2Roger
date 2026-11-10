@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.48 | 2026-11-10 | M.U.L.E. vision and sensor arrays |
+| docs/concept.md | v0.49 | 2026-11-10 | M.E.W.L. mode |
 | docs/Alpha2Roger_Project_Plan.md | v0.21 | 2026-11-10 | Town banks in later stages |
 | docs/world.md | v0.41 | 2026-11-10 | Two brothers: one fled to lead Kawa Fada |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
@@ -19,5 +19,5 @@
 | tools/regions.py | v0.1 | 2026-11-09 | Draft political regions: overland reach from each capital |
 | docs/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Ten draft regions, unclaimed wilderness |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| docs/mechanics.md | v0.7 | 2026-11-10 | M.U.L.E. vision, sensor arrays |
+| docs/mechanics.md | v0.8 | 2026-11-10 | M.E.W.L. mode |
 | docs/art/reference/rimworld_reference_pegs_clothing.png | v1 | 2026-11-10 | RimWorld screenshot: pegs, clothing, floating weapons, see-through roofs |
