@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.69, 2026-11-10**
+**Concept v0.70, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -277,7 +277,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
     - Infectable: crystals that grow from a solution or a living body, such as salt, sugar, mineral deposits, bone, and teeth.
     - Safe: ice, which explains why the infection is weaker in the cold year.  Metals, so gear and the M.U.L.E. stay safe.  Glass and other amorphous solids, which also keeps native silica armor (mostly glass) apart from the infection.
     - Glass jars become the safe way to store salt and sugar.
-- **Range and Line (Nathan, 2026-11-10):**- **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
+- **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
   - **Draft (Claudia):** Range hits one target within that many tiles, and needs line of sight.  Line hits every target along a straight line of that many tiles, stopping at the first wall.  Lancer's other patterns (Threat, Cone, Blast, Burst) wait until a weapon needs one.
 
 ## Naming
