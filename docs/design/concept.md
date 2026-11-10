@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.65, 2026-11-10**
+**Concept v0.66, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -264,7 +264,14 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - Heat, HASE, Structure, and Stress stay out until mechs come into play, but are referenced when needed to keep the lore intact.
 - **Damage types (Nathan, 2026-11-10):** lean on Lancer's damage types.
-  - **Draft (Claudia):** Kinetic (bullets, blades, claws, falls), Energy (lasers, the cutting beam, electrical), and Explosive (grenades, mines), plus Burn as damage that keeps ticking each turn until put out.  Heat stays out as a damage type under the rule above.  Creatures, clothing, and cover can resist a type, which halves it, so the type matters.
+  - **Draft (Claudia):** Kinetic (bullets, blades, claws, falls), Energy (lasers, the cutting beam, electrical), and Explosive (grenades, mines), plus Burn as damage that keeps ticking each turn until put out.  Creatures, clothing, and cover can resist a type, which halves it, so the type matters.
+- **Heat is environmental (Nathan, 2026-11-10):** heat belongs to the temperature system (needs #11, temperature #14).  Any heat in combat turns into environmental heat.  How to work it in is open.
+- **Crystalline (Nathan, 2026-11-10):** the infection gets its own damage type, Crystalline.
+  - Against crystalline targets, Energy and Burn may be ineffective and only Kinetic and Explosive work.  Specifics later.
+  - Open: what a crystal can and cannot do.
+  - Open: what the infection is like.  Ghosts, as in D&D, where only special weapons can hurt them?  Or a standard zombie-style infection?  Can it infect anything that can be a crystal, such as salt, sugar, and parts of the body?
+  - **Draft (Claudia):** if salt can be infected, it hits the salt road war and food preservation hard, since salt is the near-universal trade good.
+  - **Draft (Claudia):** native life already has silica armor (`world.md`, Life).  Keep the two apart so ordinary alien animals do not shrug off lasers.
 - **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
   - **Draft (Claudia):** Range hits one target within that many tiles, and needs line of sight.  Line hits every target along a straight line of that many tiles, stopping at the first wall.  Lancer's other patterns (Threat, Cone, Blast, Burst) wait until a weapon needs one.
 
@@ -324,5 +331,6 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Time scale: day, season, and run length.  Decide after seeing gameplay.
 - Stats and skills (the character sheet).
 - Trade: shops and traders.
-- What the infection actually does.
+- What the infection actually does: ghost-like or zombie-like, what crystals can and cannot do, and what it can infect (see Lancer vocabulary, Crystalline).
+- How environmental heat works in combat.
 - How visible clothing layers and hand slots come together at character creation.
