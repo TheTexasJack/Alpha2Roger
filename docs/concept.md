@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.36, 2026-11-10**
+**Concept v0.37, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -76,6 +76,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Unlike RimWorld: no slave labor.
 - A prisoner's fate: free them, kill them, or convert them.
 - Prisoners who are not rescued have a chance to join the group holding them, implied from the same behaviors.
+- Borrowed from Kenshi: if the player is "killed" during a raid, instead of dying they wake up in that camp's prison.
+- **Draft (Claudia):** capture turns into escape play (locks, bribes, a fellow prisoner who may become a companion).  The M.U.L.E. or companions may come to the rescue, depending on relationships.  Capture depends on who won: people take prisoners or loot and leave the player for dead; beasts and the cold take no prisoners, so freezing to death stays final.
+- **Open (Nathan to decide later):** in regions that practice slavery, capture might mean a work camp to escape from, and maybe return to liberate.
 - **Draft (Claudia):** "temptation without coercion" applies to how the game treats the player; coercion mechanics are things the player can do to NPCs in the world.  The two rules do not conflict.
 - **Draft (Claudia):** failure is never a game-over screen; its consequences persist in the world.  Capture uses non-lethal tools (knockouts, nets, sedatives).  Conversion runs through the relationship system.  The chance that a held prisoner joins their captors grows the longer they are held.
 
