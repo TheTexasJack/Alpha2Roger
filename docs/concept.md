@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.49, 2026-11-10**
+**Concept v0.50, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -118,6 +118,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Line of sight, brutal as in Caves of Qud.  Combined with Fargoal's fog of war and the RimWorld view, it should be cool, and brutal.
 - The M.U.L.E. is a focus of the game.  If it is ever captured, it makes a daring escape in M.E.W.L. mode: Murder Everything With Lasers.  The M.U.L.E. becomes the M.E.W.L.
 - **Draft (Claudia):** capture is an event, not a permanent loss: the M.E.W.L. breaks out and comes limping back damaged, needing repairs.
+- M.E.W.L. mode plays the trope: the eye glows aggressively red, something inside whirs up (maybe the thing that makes it smarter than normal), and its laser becomes the best weapon in the game, a cutting beam like the laser in Congo.  It calms down when it gets back.
+- The scene: the player tries to rescue the M.U.L.E.  Once they settle in, WHIRRR, cutting beam noises and screams.  Then: "Oh... there you are."  Now it is a M.U.L.E. again.
+- **Draft (Claudia):** the cutting beam exists only in M.E.W.L. mode, and the player cannot trigger M.E.W.L. mode, so getting the M.U.L.E. captured on purpose never becomes a strategy.  What the thing inside really is stays a mystery.
 - An area around the M.U.L.E. is always visible.  Bring it and see more, maybe some outlines, but it is a liability.
 - Sensor arrays: a buildable device the player puts down to reveal an area.
 - **Draft (Claudia):** the M.U.L.E. gives silhouettes past the player's own sight (something is there, not what).  It gives the player away (its glowing eye, its noise), drains power faster in the cold, and is a target for raiders; while it is captured or broken, the player loses the voice, the translator, and the extra vision.  Sensor arrays need power, can be found and wrecked by raiders, and weaken in the cold year.
