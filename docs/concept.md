@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.35, 2026-11-10**
+**Concept v0.36, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -61,6 +61,23 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Approaches differ.  To rescue an NPC, the player might slaughter the entire camp (and maybe did not need to), sneak in and get them out, or, because of a decision from earlier, buy the NPC and then free them.
 - Maybe the NPC never wanted to be free in the first place, like something from Shield Hero.
 - **Draft (Claudia):** heroic options are always present in every run and never forced; the world reacts to what the player chooses, and the ending milestones reflect it.  The world itself still never glorifies cruelty.
+
+## Two concepts to lean on
+
+- Open Palm vs Closed Fist (Jade Empire): two philosophies, selflessness and harmony versus self-reliance and strength.
+- **Draft (Claudia):** frame them as two real arguments with their own logic, so choosing one means something.  On Verlassen they map onto the cold: share the heat with everyone, or the strong keep warm so the camp survives.  Avoid Jade Empire's slip, where the Closed Fist often played as plain cruelty.
+- The Jerk Hero (Ash Williams): a womanizing idiot who bumbles his way into making things worse, only to succeed in the end.
+- Players should have "oh shit" moments when they realize they just made things considerably worse.  That is going to happen, and that is okay.  They may get the option to return later.
+- Example, the rescue scene: the player bumbles it, the NPC gets killed, and the player runs.  Or worse: the player breaks her out and she gets captured again.  Later she is now a thug on the other side; instead of fighting her, the player has to find some way to capture her.
+
+## Prisoners and capture
+
+- Prisoner mechanics, capture mechanics, and coercion mechanics, all similar to RimWorld.
+- Unlike RimWorld: no slave labor.
+- A prisoner's fate: free them, kill them, or convert them.
+- Prisoners who are not rescued have a chance to join the group holding them, implied from the same behaviors.
+- **Draft (Claudia):** "temptation without coercion" applies to how the game treats the player; coercion mechanics are things the player can do to NPCs in the world.  The two rules do not conflict.
+- **Draft (Claudia):** failure is never a game-over screen; its consequences persist in the world.  Capture uses non-lethal tools (knockouts, nets, sedatives).  Conversion runs through the relationship system.  The chance that a held prisoner joins their captors grows the longer they are held.
 
 ## Model and inspirations
 
