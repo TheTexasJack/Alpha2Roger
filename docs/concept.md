@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.53, 2026-11-10**
+**Concept v0.54, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -124,6 +124,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - M.E.W.L. mode happens only when the M.U.L.E. is kidnapped.  Could this be exploited?  Absolutely, and that is accepted, because a series of events has to happen first: raiders or bandits have to knock it out enough to grab it, then actually grab it and run off the screen with it.
 - If the player does not go find it, the M.U.L.E. wanders onto the screen later and returns on its own.  Even if it was damaged, it has repaired itself enough to move, though it is probably still damaged.
 - The M.U.L.E. is never damaged so badly that it cannot move.
+- If we are tracking the enemies that took it, the M.U.L.E.'s return decimates their numbers: 10%, in the traditional sense of the word (one in ten).
 - **Draft (Claudia):** a knockout is temporary (needed for kidnappings); the M.U.L.E. always recovers enough to walk and is never permanently stranded.
 - **Draft (Claudia):** the cutting beam exists only in M.E.W.L. mode.  The natural cost of the exploit: the M.U.L.E. comes back damaged and needs repairs, so deliberate kidnappings cost scrap and time.
 - An area around the M.U.L.E. is always visible.  Bring it and see more, maybe some outlines, but it is a liability.

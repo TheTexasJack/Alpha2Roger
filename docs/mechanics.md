@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.11, 2026-11-10**
+**Mechanics v0.12, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -54,7 +54,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 28 | CompCon voice | Decided | Particularly smart CompCon, not an NHP; Subnautica-style voiced lines |
 | 29 | M.U.L.E. follower | Decided | Utility workhorse, not rideable, maybe an early second fighter |
 | 30 | M.U.L.E. cargo | Draft | Carries goods; ties into journey weight |
-| 31c | M.U.L.E. returns | Decided | If not retrieved, it wanders back on its own, repaired enough to move but probably still damaged; never damaged so badly it cannot move |
+| 31c | M.U.L.E. returns | Decided | If not retrieved, it wanders back on its own, repaired enough to move but probably still damaged; never damaged so badly it cannot move.  Its captors are decimated (10%) when it returns |
 | 31b | M.E.W.L. mode | Decided | If captured, the M.U.L.E. escapes as M.E.W.L. (Murder Everything With Lasers): red eye, inner whir, Congo-style cutting beam (best weapon in the game), calms down on return.  Only when kidnapped; exploitable, and that is accepted; comes back damaged (Draft).  The thing inside is never explained |
 | 31 | M.U.L.E. limits | Draft | Batteries drain faster in the cold; can be knocked out and repaired |
 | 32 | Translator calibration | Decided | Tutorial calibrates through sample languages (563 detected), then English |
@@ -101,6 +101,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
 | 57 | Local life by remoteness | Decided | Small settlements and enemy camps near the player; the more remote, the fewer encounters |
+| 57b | Tracked enemy groups | Decided | Enemy groups keep persistent headcounts that grow, shrink, and remember events (needed for decimation, raids, prisoners) |
 | 58 | Infection | Decided | Three impact sites plus a small random spawn per run; weaker in the cold year; mechanic to design |
 | 59 | Regions and control | Decided | Ten capitals, no global government |
 | 60 | Factions-lite | Decided | Not everything is a faction; no Qud reputation web |
