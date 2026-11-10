@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.13, 2026-11-10**
+**Mechanics v0.14, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -101,7 +101,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
 | 57 | Local life by remoteness | Decided | Small settlements and enemy camps near the player; the more remote, the fewer encounters |
-| 57b | Tracked enemy groups | Draft | Enemy groups keep persistent headcounts that grow, shrink, and remember events (needed for decimation, raids, prisoners) |
+| 57b | Tracked enemy groups | Decided | Persistent headcounts; no endless waves; groups learn (after 12 of them die, they stop going there).  Finite numbers and revenge exceptions (Draft) |
 | 58 | Infection | Decided | Three impact sites plus a small random spawn per run; weaker in the cold year; mechanic to design |
 | 59 | Regions and control | Decided | Ten capitals, no global government |
 | 60 | Factions-lite | Decided | Not everything is a faction; no Qud reputation web |
