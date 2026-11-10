@@ -19,5 +19,5 @@
 | tools/regions.py | v0.1 | 2026-11-09 | Draft political regions: overland reach from each capital |
 | docs/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Ten draft regions, unclaimed wilderness |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| docs/mechanics.md | v0.12 | 2026-11-10 | Decimation; tracked enemy groups |
+| docs/mechanics.md | v0.13 | 2026-11-10 | Decimation; tracked enemy groups (draft) |
 | docs/art/reference/rimworld_reference_pegs_clothing.png | v1 | 2026-11-10 | RimWorld screenshot: pegs, clothing, floating weapons, see-through roofs |
