@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.39, 2026-11-10**
+**Concept v0.40, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -133,6 +133,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 - A light relationship mechanic, organic like RimWorld.
 - Relationships matter for the journey: companions may not like you enough to come along, or you might have a poly relationship.  The engine and the player decide.
+- Why relationships and family exist: a lost soldier who survives and later has a family to protect is more heroic than a lone wolf.  The choices need to be there, including staying a lone wolf: we build the paths and let the player tell their story.
 - Every pawn is different, worked through pawn to pawn.  Orientations vary: one might be straight, one might be ace.
 - Ace pawns can still be sexual; they just care less about sex than other people might.
 - **Draft (Claudia):** track romantic interest and sexual interest as two separate dials per pawn, so an ace companion can still fall hard for someone romantically.

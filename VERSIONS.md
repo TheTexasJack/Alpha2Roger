@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.39 | 2026-11-10 | Ages: pawns 16+, romance 18+, babies much later |
+| docs/concept.md | v0.40 | 2026-11-10 | Why relationships and family exist |
 | docs/Alpha2Roger_Project_Plan.md | v0.18 | 2026-11-09 | Government recorded |
 | docs/world.md | v0.36 | 2026-11-09 | Tone on slavery confirmed |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
