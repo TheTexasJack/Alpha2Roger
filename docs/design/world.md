@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.56, 2026-11-10**
+**World v0.57, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -76,6 +76,12 @@ This file holds the world facts that become the planet data file (A2R-101).
 - **Draft (Claudia):** the small spawn is placed by the run's seed, a few zones from the crash site (never adjacent), and stays small compared to the impact sites.
 - Native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
 - Big, shaggy, cold-adapted fauna (Bergmann's rule), with migrations as the temperatures change.  Nothing kaiju sized, no giant insects, no Ohmu-style creatures.  Mammoths and giant water creatures are about the largest (water's buoyancy allows whale-scale animals).  Flora is hardy (conifer-like forests, tundra scrub, lichens).
+- **Non-native fauna (Nathan, 2026-11-10):** the settlers brought Terran animals, so people have regular animals to hunt and eat: pigs, turkeys, cows, rabbits, deer, elk, and the like.  Native fauna remains.
+- **Draft (Claudia), making the Terran animals work:**
+  - Terran animals cannot digest native plants, for the same mirror-chemistry reason humans cannot.  So the settlers' grasses and forage plants came too, went feral, and spread like real invasive species (rabbits in Australia, kudzu).  Terran crops still need rare seeds; the wild grasses are what spread.
+  - That makes a food gradient: Terran grassland and game cluster around old settled land and roads, and the deep wilderness is native only.  A remote crash means hunting native animals and processing the meat, which fits "the more remote, the harder."
+  - Wild Terran animals must survive the cold year, so cold-hardy kinds go wild: elk, deer, reindeer, bison, yak, musk ox, wild goats and sheep, hares, feral pigs.  Warm-climate kinds such as ostriches and turkeys live only on farms with heated barns, or in the warm band.
+  - Five thousand years of cold years have changed them: shaggier coats, fattening before the cold year, migrating with the native herds.  Still recognizably elk.
 - **Draft (Claudia):** animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
 - **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  Each infected place centers on an impact crater landmark; the infection wakes with the thaw after a cold year, and can infect native fauna.
 
