@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.60, 2026-11-10**
+**World v0.61, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -139,6 +139,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - Major cities sit near water and near heat (rivers, geothermal).
 - Remote, tiny places are rare, unless they can secure a heat source for the cold year.
 - A spaceport across the globe from the crash site can mean years of travel.  That is fine.
+- The vast distances lean into a remote start being years before the player reaches a main settlement (Nathan, 2026-11-10).
+- Measured on the seed 2718 globe (Claudia, 2026-11-10), straight-line distance from habitable land to the nearest of the ten places: half of it is over 2,550 km, a quarter over 3,900 km, and the farthest about 6,300 km.  Overland routes run longer than straight lines.
 - **Draft (Claudia):** the spaceport sits near the equator on flat ground (real physics: launches near the equator get a boost from the planet's spin, and it is the warmest band).  Trade cities sit at river mouths and coasts.  Salt-lake towns are trade hubs.  Impact sites are placed for story and never on top of a city.
 
 ## The ten fixed places

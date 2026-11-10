@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.6, 2026-11-10**
+**STATUS v0.7, 2026-11-10**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): world.md v0.61.  Nathan: a remote start can be years before the player reaches a main settlement.  Distances from habitable land to the nearest place measured on the canon globe and recorded.
 
 - 2026-11-10 (Claudia): world.md v0.60, War at continent scale.  Nathan: long distances between rivals are good (Nausicaa-style wars with fliers and missiles); far future tech with fliers, droids, and mutants; air fleets sit out the cold year; downed fliers in the remote wild are resources, rescues, and faction hooks.  The planet data file is unchanged.
 
