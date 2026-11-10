@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.15, 2026-11-10**
+**Mechanics v0.16, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -58,6 +58,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 31b | M.E.W.L. mode | Decided | If captured, the M.U.L.E. escapes as M.E.W.L. (Murder Everything With Lasers): red eye, inner whir, Congo-style cutting beam (best weapon in the game), calms down on return.  Only when kidnapped; exploitable, and that is accepted; comes back damaged (Draft).  The thing inside is never explained |
 | 31 | M.U.L.E. limits | Draft | Batteries drain faster in the cold; can be knocked out and repaired |
 | 32 | Translator calibration | Decided | Tutorial calibrates through sample languages (563 detected), then English |
+| 32b | Wrist display interface | Decided | Menus feel like checking in with the M.U.L.E., even when it is away; Fallout-style but more advanced; never breaks (Draft) |
 | 33 | Subtitles and message log | Draft | Always on, rereadable |
 
 ## Tier 4: Character and companions
@@ -137,6 +138,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
+| 82b | Vehicles | Later | Speeders, motorbikes, trucks on open land, never through forests; rare planes; maybe spider walkers; rare early, small options in big cities; the M.U.L.E. rides on the back |
 | 83 | Local AI dialogue | Later | Engine owns state, model only talks; authored fallback |
 | 84 | NPC voices | Later | ElevenLabs style or local text to speech |
 | 85 | Babies and genetics | Later | Much later, like RimWorld |

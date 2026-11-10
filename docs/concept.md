@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.56, 2026-11-10**
+**Concept v0.57, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -144,6 +144,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Reputation is faction based, never Qud based.
 - Bandits have no faction: the factionless faction.
 - **Draft (Claudia):** the real powers (capitals, regions, settlements) each hold one reputation with the player.  Bandit groups hold no reputation, but each group still keeps its own headcount and memory of losses.
+- Faction reputation applies to the wars later.
 - Not everything is a faction.  No Qud-style reputation web where plants turn hostile because someone wronged a deer.
 - Walls are for warmth and shelter.  Threats are mostly environmental.
 - Early food: a food printer in the mech.  It makes paste: just enough to survive.  It works for the companions too, and it is still just paste.  Eating only paste costs mood or morale, and its limited feedstock slowly pushes the camp toward hunting, trading, and the first harvest.  It is the one printer that works for you, since paste needs no license.
@@ -179,6 +180,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - In RimWorld the peg has a body and a head and the gun floats.  We can deviate with dot hands or basic hands.
 - RimWorld has a style; we decide later whether to borrow it or adapt what works in our world.
 - Some conventions simply persist, such as see-through roofs and the top-down camera angle.
+- Style: Nausicaa of the Valley of the Wind is the way to go.  Small settlements are simple, almost medieval, but there are rifles, machines, robots, mutants, and even high tech in places.  Planes of a sort are rare, but a thing.
+- **Draft (Claudia):** Nausicaa's creeping, toxic wilderness echoes our infection; it inspires the feeling only, with no borrowed creatures or designs.
+- Interface: when the player opens a menu to look at stats, it should feel like opening a menu on the M.U.L.E., even when it is not nearby.  Maybe a wrist display, Fallout style but more advanced.
+- **Draft (Claudia):** the menus never break, even while the M.U.L.E. is captured: the wrist unit keeps a cached link, maybe with a "signal lost" flicker, but stats always open.
 - Pillar: old-school bones, modern effects.  Caves of Qud does this in places.
 - Effects rule: this is Nathan A, not triple A.  No ambient occlusion, no motion blur, and nothing that every player just turns off.  A little frost creeping in is fine.
 - A little screen shake is fine in places: short moments only, never constant, since constant shake makes the screen hard to read.
@@ -243,6 +248,13 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No constructed languages and no coded dialects.
 - **Draft (Claudia):** real-world check: Papua New Guinea has about 10 million people and 800+ languages, so 563 on Verlassen is believable.  It implies old settlement in many waves.  Like PNG's Tok Pisin, a trade creole likely grew up around the spaceport and salt-lake hubs as the common market tongue.
 - **Draft (Claudia):** the calibration samples double as a first taste of the planet's peoples and regions.
+
+## Vehicles
+
+- Fast land travel: speeders, motorbikes, trucks.  No one drives a vehicle through a forest.
+- Planes of a sort are rare.  Maybe spider-like walkers later.
+- A vehicle system comes later.  Vehicles are rare early on, with small options in a big city.
+- The hero on a motorcycle with the M.U.L.E. hopping on the back.
 
 ## The M.U.L.E.
 
