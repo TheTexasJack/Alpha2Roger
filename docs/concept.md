@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.32, 2026-11-10**
+**Concept v0.33, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -49,6 +49,11 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Not every player has to be a hero.  Every playthrough gives the opportunity to be a hero.
 - We lead the player to the oasis, but we do not make them drink.
+- Player agency, in the Caves of Qud, RimWorld, and Dwarf Fortress-lite mold: we give the environment and present options, and the player picks.  Unlike older on-rails games (for example Quest for Glory), the player does not simply fail for doing things off the path.
+- Beyond the illusion of choice: options lead to genuinely different outcomes, never three options that do the same thing.
+- Temptation without coercion, like the Lord of Darkness offering Lili the choice to kill the unicorn in Legend: he enticed her but never put the dagger in her hand; only by free will did she choose (and she chose to save the unicorns).
+- Many options come from random generation.  Some options may seem cruel because of what it takes to save people, but they should always lead to a heroic purpose.
+- Not every path is golden.  Some are hard, bad choices, full of depressed and hurting people, only to be met with the realization that all you were was taken from you and you have to start over.
 - **Draft (Claudia):** heroic options are always present in every run and never forced; the world reacts to what the player chooses, and the ending milestones reflect it.  The world itself still never glorifies cruelty.
 
 ## Model and inspirations
