@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.17, 2026-11-10**
+**Mechanics v0.18, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/concept.md`, `docs/world.md`, and the plan.  Use it as a checklist.
 
@@ -124,7 +124,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 |---|---|---|---|
 | 71 | Crash site selection | Decided | Pick a region or random; always away from civilization; distance shown (Draft) |
 | 72 | Journey prep | Decided | Weight limits, supply caches, who stays behind, point of no return |
-| 73 | Sea ice bridges | Draft | Straits freeze in the cold year |
+| 73 | Sea roads | Decided | Sea ice opens routes in the cold year; Setareh Minato to Ikh Gawa becomes a land trip |
 | 74 | Identity questline | Decided | Legal battle by holo, email, and blink messages; new name at License Level 0 |
 | 75 | Inbox | Decided | Blink messages bundled and slow; cost per message (Draft); letters from the other self (Draft) |
 | 76 | Choices and consequences | Decided | Real options, temptation never coercion, "oh shit" moments, return later |

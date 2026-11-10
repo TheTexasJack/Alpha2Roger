@@ -6,7 +6,7 @@
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
 | docs/concept.md | v0.57 | 2026-11-10 | Nausicaa style; wrist display; vehicles |
 | docs/Alpha2Roger_Project_Plan.md | v0.21 | 2026-11-10 | Town banks in later stages |
-| docs/world.md | v0.43 | 2026-11-10 | Roads and bridges |
+| docs/world.md | v0.44 | 2026-11-10 | Sea roads |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |
 | docs/maps/verlassen_globe_candidates_v0.3.1.png | v0.3.1 | 2026-11-09 | Four candidate globes (seeds 1042, 2718, 5016, 64432) |
 | docs/maps/verlassen_globe_v1.0.png | v1.0 | 2026-11-09 | Canonical globe, seed 2718 |
@@ -19,5 +19,5 @@
 | tools/regions.py | v0.1 | 2026-11-09 | Draft political regions: overland reach from each capital |
 | docs/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Ten draft regions, unclaimed wilderness |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| docs/mechanics.md | v0.17 | 2026-11-10 | Roads and bridges |
+| docs/mechanics.md | v0.18 | 2026-11-10 | Sea roads decided |
 | docs/art/reference/rimworld_reference_pegs_clothing.png | v1 | 2026-11-10 | RimWorld screenshot: pegs, clothing, floating weapons, see-through roofs |

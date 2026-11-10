@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.43, 2026-11-10**
+**World v0.44, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -170,7 +170,8 @@ Japanese is the base everywhere.  Each region's second culture flavors its names
 
 - A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
 - Small offshoots are random: random settlements in the wild, bandit camps, and similar may have paths.
-- **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads while sea ice opens new routes.
+- Sea roads: in the cold year the sea ice opens new routes.  Suddenly, getting from Setareh Minato to Ikh Gawa is a land trip.
+- **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads.  In normal years, crossings like Setareh Minato to Ikh Gawa mean a boat or a long trek around the coast.
 
 ## Local life around the player
 
