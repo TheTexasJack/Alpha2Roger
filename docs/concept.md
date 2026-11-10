@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.33, 2026-11-10**
+**Concept v0.34, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -22,7 +22,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Not ridiculously sexual.  Intimacy, if it ever comes up, stays abstract (sheets and hearts), since animating anything complex, even with pegs, becomes more art than mechanics.  Details figured out along the way.
 - Brawl mechanics: to be dealt with later.
 - A difference from RimWorld: no slave cat people and no coats made from human skin.  Cruelty exists in the world to be opposed; the player never profits from it.
-- **Draft (Claudia):** concretely, no player-owned slaves, no crafting from human remains, and no organ harvesting.
+- **Draft (Claudia):** concretely, no crafting from human remains and no organ harvesting.  Buying a person is allowed only as a route to freeing them: once bought they are free, and anyone who stays with the player stays by choice as a companion, never as property.
 - The closest thing to "slavery" (in quotation marks) is NPCs the player won over with the right choices, who help around the base.
 - Negative traits are not limited.  Some NPCs may have negative traits, including dark ones, that have to be balanced.  They are never glorified, and helping people with them is something we work in later.
 - **Draft (Claudia):** companions are free people, recruited by persuasion, help, rescue, or trade, and tracked by the relationship system.  If they are treated badly or grow unhappy, they can leave.
@@ -54,6 +54,10 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Temptation without coercion, like the Lord of Darkness offering Lili the choice to kill the unicorn in Legend: he enticed her but never put the dagger in her hand; only by free will did she choose (and she chose to save the unicorns).
 - Many options come from random generation.  Some options may seem cruel because of what it takes to save people, but they should always lead to a heroic purpose.
 - Not every path is golden.  Some are hard, bad choices, full of depressed and hurting people, only to be met with the realization that all you were was taken from you and you have to start over.
+- Feeling heroic only works because the player could have chosen another path and did not.  That means the other path is darker, and we have to make some dark decisions.
+- Hard stops: no skinning people, no baby grinders.
+- Approaches differ.  To rescue an NPC, the player might slaughter the entire camp (and maybe did not need to), sneak in and get them out, or, because of a decision from earlier, buy the NPC and then free them.
+- Maybe the NPC never wanted to be free in the first place, like something from Shield Hero.
 - **Draft (Claudia):** heroic options are always present in every run and never forced; the world reacts to what the player chooses, and the ending milestones reflect it.  The world itself still never glorifies cruelty.
 
 ## Model and inspirations
