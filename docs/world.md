@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.37, 2026-11-10**
+**World v0.38, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -124,6 +124,22 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 - Work camps: maybe.  Some are just for profit; some are for labor.  Slaves were always those things.  Some NPCs justify it; some say the enslaved are better off.  We know all these stories because history tells us them, and we do not sugar coat or hide from history as many do.
 - In keeping with Lancer's tone, cruelty such as slavery exists in the world to be opposed, never celebrated.  It has to exist so the player can save people from it.
 - **Draft (Claudia):** lords rule where someone holds the heat (Warmes Tani, Ikh Gawa, Khaluun Onsen, Zimna Toride); mayors lead the trade towns (Setareh Minato, Darya Kako, Davs Mizuumi, Shio Loch, Svetla Hama, Kawa Fada).
+
+## Currency
+
+Five regional currencies, grouped by place (names and exchange rates still open):
+
+| Currency | Issued by | Also used in |
+|---|---|---|
+| A | 5 Khaluun Onsen | |
+| B | 3 Warmes Tani, 8 Darya Kako, 1 Setareh Minato | |
+| C | 2 Ikh Gawa, 6 Davs Mizuumi | |
+| D | 7 Shio Loch | 10 Kawa Fada |
+| E | 4 Svetla Hama, 9 Zimna Toride | |
+
+- Kawa Fada is weird and uses Shio Loch's currency.  We lore in a reason later if we need one.
+- Manna is for off-world business at the spaceport.
+- **Draft (Claudia):** the engine tracks one hidden value unit; each currency is a display name plus an exchange rate in a data file, so the code stays simple.  Barter and commodities work everywhere, with salt as the closest thing to a universal currency (the word salary traces back to salt).  Money changers in each city convert currencies and take a cut.  Rates shift with the world: in a cold year, currencies backed by heat-holding lords rise and trade-town currencies fall.
 
 ## Regions and second cultures
 
