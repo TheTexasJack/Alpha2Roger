@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.40, 2026-11-10**
+**World v0.41, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -137,7 +137,7 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 | D | 7 Shio Loch | 10 Kawa Fada |
 | E | 4 Svetla Hama, 9 Zimna Toride | |
 
-- Kawa Fada is weird and uses Shio Loch's currency.  We lore in a reason later if we need one.
+- Kawa Fada is weird and uses Shio Loch's currency (see Conflicts: the two brothers).
 - Manna is for off-world business at the spaceport.
 - Towns have banks.
 - **Draft (Claudia):** banks exchange currencies for a cut, offer safe storage away from camp raids, and make loans; loan sharks offer a darker, no-questions version.  A real bank needs ID, so early on the player relies on cash, barter, wilderness caches, or a shady back-room bank.  Opening a first real account is a quiet milestone in the identity questline.
@@ -147,8 +147,8 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 
 1. Warmes Tani versus the spaceport mayors (Setareh Minato, Darya Kako): a cultural and political war, never a physical one.  The spaceport area is where most people live, and people do not live in a war-torn area.
 2. Khaluun Onsen versus Ikh Gawa: two Mongolian heat lords with different currencies, fighting over the steppe and the salt road to Davs Mizuumi.  Whoever controls salt controls the cold-year food supply.
-3. Shio Loch and Kawa Fada: the old-fashioned two brothers trope.
-   - Note: their notable people (Akane Keane, Hina Rafferty) carry names usually given to women and different family names.  **Draft (Claudia):** either make it two sisters, or have the towns founded by two brothers long ago with today's leaders inheriting the feud (which would also explain why Kawa Fada uses Shio Loch's currency).
+3. Shio Loch and Kawa Fada: the old-fashioned two brothers trope.  The brothers are the leaders of the two towns.  The towns were established long before; one brother fled Shio Loch and became the leader of Kawa Fada.  The names of the notable people do not matter here; the brothers' names are still open.
+   - **Draft (Claudia):** the fleeing brother brought his home town's coin, which is why Kawa Fada uses Shio Loch's currency.
 4. Zimna Toride is our version of The Wall, or the battles in Lord of the Rings that no one knows about: a fight goes on there that others only hear rumors of.  The other two impact sites (T3, J10) are usually too cold to be an issue, sitting close to the frozen borders.
 - **Draft (Claudia):** planet-wide tensions: heat holders (lords) versus traders (mayors), sharpest in cold years; slavers versus abolitionists over work camps; locals versus outsiders (KTB traders, Union rumors, the player).  Cold-year raids target stored food and salt, and refugee waves head for the heat cities.
 
