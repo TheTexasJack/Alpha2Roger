@@ -4,7 +4,7 @@
 |---|---|---|---|
 | README.md | v0.2 | 2026-11-10 | Heroism pillar: an opportunity every run, never forced |
 | LICENSE.md | v0.2 | 2026-11-09 | Checked against full license text; final product credits requirement |
-| docs/concept.md | v0.51 | 2026-11-10 | The secret stays a secret; exploit accepted |
+| docs/concept.md | v0.52 | 2026-11-10 | Kidnapping event chain |
 | docs/Alpha2Roger_Project_Plan.md | v0.21 | 2026-11-10 | Town banks in later stages |
 | docs/world.md | v0.41 | 2026-11-10 | Two brothers: one fled to lead Kawa Fada |
 | tools/globe_candidates.py | v0.3.1 | 2026-11-09 | Seeded globe candidate generator: land, climate, rivers, salt lakes, geothermal, impacts |

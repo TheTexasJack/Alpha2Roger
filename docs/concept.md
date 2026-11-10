@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.51, 2026-11-10**
+**Concept v0.52, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -121,7 +121,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - M.E.W.L. mode plays the trope: the eye glows aggressively red, something inside whirs up (maybe the thing that makes it smarter than normal), and its laser becomes the best weapon in the game, a cutting beam like the laser in Congo.  It calms down when it gets back.
 - The scene: the player tries to rescue the M.U.L.E.  Once they settle in, WHIRRR, cutting beam noises and screams.  Then: "Oh... there you are."  Now it is a M.U.L.E. again.
 - What the thing inside really is stays a secret.  It is never defined: shows get ruined when you explain the magic.
-- M.E.W.L. mode happens only when the M.U.L.E. is kidnapped.  Could this be exploited?  Absolutely, and that is accepted.
+- M.E.W.L. mode happens only when the M.U.L.E. is kidnapped.  Could this be exploited?  Absolutely, and that is accepted, because a series of events has to happen first: raiders or bandits have to knock it out enough to grab it, then actually grab it and run off the screen with it.
 - **Draft (Claudia):** the cutting beam exists only in M.E.W.L. mode.  The natural cost of the exploit: the M.U.L.E. comes back damaged and needs repairs, so deliberate kidnappings cost scrap and time.
 - An area around the M.U.L.E. is always visible.  Bring it and see more, maybe some outlines, but it is a liability.
 - Sensor arrays: a buildable device the player puts down to reveal an area.
