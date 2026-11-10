@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.44, 2026-11-10**
+**World v0.45, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -56,6 +56,8 @@ This file holds the world facts that become the planet data file (A2R-101).
 
 - Verlassen has almost no NHPs.  That is all outside this colony.
 - There may be one or two NHPs at the spaceport, but they would be new and foreign.
+- Because of the NHPs at the spaceport, no one is going to successfully attack it: not with missiles, armies, or anything.
+- **Draft (Claudia):** this makes the spaceport neutral, untouchable ground, and is one reason the Warmes Tani feud stays cultural and political.
 - Locals know nothing about RA; the main character would.
 - The mech's computer is a CompCon (not an NHP): a particularly smart CompCon.
 - **Draft (Claudia):** the player's knowledge of NHPs, RA, and paracausal science is outsider knowledge nobody local shares.
