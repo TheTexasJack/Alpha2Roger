@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.73, 2026-11-10**
+**Concept v0.74, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -286,6 +286,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
     - How the infected move (accepted):  Bone is piezoelectric (it makes tiny voltages under stress), so a piezoelectric alien crystal growing through the skeleton could hijack nerve signals.  This is the one place the paracausal exception in `world.md` gets used.
   - Open until enemies and gameplay exist (Nathan, 2026-11-10): what role crystalline entities play.  Possibly there are no standalone crystalline entities at all, and the infection works only by infecting existing enemies.
   - **Draft (Claudia):** if it goes that way, infection is one data-driven layer applied to any creature: Crystalline damage, Energy and Burn refract, brittle to Kinetic and Explosive.  Every enemy gets an infected version for the cost of one rule and one overlay sprite.
+  - Sidelined (Nathan, 2026-11-10): a hive consciousness running through the crystal.  It serves no purpose now and would make the crystal greater than it is.  Noted as a possible future expansion only.
 - **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
   - **Draft (Claudia):** Range hits one target within that many tiles, and needs line of sight.  Line hits every target along a straight line of that many tiles, stopping at the first wall.  Lancer's other patterns (Threat, Cone, Blast, Burst) wait until a weapon needs one.
 
