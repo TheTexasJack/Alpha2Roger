@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.70, 2026-11-10**
+**Concept v0.71, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -273,10 +273,17 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
   - Like Nausicaä's toxic jungle, the infection is not the main villain.  People are (Nathan, 2026-11-10).
   - Role (Nathan, 2026-11-10): the infected are complicators.  They give the game something alien, and they drive story: a survivor who is infected and needs a cure, or someone who dies of infection and leaves an infected person in the base.
   - The infection actively infests anything that can be crystalline, which is why salt and similar things are at risk (Nathan, 2026-11-10).
-  - **Draft (Claudia):** "anything that forms crystals" covers almost everything (ice and snow, metals, rock, bone, teeth), so it needs a narrower rule:
-    - Infectable: crystals that grow from a solution or a living body, such as salt, sugar, mineral deposits, bone, and teeth.
-    - Safe: ice, which explains why the infection is weaker in the cold year.  Metals, so gear and the M.U.L.E. stay safe.  Glass and other amorphous solids, which also keeps native silica armor (mostly glass) apart from the infection.
-    - Glass jars become the safe way to store salt and sugar.
+  - Nathan is open to changing this lore for a better science reason.  No spores or mushrooms.  It must survive a meteor crash, and it can simply be alien.
+  - **Draft (Claudia), the seed crystal:** the infection is an alien mineral that converts other crystals into its own structure on contact.  Not alive, no biology, nothing to kill.
+    - Real science 1, templating: a crystal can force matching material to grow in its pattern (seeded crystallization, epitaxy).  The real scare is the "disappearing polymorph": in 1998 a new, more stable crystal form of the drug ritonavir appeared, its seeds spread through labs and factories, and the old form could no longer be made.  Kurt Vonnegut's ice-nine is the fiction version.
+    - Real science 2, prions: misfolded proteins that convert healthy proteins by contact, are hard to destroy, and spread.  The infection is a mineral prion.
+    - Survives the meteor: it is a mineral, and real meteorites deliver crystals intact.
+    - What it can infect follows lattice match, which is real: templating only works on crystals whose structure lines up.  It takes salt, mineral deposits, and bone and teeth (calcium phosphate).  It cannot take ice or metals, so gear and the M.U.L.E. stay safe, and glass and native silica armor are not crystals at all.  Sugar is the stretch, since its structure is very different from salt; keep it as the alien exception or drop it.
+    - Weaker in the cold: crystal growth is a chemical rate, and rates slow in the cold.  The locked cold-year rule now has a real reason.
+    - Refraction: real crystals refract, and some split a beam in two (calcite's double refraction).  A Line beam could split into two Lines.
+    - Brittle: crystals are hard but shatter along cleavage planes, so Kinetic and Explosive work and beams and Burn do not.  The damage rules now have a real reason.
+    - In people: bone and teeth convert first, much like real diseases where soft tissue turns to bone.  A cure is plausible: dissolve the seed crystals before they spread, the way chelation therapy pulls calcium deposits.  Glass jars keep salt safe.
+    - The stretch: how the infected move.  Bone is piezoelectric (it makes tiny voltages under stress), so a piezoelectric alien crystal growing through the skeleton could hijack nerve signals.  This is the one place to lean on the paracausal exception in `world.md`.
 - **Range and Line (Nathan, 2026-11-10):** attacks use Lancer's Range and Line patterns.
   - **Draft (Claudia):** Range hits one target within that many tiles, and needs line of sight.  Line hits every target along a straight line of that many tiles, stopping at the first wall.  Lancer's other patterns (Threat, Cone, Blast, Burst) wait until a weapon needs one.
 
