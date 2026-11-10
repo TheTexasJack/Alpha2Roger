@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.63, 2026-11-10**
+**World v0.64, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -51,6 +51,9 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 ## Climate bands
 
 - Similar to Earth: warmest along the equator, colder toward the poles.
+- The upper edges take the cold year's -50 shift on top of the cold they already have, so they might reach -150 F once the cold year is established (Nathan, 2026-11-10).
+- Physics note (Claudia): plausible.  Earth's coldest recorded air is about -129 F (Vostok, Antarctica), with satellite readings near -144 F on the high ice, and Verlassen gets about 80% of Earth's sunlight.  At those temperatures ordinary steels turn brittle, rubbers and plastics crack, and batteries fail, so cold is cold and metal is metal even for far-future gear.
+- **Draft (Claudia):** the high north is where cold-rated gear stops being a luxury and becomes the price of entry.  Zimna Toride (about 53 N) and the T3 impact site (about 58 N) sit near that edge.
 
 ## Geography
 

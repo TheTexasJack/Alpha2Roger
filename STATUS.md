@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.9, 2026-11-10**
+**STATUS v0.10, 2026-11-10**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): world.md v0.64.  Nathan: the upper edges take the -50 shift on top of their cold and might reach -150 F in an established cold year.
 
 - 2026-11-10 (Claudia): world.md v0.63.  Nathan: cold-year grounding is a modern standard; far-future fliers may have solved it, though physics may still limit things, and lack of money prevents most innovation.
 
