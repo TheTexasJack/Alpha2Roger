@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.48, 2026-11-11**
+**STATUS v0.49, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): world.md v0.69.  Nathan added water biomes: warm ocean, deep ocean, coral reef, inland sea, inland lake, river, salt river.  Drafts: cold-water reefs, saline rivers from salt basins, dissolved salt immune to infection.
 
 - 2026-11-11 (Claudia): world.md v0.68, new Biomes section.  Draft list of 13 biomes and features; Nathan: any biome can be infected and spawns differently.  Draft: infection as a level on a cell.
 

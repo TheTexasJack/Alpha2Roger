@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.68, 2026-11-11**
+**World v0.69, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -106,10 +106,24 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 | 12 | Ice | poles, highest peaks | permanent ice |
 | 13 | Coast | edge of land | beaches, cliffs, tidal flats |
 
-- **Draft (Claudia):** features sit on top of a biome rather than being biomes: geothermal valleys, salt flats and salt lakes, rivers, lakes, impact craters, ruins.
+- Water biomes to add (Nathan, 2026-11-11): warm ocean, deep ocean, coral reef, inland sea, inland lake, river, salt river.
+- **Draft (Claudia), water biome notes:**
+
+| # | Biome | Notes |
+|---|---|---|
+| 14 | Deep ocean | open water; boats, or sea ice in a cold year |
+| 15 | Warm ocean | warm-band shallows, good fishing; chills hard in the cold year |
+| 16 | Coral reef | cold-water reefs (real on Earth, as off Norway, at about 4 to 12 C), since tropical reef corals would die every cold year; rich fishing, navigation hazard |
+| 17 | Inland sea | huge enclosed water, can be brackish, like the Caspian |
+| 18 | Inland lake | fresh water, fish, freezes in winter |
+| 19 | River | river corridor: channel plus floodplain; big rivers only |
+| 20 | Salt river | saline, flowing from the salt basins (real, like Arizona's Salt River); undrinkable, a trade route |
+
+
+- **Draft (Claudia):** features sit on top of a biome rather than being biomes: geothermal valleys, salt flats and salt lakes, small creeks and ponds, impact craters, ruins.  Big rivers and lakes are water biomes.
 - **Draft (Claudia):** each biome becomes data: temperature band, moisture range, plants, animals, resources, travel cost per day, and the local map art palette.
 - Any biome can be infected, and it spawns differently when it is (Nathan, 2026-11-11).
-- **Draft (Claudia):** infection is a level on a cell (for example 0 to 3), not a duplicate biome.  It is highest at the impact craters and fades with distance; it rises with the thaw and drops in the cold year.  Each level changes spawns (infected fauna, crystal growth), resources, and art tint.  Ice can never be infected, since the infection cannot take ice; salt flats infect worst.
+- **Draft (Claudia):** infection is a level on a cell (for example 0 to 3), not a duplicate biome.  It is highest at the impact craters and fades with distance; it rises with the thaw and drops in the cold year.  Each level changes spawns (infected fauna, crystal growth), resources, and art tint.  Ice can never be infected, since the infection cannot take ice; salt flats infect worst.  Salt dissolved in water is not a crystal, so oceans and salt rivers are immune, but salt crust on a salt river's banks can be infected.
 
 ## Life
 
