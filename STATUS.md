@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.57, 2026-11-11**
+**STATUS v0.58, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v1.00, mechanics v0.49.  Nathan's idea: purposeful crystal infections with trade-offs after synthesis (#95, Later).  Drafted seasonal, social, and spread costs.
 
 - 2026-11-11 (Claudia): concept v0.99.  Nathan: kuru should be curable in the far future, maybe through infectious crystal synthesis.  Draft: prions and the infection both spread by templating.
 
