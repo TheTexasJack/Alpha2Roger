@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.4, 2026-11-11**
+**Zones v0.5, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -25,7 +25,11 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Square grid, one grid across the board.  It also makes the math of regions easy: we just pick a grid number.  64 is old-school Minecraft logic, but we fit what meets our needs.
 - **Draft (Claudia), powers of two anchored on the canon globe:** one globe pixel (about 61.2 km) is 16 by 16 region cells (about 3.8 km each); one region cell is 16 by 16 local maps; one local map is 256 by 256 tiles (about 240 m); one tile is about 0.93 m.  Region chunks are 8 by 8 globe pixels, 128 by 128 region cells (about 490 km).  This refines the approved 4 km cells, 250-tile maps, and 10-pixel chunks below.
 - **Draft (Claudia):** diagonal steps cost 1 for movement; range counts diagonals 1, then 2, alternating, so ranges come out nearly round.
-- **Draft (Claudia):** the engine keeps coordinates local to the current map, since the planet is about 47 million tiles around and engines lose precision at huge positions.
+- Approved by Nathan 2026-11-11 (Claudia's suggestion): the engine keeps coordinates local to the current map, since the planet is about 47 million tiles around and engines lose precision at huge positions.
+- Blockiness is normal (Nathan, 2026-11-11).  Mapped out by region or by local map, the whole world looks blocky and weird.  The more you zoom in, the more a region is a square.  That is where the math and the beauty of the world map cross.
+- **Draft (Claudia):** what must not look blocky is the land itself.  Terrain comes from one world-space noise field shared across map edges, so rivers, roads, cliffs, and coastlines run straight across borders and neighboring maps always agree.
+- **Draft (Claudia):** biome changes blend over a band near region cell edges instead of switching exactly at the line, so a desert cell fades into grass rather than stopping at a straight edge.
+- **Draft (Claudia):** the player's map view shows visited local maps stitched together as squares, with unvisited ones blank, like the reference samples.  The blocky patchwork becomes the record of where the player has been.
 
 ## Layers
 
