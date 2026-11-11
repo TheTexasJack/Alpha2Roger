@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.53, 2026-11-11**
+**STATUS v0.54, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.96, mechanics v0.47.  Nathan: no cannibalism, but pasting a corpse is a desperate option with Donner Party similarities.  Draft: lasting consequences.
 
 - 2026-11-11 (Claudia): concept v0.95, mechanics v0.46.  Nathan: the paste printer turns almost anything organic (native or human, even wood, no metals) into paste at a convert rate.  Drafts: convert rates, fat rendering, fermentation vat.
 

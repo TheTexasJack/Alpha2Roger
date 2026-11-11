@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.46, 2026-11-11**
+**Mechanics v0.47, 2026-11-11**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -36,7 +36,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 15 | Day and night | Draft | No moon, so nights are pitch black; light matters |
 | 16 | Weather and forecast | Decided | Weather sensor on the wreck warns of the cold year; repairs extend the forecast (Draft) |
 | 17 | Paste food printer | Decided | Bare survival for the player and companions; limited feedstock, morale cost |
-| 18 | Native food processing | Decided | Mirror chemistry: native food must be processed.  The paste printer takes almost anything organic, native or human, even wood, no metals; each has a convert rate.  Rendering fat and a fermentation vat (Draft) |
+| 18 | Native food processing | Decided | Mirror chemistry: native food must be processed.  The paste printer takes almost anything organic, native or human, even wood, no metals; each has a convert rate.  No cannibalism, but pasting a corpse is a desperate, Donner Party option.  Rendering fat and a fermentation vat (Draft) |
 | 19 | Hunting | Decided | Big shaggy cold-adapted fauna with migrations; Terran game seeded by the settlers' terraforming is edible, native meat needs processing; Terran game near settled land (Draft) |
 | 19b | Fishing | Decided | Needed: fish tables by water type and salinity; brackish lakes hold fish found few other places.  Ice fishing in winter and the cold year, nets, traps (Draft) |
 | 20 | Farming | Decided | No free seeds; seeds are found, planted, and grown; Terran crops from rare seeds; growing takes full seasons; hunting carries the early game |

@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.95, 2026-11-11**
+**Concept v0.96, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -143,6 +143,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Walls are for warmth and shelter.  Threats are mostly environmental.
 - Early food: a food printer in the mech.  It makes paste: just enough to survive.  It works for the companions too, and it is still just paste.  Eating only paste costs mood or morale, and its limited feedstock slowly pushes the camp toward hunting, trading, and the first harvest.  It is the one printer that works for you, since paste needs no license.
 - Almost anything can go into the paste printer for food, even wood; no metals.  It destroys whatever goes in, and anything organic, native or human, has a convert rate.  It stays simple: throw 40 logs in and enjoy your woody paste (Nathan, 2026-11-11).
+- No cannibalism, which is RimWorld efficiency rather than our game.  But pasting a corpse is an option, a desperate one with similarities to the Donner Party: actual human survival in extreme situations, not pleasant, and there are stories of it (Nathan, 2026-11-11).
+- **Draft (Claudia):** pasting a corpse is a last resort with lasting weight: a heavy mood hit for everyone who knows, companions remember it in their relationship scores, some traits refuse outright or leave camp, and factions that hear of it react.  It is never framed as efficient or glorified.
 - **Draft (Claudia), convert rates:** fat and meat convert best, plants middling, wood poorest (real: wood's cellulose is a chain of glucose and breaks down into sugar, while its lignin is waste).  The printer handles the mirror-chemistry conversion, which is why it can take native matter.  What went in shows up as mood: woody paste tastes like woody paste.
 - **Draft (Claudia), other native food routes:** rendering native fat gives calories without protein (most fatty acids have no handedness), and a fermentation vat with an engineered starter culture turns native biomass into edible mash slowly, needing warmth.
 
