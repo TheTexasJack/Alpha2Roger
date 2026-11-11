@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.24, 2026-11-11**
+**Zones v0.25, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -107,6 +107,13 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - (Claudia, approved by Nathan 2026-11-11 as starters) generic events and what helps: breakdown of a vehicle, sled, or gear (Intelligence, spare parts); waterborne sickness and food poisoning (Intelligence, camp rules, water treatment); injuries from native spines, falls, frostbite (Perception, medicine); a pack animal lame or dead (rest, feed); river crossings (boats, Strength, Intelligence); lost days off the trail (Intelligence, Perception, maps); storms and white-outs (weather sensor, shelter); supplies stolen at night (watch rules, Perception); a passing caravan (Charisma); wildlife attack (Perception to spot it early, weapons); bandit attack (Charisma, Strength, cover); good events such as a game herd, a hidden cache, a hot spring, friendly travelers (Perception); infected ground (detours, plant analyzer); a downed flier (#94).
 - (Claudia, approved by Nathan 2026-11-11 as starters) each event checks a stat, gear, or camp rule, and offers a choice when there is a real decision.  Events come from what the party lacks, not from bad luck alone.
 
+## Montage stops (Nathan, 2026-11-11)
+
+- Stop rules are simple: food, unable to progress, too many people sick, and the like.
+- **Draft (Claudia), forced stops:** food or water below a set number of days left; the party cannot progress (impassable river, cliff, blizzard, vehicle out of fuel or broken); too many sick or hurt (for example half the party, or anyone critical); someone dying; an event that needs a choice; hostile contact; arrival at the destination or a marked point.
+- **Draft (Claudia), player-set stops,** like Oregon Trail's pace and rations: stop at any settlement, stop if food drops below X days, stop at anything interesting.
+- **Draft (Claudia):** nightly camp happens inside the montage and is not a stop, unless something goes wrong in the night.
+
 ## Returning to a site
 
 - When the player returns to the crash site, a quick math and adjustment run determines the state of the site: whether anybody survived or stayed, and what their averages are.  The map is adjusted, then the player enters (Nathan, 2026-11-10).
@@ -153,7 +160,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Exact local map size in tiles, and meters per tile.
 - Region cell size and chunk size.
-- Montage stop rules, and full event tables once more of the game exists.
+- Full montage event tables, once more of the game exists.
 - Catch-up run rules.
 - Biome regions (moved from A2R-101).
 - Route distance ranges (moved from A2R-101).

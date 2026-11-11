@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.68, 2026-11-11**
+**STATUS v0.69, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.25, Montage stops.  Nathan: simple stop rules (food, unable to progress, too many sick).  Drafts: forced stops, player-set stops, nightly camp inside the montage.
 
 - 2026-11-11 (Claudia): zones.md v0.24.  Nathan approved the travel speed and montage event drafts as starters.
 
