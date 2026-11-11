@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.85, 2026-11-11**
+**Concept v0.86, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -333,6 +333,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Direction (Nathan, 2026-11-11):**
   - Lancer is lax on pilot rules: what it has is narrative description, open to interpretation, not set stats.  So we use a traditional stat system, one we are free to use or make our own (in the spirit of SPECIAL or the six classic abilities).
   - Backgrounds: we can borrow Lancer's background name labels (such as celebrity, colonist, criminal) but never their text, since Massif allows concepts but not their art or text.  Like RimWorld, a background is a stat configuration plus a little flavor.
+  - Lancers come from a variety of backgrounds.  A genetically modified super soldier is one option, and it is background fluff.  It does not change the story: narratively they are all heroes who got there by various means.  Some were created, some bred, some were hard workers (Nathan, 2026-11-11).
+  - **Draft (Claudia):** mechanically the background still sets the starting stat configuration, so a gene-modded soldier might start with more Strength and a hard worker with more Endurance, while the story treats them all the same.
   - No triggers.  They are a narrative element (a situation that gets bonuses) that does not translate well to a video game.
   - No ranged skill (#47d), only debuffs.
   - A strong character should feel strong (better melee, carries more).  A smart character should feel smart.

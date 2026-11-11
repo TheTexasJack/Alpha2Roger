@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.25, 2026-11-11**
+**STATUS v0.26, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.86.  Nathan: a genetically modified super soldier is one background option, background fluff only; all Lancers are heroes who got there by various means.
 
 - 2026-11-11 (Claudia): concept v0.85, mechanics v0.43.  Nathan: adapt Lancer pilot gear to a traditional form; heavy weapons need STR; top-down TTRPG-style map.  Drafts: weapon classes, archaic ammo, item traits.
 
