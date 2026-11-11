@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.86, 2026-11-11**
+**Concept v0.87, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -334,7 +334,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
   - Lancer is lax on pilot rules: what it has is narrative description, open to interpretation, not set stats.  So we use a traditional stat system, one we are free to use or make our own (in the spirit of SPECIAL or the six classic abilities).
   - Backgrounds: we can borrow Lancer's background name labels (such as celebrity, colonist, criminal) but never their text, since Massif allows concepts but not their art or text.  Like RimWorld, a background is a stat configuration plus a little flavor.
   - Lancers come from a variety of backgrounds.  A genetically modified super soldier is one option, and it is background fluff.  It does not change the story: narratively they are all heroes who got there by various means.  Some were created, some bred, some were hard workers (Nathan, 2026-11-11).
-  - **Draft (Claudia):** mechanically the background still sets the starting stat configuration, so a gene-modded soldier might start with more Strength and a hard worker with more Endurance, while the story treats them all the same.
+  - Approved by Nathan 2026-11-11 (Claudia's suggestion): mechanically the background still sets the starting stat configuration, so a gene-modded soldier might start with more Strength and a hard worker with more Endurance, while the story treats them all the same.
   - No triggers.  They are a narrative element (a situation that gets bonuses) that does not translate well to a video game.
   - No ranged skill (#47d), only debuffs.
   - A strong character should feel strong (better melee, carries more).  A smart character should feel smart.
@@ -363,6 +363,13 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Draft (Claudia):** gear keeps the Lancer name and premise and gets a system effect that fits Verlassen.  Example: the Antiphoton Visor prevents snow blindness from cold-year glare, and blocks flash weapons and laser glare.
 - **Draft (Claudia):** pilot talents keep Lancer's three ranks, buffs that grow like Fallout perks.  Example, a cold-weather talent: rank I keeps food in the pack from freezing, rank II warns before frostbite, rank III lets the pilot sleep without a fire.
 - License note (Claudia, 2026-11-11): SPECIAL grew out of GURPS.  Fallout was first built on GURPS, the deal with Steve Jackson Games fell apart, and Interplay wrote SPECIAL to replace it; the Fallout IP is now Bethesda's.  Game mechanics are free to borrow, so we name our own stats.
+- **Every build is viable (Nathan, 2026-11-11):** don't neglect Intelligence or Charisma builds.
+  - Intelligence gets complex things, like drones the player has to operate, or access to more tech faster.
+  - Charisma means more NPCs than other characters get, and making friends more easily.
+  - **Draft (Claudia):** the camp is locked at 5 or 6, so Charisma could stretch that range a little (for example 4 for a loner, up to 7 or 8 for a charmer), or raise loyalty and quality instead of headcount.
+  - **Draft (Claudia):** drones pair with Perception: a scout drone pushes back the fog of war.
+- **Not every problem is solved with guns (Nathan, 2026-11-11):** pirates and raiders in the wild are hostile, and no one is coming.  A faction, though, might be trying to survive like everyone else.  A settlement is a resource, and the player will be doing the same thing to live.
+  - **Draft (Claudia):** non-violent paths run through the stats: talking, trading, and bribing (Charisma), intimidation (Strength or Charisma), sneaking past (Agility), fixing their problem (Intelligence), or working for them.  Each faction tracks reputation, so a settlement can go from rival to partner.
 - **Draft (Claudia):** with no ranged skill, every stat needs a survival job: Strength (carry, melee, heavy building), Endurance (cold tolerance, wounds, hunger), Agility (actions per turn, reloads, stealth), Perception (sight radius in the fog of war, tracking, foraging), Intelligence (crafting, repair, learning), Charisma (persuasion, trade, companions, the legal battle).
 - **Draft (Claudia):** two layers: stats set at creation by background, and skills that grow with use, RimWorld style.  Low-skill debuffs (#47d) hang off skills.
 - **Draft (Claudia):** no hard caps, but diminishing returns, and the cold is never stat-solvable: Strength does not beat -50; gear and shelter do.

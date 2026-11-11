@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.26, 2026-11-11**
+**STATUS v0.27, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.87.  Nathan approved backgrounds setting stats; Intelligence builds get drones and faster tech, Charisma builds get more NPCs and easier friendships; not every problem is solved with guns (factions survive too; raiders stay hostile).
 
 - 2026-11-11 (Claudia): concept v0.86.  Nathan: a genetically modified super soldier is one background option, background fluff only; all Lancers are heroes who got there by various means.
 
