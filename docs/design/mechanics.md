@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.42, 2026-11-11**
+**Mechanics v0.43, 2026-11-11**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -72,7 +72,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 35 | Stats and skills | Decided | Traditional stat system of our own; backgrounds use Lancer name labels as RimWorld-style stat configurations plus flavor; no triggers; no ranged skill (#47d); uncapped builds; tune after the prototype; our own data tables.  Stat list, skills layer, soft caps (Draft) |
 | 36 | NPC generation | Decided | Rolled once and locked; core plus changing state (Draft) |
 | 37b | Pilot talents | Decided | Lancer has no pilot talents; we create our own, buffs at the end of the day.  Three ranks (Draft) |
-| 37c | Gear from Lancer | Decided | Lancer names, our system effects; weapons are a start that we flavor.  Weapon tags rewritten for no-miss (Draft) |
+| 37c | Gear from Lancer | Decided | Lancer names, our system effects; weapons are a start that we flavor; pilot gear adapted to a traditional form, heavy weapons need STR.  Weapon classes, tags, item traits (Draft) |
 | 37 | Traits | Decided | Includes negative and dark traits, balanced, never glorified |
 | 38 | Relationships | Decided | Organic, RimWorld-like, light; family to protect; romance and intimacy only at 18 and up |
 | 39 | Orientation | Decided | Varies per pawn, including ace; romantic and sexual dials (Draft) |

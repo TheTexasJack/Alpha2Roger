@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.84, 2026-11-11**
+**Concept v0.85, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -344,6 +344,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
   - Gear: Lancer's gear is narrative.  The Antiphoton Visor text says what it does but gives no stats and no effects.  We can take the gear names, but we figure out what they do systematically.
   - Weapons have some merit, but that is all there is: a fine start.  Lancer wants players to give them flavor.  Nathan's Thermal Lance is his "N4 Thermal Shunt."
 - Note (Claudia): the weapon table Nathan shared is the GMS mech weapon list (mount sizes, mech ranges, self heat), not pilot weapons.  Lancer's pilot weapons are a short generic list.  The mech list still gives names and concepts for pilot-scale weapons and is the scrap mech's future armory.
+- Pilot gear is even sparser than the mech list (archaic, light/medium/heavy melee, light/medium/heavy signature ranged).  We adapt these to a more traditional form.  Heavy weapons need STR; all the other stats are valid.  Gameplay is very top down, like a TTRPG map (Nathan, 2026-11-11).
+- **Draft (Claudia), weapon classes:** Light, Medium, Heavy, and Archaic, each melee or ranged.  Ranged weapons pick a damage type (Kinetic, Energy, Explosive).  Short of the STR a heavy weapon needs, the wielder can still use it but takes the Inaccurate falloff and an extra recovery action, using the debuff system instead of a hard lock.
+- **Draft (Claudia):** archaic weapons matter on Verlassen because their ammo (arrows, bolts) can be made by hand; clans in the deep wild carry them.
+- **Draft (Claudia), item traits** (from the concept of Lancer's notable-features tables, our own text and effects, rolled by the seed): concealable (passes a city gate weapon check), finicky (jams for anyone but its owner), loud and showy (intimidates, but reveals position in the fog of war), custom-tooled (a gadget such as a range finder for more range or a motion detector that reveals fog), heirloom or ceremonial (changes faction reactions and trade value), taken from someone (someone may come looking for it).
 - **Draft (Claudia), weapon tags rewritten for the no-miss system** (Lancer tag names as concepts, our own rules):
   - AP: ignores armor.
   - Reliable X: armor can never reduce the hit below X.
