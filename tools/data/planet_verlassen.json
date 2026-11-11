@@ -1,9 +1,9 @@
 {
- "version": "0.2",
+ "version": "0.3",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.2",
+ "generated_by": "tools/planet_pack.py v0.3",
  "sources": {
-  "world": "docs/design/world.md v0.65",
+  "world": "docs/design/world.md v0.67",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
   "globe": "tools/globe_candidates.py v0.3.1"
@@ -74,7 +74,7 @@
    "lat": -9.78,
    "lon": -71.5,
    "cultural_region": "spaceport_coast",
-   "political_region": 1,
+   "territory": 1,
    "currency": "B",
    "notable_person": {
     "name": "Parisa Kuroda",
@@ -95,7 +95,7 @@
    "lat": -30.84,
    "lon": -12.0,
    "cultural_region": "southern_steppe",
-   "political_region": 2,
+   "territory": 2,
    "currency": "C",
    "notable_person": {
     "name": "Erdene Yamaguchi",
@@ -116,7 +116,7 @@
    "lat": 32.84,
    "lon": -113.0,
    "cultural_region": "west_north",
-   "political_region": 3,
+   "territory": 3,
    "currency": "B",
    "notable_person": {
     "name": "Leopold Matsuda",
@@ -137,7 +137,7 @@
    "lat": 21.31,
    "lon": -3.0,
    "cultural_region": "central_north",
-   "political_region": 4,
+   "territory": 4,
    "currency": "E",
    "notable_person": {
     "name": "Bogdan Ogawa",
@@ -158,7 +158,7 @@
    "lat": -49.39,
    "lon": -171.5,
    "cultural_region": "southern_steppe",
-   "political_region": 5,
+   "territory": 5,
    "currency": "A",
    "notable_person": {
     "name": "Bolormaa Kobayashi",
@@ -179,7 +179,7 @@
    "lat": -51.39,
    "lon": -19.5,
    "cultural_region": "southern_steppe",
-   "political_region": 6,
+   "territory": 6,
    "currency": "C",
    "notable_person": {
     "name": "Altan Arai",
@@ -200,7 +200,7 @@
    "lat": 43.37,
    "lon": 149.0,
    "cultural_region": "empty_east",
-   "political_region": 7,
+   "territory": 7,
    "currency": "D",
    "notable_person": {
     "name": "Akane Keane",
@@ -221,7 +221,7 @@
    "lat": 25.82,
    "lon": -71.5,
    "cultural_region": "spaceport_coast",
-   "political_region": 8,
+   "territory": 8,
    "currency": "B",
    "notable_person": {
     "name": "Farrokh Okada",
@@ -242,7 +242,7 @@
    "lat": 52.9,
    "lon": 29.5,
    "cultural_region": "central_north",
-   "political_region": 9,
+   "territory": 9,
    "currency": "E",
    "notable_person": {
     "name": "Radoslav Nishimura",
@@ -263,7 +263,7 @@
    "lat": -23.82,
    "lon": 83.0,
    "cultural_region": "empty_east",
-   "political_region": 10,
+   "territory": 10,
    "currency": "D",
    "notable_person": {
     "name": "Hina Rafferty",
@@ -306,83 +306,81 @@
    }
   ]
  },
- "regions": {
-  "cultural": [
-   {
-    "id": "spaceport_coast",
-    "name": "Spaceport coast",
-    "base_culture": "japanese",
-    "second_culture": "persian",
-    "word_order": "regional_first",
-    "places": [
-     1,
-     8
-    ]
-   },
-   {
-    "id": "west_north",
-    "name": "West continent north",
-    "base_culture": "japanese",
-    "second_culture": "german",
-    "word_order": "regional_first",
-    "places": [
-     3
-    ]
-   },
-   {
-    "id": "southern_steppe",
-    "name": "Southern steppe belt",
-    "base_culture": "japanese",
-    "second_culture": "mongolian",
-    "word_order": "regional_first",
-    "places": [
-     2,
-     5,
-     6
-    ]
-   },
-   {
-    "id": "central_north",
-    "name": "Central-north island",
-    "base_culture": "japanese",
-    "second_culture": "slavic",
-    "word_order": "regional_first",
-    "places": [
-     4,
-     9
-    ]
-   },
-   {
-    "id": "empty_east",
-    "name": "The empty east",
-    "base_culture": "japanese",
-    "second_culture": "gaelic",
-    "word_order": "japanese_first",
-    "places": [
-     7,
-     10
-    ]
-   }
-  ],
-  "political": {
-   "rule": "each capital claims the land it reaches overland first; seas block claims",
-   "reach_km": 2400,
-   "unclaimed_habitable_land_share": 0.65,
-   "generator": "tools/regions.py",
-   "map": "assets/maps/verlassen_regions_draft_v0.1.png",
-   "capitals": [
+ "cultural_regions": [
+  {
+   "id": "spaceport_coast",
+   "name": "Spaceport coast",
+   "base_culture": "japanese",
+   "second_culture": "persian",
+   "word_order": "regional_first",
+   "places": [
     1,
+    8
+   ]
+  },
+  {
+   "id": "west_north",
+   "name": "West continent north",
+   "base_culture": "japanese",
+   "second_culture": "german",
+   "word_order": "regional_first",
+   "places": [
+    3
+   ]
+  },
+  {
+   "id": "southern_steppe",
+   "name": "Southern steppe belt",
+   "base_culture": "japanese",
+   "second_culture": "mongolian",
+   "word_order": "regional_first",
+   "places": [
     2,
-    3,
-    4,
     5,
-    6,
+    6
+   ]
+  },
+  {
+   "id": "central_north",
+   "name": "Central-north island",
+   "base_culture": "japanese",
+   "second_culture": "slavic",
+   "word_order": "regional_first",
+   "places": [
+    4,
+    9
+   ]
+  },
+  {
+   "id": "empty_east",
+   "name": "The empty east",
+   "base_culture": "japanese",
+   "second_culture": "gaelic",
+   "word_order": "japanese_first",
+   "places": [
     7,
-    8,
-    9,
     10
    ]
   }
+ ],
+ "territories": {
+  "rule": "each capital claims the land it reaches overland first; seas block claims",
+  "reach_km": 2400,
+  "unclaimed_habitable_land_share": 0.65,
+  "generator": "tools/regions.py",
+  "map": "assets/maps/verlassen_regions_draft_v0.1.png",
+  "capitals": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ]
  },
  "currencies": {
   "regional": [

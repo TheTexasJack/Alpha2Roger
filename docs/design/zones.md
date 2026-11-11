@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.14, 2026-11-11**
+**Zones v0.15, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -22,8 +22,8 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - The first build uses one specific crash spot far out in the wilds, with random starts and a player-picked start planned for later (Nathan, 2026-11-11).
 - First crash spot: S1, grid R5, about 26 N, 79.5 E (globe pixel x 519, y 128), a river valley about 5,600 km from the nearest place (Zimna Toride) (Nathan picked from Claudia's three candidates, 2026-11-11).
 - Each square on the overall map is a region (Nathan, 2026-11-11): the lettered grid squares A1 to X12, so the first region is R5.  A region is 30 by 30 globe pixels, about 1,840 km north to south; at 16 region cells per pixel, a region map is 480 by 480 cells.  There are 288 regions.  This replaces the 8 by 8 pixel chunk draft.
-- **Draft (Claudia):** the planet file's political regions are renamed territories, so "region" means only a map square.
-- **Draft (Claudia):** squares narrow toward the poles on the flat map (a square at 60 degrees is about half as wide on the ground as one at the equator; R5 is about 1,650 km wide).  Play uses the squares; travel days and supplies use true distance.
+- The planet file's political regions are renamed territories, so "region" means a map square (Claudia, approved by Nathan 2026-11-11).
+- No polar shrinking (Nathan, 2026-11-11).  Squares narrowing toward the poles is globe logic; since this is a 2D game, we drop it.  Every square is the same size for play and travel.  The planet file's `straight_line_km` is globe reference only.
 
 ## Grid (Nathan, 2026-11-11)
 
@@ -53,7 +53,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 | Local map | 250 by 250 tiles, about 250 m | Turn-based play, camp, combat, walking from map edge to map edge |
 
 - (Claudia, approved by Nathan 2026-11-11) about 16 by 16 local maps per region cell and about 15 by 15 region cells per globe pixel, an even step at each layer.
-- (Claudia, approved by Nathan 2026-11-11; chunk size superseded 2026-11-11 by one map grid square per region) region maps are fixed square chunks of the globe, not the political regions, since about 65% of habitable land belongs to no region.  Chunks tile seamlessly; political borders are drawn on top as data.
+- (Claudia, approved by Nathan 2026-11-11; chunk size superseded 2026-11-11 by one map grid square per region) region maps are fixed square chunks of the globe, not the territories, since about 65% of habitable land belongs to no territory.  Chunks tile seamlessly; territory borders are drawn on top as data.
 - (Claudia, approved by Nathan 2026-11-11) each layer is built from the one above it.  The globe feeds the region chunk; the region cell feeds the local map.  A river on the globe stays a river on the region map and in the local map.
 
 ## Heat

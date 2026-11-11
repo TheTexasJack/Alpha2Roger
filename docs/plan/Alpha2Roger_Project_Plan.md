@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.26, 2026-11-11**
+**Plan v0.27, 2026-11-11**
 
 ## What this project is
 
@@ -117,6 +117,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
 - Plan v0.26, 2026-11-11 (Nathan): planet data file v0.2 with the 12 by 35 day calendar.
 - Plan v0.25, 2026-11-10 (Nathan): A2R-102 in progress; zones and travel direction recorded in `docs/design/zones.md`.
 - Plan v0.24, 2026-11-10 (Nathan): A2R-101 locked and done; biome regions and route distance ranges moved to A2R-102.
