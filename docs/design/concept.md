@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.81, 2026-11-10**
+**Concept v0.82, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -327,6 +327,23 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - The closest thing to "slavery" (in quotation marks) is NPCs the player won over with the right choices, who help around the base.
 - Negative traits are not limited.  Some NPCs may have negative traits, including dark ones, that have to be balanced.  They are never glorified, and helping people with them is something we work in later.
 - **Draft (Claudia):** companions are free people, recruited by persuasion, help, rescue, or trade, and tracked by the relationship system.  If they are treated badly or grow unhappy, they can leave.
+
+## Character system
+
+- **Direction (Nathan, 2026-11-11):**
+  - Lancer is lax on pilot rules: what it has is narrative description, open to interpretation, not set stats.  So we use a traditional stat system, one we are free to use or make our own (in the spirit of SPECIAL or the six classic abilities).
+  - Backgrounds: we can borrow Lancer's background name labels (such as celebrity, colonist, criminal) but never their text, since Massif allows concepts but not their art or text.  Like RimWorld, a background is a stat configuration plus a little flavor.
+  - No triggers.  They are a narrative element (a situation that gets bonuses) that does not translate well to a video game.
+  - No ranged skill (#47d), only debuffs.
+  - A strong character should feel strong (better melee, carries more).  A smart character should feel smart.
+  - No caps on builds: a strong wizard, a sneaky barbarian, even a Bardbarian.
+  - Balance is a concern, and that is where the system shines.  We build the engine to match, then adjust once the prototype shows what needs adjusting.
+  - Ironsworn: Starforged's oracles show the model of system tables, and we suspect we build everything out as tables.
+- License note (Claudia, checked 2026-11-11): the Starforged Reference Guide text, including moves and oracles, is CC BY 4.0, which allows commercial use with attribution.  The full Starforged rulebook is CC BY-NC-SA, non-commercial only.  The community Dataforged repo already has the oracles as data.  Fallout's SPECIAL name belongs to Bethesda, so we name our own stats; game mechanics themselves are free to use.
+- **Draft (Claudia):** with no ranged skill, every stat needs a survival job: Strength (carry, melee, heavy building), Endurance (cold tolerance, wounds, hunger), Agility (actions per turn, reloads, stealth), Perception (sight radius in the fog of war, tracking, foraging), Intelligence (crafting, repair, learning), Charisma (persuasion, trade, companions, the legal battle).
+- **Draft (Claudia):** two layers: stats set at creation by background, and skills that grow with use, RimWorld style.  Low-skill debuffs (#47d) hang off skills.
+- **Draft (Claudia):** no hard caps, but diminishing returns, and the cold is never stat-solvable: Strength does not beat -50, gear and shelter do.
+- **Draft (Claudia):** every number lives in data files, so tuning after the prototype is editing tables, not code.
 
 ## Art and feel
 

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.21, 2026-11-11**
+**STATUS v0.22, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.82, mechanics v0.40.  Nathan set the character system direction (#35): traditional stats, Lancer background labels as stat configurations, no triggers, uncapped builds, tune after prototype, Starforged-style tables.
 
 - 2026-11-11 (Claudia): zones.md v0.2.  Nathan approved all of Claudia's zones drafts (scale numbers, chunks, layers built top-down, walking equals montage, edge walking, seeded catch-up, city as hub, outskirts, early crash fencing, seed tiers, delta saves).  Next talks: Godot, stats, gear.
 

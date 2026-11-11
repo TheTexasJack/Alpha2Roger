@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.39, 2026-11-11**
+**Mechanics v0.40, 2026-11-11**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -69,7 +69,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 |---|---|---|---|
 | 34 | Character creation | Decided | RPG style, built from peg parts |
 | 34b | Equipment slots | Decided | No separate armor slots; hand slots for weapons and tools; details with character creation |
-| 35 | Stats and skills | Open | Not designed yet.  No ranged skill (#47d) |
+| 35 | Stats and skills | Decided | Traditional stat system of our own; backgrounds use Lancer name labels as RimWorld-style stat configurations plus flavor; no triggers; no ranged skill (#47d); uncapped builds; tune after the prototype.  Stat list, skills layer, soft caps (Draft) |
 | 36 | NPC generation | Decided | Rolled once and locked; core plus changing state (Draft) |
 | 37 | Traits | Decided | Includes negative and dark traits, balanced, never glorified |
 | 38 | Relationships | Decided | Organic, RimWorld-like, light; family to protect; romance and intimacy only at 18 and up |
