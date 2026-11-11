@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.22, 2026-11-11**
+**Zones v0.23, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -101,6 +101,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - **Draft (Claudia), overworld baselines,** about 8 travel hours a day, in km per day: on foot on a road with a light load 30 to 35; on foot in wilderness 15 to 25; hauling a heavy load or sled 10 to 15; deep snow without snowshoes 5 to 10; snowshoes or skis 15 to 30; wagon or cart 25 to 30 (the Oregon Trail's 15 to 20 miles); horse or pack animal 30 to 40; dog sled 40 to 80; vehicle off road 100 to 250; boat downstream 50 to 100, upstream 15 to 25.  Climbing follows Naismith's rule, about one extra hour per 600 m of ascent.
 - **Draft (Claudia), what slows a group:** terrain (biome, snow depth, climbing; roads speed it up); weather (rain, wind, fog, blizzard); daylight (no moon, so little night travel, and short winter days); load against carrying capacity; condition (wounds, sickness, hunger, fatigue, cold, anyone being carried); animals' grazing time and vehicles' fuel; river crossings; caution through dangerous or infected ground; and the cold year, which multiplies most of these.
 
+## Montage events (Nathan, 2026-11-11)
+
+- Full event tables wait until more of the game is established, but a number of generic events can be accounted for now: breakdowns, sickness, a trader passing by, attacks (wildlife and bandit), and the ever-popular Oregon Trail events, just more modern.  Dysentery would seem like no problem, until there is no clean water and nobody smart enough to know better.
+- **Draft (Claudia), generic events and what helps:** breakdown of a vehicle, sled, or gear (Intelligence, spare parts); waterborne sickness and food poisoning (Intelligence, camp rules, water treatment); injuries from native spines, falls, frostbite (Perception, medicine); a pack animal lame or dead (rest, feed); river crossings (boats, Strength, Intelligence); lost days off the trail (Intelligence, Perception, maps); storms and white-outs (weather sensor, shelter); supplies stolen at night (watch rules, Perception); a passing caravan (Charisma); wildlife attack (Perception to spot it early, weapons); bandit attack (Charisma, Strength, cover); good events such as a game herd, a hidden cache, a hot spring, friendly travelers (Perception); infected ground (detours, plant analyzer); a downed flier (#94).
+- **Draft (Claudia):** each event checks a stat, gear, or camp rule, and offers a choice when there is a real decision.  Events come from what the party lacks, not from bad luck alone.
+
 ## Returning to a site
 
 - When the player returns to the crash site, a quick math and adjustment run determines the state of the site: whether anybody survived or stayed, and what their averages are.  The map is adjusted, then the player enters (Nathan, 2026-11-10).
@@ -147,7 +153,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Exact local map size in tiles, and meters per tile.
 - Region cell size and chunk size.
-- Montage event tables and stop rules.
+- Montage stop rules, and full event tables once more of the game exists.
 - Catch-up run rules.
 - Biome regions (moved from A2R-101).
 - Route distance ranges (moved from A2R-101).

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.66, 2026-11-11**
+**STATUS v0.67, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.23, Montage events.  Nathan: generic events now (breakdowns, sickness, traders, wildlife and bandit attacks, modern Oregon Trail events); full tables later.  Drafts: event list and how events check the party.
 
 - 2026-11-11 (Claudia): zones.md v0.22, Travel speeds.  Nathan: local map speed by feel and testing; overworld on modern assumptions; a group is as slow as its slowest unit.  Drafts: baseline speeds and slowing factors.
 
