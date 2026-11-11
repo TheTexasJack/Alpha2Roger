@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.67, 2026-11-11**
+**World v0.68, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -84,6 +84,32 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - **Draft (Claudia):** a cold planet shows more land than Earth (water locked in ice lowers sea level), about 50 to 60% ocean, with drier interiors (cold steppe and tundra, forests near coasts) and large permanent ice caps.
 - **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
+
+## Biomes
+
+- **Draft (Claudia):** no jungle anywhere.  Every third year even the equator freezes at night, which kills frost-sensitive plants, and the terraformers planted frost-hardy species.  The warmest forests are evergreen oak and pine, like the southern US or southern China.
+- **Draft (Claudia), 13 biomes:**
+
+| # | Biome | Where | Feel |
+|---|---|---|---|
+| 1 | Warm forest | warm band, wet | evergreen oak and pine, richest forage |
+| 2 | Warm grassland | warm band, medium | open plains, herds |
+| 3 | Scrub desert | warm band, dry | thorn brush, scarce water |
+| 4 | Mixed forest | temperate, wet | deciduous and conifer woods |
+| 5 | Prairie | temperate, medium | tall grass, good farming soil |
+| 6 | Steppe | temperate, dry | short grass, wind |
+| 7 | Marsh | wet lowlands, any band | reeds, bogs, slow travel, bad water |
+| 8 | Taiga | cold band | dense conifers, deep snow |
+| 9 | Tundra | cold band, open | moss, lichen, migrating herds |
+| 10 | Cold barrens | cold band, dry | rock and gravel |
+| 11 | Highlands | elevation, any band | ridges, scree, passes, caves |
+| 12 | Ice | poles, highest peaks | permanent ice |
+| 13 | Coast | edge of land | beaches, cliffs, tidal flats |
+
+- **Draft (Claudia):** features sit on top of a biome rather than being biomes: geothermal valleys, salt flats and salt lakes, rivers, lakes, impact craters, ruins.
+- **Draft (Claudia):** each biome becomes data: temperature band, moisture range, plants, animals, resources, travel cost per day, and the local map art palette.
+- Any biome can be infected, and it spawns differently when it is (Nathan, 2026-11-11).
+- **Draft (Claudia):** infection is a level on a cell (for example 0 to 3), not a duplicate biome.  It is highest at the impact craters and fades with distance; it rises with the thaw and drops in the cold year.  Each level changes spawns (infected fauna, crystal growth), resources, and art tint.  Ice can never be infected, since the infection cannot take ice; salt flats infect worst.
 
 ## Life
 

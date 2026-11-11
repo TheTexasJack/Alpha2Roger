@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.47, 2026-11-11**
+**STATUS v0.48, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): world.md v0.68, new Biomes section.  Draft list of 13 biomes and features; Nathan: any biome can be infected and spawns differently.  Draft: infection as a level on a cell.
 
 - 2026-11-11 (Claudia): zones v0.15, world v0.67, planet pack and data v0.3.  Nathan approved territories (formerly political regions) and dropped polar shrinking: squares are uniform for play and travel.
 
