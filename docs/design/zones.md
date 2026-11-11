@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.7, 2026-11-11**
+**Zones v0.8, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -30,7 +30,8 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Edge matching uses the RimWorld logic: a river has a top and a bottom where it enters and leaves, and the inside does not matter as long as the top and bottom match (Nathan, 2026-11-11).  The same goes for roads and other features that cross map edges.
 - **Draft (Claudia):** a crossing point belongs to the edge, not to either map.  It is calculated from the seed and that edge's ID, so both neighbors agree no matter which one is generated first.  The region map decides which edges a river or road crosses; the local generator draws any path between its crossing points.
 - Because the inside of a map is free, the engine can slip in a settlement and move the river accordingly (Nathan, 2026-11-11).
-- **Draft (Claudia), local generation order:** edges (crossing points), then placements (settlement, ruin, crash site, downed flier), then routes (rivers and roads between crossings, shaped by the placements), then fill (terrain, plants, rocks, critters).  Settlements want water, so a river is routed past or through a settlement (docks, mill, bridge) rather than away from it.  Handcrafted maps keep fixed edges, and their generated neighbors read crossing points from them.
+- Local generation order (Claudia, approved by Nathan 2026-11-11): edges (crossing points), then placements (settlement, ruin, crash site, downed flier), then routes (rivers and roads between crossings, shaped by the placements), then fill (terrain, plants, rocks, critters).  Settlements want water, so a river is routed past or through a settlement (docks, mill, bridge) rather than away from it.  Handcrafted maps keep fixed edges, and their generated neighbors read crossing points from them.
+- Major cities are fixed when we make them.  They are the handcrafted exception; a city of a million people cannot be randomly generated (Nathan, 2026-11-11).
 - **Draft (Claudia):** biome changes blend over a band near region cell edges instead of switching exactly at the line, so a desert cell fades into grass rather than stopping at a straight edge.
 - **Draft (Claudia):** the player's map view shows visited local maps stitched together as squares, with unvisited ones blank, like the reference samples.  The blocky patchwork becomes the record of where the player has been.
 

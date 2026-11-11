@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.33, 2026-11-11**
+**STATUS v0.34, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.8.  Nathan approved the generation order; major cities are fixed and handcrafted, the exception to generation.
 
 - 2026-11-11 (Claudia): zones.md v0.7.  Nathan: the engine can slip a settlement into a map and move the river accordingly.  Draft generation order added.
 
