@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.44, 2026-11-11**
+**STATUS v0.45, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.94.  Nathan approved the panel toggle and critical-vital edge warning.
 
 - 2026-11-11 (Claudia): concept v0.93.  Nathan: the stats panel can be hidden for full screen (best screenshots).
 
