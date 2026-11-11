@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.12, 2026-11-11**
+**Zones v0.13, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -61,7 +61,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Overland travel works Oregon Trail style, with a montage.  The player preps everything and moves it along.  Movement across open land is a montage: time moves at an accelerated rate, random events may go off, there are things to stop and visit, and eventually the player has to stop and set up camp (Nathan, 2026-11-10).
 - The region map moves like RimWorld: set a destination and move there, not WASD movement.  World travel is the montage, and it may cost many supplies.  What that means is still to figure out, but it should have considerable impact.  That may be our Oregon Trail logic: Pam died of dysentery, so don't drink the poop water, Pam (Nathan, 2026-11-11).
-- **Draft (Claudia), what travel costs:** each travel day draws food, water, and fuel by party size, and wears clothing and gear.  Untreated water risks sickness, so boiling, filters, or tech purification matter.  Weather and the cold year raise the cost per day.  Carrying limits (the M.U.L.E., pack animals, sleds in the cold) cap how far a party can go between resupplies.  River crossings on the route become decisions (ford, build a raft, find a bridge), which ties to the edge logic for rivers.
+- What travel costs (Claudia, approved by Nathan 2026-11-11): each travel day draws food, water, and fuel by party size, and wears clothing and gear.  Untreated water risks sickness, so boiling, filters, or tech purification matter.  Weather and the cold year raise the cost per day.  Carrying limits (the M.U.L.E., pack animals, sleds in the cold) cap how far a party can go between resupplies.  River crossings on the route become decisions (ford, build a raft, find a bridge), which ties to the edge logic for rivers.
+- An Intelligence-based character could make overworld travel much easier (Nathan, 2026-11-11).
+- **Draft (Claudia):** Intelligence on the road means better route planning (shorter, safer paths), reading the weather a day ahead, purifying water, repairing gear in the field, and stretching fuel.
 - Players can walk the whole distance, because some will try, or they may have crashed nearby (Nathan, 2026-11-10).
 - (Claudia, approved by Nathan 2026-11-11) walking and the montage are the same world.  The montage is a fast-forward over the same seeded maps; if an event stops the player partway, the local map they land in is the one they would have reached on foot.
 - (Claudia, approved by Nathan 2026-11-11) near camp, the player walks off a map edge into the neighboring local map, Qud style.
