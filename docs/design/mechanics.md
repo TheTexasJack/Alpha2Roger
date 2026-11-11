@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.43, 2026-11-11**
+**Mechanics v0.44, 2026-11-11**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -79,7 +79,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 40 | Recruitment | Decided | Companions are free people won over by choices |
 | 41 | Leaving | Draft | Companions treated badly can leave |
 | 42 | Nicknames | Decided | Player can call NPCs anything |
-| 43 | Camp jobs | Decided | 5 or 6 companions, not a colony sim |
+| 43 | Camp jobs | Decided | 5 or 6 companions, not a colony sim.  The cap reserves the back-end engine and may grow later; Charisma brings companions earlier, not more of them |
 | 44 | Compressed camp time | Open | Decide after seeing gameplay |
 | 45 | Ages | Decided | Pawns 16 and up; babies much later; genetics and long lifespans later |
 | 46 | Name generators | Decided | People done (`tools/name_gen.py`); about 200 settlement names to build |

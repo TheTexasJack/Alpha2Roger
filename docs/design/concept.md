@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.87, 2026-11-11**
+**Concept v0.88, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -366,7 +366,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Every build is viable (Nathan, 2026-11-11):** don't neglect Intelligence or Charisma builds.
   - Intelligence gets complex things, like drones the player has to operate, or access to more tech faster.
   - Charisma means more NPCs than other characters get, and making friends more easily.
-  - **Draft (Claudia):** the camp is locked at 5 or 6, so Charisma could stretch that range a little (for example 4 for a loner, up to 7 or 8 for a charmer), or raise loyalty and quality instead of headcount.
+  - Charisma does not increase the camp size; it makes companions available earlier.  The size cap reserves the back-end engine, and can be expanded later if everything settles and there is room to grow (Nathan, 2026-11-11).
   - **Draft (Claudia):** drones pair with Perception: a scout drone pushes back the fog of war.
 - **Not every problem is solved with guns (Nathan, 2026-11-11):** pirates and raiders in the wild are hostile, and no one is coming.  A faction, though, might be trying to survive like everyone else.  A settlement is a resource, and the player will be doing the same thing to live.
   - **Draft (Claudia):** non-violent paths run through the stats: talking, trading, and bribing (Charisma), intimidation (Strength or Charisma), sneaking past (Agility), fixing their problem (Intelligence), or working for them.  Each faction tracks reputation, so a settlement can go from rival to partner.
