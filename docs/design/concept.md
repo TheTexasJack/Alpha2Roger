@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.90, 2026-11-11**
+**Concept v0.91, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -238,6 +238,11 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No constructed languages and no coded dialects.
 - **Draft (Claudia):** real-world check: Papua New Guinea has about 10 million people and 800+ languages, so 563 on Verlassen is believable.  It implies old settlement in many waves.  Like PNG's Tok Pisin, a trade creole likely grew up around the spaceport and salt-lake hubs as the common market tongue.
 - **Draft (Claudia):** the calibration samples double as a first taste of the planet's peoples and regions.
+
+## Narrative presentation (Nathan, 2026-11-11)
+
+- RPG style for dialogue, with on-screen comics to tell the major story beats.
+- **Draft (Claudia):** everyday talk is a dialogue box over the map with the NPC's peg portrait and choices; this is where the dialogue model speaks.  Comic panels, built from the same layered art (the Wildermyth approach), cover the big beats: the crash, the first city gate, the port and the ID reveal, the successor's walk-up, letters from the other self.  The dialogue box is built first; comics arrive with the first city.
 
 ## Communications
 
