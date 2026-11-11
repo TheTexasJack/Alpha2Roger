@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.71, 2026-11-11**
+**World v0.72, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -88,7 +88,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 ## Biomes
 
 - **Draft (Claudia):** no jungle anywhere.  Every third year even the equator freezes at night, which kills frost-sensitive plants, and the terraformers planted frost-hardy species.  The warmest forests are evergreen oak and pine, like the southern US or southern China.
-- **Draft (Claudia), 13 biomes:**
+- 13 land biomes (Claudia, approved by Nathan 2026-11-11):
 
 | # | Biome | Where | Feel |
 |---|---|---|---|
@@ -108,7 +108,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 - Water biomes to add (Nathan, 2026-11-11): warm ocean, deep ocean, coral reef, inland sea, inland lake, river, salt river.
 - Salt notes approved by Nathan 2026-11-11: salt rivers flow from the salt basins, and dissolved salt is immune to the infection.
-- **Draft (Claudia), water biome notes:**
+- Water biome notes (Claudia, approved by Nathan 2026-11-11):
 
 | # | Biome | Notes |
 |---|---|---|

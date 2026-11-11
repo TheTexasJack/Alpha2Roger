@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.15, 2026-11-11**
+**Zones v0.16, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -76,6 +76,16 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Four directions only, within a 9-map section: one map in the middle and the maps around it.  Go left and up, then right and down, and the player is back at camp.  That is wide enough for much more diversity and feels more Qud than RimWorld.  Qud gets boring in some areas with fields of marsh, some monkeys, and plants (Nathan, 2026-11-11).
 - **Draft (Claudia):** the 9-map section is centered on where the player is stopped (camp, or where the montage stops); moving camp moves the section.  Walking off the section's outer edge opens the region map.  Every map in the section gets its own feature (a ruin, a hill with a view, a creek ford, a cave mouth, a clan trail, a salt flat), so there are no filler maps.
 - **Draft (Claudia):** a diagonal neighbor takes two moves.  The player enters the new map at the matching edge position.  Maps the player leaves freeze, and the catch-up run works out what changed on return, so only one map is active at a time.  Anything chasing the player near the edge crosses too.
+
+## Underground (Nathan, 2026-11-11)
+
+- Surface caves are like RimWorld caves: possible, but usually small.  Bear homes, alien bug homes, and holes.
+- Anything deeper uses linked maps: basements, deep caves, cellars, bunkers, and interiors that do not translate to the overworld map.  Example: an RV.  Spatially it may not make sense, but a small interior map is better than trying to make an RV work on the overworld.
+- Dungeons: how deep they go is defined later.  No underdark equivalent spanning the globe, but a player might end up in a 20-floor dungeon somewhere.  A few prebuilt chance spawns can lead to major bosses for loot.
+- **Draft (Claudia):** a linked map is an ordinary local map with an entrance instead of edges, often smaller (64 or 128 tiles).  Each dungeon floor is its own linked map.  Only one map runs at a time, as on the surface.
+- **Draft (Claudia):** prebuilt dungeons are handcrafted templates placed by the seed (the seeded landmarks tier), so the same seed puts the same dungeon in the same place.
+- **Draft (Claudia), physics:** deep caves hold near the area's average yearly temperature, and rock changes slowly, so a cave keeps its warmth for months into a cold year.  Caves are natural cold-year refuges, for people and animals alike.  Dangers: total darkness, carbon dioxide pooling in low spots, flooding at the thaw, cave-ins.
+- Open: whether the player can dig their own tunnels.
 
 ## Returning to a site
 
