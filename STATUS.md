@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.42, 2026-11-11**
+**STATUS v0.43, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.92.  Nathan approved the stats display: slim always-on wrist-unit panel (vitals, temperatures, date, message log), full sheet on a key.
 
 - 2026-11-11 (Claudia): concept v0.91.  Nathan: RPG-style dialogue, on-screen comics for the major story beats.  Stats window (Qud panel or RimWorld hidden) under discussion.
 

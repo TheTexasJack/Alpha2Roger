@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.91, 2026-11-11**
+**Concept v0.92, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -393,7 +393,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Style: Nausicaa of the Valley of the Wind is the way to go.  Small settlements are simple, almost medieval, but there are rifles, machines, robots, mutants, and even high tech in places.  Planes of a sort are rare, but a thing.
 - **Draft (Claudia):** Nausicaa's creeping, toxic wilderness echoes our infection; it inspires the feeling only, with no borrowed creatures or designs.
 - Interface: when the player opens a menu to look at stats, it should feel like opening a menu on the M.U.L.E., even when it is not nearby.  Maybe a wrist display, Fallout style but more advanced.
-- **Draft (Claudia):** the menus never break, even while the M.U.L.E. is captured: the wrist unit keeps a cached link, maybe with a "signal lost" flicker, but stats always open.
+- The menus never break, even while the M.U.L.E. is captured: the wrist unit keeps a cached link, maybe with a "signal lost" flicker, but stats always open (Claudia, approved by Nathan 2026-11-11).
+- Stats display (Claudia, approved by Nathan 2026-11-11): a slim, always-on panel, Qud leaning.  It shows vitals as small bars (body temperature, hunger, thirst, wounds, fatigue), outside temperature against body temperature, date and season, and the message log.  The full character sheet, skills, talents, and gear open on a key, RimWorld style.  The panel is the wrist unit's display, so the "signal lost" flicker shows there.  A 1080p screen shows about 48 tiles across instead of 60, which fog of war makes up for.
 - Pillar: old-school bones, modern effects.  Caves of Qud does this in places.
 - Effects rule: this is Nathan A, not triple A.  No ambient occlusion, no motion blur, and nothing that every player just turns off.  A little frost creeping in is fine.
 - A little screen shake is fine in places: short moments only, never constant, since constant shake makes the screen hard to read.
