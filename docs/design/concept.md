@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.88, 2026-11-11**
+**Concept v0.89, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -157,6 +157,9 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Heat and cold.
 - Food and sleep.
 - Sanity, light: some depression mood debuffs at most.  No insanity and no RimWorld-style mental breaks (nobody digs up a corpse).  You were once a Lancer; you can handle a little hardship.
+- NPCs too: no matter how angry someone is, they do not go into a rage and set the stockpile on fire (Nathan, 2026-11-11).
+- **Draft (Claudia):** anger has social outlets instead: arguments, refusing work for a day, sulking, or leaving the camp.  The cost is relationships, never sabotage.
+- **Draft (Claudia), NPC judgment:** camp rules like RimWorld policies (only treated water, no raw meat, rationing), which most NPCs follow.  Traits decide who breaks them (a Reckless NPC may drink from the creek), and stats help (high Perception notices bad water, high Intelligence boils it unasked).  Every bad choice comes from a trait or a missing rule, never from no reason.
 
 - **Plants and seeds (Nathan, 2026-11-10):** a plant analyzer tells what a plant is and who can eat it.  No free seeds, unlike RimWorld: seeds are found, planted, and grown.  That means a lot of hunting before the crops are running, which is why there is fauna people can eat.
 - **Draft (Claudia):** the analyzer is a M.U.L.E. or CompCon function, upgraded by repairs.  Unscanned plants are a gamble, like unidentified items in Caves of Qud.  It can also check salt for the seed crystal.

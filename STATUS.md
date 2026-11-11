@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.39, 2026-11-11**
+**STATUS v0.40, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.89.  Nathan: no rage breaks for NPCs either (no setting the stockpile on fire).  Drafts: social outlets for anger; camp rules, traits, and stats drive NPC judgment.
 
 - 2026-11-11 (Claudia): zones.md v0.13.  Nathan approved the travel cost list; Intelligence builds make overworld travel much easier.
 
