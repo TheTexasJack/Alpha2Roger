@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.64, 2026-11-10**
+**World v0.65, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -23,7 +23,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - Official name: Kepler-64432p.
 - Local name: Verlassen (German for abandoned, forsaken, left behind).
 - The system is crowded: "p" makes Verlassen at least the 15th planet catalogued around its star.  This leaves room for the gas giant behind the cold year.
-- The star: Sun-like and yellow (G type), about one solar mass.  Chosen by the physics: with a 14-month year, Verlassen orbits at about 1.1 times Earth's distance and receives roughly 80% of Earth's sunlight, which matches temperate but colder than some.  A massive star would put the temperate zone so far out that a year would take decades; an orange star would leave a 14-month orbit too cold.
+- The star: Sun-like and yellow (G type), about one solar mass.  Chosen by the physics: with a year of about 14 Earth months, Verlassen orbits at about 1.1 times Earth's distance and receives roughly 80% of Earth's sunlight, which matches temperate but colder than some.  A massive star would put the temperate zone so far out that a year would take decades; an orange star would leave a 14-month orbit too cold.
 - Science and physics win over hip shots: when a stated detail conflicts with real physics, the physics decides.
 - **Draft (Claudia):** with the 3:1 resonance, the gas giant orbits about every 3.5 years.
 - **Draft (Claudia):** optional lore: the star is aging, for flavor only.
@@ -32,7 +32,9 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - Moons: none.  No moonlight.  Physics note: tides are small (from the sun only); a moon's long-term tilt stabilizing works over millions of years and does not matter in play.
 - Rings: none.
 - **Draft (Claudia):** with no moon, nights are pitch black under starlight only.  Darkness becomes a survival pressure that pairs with fog of war and 2D lighting.  The gas giant may be the brightest object in the night sky.
-- Year: 14 Earth months.
+- Year: 14 Earth months, as first set.
+- Calendar (Nathan, 2026-11-11): 12 months of 35 days, 420 days a year.  Aligning to the planet's orbit beats making it feel alien for its own sake.  The 420 meme is ignored.
+- Physics note (Claudia): Kepler's law for about 1.1 AU around a one-solar-mass star gives about 421 days, so 420 matches the orbit.  A 35-day month is exactly five 7-day weeks, so every month starts on the same weekday, and 12 months split into four seasons of three months.  Day length is not set; the count assumes a 24-hour day.
 - Every third year is a cold year.  The whole planet goes through a cold phase lasting about a planet year as it moves away from the sun.
 - Normal years have a full standard seasonal year.
 - In the cold year, everything shifts down about 50 degrees Fahrenheit.  Summers that would hit 100 only reach about 50, and even summers can sit in the 30s.  Winters that would sit around 0 drop to -50 or colder.

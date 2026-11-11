@@ -1,17 +1,17 @@
-"""Alpha2-Roger planet pack v0.1: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.2: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v0.58       planet facts, regions, currencies, notable people (copied in below)
+  docs/design/world.md v0.65       planet facts, regions, currencies, notable people (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
 is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.1"
+__version__ = "0.2"
 
 import json, math
 from pathlib import Path
@@ -19,7 +19,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.1"          # bump on every change to the output
+FILE_VERSION = "0.2"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -64,7 +64,7 @@ def impact_sites():
     return [(int(y), int(x)) for y, x in imp]
 
 
-# ---- Locked facts, copied from docs/design/world.md v0.58 (Nathan's decisions) ----
+# ---- Locked facts, copied from docs/design/world.md v0.65 (Nathan's decisions) ----
 
 PLACE_FACTS = {
     1: ("Star Harbor", "Spaceport city", "spaceport_coast", "B"),
@@ -150,7 +150,7 @@ def build():
         "planet_id": "verlassen",
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
-            "world": "docs/design/world.md v0.58",
+            "world": "docs/design/world.md v0.65",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
             "globe": "tools/globe_candidates.py v0.3.1",
@@ -167,7 +167,13 @@ def build():
             "gravity_g": 1.0,
             "moons": 0,
             "rings": 0,
-            "year_earth_months": 14,
+            "calendar": {
+                "months": 12,
+                "days_per_month": 35,
+                "days_per_week": 7,
+                "days_per_year": 420,
+                "day_length_hours": None,
+            },
             "cold_year": {
                 "every_n_years": 3,
                 "length_planet_years": 1,
@@ -220,6 +226,7 @@ def build():
         "straight_line_km": distances,
         "open": [
             "currency names and exchange rates",
+            "day length (calendar assumes 24 hours)",
             "leader title (lord or mayor) per place",
             "notable people's roles",
             "detailed biomes per region",

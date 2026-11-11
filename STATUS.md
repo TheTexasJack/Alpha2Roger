@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.17, 2026-11-10**
+**STATUS v0.18, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): calendar locked by Nathan: 12 months of 35 days, 420 days, aligned to the orbit; meme ignored.  world.md v0.65, mechanics v0.38, planet pack and planet data file v0.2 (calendar block; day length open).
 
 - 2026-11-10 (Claudia): concept v0.81.  Nathan: successors are random and not all young; ages and training span later.
 
