@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.8, 2026-11-11**
+**Zones v0.9, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -49,6 +49,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - (Claudia, approved by Nathan 2026-11-11) about 16 by 16 local maps per region cell and about 15 by 15 region cells per globe pixel, an even step at each layer.
 - (Claudia, approved by Nathan 2026-11-11) region maps are fixed square chunks of the globe (for example 10 by 10 globe pixels, about 610 km on a side, about 150 by 150 region cells), not the political regions, since about 65% of habitable land belongs to no region.  Chunks tile seamlessly; political borders are drawn on top as data.
 - (Claudia, approved by Nathan 2026-11-11) each layer is built from the one above it.  The globe feeds the region chunk; the region cell feeds the local map.  A river on the globe stays a river on the region map and in the local map.
+
+## Heat
+
+- Heat bands apply the same way they do on Earth.  That establishes a base heat value for each region and each square (Nathan, 2026-11-11).  The latitude lines are in `world.md`; the chain is mechanic #14.
+- **Draft (Claudia), base heat for a square:** latitude (blended from the latitude-line table), minus about 3.5 F per 1,000 ft of elevation (standard lapse rate), milder on coasts and more extreme inland, plus local geothermal heat.  Then the locked chain applies: calendar day and hemisphere, the cold-year shift, time of day, weather.
+- **Draft (Claudia):** base heat is calculated from the square's exact latitude, not the region cell's, so temperature changes smoothly across cell edges.  Nothing needs storing; it is computed when needed.
 
 ## Travel
 
