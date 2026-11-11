@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.13, 2026-11-10**
+**STATUS v0.14, 2026-11-10**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): concept v0.78, mechanics v0.37.  Nathan: companions follow the no-miss rule for now; low skill can add debuffs instead.
 
 - 2026-11-10 (Claudia): concept v0.77, mechanics v0.36.  Nathan: enemies are deadly too, so defenses and hard cover come in; the successor is the same as the main character.
 

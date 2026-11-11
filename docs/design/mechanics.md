@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.36, 2026-11-10**
+**Mechanics v0.37, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -88,7 +88,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 |---|---|---|---|
 | 47 | Turn-based combat | Decided | Combat math on the grid |
 | 47b | Damage types | Decided | Lean on Lancer; Crystalline for the infection; Kinetic, Energy, Explosive, Burn, resistance halving (Draft); heat is environmental |
-| 47d | No ranged skill | Decided | The player is a Lancer and knows how to shoot; shots hit, then effects or armor reduce them; shooting ability is not tracked.  Enemies are deadly too, so defenses and hard cover matter.  The successor is the same.  Companions open.  Situation shapes damage (Draft) |
+| 47d | No ranged skill | Decided | The player is a Lancer and knows how to shoot; shots hit, then effects or armor reduce them; shooting ability is not tracked.  Enemies are deadly too, so defenses and hard cover matter.  The successor is the same.  Companions follow the same rule for now; low skill adds debuffs instead (debuff list Draft).  Situation shapes damage (Draft) |
 | 47c | Range and Line | Decided | Lancer attack patterns; Range needs line of sight, Line stops at walls (Draft) |
 | 48 | Weapon feel | Decided | Snappy effects, short shake moments only, speed-up option |
 | 49 | Capture | Decided | Non-lethal tools (Draft) |
