@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.18, 2026-11-11**
+**STATUS v0.19, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): world.md v0.66.  Nathan: the -50 cold-year shift stays; freezing at night is fine since the wild would not thaw before refreezing.  Latitude lines and city cold-year temperatures added as drafts.
 
 - 2026-11-11 (Claudia): calendar locked by Nathan: 12 months of 35 days, 420 days, aligned to the orbit; meme ignored.  world.md v0.65, mechanics v0.38, planet pack and planet data file v0.2 (calendar block; day length open).
 

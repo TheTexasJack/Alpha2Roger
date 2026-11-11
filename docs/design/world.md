@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.65, 2026-11-11**
+**World v0.66, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -54,6 +54,22 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 - Similar to Earth: warmest along the equator, colder toward the poles.
 - The upper edges take the cold year's -50 shift on top of the cold they already have, so they might reach -150 F once the cold year is established (Nathan, 2026-11-10).
+- The -50 shift stays (Nathan, 2026-11-11).  Cold is the enemy, so no city sits in the 50s in a cold year.  Freezing at night is fine: out in the wilderness, a day above freezing would not thaw things before they freeze and ice again.
+- **Draft (Claudia), latitude lines,** Earth-like inland temperatures in F (normal summer high / normal winter low, then cold year high / low at -50):
+
+| Latitude | Normal high | Normal low | Cold year high | Cold year low |
+|---|---|---|---|---|
+| 0 | 90 | 72 | 40 | 22 |
+| 10 | 93 | 66 | 43 | 16 |
+| 20 | 97 | 55 | 47 | 5 |
+| 30 | 97 | 38 | 47 | -12 |
+| 40 | 88 | 20 | 38 | -30 |
+| 50 | 76 | 3 | 26 | -47 |
+| 60 | 66 | -15 | 16 | -65 |
+| Ice caps | | -80 | | -130 to -150 |
+
+- **Draft (Claudia), the ten places in a cold year** (high / low, F): Setareh Minato 38 to 42 / 17 to 20; Svetla Hama 47 / 3; Kawa Fada 47 / -2; Darya Kako 44 / 0; Ikh Gawa 46 / -14; Warmes Tani 45 / -17; Shio Loch 35 / -35; Khaluun Onsen 27 / -45; Davs Mizuumi 25 / -49; Zimna Toride 23 / -52.  Hemispheres run opposite seasons.
+- **Draft (Claudia):** daytime thaws only melt the surface, which refreezes overnight as crust and black ice, so cold-year travel in the warm bands is treacherous rather than easy.
 - Physics note (Claudia): plausible.  Earth's coldest recorded air is about -129 F (Vostok, Antarctica), with satellite readings near -144 F on the high ice, and Verlassen gets about 80% of Earth's sunlight.  At those temperatures ordinary steels turn brittle, rubbers and plastics crack, and batteries fail, so cold is cold and metal is metal even for far-future gear.
 - **Draft (Claudia):** the high north is where cold-rated gear stops being a luxury and becomes the price of entry.  Zimna Toride (about 53 N) and the T3 impact site (about 58 N) sit near that edge.
 
