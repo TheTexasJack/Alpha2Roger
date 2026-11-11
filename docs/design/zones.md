@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.2, 2026-11-11**
+**Zones v0.3, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -14,6 +14,11 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Traveling map to map to reach a city would take years, even years of game time, and there is merit to that.
 - The vast distances lean into a remote start being years before the player reaches a main settlement (also in `world.md`).
 - We will have ways to shorten gameplay later (montages, a plane ride).  Specifics get worked out later, if pacing is a problem.
+
+## Build order (Nathan, 2026-11-11)
+
+- The montage is basically an overmap travel mechanic: math estimates that move the engines forward.  The real magic is the region and the local map.
+- Start small: build one region and one local map, and start there.
 
 ## Layers
 

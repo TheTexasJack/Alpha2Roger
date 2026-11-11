@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.28, 2026-11-11**
+**STATUS v0.29, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.3.  Nathan: the montage is overmap travel math; the magic is the region and local maps; start by building one region and one local map.  Grid shape under discussion.
 
 - 2026-11-11 (Claudia): concept v0.88, mechanics v0.44.  Nathan: Charisma makes companions available earlier, not more; the camp cap reserves the back-end engine and may expand later.
 
