@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.3, 2026-11-11**
+**Zones v0.4, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -19,6 +19,13 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - The montage is basically an overmap travel mechanic: math estimates that move the engines forward.  The real magic is the region and the local map.
 - Start small: build one region and one local map, and start there.
+
+## Grid (Nathan, 2026-11-11)
+
+- Square grid, one grid across the board.  It also makes the math of regions easy: we just pick a grid number.  64 is old-school Minecraft logic, but we fit what meets our needs.
+- **Draft (Claudia), powers of two anchored on the canon globe:** one globe pixel (about 61.2 km) is 16 by 16 region cells (about 3.8 km each); one region cell is 16 by 16 local maps; one local map is 256 by 256 tiles (about 240 m); one tile is about 0.93 m.  Region chunks are 8 by 8 globe pixels, 128 by 128 region cells (about 490 km).  This refines the approved 4 km cells, 250-tile maps, and 10-pixel chunks below.
+- **Draft (Claudia):** diagonal steps cost 1 for movement; range counts diagonals 1, then 2, alternating, so ranges come out nearly round.
+- **Draft (Claudia):** the engine keeps coordinates local to the current map, since the planet is about 47 million tiles around and engines lose precision at huge positions.
 
 ## Layers
 
