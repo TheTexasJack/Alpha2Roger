@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.55, 2026-11-11**
+**STATUS v0.56, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.98, mechanics v0.48.  Nathan: kuru is a thing for corpse paste.  Draft: prions survive the printer, long incubation, no cure.
 
 - 2026-11-11 (Claudia): concept v0.97.  Nathan: real science; no RimWorld human skin hats and suits.
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.97, 2026-11-11**
+**Concept v0.98, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -145,6 +145,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Almost anything can go into the paste printer for food, even wood; no metals.  It destroys whatever goes in, and anything organic, native or human, has a convert rate.  It stays simple: throw 40 logs in and enjoy your woody paste (Nathan, 2026-11-11).
 - No cannibalism, which is RimWorld efficiency rather than our game.  But pasting a corpse is an option, a desperate one with similarities to the Donner Party: actual human survival in extreme situations, not pleasant, and there are stories of it (Nathan, 2026-11-11).
 - Grounded in real science, as before.  No RimWorld-style human skin hats and suits; that is fantasy (Nathan, 2026-11-11).
+- Kuru should definitely be a thing (Nathan, 2026-11-11): pasting a corpse carries the real disease risk.
+- **Draft (Claudia), kuru:** real science: a prion disease spread among the Fore people of Papua New Guinea through funeral cannibalism.  Prions survive heat and ordinary sterilization, so the printer does not make corpse paste safe.  Risk is highest from brain and nerve tissue.  Incubation runs for years (compressed for play), so the cost can surface long after the choice, maybe for the next character in line.  Symptoms build from tremors and lost coordination (the Fore called it the laughing death) to death.  No cure, as in reality.
 - **Draft (Claudia):** pasting a corpse is a last resort with lasting weight: a heavy mood hit for everyone who knows, companions remember it in their relationship scores, some traits refuse outright or leave camp, and factions that hear of it react.  It is never framed as efficient or glorified.
 - **Draft (Claudia), convert rates:** fat and meat convert best, plants middling, wood poorest (real: wood's cellulose is a chain of glucose and breaks down into sugar, while its lignin is waste).  The printer handles the mirror-chemistry conversion, which is why it can take native matter.  What went in shows up as mood: woody paste tastes like woody paste.
 - **Draft (Claudia), other native food routes:** rendering native fat gives calories without protein (most fatty acids have no handedness), and a fermentation vat with an engineered starter culture turns native biomass into edible mash slowly, needing warmth.
