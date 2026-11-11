@@ -1,6 +1,6 @@
 # Versions
 
-**VERSIONS v1.26, 2026-11-10**
+**VERSIONS v1.27, 2026-11-10**
 
 Current version of every deliverable.  Update the row whenever a file changes.  Run `python3 tools/version_check.py` to confirm every row matches its file.
 
@@ -8,16 +8,16 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| VERSIONS.md | v1.26 | 2026-11-10 | This table |
+| VERSIONS.md | v1.27 | 2026-11-10 | This table |
 | README.md | v0.5 | 2026-11-10 | Pitch, pillars, repo map, license credits |
 | AGENTS.md | v0.4 | 2026-11-10 | Rules for AI collaborators: lanes, conventions, versions, diagnostics |
 | CLAUDE.md | v0.1 | 2026-11-10 | Pointer to AGENTS.md for Claude Code |
-| STATUS.md | v0.12 | 2026-11-10 | Where things stand and next steps |
+| STATUS.md | v0.13 | 2026-11-10 | Where things stand and next steps |
 | LICENSE.md | v0.2 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms |
 | .gitignore | v0.2 | 2026-11-10 | Ignores caches, Godot imports, diagnostics/ |
-| docs/design/concept.md | v0.76 | 2026-11-10 | Game design |
+| docs/design/concept.md | v0.77 | 2026-11-10 | Game design |
 | docs/design/world.md | v0.64 | 2026-11-10 | The planet Verlassen |
-| docs/design/mechanics.md | v0.35 | 2026-11-10 | Master mechanics checklist by build tier |
+| docs/design/mechanics.md | v0.36 | 2026-11-10 | Master mechanics checklist by build tier |
 | docs/design/zones.md | v0.1 | 2026-11-10 | Zones and travel spec (A2R-102) |
 | docs/plan/Alpha2Roger_Project_Plan.md | v0.25 | 2026-11-10 | Stages, task IDs, gates, changelog |
 

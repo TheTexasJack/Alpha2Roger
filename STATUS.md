@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.12, 2026-11-10**
+**STATUS v0.13, 2026-11-10**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): concept v0.77, mechanics v0.36.  Nathan: enemies are deadly too, so defenses and hard cover come in; the successor is the same as the main character.
 
 - 2026-11-10 (Claudia): concept v0.76, mechanics v0.35.  Nathan: no ranged skill; the player is a Lancer and knows how to shoot; shots hit, minus effects or armor; mechanic #47d.
 
