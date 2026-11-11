@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.38, 2026-11-11**
+**Mechanics v0.39, 2026-11-11**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -32,7 +32,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 11 | Needs: heat and cold, food and sleep | Decided | Biome specific |
 | 12 | Light sanity | Decided | Mood debuffs, depression at most; no insanity, no mental breaks |
 | 13 | Calendar and seasons | Decided | 12 months of 35 days (420 days), standard seasons, every third year a cold year (about 50 F colder) |
-| 14 | Temperature model | Decided | Earth-like bands, warmest at the equator; cold-year shift |
+| 14 | Temperature model | Decided | Earth-like bands, warmest at the equator; cold-year shift of -50 F.  Temperature drives the map, and that drives plants, player temperature, and so on (Nathan).  Chain: calendar, latitude, cold year; then altitude, coast, geothermal, time of day, weather; then one value per map and per room, which every system reads (Draft) |
 | 15 | Day and night | Draft | No moon, so nights are pitch black; light matters |
 | 16 | Weather and forecast | Decided | Weather sensor on the wreck warns of the cold year; repairs extend the forecast (Draft) |
 | 17 | Paste food printer | Decided | Bare survival for the player and companions; limited feedstock, morale cost |
