@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.54, 2026-11-11**
+**STATUS v0.55, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.97.  Nathan: real science; no RimWorld human skin hats and suits.
 
 - 2026-11-11 (Claudia): concept v0.96, mechanics v0.47.  Nathan: no cannibalism, but pasting a corpse is a desperate option with Donner Party similarities.  Draft: lasting consequences.
 
