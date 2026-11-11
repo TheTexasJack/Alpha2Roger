@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.21, 2026-11-11**
+**Zones v0.22, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -93,6 +93,14 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - **Key rule, no major digging (Nathan, 2026-11-11):** hunting for minerals and rocks in caves is valid, but no giant grid digging through mountains.  Caves are caves for a reason; there is no mining crew carving a giant mine.  Old mines can be found with supplies in them; some might be infested, and some might still be in use.  If players need stone, a stone generation system supplies it without destroying the map.
 - (Claudia, approved by Nathan 2026-11-11) stone comes from quarry outcrops that yield slowly and never vanish, boulders and scree in the highlands, and rubble from ruins.  Old mines follow mineral veins, which the infection can take, so "infested" can mean bugs or crystal.  A working mine belongs to someone: a faction, a clan, or a lord.
 
+## Travel speeds (Nathan, 2026-11-11)
+
+- On the player (local) map, speed goes by feel and gets tested.
+- The overworld uses modern assumptions on travel speed.
+- A group is as slow as its slowest unit.
+- **Draft (Claudia), overworld baselines,** about 8 travel hours a day, in km per day: on foot on a road with a light load 30 to 35; on foot in wilderness 15 to 25; hauling a heavy load or sled 10 to 15; deep snow without snowshoes 5 to 10; snowshoes or skis 15 to 30; wagon or cart 25 to 30 (the Oregon Trail's 15 to 20 miles); horse or pack animal 30 to 40; dog sled 40 to 80; vehicle off road 100 to 250; boat downstream 50 to 100, upstream 15 to 25.  Climbing follows Naismith's rule, about one extra hour per 600 m of ascent.
+- **Draft (Claudia), what slows a group:** terrain (biome, snow depth, climbing; roads speed it up); weather (rain, wind, fog, blizzard); daylight (no moon, so little night travel, and short winter days); load against carrying capacity; condition (wounds, sickness, hunger, fatigue, cold, anyone being carried); animals' grazing time and vehicles' fuel; river crossings; caution through dangerous or infected ground; and the cold year, which multiplies most of these.
+
 ## Returning to a site
 
 - When the player returns to the crash site, a quick math and adjustment run determines the state of the site: whether anybody survived or stayed, and what their averages are.  The map is adjusted, then the player enters (Nathan, 2026-11-10).
@@ -139,7 +147,6 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Exact local map size in tiles, and meters per tile.
 - Region cell size and chunk size.
-- Travel speeds on foot, by vehicle, on roads, in snow.
 - Montage event tables and stop rules.
 - Catch-up run rules.
 - Biome regions (moved from A2R-101).
