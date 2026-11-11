@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.83, 2026-11-11**
+**Concept v0.84, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -339,6 +339,23 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
   - No caps on builds: a strong wizard, a sneaky barbarian, even a Bardbarian.
   - Balance is a concern, and that is where the system shines.  We build the engine to match, then adjust once the prototype shows what needs adjusting.
   - Data tables are the model, the way Ironsworn: Starforged's oracles work as system tables.  We do not use Starforged itself; most of it (system and planet stats, random encounters) is useless for us.  We suspect we build everything out as tables of our own.
+- **What we can use from Lancer (Nathan, 2026-11-11):**
+  - Talents: Lancer's talents are all mech based; there are no pilot talents.  We can try to create pilot talents.  At the end of the day they are buffs.
+  - Gear: Lancer's gear is narrative.  The Antiphoton Visor text says what it does but gives no stats and no effects.  We can take the gear names, but we figure out what they do systematically.
+  - Weapons have some merit, but that is all there is: a fine start.  Lancer wants players to give them flavor.  Nathan's Thermal Lance is his "N4 Thermal Shunt."
+- Note (Claudia): the weapon table Nathan shared is the GMS mech weapon list (mount sizes, mech ranges, self heat), not pilot weapons.  Lancer's pilot weapons are a short generic list.  The mech list still gives names and concepts for pilot-scale weapons and is the scrap mech's future armory.
+- **Draft (Claudia), weapon tags rewritten for the no-miss system** (Lancer tag names as concepts, our own rules):
+  - AP: ignores armor.
+  - Reliable X: armor can never reduce the hit below X.
+  - Accurate and Inaccurate: longer or shorter effective range before damage falls off, the same rule as the low-skill debuff (#47d).
+  - Loading: needs a reload action after firing.
+  - Arcing: fires over hard cover.
+  - Smart: seeks the target, ignores soft cover.
+  - Ordnance: cannot be fired with an enemy adjacent.
+  - Thrown X: can be thrown X tiles.
+  - Heat (self): heat is environmental, so thermal weapons warm the user; in a cold year a thermal weapon doubles as a hand warmer.
+- **Draft (Claudia):** gear keeps the Lancer name and premise and gets a system effect that fits Verlassen.  Example: the Antiphoton Visor prevents snow blindness from cold-year glare, and blocks flash weapons and laser glare.
+- **Draft (Claudia):** pilot talents keep Lancer's three ranks, buffs that grow like Fallout perks.  Example, a cold-weather talent: rank I keeps food in the pack from freezing, rank II warns before frostbite, rank III lets the pilot sleep without a fire.
 - License note (Claudia, 2026-11-11): SPECIAL grew out of GURPS.  Fallout was first built on GURPS, the deal with Steve Jackson Games fell apart, and Interplay wrote SPECIAL to replace it; the Fallout IP is now Bethesda's.  Game mechanics are free to borrow, so we name our own stats.
 - **Draft (Claudia):** with no ranged skill, every stat needs a survival job: Strength (carry, melee, heavy building), Endurance (cold tolerance, wounds, hunger), Agility (actions per turn, reloads, stealth), Perception (sight radius in the fog of war, tracking, foraging), Intelligence (crafting, repair, learning), Charisma (persuasion, trade, companions, the legal battle).
 - **Draft (Claudia):** two layers: stats set at creation by background, and skills that grow with use, RimWorld style.  Low-skill debuffs (#47d) hang off skills.

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.23, 2026-11-11**
+**STATUS v0.24, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v0.84, mechanics v0.42.  Nathan: create pilot talents (buffs); use Lancer gear names but define effects ourselves; weapons are a start to flavor.  Drafts: tag rewrite, visor stops snow blindness, three-rank talents.
 
 - 2026-11-11 (Claudia): concept v0.82, mechanics v0.40.  Nathan set the character system direction (#35): traditional stats, Lancer background labels as stat configurations, no triggers, uncapped builds, tune after prototype, Starforged-style tables.
 - 2026-11-11 (Claudia): concept v0.83, mechanics v0.41.  Nathan: Starforged was only an example of data tables; we do not use it.  SPECIAL noted as grown out of GURPS.
