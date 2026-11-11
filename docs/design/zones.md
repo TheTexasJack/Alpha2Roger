@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.19, 2026-11-11**
+**Zones v0.20, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -89,9 +89,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Air in enclosed spaces (Claudia, approved by Nathan 2026-11-11): each enclosed space tracks air.  A fire burns oxygen and makes carbon monoxide, which builds up without airflow: headache, then confusion, then sleep, then death.  Openings and natural drafts vent it, so a cave with a chimney or a strong draft allows a small fire, and a sealed one does not.  The same rule covers tents, RVs, bunkers, and sealed shelters.  The wrist unit or a sensor can warn of bad air.  This forces a cold-year choice: a warm sealed cave without fire, or a fire and a vent that lets the heat out.
 - Sword of Fargoal rule (Nathan, 2026-11-11): things can come up the stairs.  Which monsters can climb is decided later.  Not every entrance is a ladder; some are just caves.
 - A bug cave entrance can be a spawner; the player has to clear it to stop the bugs (Nathan, 2026-11-11).
-- **Draft (Claudia):** clearing a spawner means going in and killing the nest's heart (a queen or brood chamber) in its linked map; sealing the entrance only buys time.
+- (Claudia, approved by Nathan 2026-11-11) clearing a spawner means going in and killing the nest's heart (a queen or brood chamber) in its linked map; sealing the entrance only buys time.
 - **Key rule, no major digging (Nathan, 2026-11-11):** hunting for minerals and rocks in caves is valid, but no giant grid digging through mountains.  Caves are caves for a reason; there is no mining crew carving a giant mine.  Old mines can be found with supplies in them; some might be infested, and some might still be in use.  If players need stone, a stone generation system supplies it without destroying the map.
-- **Draft (Claudia):** stone comes from quarry outcrops that yield slowly and never vanish, boulders and scree in the highlands, and rubble from ruins.  Old mines follow mineral veins, which the infection can take, so "infested" can mean bugs or crystal.  A working mine belongs to someone: a faction, a clan, or a lord.
+- (Claudia, approved by Nathan 2026-11-11) stone comes from quarry outcrops that yield slowly and never vanish, boulders and scree in the highlands, and rubble from ruins.  Old mines follow mineral veins, which the infection can take, so "infested" can mean bugs or crystal.  A working mine belongs to someone: a faction, a clan, or a lord.
 
 ## Returning to a site
 

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.63, 2026-11-11**
+**STATUS v0.64, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.20.  Nathan approved the spawner-clearing and stone and mines drafts.
 
 - 2026-11-11 (Claudia): zones.md v0.19.  Nathan: things can come up the stairs (Sword of Fargoal); bug cave entrances can be spawners to clear; no major digging, only mineral and rock hunting in caves; old mines (infested or still in use); stone from a system that does not destroy the map.
 
