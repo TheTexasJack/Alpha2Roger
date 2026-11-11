@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.26, 2026-11-11**
+**Zones v0.27, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -110,11 +110,11 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 ## Montage stops (Nathan, 2026-11-11)
 
 - Stop rules are simple: food, unable to progress, too many people sick, and the like.
-- **Draft (Claudia), forced stops:** food or water below a set number of days left; the party cannot progress (impassable river, cliff, blizzard, vehicle out of fuel or broken); too many sick or hurt (for example half the party, or anyone critical); someone dying; an event that needs a choice; hostile contact; arrival at the destination or a marked point.
+- (Claudia, approved by Nathan 2026-11-11) forced stops: food or water below a set number of days left; the party cannot progress (impassable river, cliff, blizzard, vehicle out of fuel or broken); too many sick or hurt (for example half the party, or anyone critical); someone dying; an event that needs a choice; hostile contact; arrival at the destination or a marked point.
 - **Draft (Claudia), player-set stops,** like Oregon Trail's pace and rations: stop at any settlement, stop if food drops below X days, stop at anything interesting.
-- **Draft (Claudia):** nightly camp happens inside the montage and is not a stop, unless something goes wrong in the night.
+- (Claudia, approved by Nathan 2026-11-11) nightly camp happens inside the montage and is not a stop, unless something goes wrong in the night.
 - Before starting a montage, the player can set how hard they push it (Nathan, 2026-11-11).
-- **Draft (Claudia), montage settings:** Pace (Easy, Steady, Hard, Grueling: more km per day against fatigue, injury, sickness, and gear wear); Rations (Full, Reduced, Bare: food lasts longer against health, mood, and cold resistance, since fewer calories means less body heat); Rest days (none, or every N days); Caution (Bold, Normal, Careful: risky shortcuts and fewer events, or detours around danger and slower travel).  Settings stack with the slowest-unit rule and can be changed at any stop.
+- (Claudia, approved by Nathan 2026-11-11) montage settings: Pace (Easy, Steady, Hard, Grueling: more km per day against fatigue, injury, sickness, and gear wear); Rations (Full, Reduced, Bare: food lasts longer against health, mood, and cold resistance, since fewer calories means less body heat); Rest days (none, or every N days); Caution (Bold, Normal, Careful: risky shortcuts and fewer events, or detours around danger and slower travel).  Settings stack with the slowest-unit rule and can be changed at any stop.
 
 ## Returning to a site
 

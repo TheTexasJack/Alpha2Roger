@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.70, 2026-11-11**
+**STATUS v0.71, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.27.  Nathan approved the montage stop and settings drafts.
 
 - 2026-11-11 (Claudia): zones.md v0.26.  Nathan: settings before a montage for how hard the player pushes.  Draft: pace, rations, rest days, caution.
 
