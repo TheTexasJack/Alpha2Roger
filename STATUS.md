@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.31, 2026-11-11**
+**STATUS v0.32, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.6.  Nathan: RimWorld edge logic, a river only has to match where it enters and leaves a map.  Replaces the shared-noise draft.
 
 - 2026-11-11 (Claudia): zones.md v0.5.  Nathan: blockiness at the region and local scale is normal; approved local coordinates.  Drafts: shared noise across edges, biome blending, stitched visited-map view.
 
