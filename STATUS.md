@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.20, 2026-11-11**
+**STATUS v0.21, 2026-11-11**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.1 holds Nathan's direction and Claudia's drafts.  Next: Nathan reviews the drafts, then the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
+1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.2: Nathan's direction, with Claudia's drafts approved 2026-11-11.  Next: the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), trade (#70), currency names and rates, what the infection does.
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.2.  Nathan approved all of Claudia's zones drafts (scale numbers, chunks, layers built top-down, walking equals montage, edge walking, seeded catch-up, city as hub, outskirts, early crash fencing, seed tiers, delta saves).  Next talks: Godot, stats, gear.
 
 - 2026-11-11 (Claudia): mechanics v0.39.  Nathan: temperature drives the map temperature, which drives plants, player temperature, and so forth (#14).
 
