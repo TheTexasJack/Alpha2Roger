@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.79, 2026-11-10**
+**Concept v0.80, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -213,6 +213,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
   - **Draft (Claudia):** the story text is written once, with small variants keyed to whether the player is the original pilot or a successor, instead of a second branch.
   - **Draft (Claudia):** the M.U.L.E. is the witness.  It carries the dead pilot's records, so at the port the successor learns that a backup holds the pilot's name and license.
   - **Draft (Claudia):** the years with the M.U.L.E. (16 to 18) are when it trains her to shoot like a Lancer, which is why the no-ranged-skill rule (#47d) holds for her.
+  - After the walk-up, a montage of a year or so explains the training (Nathan, 2026-11-10).
 
 ## The M.U.L.E.
 
