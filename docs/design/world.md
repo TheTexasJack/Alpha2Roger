@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.69, 2026-11-11**
+**World v0.70, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -107,6 +107,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 | 13 | Coast | edge of land | beaches, cliffs, tidal flats |
 
 - Water biomes to add (Nathan, 2026-11-11): warm ocean, deep ocean, coral reef, inland sea, inland lake, river, salt river.
+- Salt notes approved by Nathan 2026-11-11: salt rivers flow from the salt basins, and dissolved salt is immune to the infection.
 - **Draft (Claudia), water biome notes:**
 
 | # | Biome | Notes |
@@ -118,6 +119,9 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 | 18 | Inland lake | fresh water, fish, freezes in winter |
 | 19 | River | river corridor: channel plus floodplain; big rivers only |
 | 20 | Salt river | saline, flowing from the salt basins (real, like Arizona's Salt River); undrinkable, a trade route |
+
+- Model for salt-fed water: Lake Texoma (Nathan, 2026-11-11).  The Red River carries salt from ancient deposits through natural seeps upstream, making the lake brackish; it holds both freshwater and saltwater species, and striped bass, a saltwater fish, reproduce there.
+- **Draft (Claudia):** salinity is a property of water (fresh, brackish, saline), not a separate biome.  A lake fed by a salt river is brackish, with a mixed fish table (freshwater and sea species), making it one of the richest fishing spots; its water needs treating before drinking.
 
 
 - **Draft (Claudia):** features sit on top of a biome rather than being biomes: geothermal valleys, salt flats and salt lakes, small creeks and ponds, impact craters, ruins.  Big rivers and lakes are water biomes.
