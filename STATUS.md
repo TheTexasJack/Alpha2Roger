@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.45, 2026-11-11**
+**STATUS v0.46, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.14.  Nathan: first build starts at a fixed crash spot far in the wilds (S1, R5, about 26 N), random and player-picked starts later; each map grid square is a region (R5 is the first).  Drafts: rename political regions to territories; true distance for travel.
 
 - 2026-11-11 (Claudia): concept v0.94.  Nathan approved the panel toggle and critical-vital edge warning.
 

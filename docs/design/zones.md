@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.13, 2026-11-11**
+**Zones v0.14, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -19,12 +19,17 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - The montage is basically an overmap travel mechanic: math estimates that move the engines forward.  The real magic is the region and the local map.
 - Start small: build one region and one local map, and start there.
+- The first build uses one specific crash spot far out in the wilds, with random starts and a player-picked start planned for later (Nathan, 2026-11-11).
+- First crash spot: S1, grid R5, about 26 N, 79.5 E (globe pixel x 519, y 128), a river valley about 5,600 km from the nearest place (Zimna Toride) (Nathan picked from Claudia's three candidates, 2026-11-11).
+- Each square on the overall map is a region (Nathan, 2026-11-11): the lettered grid squares A1 to X12, so the first region is R5.  A region is 30 by 30 globe pixels, about 1,840 km north to south; at 16 region cells per pixel, a region map is 480 by 480 cells.  There are 288 regions.  This replaces the 8 by 8 pixel chunk draft.
+- **Draft (Claudia):** the planet file's political regions are renamed territories, so "region" means only a map square.
+- **Draft (Claudia):** squares narrow toward the poles on the flat map (a square at 60 degrees is about half as wide on the ground as one at the equator; R5 is about 1,650 km wide).  Play uses the squares; travel days and supplies use true distance.
 
 ## Grid (Nathan, 2026-11-11)
 
 - Square grid, one grid across the board.  It also makes the math of regions easy: we just pick a grid number.  64 is old-school Minecraft logic, but we fit what meets our needs.
 - Local maps are 256 by 256 tiles, RimWorld's tested default.  Bigger maps are possible, but the activity is pretty focused (Nathan, 2026-11-11, after comparing 256 and 512 samples).
-- **Draft (Claudia), powers of two anchored on the canon globe:** one globe pixel (about 61.2 km) is 16 by 16 region cells (about 3.8 km each); one region cell is 16 by 16 local maps; one local map is 256 by 256 tiles (about 240 m); one tile is about 0.93 m.  Region chunks are 8 by 8 globe pixels, 128 by 128 region cells (about 490 km).  This refines the approved 4 km cells, 250-tile maps, and 10-pixel chunks below.
+- **Draft (Claudia), powers of two anchored on the canon globe:** one globe pixel (about 61.2 km) is 16 by 16 region cells (about 3.8 km each); one region cell is 16 by 16 local maps; one local map is 256 by 256 tiles (about 240 m); one tile is about 0.93 m.  (Chunk size superseded: a region is one map grid square, see Build order.)  This refines the approved 4 km cells, 250-tile maps, and 10-pixel chunks below.
 - **Draft (Claudia):** diagonal steps cost 1 for movement; range counts diagonals 1, then 2, alternating, so ranges come out nearly round.
 - Approved by Nathan 2026-11-11 (Claudia's suggestion): the engine keeps coordinates local to the current map, since the planet is about 47 million tiles around and engines lose precision at huge positions.
 - Blockiness is normal (Nathan, 2026-11-11).  Mapped out by region or by local map, the whole world looks blocky and weird.  The more you zoom in, the more a region is a square.  That is where the math and the beauty of the world map cross.
@@ -48,7 +53,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 | Local map | 250 by 250 tiles, about 250 m | Turn-based play, camp, combat, walking from map edge to map edge |
 
 - (Claudia, approved by Nathan 2026-11-11) about 16 by 16 local maps per region cell and about 15 by 15 region cells per globe pixel, an even step at each layer.
-- (Claudia, approved by Nathan 2026-11-11) region maps are fixed square chunks of the globe (for example 10 by 10 globe pixels, about 610 km on a side, about 150 by 150 region cells), not the political regions, since about 65% of habitable land belongs to no region.  Chunks tile seamlessly; political borders are drawn on top as data.
+- (Claudia, approved by Nathan 2026-11-11; chunk size superseded 2026-11-11 by one map grid square per region) region maps are fixed square chunks of the globe, not the political regions, since about 65% of habitable land belongs to no region.  Chunks tile seamlessly; political borders are drawn on top as data.
 - (Claudia, approved by Nathan 2026-11-11) each layer is built from the one above it.  The globe feeds the region chunk; the region cell feeds the local map.  A river on the globe stays a river on the region map and in the local map.
 
 ## Heat
