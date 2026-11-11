@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.64, 2026-11-11**
+**STATUS v0.65, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.21.  Nathan approved all remaining zones drafts: power-of-two sizes, diagonal rule, edge crossing points, biome blending, stitched map view, heat formula and exact latitude, Intelligence on the road, 9-map section details, edge-walking details.
 
 - 2026-11-11 (Claudia): zones.md v0.20.  Nathan approved the spawner-clearing and stone and mines drafts.
 

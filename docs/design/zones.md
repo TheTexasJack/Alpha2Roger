@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.20, 2026-11-11**
+**Zones v0.21, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -29,17 +29,17 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - Square grid, one grid across the board.  It also makes the math of regions easy: we just pick a grid number.  64 is old-school Minecraft logic, but we fit what meets our needs.
 - Local maps are 256 by 256 tiles, RimWorld's tested default.  Bigger maps are possible, but the activity is pretty focused (Nathan, 2026-11-11, after comparing 256 and 512 samples).
-- **Draft (Claudia), powers of two anchored on the canon globe:** one globe pixel (about 61.2 km) is 16 by 16 region cells (about 3.8 km each); one region cell is 16 by 16 local maps; one local map is 256 by 256 tiles (about 240 m); one tile is about 0.93 m.  (Chunk size superseded: a region is one map grid square, see Build order.)  This refines the approved 4 km cells, 250-tile maps, and 10-pixel chunks below.
-- **Draft (Claudia):** diagonal steps cost 1 for movement; range counts diagonals 1, then 2, alternating, so ranges come out nearly round.
+- (Claudia, approved by Nathan 2026-11-11) powers of two anchored on the canon globe: one globe pixel (about 61.2 km) is 16 by 16 region cells (about 3.8 km each); one region cell is 16 by 16 local maps; one local map is 256 by 256 tiles (about 240 m); one tile is about 0.93 m.  (Chunk size superseded: a region is one map grid square, see Build order.)  This refines the approved 4 km cells, 250-tile maps, and 10-pixel chunks below.
+- (Claudia, approved by Nathan 2026-11-11) diagonal steps cost 1 for movement; range counts diagonals 1, then 2, alternating, so ranges come out nearly round.
 - Approved by Nathan 2026-11-11 (Claudia's suggestion): the engine keeps coordinates local to the current map, since the planet is about 47 million tiles around and engines lose precision at huge positions.
 - Blockiness is normal (Nathan, 2026-11-11).  Mapped out by region or by local map, the whole world looks blocky and weird.  The more you zoom in, the more a region is a square.  That is where the math and the beauty of the world map cross.
 - Edge matching uses the RimWorld logic: a river has a top and a bottom where it enters and leaves, and the inside does not matter as long as the top and bottom match (Nathan, 2026-11-11).  The same goes for roads and other features that cross map edges.
-- **Draft (Claudia):** a crossing point belongs to the edge, not to either map.  It is calculated from the seed and that edge's ID, so both neighbors agree no matter which one is generated first.  The region map decides which edges a river or road crosses; the local generator draws any path between its crossing points.
+- (Claudia, approved by Nathan 2026-11-11) a crossing point belongs to the edge, not to either map.  It is calculated from the seed and that edge's ID, so both neighbors agree no matter which one is generated first.  The region map decides which edges a river or road crosses; the local generator draws any path between its crossing points.
 - Because the inside of a map is free, the engine can slip in a settlement and move the river accordingly (Nathan, 2026-11-11).
 - Local generation order (Claudia, approved by Nathan 2026-11-11): edges (crossing points), then placements (settlement, ruin, crash site, downed flier), then routes (rivers and roads between crossings, shaped by the placements), then fill (terrain, plants, rocks, critters).  Settlements want water, so a river is routed past or through a settlement (docks, mill, bridge) rather than away from it.  Handcrafted maps keep fixed edges, and their generated neighbors read crossing points from them.
 - Major cities are fixed when we make them.  They are the handcrafted exception; a city of a million people cannot be randomly generated (Nathan, 2026-11-11).
-- **Draft (Claudia):** biome changes blend over a band near region cell edges instead of switching exactly at the line, so a desert cell fades into grass rather than stopping at a straight edge.
-- **Draft (Claudia):** the player's map view shows visited local maps stitched together as squares, with unvisited ones blank, like the reference samples.  The blocky patchwork becomes the record of where the player has been.
+- (Claudia, approved by Nathan 2026-11-11) biome changes blend over a band near region cell edges instead of switching exactly at the line, so a desert cell fades into grass rather than stopping at a straight edge.
+- (Claudia, approved by Nathan 2026-11-11) the player's map view shows visited local maps stitched together as squares, with unvisited ones blank, like the reference samples.  The blocky patchwork becomes the record of where the player has been.
 
 ## Layers
 
@@ -59,8 +59,8 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 ## Heat
 
 - Heat bands apply the same way they do on Earth.  That establishes a base heat value for each region and each square (Nathan, 2026-11-11).  The latitude lines are in `world.md`; the chain is mechanic #14.
-- **Draft (Claudia), base heat for a square:** latitude (blended from the latitude-line table), minus about 3.5 F per 1,000 ft of elevation (standard lapse rate), milder on coasts and more extreme inland, plus local geothermal heat.  Then the locked chain applies: calendar day and hemisphere, the cold-year shift, time of day, weather.
-- **Draft (Claudia):** base heat is calculated from the square's exact latitude, not the region cell's, so temperature changes smoothly across cell edges.  Nothing needs storing; it is computed when needed.
+- (Claudia, approved by Nathan 2026-11-11) base heat for a square: latitude (blended from the latitude-line table), minus about 3.5 F per 1,000 ft of elevation (standard lapse rate), milder on coasts and more extreme inland, plus local geothermal heat.  Then the locked chain applies: calendar day and hemisphere, the cold-year shift, time of day, weather.
+- (Claudia, approved by Nathan 2026-11-11) base heat is calculated from the square's exact latitude, not the region cell's, so temperature changes smoothly across cell edges.  Nothing needs storing; it is computed when needed.
 
 ## Travel
 
@@ -68,14 +68,14 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - The region map moves like RimWorld: set a destination and move there, not WASD movement.  World travel is the montage, and it may cost many supplies.  What that means is still to figure out, but it should have considerable impact.  That may be our Oregon Trail logic: Pam died of dysentery, so don't drink the poop water, Pam (Nathan, 2026-11-11).
 - What travel costs (Claudia, approved by Nathan 2026-11-11): each travel day draws food, water, and fuel by party size, and wears clothing and gear.  Untreated water risks sickness, so boiling, filters, or tech purification matter.  Weather and the cold year raise the cost per day.  Carrying limits (the M.U.L.E., pack animals, sleds in the cold) cap how far a party can go between resupplies.  River crossings on the route become decisions (ford, build a raft, find a bridge), which ties to the edge logic for rivers.
 - An Intelligence-based character could make overworld travel much easier (Nathan, 2026-11-11).
-- **Draft (Claudia):** Intelligence on the road means better route planning (shorter, safer paths), reading the weather a day ahead, purifying water, repairing gear in the field, and stretching fuel.
+- (Claudia, approved by Nathan 2026-11-11) Intelligence on the road means better route planning (shorter, safer paths), reading the weather a day ahead, purifying water, repairing gear in the field, and stretching fuel.
 - Players can walk the whole distance, because some will try, or they may have crashed nearby (Nathan, 2026-11-10).
 - (Claudia, approved by Nathan 2026-11-11) walking and the montage are the same world.  The montage is a fast-forward over the same seeded maps; if an event stops the player partway, the local map they land in is the one they would have reached on foot.
 - (Claudia, approved by Nathan 2026-11-11) near camp, the player walks off a map edge into the neighboring local map, Qud style.
 - Unlike RimWorld, the player can move one map over left, right, up, and down without going to the region map (Nathan, 2026-11-11).
 - Four directions only, within a 9-map section: one map in the middle and the maps around it.  Go left and up, then right and down, and the player is back at camp.  That is wide enough for much more diversity and feels more Qud than RimWorld.  Qud gets boring in some areas with fields of marsh, some monkeys, and plants (Nathan, 2026-11-11).
-- **Draft (Claudia):** the 9-map section is centered on where the player is stopped (camp, or where the montage stops); moving camp moves the section.  Walking off the section's outer edge opens the region map.  Every map in the section gets its own feature (a ruin, a hill with a view, a creek ford, a cave mouth, a clan trail, a salt flat), so there are no filler maps.
-- **Draft (Claudia):** a diagonal neighbor takes two moves.  The player enters the new map at the matching edge position.  Maps the player leaves freeze, and the catch-up run works out what changed on return, so only one map is active at a time.  Anything chasing the player near the edge crosses too.
+- (Claudia, approved by Nathan 2026-11-11) the 9-map section is centered on where the player is stopped (camp, or where the montage stops); moving camp moves the section.  Walking off the section's outer edge opens the region map.  Every map in the section gets its own feature (a ruin, a hill with a view, a creek ford, a cave mouth, a clan trail, a salt flat), so there are no filler maps.
+- (Claudia, approved by Nathan 2026-11-11) a diagonal neighbor takes two moves.  The player enters the new map at the matching edge position.  Maps the player leaves freeze, and the catch-up run works out what changed on return, so only one map is active at a time.  Anything chasing the player near the edge crosses too.
 
 ## Underground (Nathan, 2026-11-11)
 
