@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.34, 2026-11-10**
+**Mechanics v0.35, 2026-11-10**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -69,7 +69,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 |---|---|---|---|
 | 34 | Character creation | Decided | RPG style, built from peg parts |
 | 34b | Equipment slots | Decided | No separate armor slots; hand slots for weapons and tools; details with character creation |
-| 35 | Stats and skills | Open | Not designed yet |
+| 35 | Stats and skills | Open | Not designed yet.  No ranged skill (#47d) |
 | 36 | NPC generation | Decided | Rolled once and locked; core plus changing state (Draft) |
 | 37 | Traits | Decided | Includes negative and dark traits, balanced, never glorified |
 | 38 | Relationships | Decided | Organic, RimWorld-like, light; family to protect; romance and intimacy only at 18 and up |
@@ -88,6 +88,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 |---|---|---|---|
 | 47 | Turn-based combat | Decided | Combat math on the grid |
 | 47b | Damage types | Decided | Lean on Lancer; Crystalline for the infection; Kinetic, Energy, Explosive, Burn, resistance halving (Draft); heat is environmental |
+| 47d | No ranged skill | Decided | The player is a Lancer and knows how to shoot; shots hit, then effects or armor reduce them; shooting ability is not tracked.  Situation shapes damage (Draft) |
 | 47c | Range and Line | Decided | Lancer attack patterns; Range needs line of sight, Line stops at walls (Draft) |
 | 48 | Weapon feel | Decided | Snappy effects, short shake moments only, speed-up option |
 | 49 | Capture | Decided | Non-lethal tools (Draft) |
