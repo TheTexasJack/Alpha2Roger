@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.36, 2026-11-11**
+**STATUS v0.37, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.11.  Nathan: edge walking happens inside a 9-map section around the middle map, four directions only; more diversity, more Qud than RimWorld.
 
 - 2026-11-11 (Claudia): zones.md v0.10.  Nathan: local maps are 256 by 256 (RimWorld default) after comparing 256 and 512 samples; move one map left, right, up, or down without the region map.
 
