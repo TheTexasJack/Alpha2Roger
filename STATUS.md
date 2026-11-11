@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.16, 2026-11-10**
+**STATUS v0.17, 2026-11-10**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): concept v0.81.  Nathan: successors are random and not all young; ages and training span later.
 
 - 2026-11-10 (Claudia): concept v0.80.  Nathan: after the successor's walk-up, a montage of a year or so explains the training.
 
