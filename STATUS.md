@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.37, 2026-11-11**
+**STATUS v0.38, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.12.  Nathan: region map travel is set-a-destination like RimWorld, no WASD; world travel is the montage and costs supplies with considerable impact (Oregon Trail logic).
 
 - 2026-11-11 (Claudia): zones.md v0.11.  Nathan: edge walking happens inside a 9-map section around the middle map, four directions only; more diversity, more Qud than RimWorld.
 
