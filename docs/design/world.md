@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.70, 2026-11-11**
+**World v0.71, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -121,7 +121,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 | 20 | Salt river | saline, flowing from the salt basins (real, like Arizona's Salt River); undrinkable, a trade route |
 
 - Model for salt-fed water: Lake Texoma (Nathan, 2026-11-11).  The Red River carries salt from ancient deposits through natural seeps upstream, making the lake brackish; it holds both freshwater and saltwater species, and striped bass, a saltwater fish, reproduce there.
-- **Draft (Claudia):** salinity is a property of water (fresh, brackish, saline), not a separate biome.  A lake fed by a salt river is brackish, with a mixed fish table (freshwater and sea species), making it one of the richest fishing spots; its water needs treating before drinking.
+- Salinity is a property of water (fresh, brackish, saline), not a separate biome (Claudia, approved by Nathan 2026-11-11).  A lake fed by a salt river is brackish, with a mixed fish table (freshwater and sea species), making it one of the richest fishing spots; its water needs treating before drinking.
+- Like Texoma, a brackish lake is one of the few places certain fish can be caught (Nathan, 2026-11-11).
 
 
 - **Draft (Claudia):** features sit on top of a biome rather than being biomes: geothermal valleys, salt flats and salt lakes, small creeks and ponds, impact craters, ruins.  Big rivers and lakes are water biomes.

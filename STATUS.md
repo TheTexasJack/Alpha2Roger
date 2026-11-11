@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.50, 2026-11-11**
+**STATUS v0.51, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): world.md v0.71.  Nathan approved salinity as a water property; brackish lakes are among the few places certain fish can be caught.
 
 - 2026-11-11 (Claudia): world.md v0.70.  Nathan approved the salt notes; Lake Texoma is the model for salt-fed brackish water.  Draft: salinity as a water property.
 
