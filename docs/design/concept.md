@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v0.78, 2026-11-10**
+**Concept v0.79, 2026-11-10**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -209,6 +209,10 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Anyone who left the camp goes onto a list, and they are the first to show up if the player dies.
 - **Draft (Claudia):** they return carrying their history with the old player character (good or bad terms shape how they start).  Companions left behind on the journey could qualify too.
 - **Draft (Claudia):** she arrives at 16, the M.U.L.E. keeps her alive through the next couple of years, and the new playthrough begins when she is 18.  The M.U.L.E. carries continuity across lives; the old camp, graves, and half-finished repairs remain to inherit, RimWorld style.  Born on Verlassen, she has no Union record either, keeping the identity theme.
+- **A successor at the port (Nathan, 2026-11-10):** if a successor reaches a port instead of the Lancer, a few creative word changes, but the story is the same.  It is not your clone, but you learn about it.  The struggle to be a Lancer is the same.
+  - **Draft (Claudia):** the story text is written once, with small variants keyed to whether the player is the original pilot or a successor, instead of a second branch.
+  - **Draft (Claudia):** the M.U.L.E. is the witness.  It carries the dead pilot's records, so at the port the successor learns that a backup holds the pilot's name and license.
+  - **Draft (Claudia):** the years with the M.U.L.E. (16 to 18) are when it trains her to shoot like a Lancer, which is why the no-ranged-skill rule (#47d) holds for her.
 
 ## The M.U.L.E.
 

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.14, 2026-11-10**
+**STATUS v0.15, 2026-11-10**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-10 (Claudia): concept v0.79.  Nathan: a successor who reaches a port gets the same story with a few word changes; it is not their clone, but they learn about it; the struggle to be a Lancer is the same.
 
 - 2026-11-10 (Claudia): concept v0.78, mechanics v0.37.  Nathan: companions follow the no-miss rule for now; low skill can add debuffs instead.
 
