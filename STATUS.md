@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.60, 2026-11-11**
+**STATUS v0.61, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.17.  Nathan approved the underground drafts; cave rules for fires apply, a campfire kills in a cave.  Draft: air tracking and carbon monoxide in enclosed spaces.
 
 - 2026-11-11 (Claudia): world.md v0.72, zones.md v0.16.  Nathan approved the biome list and water notes.  Underground: small RimWorld-style surface caves; deeper spaces and interiors (like an RV) are linked maps; dungeon depth later, no global underdark, prebuilt chance-spawn dungeons with major bosses.
 

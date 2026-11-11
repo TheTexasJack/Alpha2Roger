@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.16, 2026-11-11**
+**Zones v0.17, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -82,9 +82,11 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Surface caves are like RimWorld caves: possible, but usually small.  Bear homes, alien bug homes, and holes.
 - Anything deeper uses linked maps: basements, deep caves, cellars, bunkers, and interiors that do not translate to the overworld map.  Example: an RV.  Spatially it may not make sense, but a small interior map is better than trying to make an RV work on the overworld.
 - Dungeons: how deep they go is defined later.  No underdark equivalent spanning the globe, but a player might end up in a 20-floor dungeon somewhere.  A few prebuilt chance spawns can lead to major bosses for loot.
-- **Draft (Claudia):** a linked map is an ordinary local map with an entrance instead of edges, often smaller (64 or 128 tiles).  Each dungeon floor is its own linked map.  Only one map runs at a time, as on the surface.
-- **Draft (Claudia):** prebuilt dungeons are handcrafted templates placed by the seed (the seeded landmarks tier), so the same seed puts the same dungeon in the same place.
-- **Draft (Claudia), physics:** deep caves hold near the area's average yearly temperature, and rock changes slowly, so a cave keeps its warmth for months into a cold year.  Caves are natural cold-year refuges, for people and animals alike.  Dangers: total darkness, carbon dioxide pooling in low spots, flooding at the thaw, cave-ins.
+- (Claudia, approved by Nathan 2026-11-11) a linked map is an ordinary local map with an entrance instead of edges, often smaller (64 or 128 tiles).  Each dungeon floor is its own linked map.  Only one map runs at a time, as on the surface.
+- (Claudia, approved by Nathan 2026-11-11) prebuilt dungeons are handcrafted templates placed by the seed (the seeded landmarks tier), so the same seed puts the same dungeon in the same place.
+- (Claudia, approved by Nathan 2026-11-11) physics: deep caves hold near the area's average yearly temperature, and rock changes slowly, so a cave keeps its warmth for months into a cold year.  Caves are natural cold-year refuges, for people and animals alike.  Dangers: total darkness, carbon dioxide pooling in low spots, flooding at the thaw, cave-ins.
+- Cave rules for fires apply: a campfire kills in a cave (Nathan, 2026-11-11).
+- **Draft (Claudia):** each enclosed space tracks air.  A fire burns oxygen and makes carbon monoxide, which builds up without airflow: headache, then confusion, then sleep, then death.  Openings and natural drafts vent it, so a cave with a chimney or a strong draft allows a small fire, and a sealed one does not.  The same rule covers tents, RVs, bunkers, and sealed shelters.  The wrist unit or a sensor can warn of bad air.  This forces a cold-year choice: a warm sealed cave without fire, or a fire and a vent that lets the heat out.
 - Open: whether the player can dig their own tunnels.
 
 ## Returning to a site
