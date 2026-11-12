@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.48, 2026-11-12**
+**Zones v0.49, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -174,7 +174,8 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Wheels (Claudia, approved by Nathan 2026-11-12): on foot, paths are about 80%; carts, wagons, and vehicles run paths at about 50% and cannot use animal trails.  Weather still applies to roads: snow and thaw floods can bury or wash them out.
 - Traffic (Claudia, approved by Nathan 2026-11-12): caravans, patrols, refugees, couriers, and bandits; volume by road importance (main city roads busy, paths quiet), changing with seasons, wars, and the cold year.  A roadside base can run an inn, toll, or waystation, but raiders find it easily, and blocking a road is a political act that angers travelers and the road's lord.  Catch-up includes traffic.
 - Tolls (Nathan, 2026-11-12): a gate can charge travelers walking through, as a side source of money.  It must be manned, by one of the player's NPCs (a real sacrifice, since they are valuable) or by a robot.  Travelers complain or agree in a log or chatter, but either way they pay.  It could be abused, so there may be side effects and criteria for creating a toll.  Travelers may turn around and leave, or try to walk around.
-- **Draft (Claudia), tolls:** a robot collects less, cannot talk anyone down, and can be robbed.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
+- Toll payments (Nathan, 2026-11-12): a toll robot cannot be robbed of money, since money is tracked electronically; money paid in is recorded by the robot and stored, directly.  Bartering is core to almost every RPG, so travelers and traders may pay in goods instead (a sack of potatoes, an animal, things of equal value), and anything paid that way can be stolen.  The whole robot can also be stolen.
+- **Draft (Claudia), tolls:** a robot collects less and cannot talk anyone down.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
 - **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
 
 ## Montage events (Nathan, 2026-11-11)

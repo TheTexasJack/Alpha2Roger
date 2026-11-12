@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.112, 2026-11-12**
+**STATUS v0.113, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.49.  Nathan: toll money is electronic and cannot be stolen; barter goods paid at the toll can be; the whole robot can be stolen.
 
 - 2026-11-12 (Claudia): zones.md v0.48, mechanics v0.59.  Nathan approved the wheels and traffic drafts; road tolls (#72c): manned by an NPC or robot, travelers complain and pay or turn back or go around, with anti-abuse criteria.  Draft: rates, chatter, charters, rerouting.
 
