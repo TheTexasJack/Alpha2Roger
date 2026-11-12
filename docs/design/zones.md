@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.27, 2026-11-11**
+**Zones v0.28, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -121,6 +121,18 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - When the player returns to the crash site, a quick math and adjustment run determines the state of the site: whether anybody survived or stayed, and what their averages are.  The map is adjusted, then the player enters (Nathan, 2026-11-10).
 - (Claudia, approved by Nathan 2026-11-11) the catch-up run is seeded by the run seed, the site, and the time away, so the same absence always gives the same result.
 
+### Catch-up run rules (Nathan, 2026-11-11)
+
+- Broad.  Some things are estimated.  The whole idea is to simplify the main elements so time can move quickly.
+- The player is warned on leaving, for example: "You are about to leave the map.  While you are away, your base will manage itself."  The engine then runs the math with nothing animated.
+- People can die while the player is away.
+- The camp log (Claudia's suggestion, agreed): a quick summary of what was calculated, so the player can review and plan accordingly.
+- Only maps where the player's people are tick.  Maps need the player or one of their NPCs.
+- Things left on a map with nobody watching can be stolen.  They stay for a time, depending on what is close.  Bandits nearby: it will not last; within days the map is reset and empty.  No bandits, but alien bears nearby: food may be gone while other supplies are fine.  It should be logical.
+- Settlements, bandit camps, dungeons, caves, and spawners get basic math (whether anything leaves, raids, and so on), never day-to-day calculation.
+- **Draft (Claudia), unattended goods:** each nearby threat takes what it wants: bandits take anything of value, animals take food, weather and time spoil food and wear gear, and infected ground can take mineral goods.  Hidden or locked caches last longer.
+- **Draft (Claudia), off-map sites:** each settlement, camp, or spawner carries a few numbers (strength, supplies, mood toward the player) updated in coarse steps; raid chance on the player's camp grows with strength and nearness.
+
 ## Cities
 
 - Major cities are handcrafted, so they are uniform and their map tiles are built as we go.  They can hold anything: dungeons, banks, vendors, crime syndicates, points of contention, and the major story points (Nathan, 2026-11-10).
@@ -163,7 +175,6 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Exact local map size in tiles, and meters per tile.
 - Region cell size and chunk size.
 - Full montage event tables, once more of the game exists.
-- Catch-up run rules.
 - Biome regions (moved from A2R-101).
 - Route distance ranges (moved from A2R-101).
 - Which city is built first.
