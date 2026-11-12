@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.01, 2026-11-11**
+**Concept v1.02, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -250,6 +250,13 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No constructed languages and no coded dialects.
 - **Draft (Claudia):** real-world check: Papua New Guinea has about 10 million people and 800+ languages, so 563 on Verlassen is believable.  It implies old settlement in many waves.  Like PNG's Tok Pisin, a trade creole likely grew up around the spaceport and salt-lake hubs as the common market tongue.
 - **Draft (Claudia):** the calibration samples double as a first taste of the planet's peoples and regions.
+
+## Music (Nathan, 2026-11-11)
+
+- So the music is ours: use Suno (Nathan's SteamMetal Studios account) to get a feel, then create our own MIDI music in the same vein, or do our own merger.  Keeping with the style, chiptunes we create should work great.  Nathan composes on an Akai MPK Mini Plus.
+- No current plan to release on Steam: this is a project for Nathan, and anyone who plays will be people he knows.  Maybe one day.  No concerns about AI use.
+- **Draft (Claudia), fusions by cultural region** (Japanese base plus the second culture): spaceport coast, Persian santur and tar with koto; southern steppe, Mongolian throat singing and horsehead fiddle with taiko; west continent north, German motorik synth with shamisen; central-north island, Slavic choral folk with city pop; the empty east, Irish trad with Japanese min'yo (Kawa Fada's radio).  Off-world Union pop drifts in on night shortwave.
+- **Draft (Claudia), pipeline:** Suno sketches as reference only, never shipped; melodies played on the MPK Mini Plus; chiptune arrangement in LMMS or the Furnace tracker; exported to OGG, since Godot 4 takes live MIDI input but does not play MIDI files natively.
 
 ## Narrative presentation (Nathan, 2026-11-11)
 

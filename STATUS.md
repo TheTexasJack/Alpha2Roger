@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.80, 2026-11-11**
+**STATUS v0.81, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): concept v1.02, new Music section.  Nathan: Suno for feel, then our own MIDI and chiptune music; no current Steam release plan.  Drafts: regional fusions, pipeline.
 
 - 2026-11-11 (Claudia): zones.md v0.36.  Nathan: descent footage and beacon both; the M.U.L.E. scans nearby points of interest on every drop and tags them as early quests; the M.U.L.E. has a short-range radio for local music.  Draft: radio bands, chatter, night shortwave, mood.
 
