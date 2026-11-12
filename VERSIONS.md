@@ -1,6 +1,6 @@
 # Versions
 
-**VERSIONS v1.106, 2026-11-12**
+**VERSIONS v1.107, 2026-11-12**
 
 Current version of every deliverable.  Update the row whenever a file changes.  Run `python3 tools/version_check.py` to confirm every row matches its file.
 
@@ -8,15 +8,15 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| VERSIONS.md | v1.106 | 2026-11-12 | This table |
+| VERSIONS.md | v1.107 | 2026-11-12 | This table |
 | README.md | v0.5 | 2026-11-10 | Pitch, pillars, repo map, license credits |
 | AGENTS.md | v0.5 | 2026-11-12 | Rules for AI collaborators: lanes, conventions, versions, diagnostics; music lane |
 | CLAUDE.md | v0.1 | 2026-11-10 | Pointer to AGENTS.md for Claude Code |
-| STATUS.md | v0.91 | 2026-11-12 | Where things stand and next steps |
+| STATUS.md | v0.92 | 2026-11-12 | Where things stand and next steps |
 | LICENSE.md | v0.2 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms |
 | .gitignore | v0.2 | 2026-11-10 | Ignores caches, Godot imports, diagnostics/ |
 | docs/design/concept.md | v1.04 | 2026-11-12 | Game design |
-| docs/design/music.md | v0.6 | 2026-11-12 | Music bible: tools, sound, the riff (Kaze), radio music |
+| docs/design/music.md | v0.7 | 2026-11-12 | Music bible: tools, sound, the riff (Kaze), radio music |
 | docs/design/world.md | v0.77 | 2026-11-12 | The planet Verlassen |
 | docs/design/mechanics.md | v0.52 | 2026-11-11 | Master mechanics checklist by build tier |
 | docs/design/zones.md | v0.36 | 2026-11-11 | Zones and travel spec (A2R-102) |
@@ -47,5 +47,5 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 | assets/maps/verlassen_places_v1.0.png | v1.0 | 2026-11-09 | Ten named places |
 | assets/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Political regions (accepted) |
 | assets/art/mule/ | v1 | 2026-11-09 | M.U.L.E. references: Nathan's miniature and Mara variants |
-| assets/audio/music/drafts/ | v4 | 2026-11-12 | Riff candidates v1; Kaze v2 theme; Kaze v3 and v4 songs: MIDI and OGG previews |
+| assets/audio/music/drafts/ | v5 | 2026-11-12 | Riff candidates v1; Kaze v2 theme; Kaze v3, v4, v5a, v5b songs: MIDI and OGG previews |
 | assets/art/reference/rimworld_reference_pegs_clothing_v1.png | v1 | 2026-11-10 | RimWorld reference screenshot |

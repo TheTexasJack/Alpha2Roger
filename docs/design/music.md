@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.6, 2026-11-12**
+**Music v0.7, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -51,7 +51,18 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 
 Chords move A, F, C, E: the C is the one warm moment, and the E at the end of B leans back toward A.
 
-### Kaze v4: the riff song (Draft, Claudia, awaiting Nathan's review)
+### Kaze v5: reversing halfway (Draft, Claudia, awaiting Nathan's pick)
+
+- Nathan, 2026-11-12: v4 is better and stronger, but it just repeats the 8 notes.  After the first 2 runs, try reversing halfway, then finish the riff in the original notes.
+
+Two readings, same layout as v4.  Runs 1 and 2 are the original riff in both.
+
+| File | Runs 3 to 8 | Length |
+|---|---|---|
+| `kaze_song_v5a` | The first half backward (E F E A), then the second half as written (C B C A).  Still 2 bars. | About 1 minute 7 |
+| `kaze_song_v5b` | The first half as written (A E F E), turn at the halfway point and walk back up (F E A), then finish as written (C B C A).  3 bars. | About 1 minute 31 |
+
+### Kaze v4: the riff song (superseded by v5)
 
 - Nathan, 2026-11-12: v3 went the wrong direction.  The full riff was good: those first 8 notes.
 
@@ -104,5 +115,5 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Nathan reviews Kaze v4.
+- Nathan picks v5a or v5b.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.91, 2026-11-12**
+**STATUS v0.92, 2026-11-12**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-0. **Music:** Kaze v4, the song built on the whole 8-note riff, is drafted in `assets/audio/music/drafts/`, awaiting Nathan's review.
+0. **Music:** Kaze v5a and v5b (two readings of reversing halfway) are drafted in `assets/audio/music/drafts/`, awaiting Nathan's pick.
 1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.2: Nathan's direction, with Claudia's drafts approved 2026-11-11.  Next: the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): music.md v0.7.  Nathan: after two runs, reverse halfway and finish in the original notes.  Kaze v5a and v5b drafted.
 
 - 2026-11-12 (Claudia): music.md v0.6.  Nathan: v3 was the wrong direction; the full 8-note riff is the core.  Kaze v4 drafted on the whole riff.
 
