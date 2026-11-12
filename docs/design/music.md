@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.4, 2026-11-12**
+**Music v0.5, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -23,7 +23,8 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 - We pick one riff that becomes ours and weave it into everything, the way the Elder Scrolls theme has run through every game since Morrowind and "Down by the River" is stretched and shifted through Baldur's Gate 3.
 - The riff is based on famous Japanese tones, since Japanese is the world's base culture, with a more modern shift and cold, chilling undertones.
 - **Draft (Claudia), rules for the riff:** 4 to 8 notes, short enough to survive being cut down.  It must work as a pluck, over a drone with hand drums, and as a slow pad.  In the wilderness only a fragment plays (the first three notes, slowed).  The full theme waits for big moments: reaching the spaceport and the endings.
-- **Draft (Claudia), the clone:** the clone twist gets the theme played slightly wrong, one note off, like a copy.
+- No off notes for now (Nathan, 2026-11-12): build the song first and establish the core.  If an off note is used for the story, it comes in the moment.
+- **Draft (Claudia), on hold per the line above:** the clone twist gets the theme played slightly wrong, one note off, like a copy.
 
 ### The pick (Nathan, 2026-11-12)
 
@@ -31,7 +32,7 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 
 ### Nathan's sung guide (Nathan, 2026-11-12)
 
-- Nathan recorded himself singing a guide line to steer Kaze v2: the melody of "Darkness," a song he wrote long ago.  The recording and lyrics stay off the repo.
+- Nathan recorded himself singing a guide line to steer Kaze v2: the melody of "Darkness," a song he wrote long ago.  The recording and lyrics stay off the repo.  The lyrics are not for Alpha2-Roger; the tone only leans in to help Kaze.
 
 **Draft (Claudia), what the guide shows:** a low chant that recites on one home note (C) and circles it with half-step neighbors (B below, C sharp above), lifts a fifth to G with A flat on top, falls back home, then a coda that drops a fourth below home and sinks.  The notes around C are C, D flat, F, G, and A flat: the In scale, the same family as Kaze.  The pace is about one note per eighth at 72 BPM, Kaze's own tempo.
 
@@ -49,6 +50,21 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 | 11 to 12 | Coda | Drops below home, like the guide's ending, and settles on low A | Bell and pad |
 
 Chords move A, F, C, E: the C is the one warm moment, and the E at the end of B leans back toward A.
+
+### Kaze v3: the song (Draft, Claudia, awaiting Nathan's review)
+
+`kaze_song_v3`: the full song, core only, every note inside Kaze's set (A B C E F).  About 1 minute 50, 32 bars at 72 BPM, and it begins and ends in wind so it can loop.  v2's second voice in fourths (it hit a tritone, B over F) and the flute's flat scoop into each note are gone, and the koto is now tuned exactly.
+
+| Bars | Section | What happens |
+|---|---|---|
+| 1 to 4 | Intro | Wind and drone; the first three notes of Kaze on koto, twice |
+| 5 to 8 | A | Kaze on koto over bass |
+| 9 to 12 | B | Nathan's line on shakuhachi over drone, soft pulse; hangs on E |
+| 13 to 16 | A | Kaze on shakuhachi; koto answers with the fragment |
+| 17 to 20 | Bridge | The warm moment: long bell notes over C and F, leaning on E |
+| 21 to 24 | B | Nathan's line again, shakuhachi and koto in octaves |
+| 25 to 28 | A | Kaze on bell and koto with pad, drone, and pulse: the fullest point |
+| 29 to 32 | Coda | Nathan's ending drops below home, the fragment once more, back to the wind |
 
 ### Candidates v1
 
@@ -71,5 +87,5 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- What Kaze v3 needs, if anything, after Nathan sits with v2.
+- Nathan reviews Kaze v3.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.

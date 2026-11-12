@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.89, 2026-11-12**
+**STATUS v0.90, 2026-11-12**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-0. **Music:** Kaze v2 (full theme shaped by Nathan's sung guide) is drafted in `assets/audio/music/drafts/`, awaiting his review.
+0. **Music:** Kaze v3, the full song (core only, no off notes), is drafted in `assets/audio/music/drafts/`, awaiting Nathan's review.
 1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.2: Nathan's direction, with Claudia's drafts approved 2026-11-11.  Next: the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): music.md v0.5.  Nathan: no off notes yet, build the song first.  Kaze v3 drafted: the full song, 32 bars, loops through the wind.
 
 - 2026-11-12 (Claudia): music.md v0.3.  Kaze v2 drafted from Nathan's sung guide: A A B A' plus coda, chords A F C E.
 
