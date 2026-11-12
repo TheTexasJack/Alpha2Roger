@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.21, 2026-11-12**
+**Music v0.22, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -65,6 +65,9 @@ Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio 
 - **Feel test v1 (Claudia, 2026-11-12):** Rory Dall's Sister's Lament, played as written at 60 BPM.  Koto plays the air once, then shakuhachi plays it with the koto under it, over a low A and E drone in the style of pipe drones.  It is built from the GPL transcription, so it stays off the repo and was sent to Nathan only.
 - Nathan, 2026-11-12: feel test v1 is good; it would be better with a bamboo flute.
 - **Feel test v2 (Claudia, 2026-11-12):** the same, with the shakuhachi replaced by a shinobue (side-blown bamboo festival flute), which sits high and airy like an Irish whistle.
+- Nathan, 2026-11-12: v2 sits just on the outside of almost.  It is good and the right direction, and still the best direction as we get into different areas.  Two things need to happen: the notes and tune need adjusting and cleaning up, and it needs an undertone or beat, which Nathan will add.  This is where the Akai has to be up.
+- Background music is usually long tones and hints at a full song.  Nobody sings Skyrim's background music, but they are listening to it (Nathan, 2026-11-12).
+- The target for this region: the song makes you think you are in the Irish wilds with samurai (Nathan, 2026-11-12).
 
 ## Sound (Nathan, 2026-11-11)
 
@@ -174,6 +177,6 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Parked for later (Nathan, 2026-11-12): set up the Akai so Waveform records from the keyboard.
+- Now required (Nathan, 2026-11-12): set up the Akai so Waveform records from the keyboard.  Known so far: Linux sees it (client 28, port 0 carries the keys), notes reach Waveform, but the instrument plays one note at a time and nothing records.
 - Nathan's next direction for Kaze, after he ruminates.  v4 is the strongest version so far.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
