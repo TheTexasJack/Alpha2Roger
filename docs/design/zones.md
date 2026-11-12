@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.37, 2026-11-12**
+**Zones v0.38, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -43,7 +43,10 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Nathan's calls on the draft (2026-11-12): the planet height scale is fine (planet top about 6,500 m, R5 summit about 3,700 m); uplands reading as temperate is fine; S1 landing in warm grassland is fine; lots of rivers is fine, since the cold year's ice and snow melts every third year and makes rivers.
 - When a player picks an area on the world map, they pick the region, and that tells the game which 9 maps to load (Nathan, 2026-11-12).
 - Scale note (Claudia): one region cell (about 3.8 km) holds 16 by 16 local maps; the 9-map section is about 720 m.  At region detail, the nearest creek is about 80 km south of S1 and the nearest river about 126 km.
-- **Draft (Claudia):** pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  For the first build, S1 moves onto the creek cell so a creek crosses the bottom of the 9-map section; small creeks and ponds are local-map features anywhere.
+- **Draft (Claudia):** pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  Small creeks and ponds are local-map features anywhere.
+- The only reason to be on a river is testing on a river; the randomness of the seed generation guides the specifics, so S1 stays where the seed put it (Nathan, 2026-11-12).
+- We need a measurement like the overmap's (R5 and so on) to pinpoint places better (Nathan, 2026-11-12).
+- **Draft (Claudia), addresses:** one block per zoom level: region (A to X, 1 to 12), region cell (column.row, 0 to 479), local map inside the cell (column.row, 0 to 15), tile inside the map (column.row, 0 to 255).  Example: S1's camp spot is R5-152.136-08.08-128.128; dropping blocks zooms out.  Numbers after the first block, since letters run out at 480 columns.  Used by the GM tool (jump to an address, such as a river cell for river testing), seed sharing, bug reports, the camp log, and a cursor readout on the region map.
 - **Draft (Claudia):** after every cold year comes a thaw flood: rivers swell, fords close for weeks, and dry washes run with water.
 
 ## Grid (Nathan, 2026-11-11)

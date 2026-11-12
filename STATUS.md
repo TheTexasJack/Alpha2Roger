@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.98, 2026-11-12**
+**STATUS v0.99, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.38.  Nathan: a river is only needed for river testing, seed randomness guides specifics (S1 stays); we need an address system like the overmap's.  Draft: R5-cell-map-tile addresses.
 
 - 2026-11-12 (Claudia): zones.md v0.37, world.md v0.80.  R5 biome placement draft v0.2 reviewed: height scale, temperate uplands, S1 in warm grassland, and many rivers all fine.  Pick flow: region then 9 maps.  Planet top located (M10).  Drafts: cell pick flow, S1 onto the creek, thaw floods.
 
