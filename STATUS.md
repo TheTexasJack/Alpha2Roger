@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.75, 2026-11-11**
+**STATUS v0.76, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): mechanics v0.52, zones v0.32.  Nathan approved the GM tool commands; an easy city build mode (#87c), the main reason cities wait until the game is established.
 
 - 2026-11-11 (Claudia): mechanics v0.51, zones v0.31.  Nathan: first city likely Shio Loch, Shio Loch or Kawa Fada; GM tool early to skip around in testing, hidden later (#87b).
 

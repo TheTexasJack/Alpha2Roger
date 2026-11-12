@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.31, 2026-11-11**
+**Zones v0.32, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -153,6 +153,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Stepping into a town should be a big event.  Depending on where the player steps in, they may get Al-Qadim or Aladdin, New York or Berlin.  This is what sets it apart from RimWorld's random generation: we build story for our hero instead of making just another survival game (Nathan, 2026-11-10).
 - We do not map every square of a city, only the areas that are important and that the player needs to go to.  Nobody wants to travel miles of homes with no value in going into them (Nathan, 2026-11-10).
 - Each city has a wall, and the player crosses through a gate.  There is an entrance on the side of a map, or just the entrance; the player enters, then gets the city map.  City maps are different from world maps (Nathan, 2026-11-10).
+- An easy build mode is needed to create the cities.  This is the main reason cities wait until the game is established: much of what a city needs is built in the early stages (Nathan, 2026-11-11).  See mechanic #87c.
 - (Claudia, approved by Nathan 2026-11-11) the city as a hub:
   - The gate map is handcrafted: wall, gate, guards, the queue, the arrival event.  The first ID check happens here.
   - The city map shows the districts.  The player picks a destination; time advances for the trip, with a chance of a short event on the way (pickpocket, a patrol checking papers, a syndicate runner).
