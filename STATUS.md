@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.74, 2026-11-11**
+**STATUS v0.75, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): mechanics v0.51, zones v0.31.  Nathan: first city likely Shio Loch, Shio Loch or Kawa Fada; GM tool early to skip around in testing, hidden later (#87b).
 
 - 2026-11-11 (Claudia): zones.md v0.30.  Nathan: ferries to Kawa Fada go out to the left, through the strait near Shio Loch, and down.  Verified on the globe (about 42,000 km, 2 to 3 months).  Drafts: seasonal ferry, Shio Loch holds the sea gate.
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.30, 2026-11-11**
+**Zones v0.31, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -189,5 +189,5 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Region cell size and chunk size.
 - Full montage event tables, once more of the game exists.
 - Biome regions (moved from A2R-101).
-- Which city is built first.
+- Which city is built first: likely Shio Loch, but since the build extends outward from S1, it will be Shio Loch or Kawa Fada (Nathan, 2026-11-11).  On foot from S1: Kawa Fada about 6,300 km (about 400 days), Shio Loch about 9,600 km (about 620 days); the GM tool removes the wait during testing.
 - The zone graph output format for A2R-103.
