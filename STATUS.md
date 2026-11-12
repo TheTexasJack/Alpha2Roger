@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.85, 2026-11-12**
+**STATUS v0.86, 2026-11-12**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): world.md v0.77.  Nathan approved the news spin and the dish rebroadcast with two speeds of news.
 
 - 2026-11-12 (Claudia): world.md v0.76.  Nathan: local stations rebroadcast the news with a local spin; the same story changes zone to zone.  Draft: regional spins, the brothers' stations contradict each other.
 
