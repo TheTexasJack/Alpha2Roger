@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.125, 2026-11-12**
+**STATUS v0.126, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.54.  Nathan: a city is a linked space entered through its gates, any shape, story maps only, with drill-down; city space rules approved; overworld land under a city is blocked off behind impenetrable walls (crossing is a bug, or sends the player to the nearest gate).
 
 - 2026-11-12 (Claudia): concept v1.15.  Pam's full name is Pam Cramples; her other details wait for player stats and settings.
 
