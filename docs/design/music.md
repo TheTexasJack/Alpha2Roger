@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.10, 2026-11-12**
+**Music v0.11, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -22,6 +22,12 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
   - Watch for modern songs that only sound old.  Ashokan Farewell is one known example.
   - Transcribe from scans of the original books ourselves.  Online transcriptions carry their own licenses: the O'Neill's Project ABC files are GPL, and Nigel Gatherer's are his own copyright.
   - Log each tune with its source book, page, and year.
+- This has to work for every area of influence (Gaelic, Mongolian, Slavic, Persian, German; see `world.md`).  The tunes are old, and there is molding we can do with them.  Without common ground that works across all of them, we would be learning new styles one by one and forcing Japanese into each, which takes a music master.
+- **Draft (Claudia), one recipe for every region:**
+  1. The Japanese side stays the same everywhere: koto, shakuhachi, shamisen, taiko.  Kaze threads through all of it.
+  2. Common ground is the five-note scale.  Keep tunes that fit a pentatonic scale, or bend into one with small changes.  A script can score whole public domain collections for fit.
+  3. Each culture brings one signature beyond the melody, played on the Japanese instruments: Gaelic jig lilt; Mongolian drone and long free-time phrases; Slavic minor modes; German march and waltz; Persian ornaments and bent notes (shakuhachi and koto both bend pitch).
+  4. Fit by region, easiest first: Gaelic and Mongolian (both lean pentatonic), Slavic, German, Persian (its scales use notes between our notes).
 - **Draft (Claudia), why it fits:** many Gaelic airs are pentatonic, and the Japanese Yo scale is pentatonic too, so a lot of these tunes sit on koto and shakuhachi without changing a note.
 
 ## Sound (Nathan, 2026-11-11)
