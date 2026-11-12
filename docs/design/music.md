@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.23, 2026-11-12**
+**Music v0.24, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -70,6 +70,8 @@ Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio 
 - The target for this region: the song makes you think you are in the Irish wilds with samurai (Nathan, 2026-11-12).
 - The koto is a traditional instrument, but it has no long notes (Nathan, 2026-11-12).
 - **Draft (Claudia), who holds the long tones:** the koto plays hints and fragments.  Long tones go to instruments that sustain: the shō (mouth organ, sustained chords; the natural partner to a pipe drone), the kokyū (bowed, the Japanese answer to the Irish fiddle), and the shakuhachi and shinobue (breath).
+- Nathan is leaning on the breathy flute now (Nathan, 2026-11-12).
+- **Shortlist MIDI v1 (Claudia, 2026-11-12):** The Coolin, The Little Black Rose, O'Carolan's Lament, Shule Aroon, and The Parting Glass, each with a breathy flute melody (written notes, lifted whole octaves where needed so the lowest note sits at G4 or higher) and a tonic-and-fifth drone.  Built from the GPL transcription, so they stay off the repo and were sent to Nathan only.
 
 ## Sound (Nathan, 2026-11-11)
 
