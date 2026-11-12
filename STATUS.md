@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.102, 2026-11-12**
+**STATUS v0.103, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.42, mechanics v0.55.  Nathan: hybrid map storage (baked maps where the player builds); nothing tracked by default; quests and story events flag automatically; the M.U.L.E. has one tracker (zone loader, #87d), settings flag for more.
 
 - 2026-11-12 (Claudia): zones.md v0.41.  Nathan approved the region biome rules.  New `tools/region_gen.py` v0.1 builds R5: `tools/data/regions/R5.json` v0.1 (biomes, rivers and creeks, heights) and `assets/maps/regions/R5_biomes_v0.1.png`.
 

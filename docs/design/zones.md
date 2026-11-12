@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.41, 2026-11-12**
+**Zones v0.42, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -116,6 +116,15 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Four directions only, within a 9-map section: one map in the middle and the maps around it.  Go left and up, then right and down, and the player is back at camp.  That is wide enough for much more diversity and feels more Qud than RimWorld.  Qud gets boring in some areas with fields of marsh, some monkeys, and plants (Nathan, 2026-11-11).
 - (Claudia, approved by Nathan 2026-11-11) the 9-map section is centered on where the player is stopped (camp, or where the montage stops); moving camp moves the section.  Walking off the section's outer edge opens the region map.  Every map in the section gets its own feature (a ruin, a hill with a view, a creek ford, a cave mouth, a clan trail, a salt flat), so there are no filler maps.
 - (Claudia, approved by Nathan 2026-11-11) a diagonal neighbor takes two moves.  The player enters the new map at the matching edge position.  Maps the player leaves freeze, and the catch-up run works out what changed on return, so only one map is active at a time.  Anything chasing the player near the edge crosses too.
+
+## Stored and unstored maps (Nathan, 2026-11-12)
+
+- Local maps stay unstored: seed, address, and generator version rebuild the same map every time, and only changes are saved, keyed by address.
+- Hybrid (Claudia's suggestion, approved): untouched or lightly changed maps stay unstored; any map the player builds on (camp, an outpost, a heavily changed map) is saved in full ("baked") the first time they build there, which makes it immune to generator changes.
+- By default nothing is tracked.  Quests and story events are automatic: when one is created, it flags its spot, the same way changes are tracked.
+- The M.U.L.E. has a single tracker that acts as a zone loader.  The tracked zone works just like the player's camp.  Players may have several reasons to use it, especially with complex machines later.  A settings flag can raise the number of trackers as players build larger systems, but by default the player chooses one zone to permanently track and load.  Removing the tracker returns the zone to unloading like any other cell.
+- Note (Claudia): like the camp, a tracked zone resolves through the catch-up run rather than running live, so it costs no extra engine time while the player is away.  Example: prisoners left in a tracked cellar starve, escape, or are rescued according to their stats, the food left, and the time away.
+- **Draft (Claudia):** a zone for the tracker is the local map it is placed on.  The tracker is a physical beacon tag the M.U.L.E. plants, so it exists in the world.
 
 ## Underground (Nathan, 2026-11-11)
 
