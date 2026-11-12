@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.77, 2026-11-11**
+**STATUS v0.78, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.34, new R5 section.  Nathan approved the R5 read, expected biomes, and 3,500 m peaks; higher and harder places hold more caves and rarer finds; the cold peak is an early challenge that holds something the player needs.  Draft: derelict relay station on the peak.
 
 - 2026-11-11 (Claudia): zones.md v0.33.  Nathan: Kawa Fada is the first city.
 

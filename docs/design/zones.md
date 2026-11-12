@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.33, 2026-11-11**
+**Zones v0.34, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -24,6 +24,14 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Each square on the overall map is a region (Nathan, 2026-11-11): the lettered grid squares A1 to X12, so the first region is R5.  A region is 30 by 30 globe pixels, about 1,840 km north to south; at 16 region cells per pixel, a region map is 480 by 480 cells.  There are 288 regions.  This replaces the 8 by 8 pixel chunk draft.
 - The planet file's political regions are renamed territories, so "region" means a map square (Claudia, approved by Nathan 2026-11-11).
 - No polar shrinking (Nathan, 2026-11-11).  Squares narrowing toward the poles is globe logic; since this is a 2D game, we drop it.  Every square is the same size for play and travel.  The planet file's `straight_line_km` is globe reference only.
+
+## Region R5, the first region
+
+- R5 from the canon globe (Claudia, approved by Nathan 2026-11-11): latitude 15 to 30 N, all warm band; all land, with the sea just off the west (Q5) and north (R4) edges; the far southeast is about 1,600 km from any coast, the driest interior; about 20% highlands, a massif across the south-center whose highest peaks (the top 5% of land) continue into R6; S1's river runs north to the R4 coast; creeks run east toward S5; no lakes.
+- Expected biomes (Claudia, approved by Nathan 2026-11-11): warm forest along the wetter north and west, warm grassland across the middle, scrub desert toward the dry interior, highlands on the massif, a river corridor along S1's river.
+- Peak height (Claudia, approved by Nathan 2026-11-11): the R5 peaks stand about 3,500 m, about 40 F colder than the lowlands by the lapse rate: cool summers and freezing winters up top, deep below zero in a cold year, a snowcap visible from far off in the warm band.
+- Height and difficulty (Nathan, 2026-11-11): the higher up, traditionally, the more chance of caves and such.  As in traditional RPGs, the more complicated and harder a place is to reach, the better the chance of finding something rare.  A peak in the negatives is a good early challenge for dealing with extreme cold, so put something there the player needs.  Reward effort, even when it is impossible at the time.
+- **Draft (Claudia):** the R5 peak holds a derelict relay station, since real relay towers sit on the highest ground for line of sight.  It is visible from the lowlands early and unreachable without cold gear.  Restoring it could give long-range comms (an early thread for the legal battle), weather warnings, or a region map reveal.  The massif's flanks carry caves and mineral veins.
 
 ## Grid (Nathan, 2026-11-11)
 
@@ -189,6 +197,6 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Exact local map size in tiles, and meters per tile.
 - Region cell size and chunk size.
 - Full montage event tables, once more of the game exists.
-- Biome regions (moved from A2R-101).
+- Biome placement per region cell in R5 (the expected biomes are set).
 - First city: Kawa Fada (Nathan, 2026-11-11).  It was going to be Shio Loch or Kawa Fada, since the build extends outward from S1.  Shio Loch is the natural second city, along the road from 10 to 7.  On foot from S1: Kawa Fada about 6,300 km (about 400 days), Shio Loch about 9,600 km (about 620 days); the GM tool removes the wait during testing.
 - The zone graph output format for A2R-103.
