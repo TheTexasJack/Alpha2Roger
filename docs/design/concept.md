@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.05, 2026-11-12**
+**Concept v1.06, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -249,6 +249,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - Sensing outlines and highlights NPCs and creatures without removing fog of war (see `zones.md`).
 - Claudia's sensing draft approved: passive scans are quiet, while active ones (lidar) are heard by everyone nearby; each mode has its own range, set in testing.
 - **Draft (Claudia), modes:** thermal shows warm bodies, fires, and engines, blurs near heat, and barely shows the cold infected; outline shows tagged targets through walls; motion shows anything moving as pings with distance, never what it is; lidar maps nearby shapes in a burst but announces the M.U.L.E.; EM/crystal catches the infected, since crystal bone gives off tiny electrical pulses as it flexes (the piezoelectric effect), shown ghost-box style as sweeping static that spikes near them.
+- The M.U.L.E. runs on a battery; this was implied, since the cold already affects him.  He charges mostly through rest and time, by solar he can deploy or carries on top (Nathan, 2026-11-12).
+- **Draft (Claudia), real physics:** solar charging is weaker in winter, in short days, under storms, and in the cold year, and Verlassen gets about 80% of Earth's sunlight; batteries also hold less charge when cold, so a cold-year M.U.L.E. scans less and charges slower.
 - **Draft (Claudia):** seismic (heavy footsteps through ground and walls), a radio direction finder, and a close-range bio-scan (native or Terran life) stay possible later upgrades.
 
 ## Language and translation

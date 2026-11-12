@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.108, 2026-11-12**
+**STATUS v0.109, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.06.  Nathan: the M.U.L.E.'s battery was implied by the cold; he charges through rest and time with deployable or rooftop solar.  Draft: solar and cold physics.
 
 - 2026-11-12 (Claudia): concept v1.05, mechanics v0.58.  Nathan: M.U.L.E. scan modes (thermal, outline, motion, lidar, EM/crystal as a ghost box), cycled in his menu, persisting until off or out of battery; extra scans drain faster (#87f).
 
