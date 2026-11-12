@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.94, 2026-11-12**
+**STATUS v0.95, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): world.md v0.79, Music areas locked: nearest town overland on land, Overall for town-less land, nearby land's music on near-shore water, sea shanties on the deep ocean, ice dread at the poles.  New tool `tools/music_areas.py` v0.1, data `tools/data/music_areas.json` v0.1, map `assets/maps/verlassen_music_areas_v0.1.png`.
 
 - 2026-11-12 (Claudia): world.md v0.78.  Nathan: the ten places table gains a Culture column (the influence on top of Japanese).
 

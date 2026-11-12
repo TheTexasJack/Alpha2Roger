@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.78, 2026-11-12**
+**World v0.79, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -88,6 +88,30 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - **Draft (Claudia):** a cold planet shows more land than Earth (water locked in ice lowers sea level), about 50 to 60% ocean, with drier interiors (cold steppe and tundra, forests near coasts) and large permanent ice caps.
 - **Draft (Claudia):** sea ice forms every cold year, freezing straits and opening temporary ice bridges between landmasses.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
+
+## Music areas (Nathan, 2026-11-12)
+
+Every spot on the planet has a music area.  It sets the feel of the area's influence and is the trigger the system uses to pick the background music set.  It also drives radio stations, news, and other things, beyond a few key exceptions.  Map: `assets/maps/verlassen_music_areas_v0.1.png`; data: `tools/data/music_areas.json`, built by `tools/music_areas.py`.
+
+- Land takes the culture of the nearest of the ten places reachable overland; each town's influence shapes the music around it (Mongolian throat singing down south, and so on).
+- Land with no town in reach uses the Overall theme, which shows these areas have no direct influence.
+- Water just outside the land (coastlines, shore water, coral reefs, within about 120 km) takes the music of that land for now.  A judgment call comes when those areas are visited.  The image in mind: a Japanese take on The Little Mermaid.
+- The deep ocean is Japanese plus sea shanties.
+- The polar ice caps are areas of dread, with deep-cold music.
+
+| Music area | Places | Main grid squares | Squares |
+|---|---|---|---|
+| Japanese + Gaelic | Shio Loch, Kawa Fada | P to W, rows 3 to 10 (the S1 continent's north and east) | 25 |
+| Japanese + Mongolian | Ikh Gawa, Davs Mizuumi, Khaluun Onsen | H to O rows 9 to 10; A to D rows 9 to 10; V to X rows 6 to 10 | 34 |
+| Japanese + Slavic | Svetla Hama, Zimna Toride | K to N, rows 3 to 6 | 12 |
+| Japanese + Persian | Setareh Minato, Darya Kako | E to H, rows 4 to 8 | 12 |
+| Japanese + German | Warmes Tani | B to F, rows 3 to 6 | 10 |
+| Japanese + sea shanty | (deep ocean) | the open seas | 99 |
+| Ice dread | (none) | rows 1, 2, 11, 12 | 96 |
+| Overall | (none) | small town-less islands (U5, W5, U6, M8) | partial |
+
+- **Draft (Claudia):** music crossfades over a few region cells at each border, so it shifts as the player walks instead of snapping.
+- **Draft (Claudia):** key exceptions override the area, for example the spaceport sounding Union and off-world.
 
 ## Biomes
 
