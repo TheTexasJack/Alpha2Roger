@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.103, 2026-11-12**
+**STATUS v0.104, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.43.  Nathan approved the tracker as a physical beacon on one local map; placing it needs the player on that map with the M.U.L.E.
 
 - 2026-11-12 (Claudia): zones.md v0.42, mechanics v0.55.  Nathan: hybrid map storage (baked maps where the player builds); nothing tracked by default; quests and story events flag automatically; the M.U.L.E. has one tracker (zone loader, #87d), settings flag for more.
 

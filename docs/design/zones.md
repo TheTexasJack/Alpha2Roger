@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.42, 2026-11-12**
+**Zones v0.43, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -124,7 +124,8 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - By default nothing is tracked.  Quests and story events are automatic: when one is created, it flags its spot, the same way changes are tracked.
 - The M.U.L.E. has a single tracker that acts as a zone loader.  The tracked zone works just like the player's camp.  Players may have several reasons to use it, especially with complex machines later.  A settings flag can raise the number of trackers as players build larger systems, but by default the player chooses one zone to permanently track and load.  Removing the tracker returns the zone to unloading like any other cell.
 - Note (Claudia): like the camp, a tracked zone resolves through the catch-up run rather than running live, so it costs no extra engine time while the player is away.  Example: prisoners left in a tracked cellar starve, escape, or are rescued according to their stats, the food left, and the time away.
-- **Draft (Claudia):** a zone for the tracker is the local map it is placed on.  The tracker is a physical beacon tag the M.U.L.E. plants, so it exists in the world.
+- A zone for the tracker is the local map it is placed on.  The tracker is a physical beacon tag the M.U.L.E. plants, so it exists in the world (Claudia, approved by Nathan 2026-11-12).
+- To place it, the player must be on that map in person, with the M.U.L.E. (Nathan, 2026-11-12).
 
 ## Underground (Nathan, 2026-11-11)
 
