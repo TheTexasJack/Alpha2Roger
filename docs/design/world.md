@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.74, 2026-11-12**
+**World v0.75, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -9,6 +9,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 ## Era and location
 
 - Current time: 5071u (Nathan, 2026-11-12), roughly 50 years after the events on Halas at Nathan's Lancer table.  Note (Claudia): the Lancer core book's present is 5016u, so the game is set about 55 years after canon's present day.  Earlier drafts said 5016u.
+- Verlassen is about 50 light years away, and the planet is only now getting signals, feeds, and other things from the spaceport and elsewhere.  So current material from Nathan's Lancer tables can be used as news and other in-world information, and it is lore appropriate (Nathan, 2026-11-12).
+- **Draft (Claudia):** a handheld radio cannot catch a broadcast from 50 light years away, so the spaceport's big dish catches the old light-speed broadcasts and local stations rebroadcast them (an "old news hour" on the M.U.L.E.'s radio).  That makes two speeds of news: old light-lagged news free on the radio, and live omninet contact through the spaceport, instant and expensive, the same channel the legal battle's messages use, costing Manna per transmission.
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
 - Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
 - **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
