@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.93, 2026-11-12**
+**STATUS v0.94, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): world.md v0.78.  Nathan: the ten places table gains a Culture column (the influence on top of Japanese).
 
 - 2026-11-12 (Claudia): music.md v0.7.  Nathan: after two runs, reverse halfway and finish in the original notes.  Kaze v5a and v5b drafted.
 

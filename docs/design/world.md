@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.77, 2026-11-12**
+**World v0.78, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -218,18 +218,20 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 Accepted by Nathan 2026-11-09.  Map: `assets/maps/verlassen_places_v1.0.png` (grid: column letter A to X, row number 1 to 12; the equator sits between rows 6 and 7).
 
-| # | Name | Meaning | Type | Grid |
-|---|---|---|---|---|
-| 1 | Setareh Minato | Star Harbor | Spaceport city | H7 |
-| 2 | Ikh Gawa | Great River | Major city, near geothermal heat | L9 |
-| 3 | Warmes Tani | Warm Valley | Major city, near geothermal heat | E4 |
-| 4 | Svetla Hama | Bright Shore | Major city | L5 |
-| 5 | Khaluun Onsen | Hot Hot Springs (a real-world style redundant name) | Onsen town | A10 |
-| 6 | Davs Mizuumi | Salt Lake | Salt-lake trade town | K10 |
-| 7 | Shio Loch | Salt Lake | Salt-lake trade town | V4 |
-| 8 | Darya Kako | Sea Mouth | River-mouth port | H5 |
-| 9 | Zimna Toride | Cold Fort | Remote holdfast with its own heat source | N3 |
-| 10 | Kawa Fada | Long River | River town | R8 |
+Culture is the influence on top of the Japanese base (Nathan, 2026-11-12).
+
+| # | Name | Meaning | Culture | Type | Grid |
+|---|---|---|---|---|---|
+| 1 | Setareh Minato | Star Harbor | Persian | Spaceport city | H7 |
+| 2 | Ikh Gawa | Great River | Mongolian | Major city, near geothermal heat | L9 |
+| 3 | Warmes Tani | Warm Valley | German | Major city, near geothermal heat | E4 |
+| 4 | Svetla Hama | Bright Shore | Slavic | Major city | L5 |
+| 5 | Khaluun Onsen | Hot Hot Springs (a real-world style redundant name) | Mongolian | Onsen town | A10 |
+| 6 | Davs Mizuumi | Salt Lake | Mongolian | Salt-lake trade town | K10 |
+| 7 | Shio Loch | Salt Lake | Gaelic (Irish) | Salt-lake trade town | V4 |
+| 8 | Darya Kako | Sea Mouth | Persian | River-mouth port | H5 |
+| 9 | Zimna Toride | Cold Fort | Slavic | Remote holdfast with its own heat source | N3 |
+| 10 | Kawa Fada | Long River | Gaelic (Irish) | River town | R8 |
 
 - The west holds most places; the east (columns P to X) is largely empty wilderness.
 - The three infection impact sites on the map are accepted (grid M3, T3, J10).  They sit close to the cold areas, which may benefit the player and the story.  What the infection mechanic does is decided later.
