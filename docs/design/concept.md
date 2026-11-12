@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.04, 2026-11-12**
+**Concept v1.05, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -241,6 +241,15 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Draft (Claudia):** limits so it never trivializes survival: it runs on batteries that lose capacity in the cold, so it weakens in the cold year; it can be knocked out and repaired, and while it is down the CompCon falls back to the mech.
 - The M.U.L.E. stores the money and holds the bank accounts.  Money has no weight.  No spending while the M.U.L.E. is out; no theft (only an NHP could hack it); it transfers to the successor on death (Nathan, 2026-11-10; details in `world.md`, Currency).
 - **Draft (Claudia):** keep the no-animation rule with a two-frame skitter or a simple bob for its legs.
+
+### Sensing (Nathan, 2026-11-12)
+
+- The M.U.L.E. has multiple scan modes: thermal, outline (a glowing outline, Minecraft style), motion (an Aliens-style tracker), lidar, and EM/crystal.  EM/crystal plays more like a ghost box, which Alex would love.
+- By default the player picks what the M.U.L.E. scans.  In his menu, the player cycles the scan type, and it persists until turned off or until his battery runs out.  Running additional scans uses the battery a little faster.
+- Sensing outlines and highlights NPCs and creatures without removing fog of war (see `zones.md`).
+- Claudia's sensing draft approved: passive scans are quiet, while active ones (lidar) are heard by everyone nearby; each mode has its own range, set in testing.
+- **Draft (Claudia), modes:** thermal shows warm bodies, fires, and engines, blurs near heat, and barely shows the cold infected; outline shows tagged targets through walls; motion shows anything moving as pings with distance, never what it is; lidar maps nearby shapes in a burst but announces the M.U.L.E.; EM/crystal catches the infected, since crystal bone gives off tiny electrical pulses as it flexes (the piezoelectric effect), shown ghost-box style as sweeping static that spikes near them.
+- **Draft (Claudia):** seismic (heavy footsteps through ground and walls), a radio direction finder, and a close-range bio-scan (native or Terran life) stay possible later upgrades.
 
 ## Language and translation
 
