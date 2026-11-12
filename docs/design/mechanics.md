@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.58, 2026-11-12**
+**Mechanics v0.59, 2026-11-12**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -134,6 +134,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 71 | Crash site selection | Decided | Pick a region or random; always away from civilization; distance shown (Draft) |
 | 72 | Journey prep | Decided | Weight limits, supply caches, who stays behind, point of no return |
 | 72b | Boats | Decided | Needed for lakes, rivers, and seas.  From rafts to river boats and coastal craft; river crossings on the montage (Draft) |
+| 72c | Road tolls | Later | A manned gate (NPC or robot) charges road traffic; travelers complain, pay, turn back, or go around; criteria and side effects against abuse (charter on a lord's road, rerouting traffic; Draft) |
 | 73 | Sea roads | Decided | Sea ice opens routes in the cold year; Setareh Minato to Ikh Gawa becomes a land trip |
 | 74 | Identity questline | Decided | Legal battle by holo, email, and blink messages; new name at License Level 0 |
 | 75 | Inbox | Decided | Blink messages bundled and slow; cost per message (Draft); letters from the other self (Draft) |
