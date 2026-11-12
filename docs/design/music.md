@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.8, 2026-11-12**
+**Music v0.9, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -117,5 +117,6 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
+- Next session (Nathan, 2026-11-12): set up the Akai so Waveform records from the keyboard.
 - Nathan's next direction for Kaze, after he ruminates.  v4 is the strongest version so far.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
