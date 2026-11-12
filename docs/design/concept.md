@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.08, 2026-11-12**
+**Concept v1.09, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -245,7 +245,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 ### Androids (Nathan, 2026-11-12)
 
 - Androids need a mechanic for creating and building them, in three tiers: tier 1 is the clunker (basic Star Wars droids, or Fallout's first-generation Institute synths); tier 2 is human-like (think C-3PO or HK-47); tier 3 is the super soldier.
-- **Draft (Claudia):** to keep droids dumber than a CompCon and NHPs almost absent, tier 2 is human-like in body and manner with a scripted personality module (the sneer, the fussing), and tier 3 is a lethal machine; neither is a real mind.
+- Correction (Nathan, 2026-11-12): C-3PO and HK-47 are individuals, but they can be reprogrammed, and have been in both mediums.  They are droids, lesser than a person, so tier 2 androids can have real individual personalities without being NHPs.
+- Tier 3 super soldiers are big robots with lots of guns, not super thinking machines (Nathan, 2026-11-12).
 - **Draft (Claudia):** tier 1 comes early from salvage and Intelligence (tolls, hauling, gate guard); tier 2 needs rare parts from cities, ruins, and wrecks (trading, talking to travelers, skilled work); tier 3 comes late from military wrecks, downed fliers, or the relay station (defense, escort).
 - **Draft (Claudia):** androids count toward the camp cap of 5 or 6, since they run AI and pathfinding like people; they are built by hand from salvage, since licensed printers do not work for the player; they run on batteries that the cold hits like the M.U.L.E.'s, need repairs, and some factions distrust them on sight.
 

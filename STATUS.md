@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.116, 2026-11-12**
+**STATUS v0.117, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.09, world v0.81.  Nathan corrected the android draft: 3PO and HK-47 are reprogrammable droids, lesser than a person; NHPs are caskets holding alien minds that want to be human, and "no NHPs" means nothing that can cascade into eldritch concepts; tier 3 is a big robot with lots of guns.
 
 - 2026-11-12 (Claudia): concept v1.08, mechanics v0.60.  Nathan: androids are built in three tiers (clunker, human-like, super soldier) (#72d).  Drafts: scripted minds to respect the NHP rule, sourcing by tier, camp-cap slot, upkeep.
 

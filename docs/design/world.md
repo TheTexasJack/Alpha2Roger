@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.80, 2026-11-12**
+**World v0.81, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -222,6 +222,7 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 ## Technology and NHPs
 
 - Verlassen has almost no NHPs.  That is all outside this colony.
+- What an NHP is (Nathan, 2026-11-12): technically an alien mind encased in a casket, told it is human, and so it wants to be human.  NHPs have the potential to be more than humans in logic and concept; they just do not want to be.  "No NHPs" means no entities that can fully cascade into eldritch concepts.  Droids and androids, even ones with personalities, are lesser than a person and can be reprogrammed.
 - There may be one or two NHPs at the spaceport, but they would be new and foreign.
 - Because of the NHPs at the spaceport, no one is going to successfully attack it: not with missiles, armies, or anything.
 - In Lancer, NHPs can network into a gestalt called a fleet legion (canon: the ships' NHPs build a virtual war room, a hybrid one-and-many mind, for space battles).  On Verlassen, the spaceport's NHPs forming one would be an epic, almost magical thing.
