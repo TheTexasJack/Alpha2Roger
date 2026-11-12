@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.28, 2026-11-11**
+**Zones v0.29, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -101,6 +101,16 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - **Draft (Claudia), overworld baselines,** about 8 travel hours a day, in km per day: on foot on a road with a light load 30 to 35; on foot in wilderness 15 to 25; hauling a heavy load or sled 10 to 15; deep snow without snowshoes 5 to 10; snowshoes or skis 15 to 30; wagon or cart 25 to 30 (the Oregon Trail's 15 to 20 miles); horse or pack animal 30 to 40; dog sled 40 to 80; vehicle off road 100 to 250; boat downstream 50 to 100, upstream 15 to 25.  Climbing follows Naismith's rule, about one extra hour per 600 m of ascent.
 - (Claudia, approved by Nathan 2026-11-11 as starters) what slows a group: terrain (biome, snow depth, climbing; roads speed it up); weather (rain, wind, fog, blizzard); daylight (no moon, so little night travel, and short winter days); load against carrying capacity; condition (wounds, sickness, hunger, fatigue, cold, anyone being carried); animals' grazing time and vehicles' fuel; river crossings; caution through dangerous or infected ground; and the cold year, which multiplies most of these.
 
+## Routes (Nathan, 2026-11-11)
+
+- Route distances are calculated: the region-cell grid, pathfinding across cells, a cost per cell (biome, climbing, rivers, roads, infected ground), and the speed table.  The montage planner shows the result as a range of days (Claudia's basis, agreed).
+- No zigzag concern on the region or world maps: there is no WASD travel.  The player sets a path and is taken along it, so diagonals stay as they are.
+- Roads run between most major settlements on a continent: 3, 8, 1 (Warmes Tani, Darya Kako, Setareh Minato) and 2, 6, 10, 7 (Ikh Gawa, Davs Mizuumi, Kawa Fada, Shio Loch).
+- Paths, smaller than roads but still useful, connect the others, such as 5 to 1 (Khaluun Onsen to Setareh Minato) and 2 to 10 (Ikh Gawa to Kawa Fada).
+- Ferries run between the coastal towns 1, 8, 2, 4, 9, 10 (Setareh Minato, Darya Kako, Ikh Gawa, Svetla Hama, Zimna Toride, Kawa Fada).
+- Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato is about 180 km and Zimna Toride about 300 km from the sea.
+- **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
+
 ## Montage events (Nathan, 2026-11-11)
 
 - Full event tables wait until more of the game is established, but a number of generic events can be accounted for now: breakdowns, sickness, a trader passing by, attacks (wildlife and bandit), and the ever-popular Oregon Trail events, just more modern.  Dysentery would seem like no problem, until there is no clean water and nobody smart enough to know better.
@@ -176,6 +186,5 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Region cell size and chunk size.
 - Full montage event tables, once more of the game exists.
 - Biome regions (moved from A2R-101).
-- Route distance ranges (moved from A2R-101).
 - Which city is built first.
 - The zone graph output format for A2R-103.

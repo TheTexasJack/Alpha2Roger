@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.72, 2026-11-11**
+**STATUS v0.73, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.29, Routes.  Nathan: route distances are calculated; no zigzag concern without WASD; roads 3-8-1 and 2-6-10-7; paths such as 5-1 and 2-10; ferries 1, 8, 2, 4, 9, 10.  Draft: landings for inland ferry towns (1 and 9).
 
 - 2026-11-11 (Claudia): zones.md v0.28, catch-up run rules.  Nathan: broad estimates; leave warning; people can die; camp log; only maps with the player's people tick; unattended goods vanish logically by nearby threat; other sites get basic math only.
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.72, 2026-11-11**
+**World v0.73, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -158,6 +158,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 - A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
 - Small offshoots are random: random settlements in the wild, bandit camps, and similar may have paths.
+- Road network (Nathan, 2026-11-11): roads link 3, 8, 1 and 2, 6, 10, 7; paths link others such as 5 to 1 and 2 to 10; ferries run between 1, 8, 2, 4, 9, 10.  Details in `zones.md`, Routes.
 - Sea roads: in the cold year the sea ice opens new routes.  Suddenly, getting from Setareh Minato to Ikh Gawa is a land trip.
 - **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads.  In normal years, crossings like Setareh Minato to Ikh Gawa mean a boat or a long trek around the coast.
 
