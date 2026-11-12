@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.17, 2026-11-12**
+**Music v0.18, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -36,6 +36,19 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 - **Draft (Claudia):** the game picks those few notes live from the other regions' tunes and Kaze, seeded per run, spaced far apart, so the ice never plays the same thing twice.
 - **Draft (Claudia), feel kit and the test:** each region gets a short kit of three or four markers (scale, rhythm, texture, ornament).  Original tunes written with that kit carry the feel.  The test is blind: someone hears a clip with no label and names the region.  If they can, the feel works.
 - **Draft (Claudia), why it fits:** many Gaelic airs are pentatonic, and the Japanese Yo scale is pentatonic too, so a lot of these tunes sit on koto and shakuhachi without changing a note.
+
+### Japanese + Gaelic shortlist v1 (Draft, Claudia, awaiting Nathan's pick)
+
+Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio Loch and Kawa Fada are Irish Gaelic in `world.md`, so an Irish book fits.  Each pick still gets checked against the 1903 scan before use.
+
+| No. | Tune | Key and meter in O'Neill's | Why |
+|---|---|---|---|
+| 89 | The Coolin | C, 3/4 | One of the best-known Irish slow airs; long, open phrases made for shakuhachi |
+| 70 | The Little Black Rose (Róisín Dubh) | C minor, 3/4 | Iconic and dark; suits the cold |
+| 58 | The Parting Glass | A, common time | Widely known farewell tune; use O'Neill's setting only |
+| 59 | Shule Aroon | D minor, common time | Famous, simple, singable; a likely radio piece |
+| 69 | O'Carolan's Lament | D minor, 3/4 | Carolan (1670 to 1738); harp tune, a natural koto fit |
+| 47 | Rory Dall's Sister's Lament | A Dorian, 3/4 | Dorian sits closest to the Japanese minor sound |
 
 ## Sound (Nathan, 2026-11-11)
 
