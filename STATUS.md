@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.121, 2026-11-12**
+**STATUS v0.122, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.12.  Pam has Intelligence 2; Intelligence 1 cannot speak (Fallout style), 0 is a rock.
 
 - 2026-11-12 (Claudia): concept v1.11.  New list: Potential special NPCs.  First entry: Pam (Intelligence 0, drinks the stagnant water she complains about).
 

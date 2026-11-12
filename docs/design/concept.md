@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.11, 2026-11-12**
+**Concept v1.12, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -286,8 +286,9 @@ A running list of special NPCs of all types.  Any run might get one.
 
 | Name | What makes them special |
 |---|---|
-| Pam | Intelligence 0.  Reckless.  Ignores every water rule: complains about people pooping in the stagnant water, then drinks it.  Gets dysentery, gives the camp log its best lines. |
+| Pam | Intelligence 2.  Reckless.  Ignores every water rule: complains about people pooping in the stagnant water, then drinks it.  Gets dysentery, gives the camp log its best lines. |
 
+- Intelligence floor (Nathan, 2026-11-12): Intelligence 1 means the character cannot speak (Fallout style); Intelligence 0 means they are a rock.
 - **Draft (Claudia):** each special NPC has a small chance to appear per run, with optional conditions (a biome, a season, a settlement type), and turns up as an ordinary traveler or recruit, so meeting one is a surprise.
 
 ## Narrative presentation (Nathan, 2026-11-11)
