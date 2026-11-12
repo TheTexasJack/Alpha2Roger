@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.11, 2026-11-12**
+**Music v0.12, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -28,6 +28,8 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
   2. Common ground is the five-note scale.  Keep tunes that fit a pentatonic scale, or bend into one with small changes.  A script can score whole public domain collections for fit.
   3. Each culture brings one signature beyond the melody, played on the Japanese instruments: Gaelic jig lilt; Mongolian drone and long free-time phrases; Slavic minor modes; German march and waltz; Persian ornaments and bent notes (shakuhachi and koto both bend pitch).
   4. Fit by region, easiest first: Gaelic and Mongolian (both lean pentatonic), Slavic, German, Persian (its scales use notes between our notes).
+- If no public domain tunes can be found for a culture, we shift to getting the feel (Nathan, 2026-11-12).  The real challenge is giving it the feel and making the player think they are in that area, and it needs to be reasonable.
+- **Draft (Claudia), feel kit and the test:** each region gets a short kit of three or four markers (scale, rhythm, texture, ornament).  Original tunes written with that kit carry the feel.  The test is blind: someone hears a clip with no label and names the region.  If they can, the feel works.
 - **Draft (Claudia), why it fits:** many Gaelic airs are pentatonic, and the Japanese Yo scale is pentatonic too, so a lot of these tunes sit on koto and shakuhachi without changing a note.
 
 ## Sound (Nathan, 2026-11-11)
