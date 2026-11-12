@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.124, 2026-11-12**
+**STATUS v0.125, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.15.  Pam's full name is Pam Cramples; her other details wait for player stats and settings.
 
 - 2026-11-12 (Claudia): concept v1.14.  Nathan approved an optional Intelligence 1 challenge start, noting major conversations need Intelligence 1 variants.  Drafts: limit variants to major scenes, creation floor 2, drops to 1 in play, 0 locked.
 
