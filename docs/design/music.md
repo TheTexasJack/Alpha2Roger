@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.1, 2026-11-12**
+**Music v0.2, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -25,7 +25,11 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 - **Draft (Claudia), rules for the riff:** 4 to 8 notes, short enough to survive being cut down.  It must work as a pluck, over a drone with hand drums, and as a slow pad.  In the wilderness only a fragment plays (the first three notes, slowed).  The full theme waits for big moments: reaching the spaceport and the endings.
 - **Draft (Claudia), the clone:** the clone twist gets the theme played slightly wrong, one note off, like a copy.
 
-### Candidates v1 (Draft, Claudia, awaiting Nathan's pick)
+### The pick (Nathan, 2026-11-12)
+
+- Kaze (`riff_b_kaze_v1`) is the riff.  It is a few elements shy of really going somewhere, but the sample left Nathan wanting more of it: he could just about feel the pull of it into the world.
+
+### Candidates v1
 
 All three run at 72 BPM in 4/4.  Each preview plays the riff three ways: pluck (RimWorld), drone with hand drums and shakuhachi-style flute (Qud), then a bell over a cold pad at half speed with wind (Skyrim).
 
@@ -46,5 +50,5 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Pick the riff (or send all three back).
+- The missing elements that take Kaze somewhere (v2).
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
