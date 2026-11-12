@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.09, 2026-11-12**
+**Concept v1.10, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -243,6 +243,8 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Draft (Claudia):** keep the no-animation rule with a two-frame skitter or a simple bob for its legs.
 
 ### Androids (Nathan, 2026-11-12)
+
+- Principle: the M.U.L.E. feels unique and special.  Other people may have utility droids and other machines, but none are as useful or as smart as the M.U.L.E., androids of every tier included.  In Lancer, what an NHP is stays muddy; since this game is Lancer adjacent, the design states plainly what it means.
 
 - Androids need a mechanic for creating and building them, in three tiers: tier 1 is the clunker (basic Star Wars droids, or Fallout's first-generation Institute synths); tier 2 is human-like (think C-3PO or HK-47); tier 3 is the super soldier.
 - Correction (Nathan, 2026-11-12): C-3PO and HK-47 are individuals, but they can be reprogrammed, and have been in both mediums.  They are droids, lesser than a person, so tier 2 androids can have real individual personalities without being NHPs.
