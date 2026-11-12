@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.36, 2026-11-11**
+**Zones v0.37, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -38,6 +38,13 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Descent footage and the beacon: do both (Nathan, 2026-11-11).  Descent footage means the M.U.L.E. scans nearby points of interest on any random drop, which tags early points of interest on every drop as quests and things to do.
 - The M.U.L.E. has a short-range radio, which can introduce local music (Nathan, 2026-11-11).
 - **Draft (Claudia), radio:** short range (VHF and FM, line of sight, roughly 50 to 100 km) carries local stations, camp and caravan chatter, and bandits on open channels.  Long range (shortwave) bounces off the upper atmosphere over thousands of km and carries farther at night: the relay beacon and distant city broadcasts heard after dark.  Local music is original, in each cultural region's style.  Chatter is information (caravans, settlement news, bandit plans).  Night shortwave brings news from the wider world.  Music lifts the camp's mood; silence in a cold-year winter weighs on it.
+
+- R5 biome placement draft v0.2 (Claudia, 2026-11-12): heights from the globe in meters, temperature from the latitude lines minus the lapse rate, moisture from coast distance plus rivers, biome from temperature band and moisture, highlands above 2,000 m, river corridors.  Image: `r5_biomes_v0.2.png` (outside the repo until the generator is approved).
+- Nathan's calls on the draft (2026-11-12): the planet height scale is fine (planet top about 6,500 m, R5 summit about 3,700 m); uplands reading as temperate is fine; S1 landing in warm grassland is fine; lots of rivers is fine, since the cold year's ice and snow melts every third year and makes rivers.
+- When a player picks an area on the world map, they pick the region, and that tells the game which 9 maps to load (Nathan, 2026-11-12).
+- Scale note (Claudia): one region cell (about 3.8 km) holds 16 by 16 local maps; the 9-map section is about 720 m.  At region detail, the nearest creek is about 80 km south of S1 and the nearest river about 126 km.
+- **Draft (Claudia):** pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  For the first build, S1 moves onto the creek cell so a creek crosses the bottom of the 9-map section; small creeks and ponds are local-map features anywhere.
+- **Draft (Claudia):** after every cold year comes a thaw flood: rivers swell, fords close for weeks, and dry washes run with water.
 
 ## Grid (Nathan, 2026-11-11)
 

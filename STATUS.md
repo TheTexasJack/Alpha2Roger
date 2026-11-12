@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.97, 2026-11-12**
+**STATUS v0.98, 2026-11-12**
 
 ## Where things stand
 
@@ -12,7 +12,7 @@
 ## Next steps (Nathan picks the order)
 
 0. **Music:** get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
-1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.2: Nathan's direction, with Claudia's drafts approved 2026-11-11.  Next: the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
+1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md`.  Left: approve the R5 biome rules and turn the draft into the region generator, then the zone graph format.
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), trade (#70), currency names and rates, what the infection does.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.37, world.md v0.80.  R5 biome placement draft v0.2 reviewed: height scale, temperate uplands, S1 in warm grassland, and many rivers all fine.  Pick flow: region then 9 maps.  Planet top located (M10).  Drafts: cell pick flow, S1 onto the creek, thaw floods.
 
 - 2026-11-12 (Claudia): world.md v0.79, Music areas locked: nearest town overland on land, Overall for town-less land, nearby land's music on near-shore water, sea shanties on the deep ocean, ice dread at the poles.  New tool `tools/music_areas.py` v0.1, data `tools/data/music_areas.json` v0.1, map `assets/maps/verlassen_music_areas_v0.1.png`.
 

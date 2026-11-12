@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.79, 2026-11-12**
+**World v0.80, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -112,6 +112,11 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 
 - **Draft (Claudia):** music crossfades over a few region cells at each border, so it shifts as the player walks instead of snapping.
 - **Draft (Claudia):** key exceptions override the area, for example the spaceport sounding Union and off-world.
+
+## Heights
+
+- Height scale (Nathan, 2026-11-12, from Claudia's draft): the planet's highest point is about 6,500 m; R5's peaks reach about 3,500 to 3,700 m.
+- The highest point sits in grid M10, about 53 S, 8.5 E, in the Mongolian belt near Davs Mizuumi at the edge of the southern ice.  Name to be set by Nathan.
 
 ## Biomes
 
