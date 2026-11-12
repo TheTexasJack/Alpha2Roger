@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.22, 2026-11-12**
+**Music v0.23, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -68,6 +68,8 @@ Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio 
 - Nathan, 2026-11-12: v2 sits just on the outside of almost.  It is good and the right direction, and still the best direction as we get into different areas.  Two things need to happen: the notes and tune need adjusting and cleaning up, and it needs an undertone or beat, which Nathan will add.  This is where the Akai has to be up.
 - Background music is usually long tones and hints at a full song.  Nobody sings Skyrim's background music, but they are listening to it (Nathan, 2026-11-12).
 - The target for this region: the song makes you think you are in the Irish wilds with samurai (Nathan, 2026-11-12).
+- The koto is a traditional instrument, but it has no long notes (Nathan, 2026-11-12).
+- **Draft (Claudia), who holds the long tones:** the koto plays hints and fragments.  Long tones go to instruments that sustain: the shō (mouth organ, sustained chords; the natural partner to a pipe drone), the kokyū (bowed, the Japanese answer to the Irish fiddle), and the shakuhachi and shinobue (breath).
 
 ## Sound (Nathan, 2026-11-11)
 
