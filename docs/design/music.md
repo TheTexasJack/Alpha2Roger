@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.7, 2026-11-12**
+**Music v0.8, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -51,9 +51,11 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 
 Chords move A, F, C, E: the C is the one warm moment, and the E at the end of B leans back toward A.
 
-### Kaze v5: reversing halfway (Draft, Claudia, awaiting Nathan's pick)
+### Kaze v5: reversing halfway (Draft, Claudia)
 
 - Nathan, 2026-11-12: v4 is better and stronger, but it just repeats the 8 notes.  After the first 2 runs, try reversing halfway, then finish the riff in the original notes.
+
+- Nathan, 2026-11-12: neither landed ("nah").  He is ruminating and will come back with direction.
 
 Two readings, same layout as v4.  Runs 1 and 2 are the original riff in both.
 
@@ -115,5 +117,5 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Nathan picks v5a or v5b.
+- Nathan's next direction for Kaze, after he ruminates.  v4 is the strongest version so far.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
