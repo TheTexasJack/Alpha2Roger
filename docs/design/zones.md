@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.34, 2026-11-11**
+**Zones v0.35, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -31,7 +31,10 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Expected biomes (Claudia, approved by Nathan 2026-11-11): warm forest along the wetter north and west, warm grassland across the middle, scrub desert toward the dry interior, highlands on the massif, a river corridor along S1's river.
 - Peak height (Claudia, approved by Nathan 2026-11-11): the R5 peaks stand about 3,500 m, about 40 F colder than the lowlands by the lapse rate: cool summers and freezing winters up top, deep below zero in a cold year, a snowcap visible from far off in the warm band.
 - Height and difficulty (Nathan, 2026-11-11): the higher up, traditionally, the more chance of caves and such.  As in traditional RPGs, the more complicated and harder a place is to reach, the better the chance of finding something rare.  A peak in the negatives is a good early challenge for dealing with extreme cold, so put something there the player needs.  Reward effort, even when it is impossible at the time.
-- **Draft (Claudia):** the R5 peak holds a derelict relay station, since real relay towers sit on the highest ground for line of sight.  It is visible from the lowlands early and unreachable without cold gear.  Restoring it could give long-range comms (an early thread for the legal battle), weather warnings, or a region map reveal.  The massif's flanks carry caves and mineral veins.
+- The R5 peak holds a derelict relay station, since real relay towers sit on the highest ground for line of sight (Claudia, approved by Nathan 2026-11-11).  It is unreachable without cold gear.  Restoring it could give long-range comms (an early thread for the legal battle), weather warnings, or a region map reveal.  The massif's flanks carry caves and mineral veins.
+- Correction (Claudia): from a 3,500 m peak the horizon is about 220 km on Verlassen, and S1 is over 1,100 km away, so the tower cannot be seen from the crash site.
+- The 2D map needs a way to show what is in the distance: maybe a spot with a telescope, or pictures from a M.U.L.E. scan that show the relay tower (Nathan, 2026-11-11).
+- **Draft (Claudia), seeing far:** (1) descent footage: the M.U.L.E. recorded on the way down, and a few frames show the snowcapped massif and a glint on the summit, shown as comic panels; (2) a faint beacon: the relay still pings on shortwave, which can bounce off the upper atmosphere over thousands of km, so the M.U.L.E. marks it on the region map; (3) vistas: high spots on local maps with a telescope or binoculars show a horizon panel and reveal landmarks within real line-of-sight range on the region map.  Know it from day one, see it within about 200 km, reach it with cold gear.
 
 ## Grid (Nathan, 2026-11-11)
 

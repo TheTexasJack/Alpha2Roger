@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.78, 2026-11-11**
+**STATUS v0.79, 2026-11-11**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-11 (Claudia): zones.md v0.35.  Nathan approved the relay station; the 2D map needs a way to show distance (telescope spot or M.U.L.E. scan pictures).  Corrected: the tower is beyond the horizon from S1.  Drafts: descent footage, beacon, vistas.
 
 - 2026-11-11 (Claudia): zones.md v0.34, new R5 section.  Nathan approved the R5 read, expected biomes, and 3,500 m peaks; higher and harder places hold more caves and rarer finds; the cold peak is an early challenge that holds something the player needs.  Draft: derelict relay station on the peak.
 
