@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.13, 2026-11-12**
+**Concept v1.14, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -391,6 +391,9 @@ A running list of special NPCs of all types.  Any run might get one.
 ## Character system
 
 - Stat scale anchors (Nathan, 2026-11-12): Intelligence 1 means the character cannot speak (Fallout style); Intelligence 0 means they are a rock.  Pam, with Intelligence 2, is the low end of a working mind.
+- Intelligence 1 start (Claudia's suggestion, approved by Nathan 2026-11-12): an optional, Fallout-style challenge start at Intelligence 1, off by default, where the M.U.L.E. does the player's talking.  Cost noted: any conversation, the major ones at least, needs an Intelligence 1 variant, doubling the conversation options in places.
+- **Draft (Claudia), keeping the cost down:** only major conversations (gate arrivals, the legal battle, story beats, the other-self letters) get a hand-written Intelligence 1 version; minor talk falls back to short M.U.L.E.-voiced exchanges, which the dialogue model can produce; Intelligence 1 is one more variant key on the same text, the same system as the original-pilot and successor variants.
+- **Draft (Claudia):** character creation starts at Intelligence 2 or higher (outside the challenge start); in play, injury, late kuru, the infection, or drink can drop a character to 1, during which the M.U.L.E. speaks for them; 0 is locked for the living and means coma or death, which starts succession.
 
 - **Direction (Nathan, 2026-11-11):**
   - Lancer is lax on pilot rules: what it has is narrative description, open to interpretation, not set stats.  So we use a traditional stat system, one we are free to use or make our own (in the spirit of SPECIAL or the six classic abilities).
