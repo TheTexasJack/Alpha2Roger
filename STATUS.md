@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.104, 2026-11-12**
+**STATUS v0.105, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.44.  Nathan: beacons can watch enemy bases; beacons and the M.U.L.E. outline NPCs without removing fog of war.  Drafts: snapshot view via catch-up, thermal sensing, cold infected, beacon range and risk.
 
 - 2026-11-12 (Claudia): zones.md v0.43.  Nathan approved the tracker as a physical beacon on one local map; placing it needs the player on that map with the M.U.L.E.
 
