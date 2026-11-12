@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.24, 2026-11-12**
+**Music v0.25, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -178,6 +178,12 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 - Regional stations carry punchy, heavy beats and riffs in the region's style.
 - **Draft (Claudia):** each station hides the riff in its own style, the way Skyrim's bards sang the main theme in every tavern.  Ad jingles can carry it too.
 - Regional fusion drafts are in `docs/design/concept.md` (Music).
+
+## Ambience (Nathan, 2026-11-12)
+
+- Keep an ear out for crickets, night sounds, rivers, and water.  Nathan may record a lot of it himself on his phone.
+- **Draft (Claudia), recording tips:** set the phone down instead of holding it; shield it from wind (foam, or a sock over the mic); use a recorder app that saves uncompressed audio with noise reduction and auto gain off; record 3 to 5 minutes per take so there is room to cut clean loops; go late at night or early morning, away from roads, air conditioners, and planes; avoid catching people's voices; name each file with what, where, and when.
+- **Draft (Claudia), fit with the rules:** ambience follows only what the player knows (biome, time, weather), so it obeys the no-secret-knowledge rule.
 
 ## Open
 
