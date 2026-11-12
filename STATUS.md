@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.95, 2026-11-12**
+**STATUS v0.96, 2026-11-12**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-0. **Music:** Kaze v5a and v5b did not land.  Nathan is ruminating; wait for his direction.  v4 is the strongest so far.
+0. **Music:** new direction: public domain traditional Gaelic tunes as MIDI, played on Japanese instruments.  Next: pick tunes and verify each one.  Akai setup parked.
 1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md` v0.2: Nathan's direction, with Claudia's drafts approved 2026-11-11.  Next: the open items (sizes, travel speeds, montage events, catch-up rules, biomes, route distances, first city, zone graph format).
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.

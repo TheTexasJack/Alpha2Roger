@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.9, 2026-11-12**
+**Music v0.10, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -11,6 +11,18 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 - Claudia composes.  Nathan reviews, modifies, and adds beats that are pleasant on the ear.  If a composition is weak, Nathan may keep only the beat and tone and rebuild the rest.
 - **Draft (Claudia), handoff:** Claudia delivers a MIDI file (one track per part, tempo and key set) plus a preview render and a short note (key, tempo, mood, where it plays, loop point).  Nathan mixes in Waveform and exports the final as OGG Vorbis for Godot.  Waveform project files stay on Beast; the repo holds only MIDI and exports.
 - **Draft (Claudia), files:** drafts go in `assets/audio/music/drafts/`, finals in `assets/audio/music/`.  Every file carries `_vN` in its name, like the art.
+
+## Traditional Gaelic tunes on Japanese instruments (Nathan, 2026-11-12)
+
+- Building every track from scratch would take years longer than the coding, so Nathan is changing direction.
+- Nathan tested Suno on the starting area (Japanese and Gaelic).  It ignored the instrument instructions and put a violin in everything, which gave a mashup that sounds off.  Suno is all the way out.
+- New direction: traditional Gaelic songs or tunes that are free to use and include, as MIDI, played on traditional Japanese instruments.
+- **Draft (Claudia), sourcing rules:**
+  - Each tune must be traditional and published long enough ago to be public domain, such as O'Neill's Music of Ireland (1903).
+  - Watch for modern songs that only sound old.  Ashokan Farewell is one known example.
+  - Transcribe from scans of the original books ourselves.  Online transcriptions carry their own licenses: the O'Neill's Project ABC files are GPL, and Nigel Gatherer's are his own copyright.
+  - Log each tune with its source book, page, and year.
+- **Draft (Claudia), why it fits:** many Gaelic airs are pentatonic, and the Japanese Yo scale is pentatonic too, so a lot of these tunes sit on koto and shakuhachi without changing a note.
 
 ## Sound (Nathan, 2026-11-11)
 
@@ -117,6 +129,6 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Next session (Nathan, 2026-11-12): set up the Akai so Waveform records from the keyboard.
+- Parked for later (Nathan, 2026-11-12): set up the Akai so Waveform records from the keyboard.
 - Nathan's next direction for Kaze, after he ruminates.  v4 is the strongest version so far.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
