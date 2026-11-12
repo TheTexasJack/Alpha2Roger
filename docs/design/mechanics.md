@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.52, 2026-11-11**
+**Mechanics v0.53, 2026-11-12**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -156,6 +156,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 86 | Brawl mechanics | Later | |
 | 87b | Crystal hive mind | Later | Sidelined; a possible future expansion, not part of the base game |
 | 87 | Expansion planets | Later | Return to the old wreck after a few expansions |
+| 87a | MULEpad | Decided | In-game notes in the M.U.L.E.: pin addresses to the notepad, track and find them.  Pin, track, find, linked log entries (Draft) |
 | 87b | GM tool | Decided | Built early to skip around while testing (no waiting a year to test something), hidden later.  Jump, time skip, spawn, fire events, edit, run catch-up, load seed; debug builds only (approved) |
 | 87c | City build mode | Decided | An easy build mode to create handcrafted cities.  Waits until the game is established, since much of what it needs (building pieces, NPCs, items) is built in the early stages.  In-game builder in the GM tool that saves to the city's data file, plus Godot's own tile map editor (Draft) |
 | 88 | Headless sim testing | Draft | Seed sweeps and balance runs |

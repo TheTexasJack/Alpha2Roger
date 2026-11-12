@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.99, 2026-11-12**
+**STATUS v0.100, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.39, mechanics v0.53.  Nathan approved the address system, with a MULEpad (in-game notes in the M.U.L.E.) to pin, track, and find addresses (#87a).
 
 - 2026-11-12 (Claudia): zones.md v0.38.  Nathan: a river is only needed for river testing, seed randomness guides specifics (S1 stays); we need an address system like the overmap's.  Draft: R5-cell-map-tile addresses.
 
