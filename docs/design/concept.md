@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.12, 2026-11-12**
+**Concept v1.13, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -389,6 +389,8 @@ A running list of special NPCs of all types.  Any run might get one.
 - **Draft (Claudia):** companions are free people, recruited by persuasion, help, rescue, or trade, and tracked by the relationship system.  If they are treated badly or grow unhappy, they can leave.
 
 ## Character system
+
+- Stat scale anchors (Nathan, 2026-11-12): Intelligence 1 means the character cannot speak (Fallout style); Intelligence 0 means they are a rock.  Pam, with Intelligence 2, is the low end of a working mind.
 
 - **Direction (Nathan, 2026-11-11):**
   - Lancer is lax on pilot rules: what it has is narrative description, open to interpretation, not set stats.  So we use a traditional stat system, one we are free to use or make our own (in the spirit of SPECIAL or the six classic abilities).

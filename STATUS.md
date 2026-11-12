@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.122, 2026-11-12**
+**STATUS v0.123, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.13, mechanics v0.62.  The Intelligence floor is noted in the stats design (Character system and #35).
 
 - 2026-11-12 (Claudia): concept v1.12.  Pam has Intelligence 2; Intelligence 1 cannot speak (Fallout style), 0 is a rock.
 
