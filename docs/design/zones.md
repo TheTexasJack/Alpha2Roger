@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.39, 2026-11-12**
+**Zones v0.40, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -48,7 +48,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - We need a measurement like the overmap's (R5 and so on) to pinpoint places better (Nathan, 2026-11-12).
 - Addresses (Claudia, approved by Nathan 2026-11-12): one block per zoom level: region (A to X, 1 to 12), region cell (column.row, 0 to 479), local map inside the cell (column.row, 0 to 15), tile inside the map (column.row, 0 to 255).  Example: S1's camp spot is R5-152.136-08.08-128.128; dropping blocks zooms out.  Numbers after the first block, since letters run out at 480 columns.  Used by the GM tool (jump to an address, such as a river cell for river testing), seed sharing, bug reports, the camp log, and a cursor readout on the region map.
 - The number system is fine as long as players can pin, track, or find addresses, since they may be hard to follow.  Old-school tracking is fine too, but an in-game notes log is good: a "pin to notepad" that adds to a notes section in the M.U.L.E., called the MULEpad so it is not confusing (Nathan, 2026-11-12).
-- **Draft (Claudia), MULEpad:** pin from the region map, a local map, or the cursor readout, saving the address, an automatic label (such as "creek, warm grassland"), and the player's own note; track a pin as a marker on the map and wrist panel, or set it as a montage destination; find pins by name, note, or address, sorted by distance; camp log lines, descent-scan points, quests, and vista sightings arrive with their address attached; players who keep paper notes can ignore it.
+- MULEpad features (Claudia, approved by Nathan 2026-11-12): pin from the region map, a local map, or the cursor readout, saving the address, an automatic label (such as "creek, warm grassland"), and the player's own note; track a pin as a marker on the map and wrist panel, or set it as a montage destination; find pins by name, note, or address, sorted by distance; camp log lines, descent-scan points, quests, and vista sightings arrive with their address attached; players who keep paper notes can ignore it.
 - **Draft (Claudia):** after every cold year comes a thaw flood: rivers swell, fords close for weeks, and dry washes run with water.
 
 ## Grid (Nathan, 2026-11-11)
