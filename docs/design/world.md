@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.75, 2026-11-12**
+**World v0.76, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -10,6 +10,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 - Current time: 5071u (Nathan, 2026-11-12), roughly 50 years after the events on Halas at Nathan's Lancer table.  Note (Claudia): the Lancer core book's present is 5016u, so the game is set about 55 years after canon's present day.  Earlier drafts said 5016u.
 - Verlassen is about 50 light years away, and the planet is only now getting signals, feeds, and other things from the spaceport and elsewhere.  So current material from Nathan's Lancer tables can be used as news and other in-world information, and it is lore appropriate (Nathan, 2026-11-12).
+- Local stations rebroadcast the old news (Nathan, 2026-11-12).  Each puts its local spin on it: moving to another zone, the player hears the same story told with that zone's spin.
+- **Draft (Claudia), spin:** one source story, retold through each region's concerns (the steppe asks about the horses, the salt traders about salt prices, the spaceport sounds dry and official).  Shio Loch and Kawa Fada tell the same story in opposite ways, each making the other brother look bad, so the feud plays out on the air.  Built as one story file plus one spin per region.
 - **Draft (Claudia):** a handheld radio cannot catch a broadcast from 50 light years away, so the spaceport's big dish catches the old light-speed broadcasts and local stations rebroadcast them (an "old news hour" on the M.U.L.E.'s radio).  That makes two speeds of news: old light-lagged news free on the radio, and live omninet contact through the spaceport, instant and expensive, the same channel the legal battle's messages use, costing Manna per transmission.
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
 - Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
