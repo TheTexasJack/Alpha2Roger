@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.115, 2026-11-12**
+**STATUS v0.116, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.08, mechanics v0.60.  Nathan: androids are built in three tiers (clunker, human-like, super soldier) (#72d).  Drafts: scripted minds to respect the NHP rule, sourcing by tier, camp-cap slot, upkeep.
 
 - 2026-11-12 (Claudia): zones.md v0.51.  Nathan: a toll android counts as the player's people for ticking; androids are distinct from machines like farm robots.
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.07, 2026-11-12**
+**Concept v1.08, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -241,6 +241,13 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - **Draft (Claudia):** limits so it never trivializes survival: it runs on batteries that lose capacity in the cold, so it weakens in the cold year; it can be knocked out and repaired, and while it is down the CompCon falls back to the mech.
 - The M.U.L.E. stores the money and holds the bank accounts.  Money has no weight.  No spending while the M.U.L.E. is out; no theft (only an NHP could hack it); it transfers to the successor on death (Nathan, 2026-11-10; details in `world.md`, Currency).
 - **Draft (Claudia):** keep the no-animation rule with a two-frame skitter or a simple bob for its legs.
+
+### Androids (Nathan, 2026-11-12)
+
+- Androids need a mechanic for creating and building them, in three tiers: tier 1 is the clunker (basic Star Wars droids, or Fallout's first-generation Institute synths); tier 2 is human-like (think C-3PO or HK-47); tier 3 is the super soldier.
+- **Draft (Claudia):** to keep droids dumber than a CompCon and NHPs almost absent, tier 2 is human-like in body and manner with a scripted personality module (the sneer, the fussing), and tier 3 is a lethal machine; neither is a real mind.
+- **Draft (Claudia):** tier 1 comes early from salvage and Intelligence (tolls, hauling, gate guard); tier 2 needs rare parts from cities, ruins, and wrecks (trading, talking to travelers, skilled work); tier 3 comes late from military wrecks, downed fliers, or the relay station (defense, escort).
+- **Draft (Claudia):** androids count toward the camp cap of 5 or 6, since they run AI and pathfinding like people; they are built by hand from salvage, since licensed printers do not work for the player; they run on batteries that the cold hits like the M.U.L.E.'s, need repairs, and some factions distrust them on sight.
 
 ### Sensing (Nathan, 2026-11-12)
 
