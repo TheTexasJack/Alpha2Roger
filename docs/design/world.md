@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.73, 2026-11-11**
+**World v0.74, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -8,7 +8,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 ## Era and location
 
-- Current Lancer time: 5016u.
+- Current time: 5071u (Nathan, 2026-11-12), roughly 50 years after the events on Halas at Nathan's Lancer table.  Note (Claudia): the Lancer core book's present is 5016u, so the game is set about 55 years after canon's present day.  Earlier drafts said 5016u.
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
 - Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
 - **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
@@ -340,7 +340,7 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 
 Paraphrased by Claudia from the Lancer core book's history section, 2026-11-09.  Concepts only, no Massif text, per the Lancer Third Party License.
 
-- The "initial outward push" in canon is the Ten: ten huge sublight generation ships launched from Cradle during Old Humanity's collapse, roughly 6000 to 4900 years before Union's year zero (about 10,000 to 11,000 years before 5016u).  The Ten cut contact with Cradle by choice.
+- The "initial outward push" in canon is the Ten: ten huge sublight generation ships launched from Cradle during Old Humanity's collapse, roughly 6000 to 4900 years before Union's year zero (about 10,000 to 11,000 years before canon's present, 5016u).  The Ten cut contact with Cradle by choice.
 - Karrakis, homeworld of the Karrakin Trade Baronies, was settled by the Apollo, the first of the Ten.  Settlers "from the same places as the KTB" therefore points to Apollo lineage: Verlassen could be an early Karrakin daughter colony or a related landfall.
-- Karrakin culture developed apart from Union for thousands of years.  Union first contacted it around 2800u; the Baronies became a Union member state after the Interest War around 4630u.  By 5016u the KTB is technically part of Union, so Union reaches Verlassen only indirectly, through Baronic trade.
+- Karrakin culture developed apart from Union for thousands of years.  Union first contacted it around 2800u; the Baronies became a Union member state after the Interest War around 4630u.  By 5016u, canon's present, the KTB is technically part of Union, so Union reaches Verlassen only indirectly, through Baronic trade.
 - Canon cold world to stay distinct from: Sparr, settled by the Yggdrasil (one of the Ten).  It shares tundra, thermal-vent life, megafauna, clans, a habitable equator, a years-long overland trek, and Norse-flavored culture.  Verlassen stays distinct through its Japanese-hybrid culture, the three-year cold cycle (Sparr is frozen year-round), alien mirror-chemistry life, the crystal infection, and the clone premise.

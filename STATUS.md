@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.82, 2026-11-11**
+**STATUS v0.83, 2026-11-12**
 
 ## Where things stand
 
@@ -21,6 +21,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): world.md v0.74, plan v0.28, planet pack and data v0.4.  Nathan: the year is 5071u, roughly 50 years after the events on Halas (canon's present is 5016u).
 
 - 2026-11-11 (Claudia): concept v1.03.  Nathan: drop Suno entirely; music is our own MIDI and chiptune.
 

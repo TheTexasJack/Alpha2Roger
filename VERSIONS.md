@@ -1,6 +1,6 @@
 # Versions
 
-**VERSIONS v1.96, 2026-11-11**
+**VERSIONS v1.97, 2026-11-12**
 
 Current version of every deliverable.  Update the row whenever a file changes.  Run `python3 tools/version_check.py` to confirm every row matches its file.
 
@@ -8,18 +8,18 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| VERSIONS.md | v1.96 | 2026-11-11 | This table |
+| VERSIONS.md | v1.97 | 2026-11-12 | This table |
 | README.md | v0.5 | 2026-11-10 | Pitch, pillars, repo map, license credits |
 | AGENTS.md | v0.4 | 2026-11-10 | Rules for AI collaborators: lanes, conventions, versions, diagnostics |
 | CLAUDE.md | v0.1 | 2026-11-10 | Pointer to AGENTS.md for Claude Code |
-| STATUS.md | v0.82 | 2026-11-11 | Where things stand and next steps |
+| STATUS.md | v0.83 | 2026-11-12 | Where things stand and next steps |
 | LICENSE.md | v0.2 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms |
 | .gitignore | v0.2 | 2026-11-10 | Ignores caches, Godot imports, diagnostics/ |
 | docs/design/concept.md | v1.03 | 2026-11-11 | Game design |
-| docs/design/world.md | v0.73 | 2026-11-11 | The planet Verlassen |
+| docs/design/world.md | v0.74 | 2026-11-12 | The planet Verlassen |
 | docs/design/mechanics.md | v0.52 | 2026-11-11 | Master mechanics checklist by build tier |
 | docs/design/zones.md | v0.36 | 2026-11-11 | Zones and travel spec (A2R-102) |
-| docs/plan/Alpha2Roger_Project_Plan.md | v0.27 | 2026-11-11 | Stages, task IDs, gates, changelog |
+| docs/plan/Alpha2Roger_Project_Plan.md | v0.28 | 2026-11-12 | Stages, task IDs, gates, changelog |
 
 ## Tools and data
 
@@ -29,11 +29,11 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 | tools/place_pins.py | v1.0.1 | 2026-11-09 | Ten places by world rules, grid overlay, names; writes places JSON |
 | tools/regions.py | v0.1 | 2026-11-09 | Political regions by overland reach |
 | tools/name_gen.py | v0.1 | 2026-11-09 | Seeded person name generator |
-| tools/planet_pack.py | v0.3 | 2026-11-11 | Packs locked world facts into the planet data file (A2R-101) |
+| tools/planet_pack.py | v0.4 | 2026-11-12 | Packs locked world facts into the planet data file (A2R-101) |
 | tools/version_check.py | v0.1 | 2026-11-10 | Checks every file has a version and VERSIONS.md matches |
 | tools/system_report.py | v0.1 | 2026-11-10 | One-command diagnostic report for Claudia |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
-| tools/data/planet_verlassen.json | v0.3 | 2026-11-11 | Planet data file the engine reads: seed, places, landmarks, regions, currencies (A2R-101, locked) |
+| tools/data/planet_verlassen.json | v0.4 | 2026-11-12 | Planet data file the engine reads: seed, places, landmarks, regions, currencies (A2R-101, locked) |
 | tools/data/names_v0.1.json | v0.1 | 2026-11-09 | Name lists per culture, region rules, blacklist |
 
 ## Maps and art

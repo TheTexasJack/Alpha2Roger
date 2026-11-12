@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.27, 2026-11-11**
+**Plan v0.28, 2026-11-12**
 
 ## What this project is
 
@@ -27,7 +27,7 @@ Goal: settle the decisions that everything else is built on.
 | A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  Older style with modern color selection |
 | A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
 | A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
-| A2R-006 | Planet basics | Decided | All recorded in `docs/design/world.md`: Verlassen (Kepler-64432p), 5016u, between Cinder Crown and the KTB; Sun-like star, 14-month year, cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
+| A2R-006 | Planet basics | Decided | All recorded in `docs/design/world.md`: Verlassen (Kepler-64432p), 5071u (was 5016u), between Cinder Crown and the KTB; Sun-like star, 14-month year, cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
 | A2R-007 | Local currency | In progress | Five regional currencies grouped by place (see `docs/design/world.md`); Manna off-world.  Open: currency names, exchange rates |
 
 **Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/design/concept.md`.  **Passed 2026-11-10: Stage 0 closed.**
@@ -117,6 +117,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.28, 2026-11-12 (Nathan): the year is 5071u; planet data file v0.4.
 - Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
 - Plan v0.26, 2026-11-11 (Nathan): planet data file v0.2 with the 12 by 35 day calendar.
 - Plan v0.25, 2026-11-10 (Nathan): A2R-102 in progress; zones and travel direction recorded in `docs/design/zones.md`.

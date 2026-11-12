@@ -1,9 +1,9 @@
 {
- "version": "0.3",
+ "version": "0.4",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.3",
+ "generated_by": "tools/planet_pack.py v0.4",
  "sources": {
-  "world": "docs/design/world.md v0.67",
+  "world": "docs/design/world.md v0.74",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
   "globe": "tools/globe_candidates.py v0.3.1"
@@ -12,7 +12,7 @@
   "official_name": "Kepler-64432p",
   "local_name": "Verlassen",
   "local_name_meaning": "abandoned, forsaken, left behind (German)",
-  "era_u": 5016,
+  "era_u": 5071,
   "star": {
    "class": "G",
    "color": "yellow",
