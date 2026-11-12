@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.101, 2026-11-12**
+**STATUS v0.102, 2026-11-12**
 
 ## Where things stand
 
@@ -12,7 +12,7 @@
 ## Next steps (Nathan picks the order)
 
 0. **Music:** get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
-1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md`.  Left: approve the R5 biome rules and turn the draft into the region generator, then the zone graph format.
+1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md`.  R5 biome rules approved and `tools/region_gen.py` v0.1 built R5.  Left: the zone graph format, then the spec goes to Nathan for approval.
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), trade (#70), currency names and rates, what the infection does.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.41.  Nathan approved the region biome rules.  New `tools/region_gen.py` v0.1 builds R5: `tools/data/regions/R5.json` v0.1 (biomes, rivers and creeks, heights) and `assets/maps/regions/R5_biomes_v0.1.png`.
 
 - 2026-11-12 (Claudia): zones.md v0.40, mechanics v0.54.  Nathan approved the MULEpad features.
 

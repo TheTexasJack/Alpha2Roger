@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.40, 2026-11-12**
+**Zones v0.41, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -50,6 +50,20 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - The number system is fine as long as players can pin, track, or find addresses, since they may be hard to follow.  Old-school tracking is fine too, but an in-game notes log is good: a "pin to notepad" that adds to a notes section in the M.U.L.E., called the MULEpad so it is not confusing (Nathan, 2026-11-12).
 - MULEpad features (Claudia, approved by Nathan 2026-11-12): pin from the region map, a local map, or the cursor readout, saving the address, an automatic label (such as "creek, warm grassland"), and the player's own note; track a pin as a marker on the map and wrist panel, or set it as a montage destination; find pins by name, note, or address, sorted by distance; camp log lines, descent-scan points, quests, and vista sightings arrive with their address attached; players who keep paper notes can ignore it.
 - **Draft (Claudia):** after every cold year comes a thaw flood: rivers swell, fords close for weeks, and dry washes run with water.
+
+### Region biome rules (Claudia, approved by Nathan 2026-11-12)
+
+Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.1.png`.
+
+1. Detail: each globe pixel is smoothly upscaled into 16 by 16 region cells, plus fine seeded noise (seed plus region ID).
+2. Height: meters = 6,500 x (relative elevation) ^ 1.63 (planet top about 6,500 m, R5 top about 3,700 m).
+3. Temperature: the latitude-line yearly average (midpoint of summer high and winter low), minus about 3.5 F per 1,000 ft.
+4. Band: warm at 60 F or more, temperate 45 to 60 F, cold below 45 F.
+5. Moisture: coast influence fading over about 700 km inland, a boost within about 25 km of a river, a little seeded noise.
+6. Base biome by band and moisture (wet 0.55 and up, middle 0.30 to 0.55, dry below 0.30): warm forest, warm grassland, scrub desert; mixed forest, prairie, steppe; taiga, tundra, cold barrens.
+7. Overrides, in order (later wins): highlands above 2,000 m; marsh below 150 m, moisture above 0.75, within 15 km of a river; river corridor within 5 km of a river below 2,000 m; coast on land touching the sea below 300 m; ocean on water.
+8. Rivers from flow at cell detail: a river drains about 26,000 km2, a creek about 6,600 km2.
+- Not yet in the generator (R5 does not need them): the Ice rule, water biomes, infection levels, and features.  These come before the generator runs anywhere else.
 
 ## Grid (Nathan, 2026-11-11)
 

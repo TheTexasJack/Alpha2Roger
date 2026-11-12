@@ -1,6 +1,6 @@
 # Versions
 
-**VERSIONS v1.132, 2026-11-12**
+**VERSIONS v1.133, 2026-11-12**
 
 Current version of every deliverable.  Update the row whenever a file changes.  Run `python3 tools/version_check.py` to confirm every row matches its file.
 
@@ -8,18 +8,18 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| VERSIONS.md | v1.132 | 2026-11-12 | This table |
+| VERSIONS.md | v1.133 | 2026-11-12 | This table |
 | README.md | v0.5 | 2026-11-10 | Pitch, pillars, repo map, license credits |
 | AGENTS.md | v0.5 | 2026-11-12 | Rules for AI collaborators: lanes, conventions, versions, diagnostics; music lane |
 | CLAUDE.md | v0.1 | 2026-11-10 | Pointer to AGENTS.md for Claude Code |
-| STATUS.md | v0.101 | 2026-11-12 | Where things stand and next steps |
+| STATUS.md | v0.102 | 2026-11-12 | Where things stand and next steps |
 | LICENSE.md | v0.2 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms |
 | .gitignore | v0.2 | 2026-11-10 | Ignores caches, Godot imports, diagnostics/ |
 | docs/design/concept.md | v1.04 | 2026-11-12 | Game design |
 | docs/design/music.md | v0.26 | 2026-11-12 | Music bible: tools, sound, the riff (Kaze), radio music |
 | docs/design/world.md | v0.80 | 2026-11-12 | The planet Verlassen |
 | docs/design/mechanics.md | v0.54 | 2026-11-12 | Master mechanics checklist by build tier |
-| docs/design/zones.md | v0.40 | 2026-11-12 | Zones and travel spec (A2R-102) |
+| docs/design/zones.md | v0.41 | 2026-11-12 | Zones and travel spec (A2R-102) |
 | docs/plan/Alpha2Roger_Project_Plan.md | v0.28 | 2026-11-12 | Stages, task IDs, gates, changelog |
 
 ## Tools and data
@@ -31,11 +31,13 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 | tools/regions.py | v0.1 | 2026-11-09 | Political regions by overland reach |
 | tools/name_gen.py | v0.1 | 2026-11-09 | Seeded person name generator |
 | tools/planet_pack.py | v0.4 | 2026-11-12 | Packs locked world facts into the planet data file (A2R-101) |
+| tools/region_gen.py | v0.1 | 2026-11-12 | Builds a region's 480 x 480 cells (R5 only for now) |
 | tools/music_areas.py | v0.1 | 2026-11-12 | Builds the music areas map and data |
 | tools/version_check.py | v0.2 | 2026-11-12 | Checks every file has a version and VERSIONS.md matches; audio and MIDI by file name |
 | tools/system_report.py | v0.1 | 2026-11-10 | One-command diagnostic report for Claudia |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
 | tools/data/planet_verlassen.json | v0.4 | 2026-11-12 | Planet data file the engine reads: seed, places, landmarks, regions, currencies (A2R-101, locked) |
+| tools/data/regions/R5.json | v0.1 | 2026-11-12 | R5 region cells: biomes, rivers and creeks, heights |
 | tools/data/music_areas.json | v0.1 | 2026-11-12 | Music area of every globe pixel |
 | tools/data/names_v0.1.json | v0.1 | 2026-11-09 | Name lists per culture, region rules, blacklist |
 
@@ -45,6 +47,7 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 |---|---|---|---|
 | assets/maps/verlassen_globe_candidates_v0.3.1.png | v0.3.1 | 2026-11-09 | Four candidate globes |
 | assets/maps/verlassen_globe_v1.0.png | v1.0 | 2026-11-09 | Canonical globe, seed 2718 |
+| assets/maps/regions/R5_biomes_v0.1.png | v0.1 | 2026-11-12 | R5 biome map |
 | assets/maps/verlassen_music_areas_v0.1.png | v0.1 | 2026-11-12 | Music areas map |
 | assets/maps/verlassen_pins_draft_v0.1.png | v0.1 | 2026-11-09 | Draft pins (superseded by places v1.0) |
 | assets/maps/verlassen_places_v1.0.png | v1.0 | 2026-11-09 | Ten named places |
