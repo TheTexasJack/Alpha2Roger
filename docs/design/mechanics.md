@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.55, 2026-11-12**
+**Mechanics v0.56, 2026-11-12**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -157,6 +157,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 87b | Crystal hive mind | Later | Sidelined; a possible future expansion, not part of the base game |
 | 87 | Expansion planets | Later | Return to the old wreck after a few expansions |
 | 87a | MULEpad | Decided | In-game notes in the M.U.L.E.: pin addresses to the notepad, track and find them.  Pin, track, find, linked log entries (approved) |
+| 87e | Performance readout | Decided | The GM tool and the system report need machine CPU, GPU, and memory usage, to test a live tracked map (Nathan).  In game: Godot's Performance monitors plus a custom monitor timing the tracked map's simulation; outside: `tools/system_report.py` adds CPU, memory, and GPU load and VRAM via nvidia-smi (Draft) |
 | 87d | M.U.L.E. tracker | Decided | One zone loader: the tracked zone works like the camp (catch-up on return); a settings flag can raise the count; removing it returns the zone to normal.  Quests and story events flag their spots automatically |
 | 87b | GM tool | Decided | Built early to skip around while testing (no waiting a year to test something), hidden later.  Jump, time skip, spawn, fire events, edit, run catch-up, load seed; debug builds only (approved) |
 | 87c | City build mode | Decided | An easy build mode to create handcrafted cities.  Waits until the game is established, since much of what it needs (building pieces, NPCs, items) is built in the early stages.  In-game builder in the GM tool that saves to the city's data file, plus Godot's own tile map editor (Draft) |

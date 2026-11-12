@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.44, 2026-11-12**
+**Zones v0.45, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -128,6 +128,8 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - To place it, the player must be on that map in person, with the M.U.L.E. (Nathan, 2026-11-12).
 - A beacon can watch an enemy base: walk into the map, place the beacon, leave, and check back on what they are doing (Nathan, 2026-11-12).
 - The beacon does not remove fog of war.  Like the M.U.L.E., it tracks NPCs and others nearby, outlining and highlighting them (Nathan, 2026-11-12).  This also defines the M.U.L.E.'s sensing, which was not defined before.
+- Live versus catch-up for a tracked map (Nathan, 2026-11-12): Nathan sides with live.  The tracker is a strategic tool, and the point is to flip over and see what is happening; a live tracked area gives the feeling of living places while everything else is catch-up math.  He also accepts Claudia's points (live cannot run through montages or time skips, so catch-up is needed anyway; two systems must agree), so live gets tested once the engine exists.  Until then, catch-up is the base and the safety net.
+- **Draft (Claudia):** machines are rate-based (given inputs, produce X per hour), so catch-up stays exact whatever the tracker ends up doing.
 - **Draft (Claudia):** opening a beacon's view runs the catch-up for that map up to the present and shows the result as a snapshot, which feels like surveillance but costs no live engine time.
 - **Draft (Claudia), sensing (M.U.L.E. and beacon):** silhouettes through the fog, with terrain, items, and buildings still hidden; thermal, so sharper in the cold and blurrier in hot places, near geothermal vents, and around fires; infected creatures run cold and barely show; the M.U.L.E.'s range is larger than a beacon's, with numbers set in testing; enemies can spot, destroy, or steal a planted beacon.
 

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.105, 2026-11-12**
+**STATUS v0.106, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.45, mechanics v0.56.  Nathan sides with a live tracked map (strategic tool, the feeling of live areas) and agrees to test it once the engine exists; catch-up stays the base.  Performance readout needed in the GM tool and system report (#87e).
 
 - 2026-11-12 (Claudia): zones.md v0.44.  Nathan: beacons can watch enemy bases; beacons and the M.U.L.E. outline NPCs without removing fog of war.  Drafts: snapshot view via catch-up, thermal sensing, cold infected, beacon range and risk.
 
