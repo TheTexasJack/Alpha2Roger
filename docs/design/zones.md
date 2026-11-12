@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.51, 2026-11-12**
+**Zones v0.52, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -132,6 +132,16 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - (Claudia, approved by Nathan 2026-11-12) machines are rate-based (given inputs, produce X per hour), so catch-up stays exact whatever the tracker ends up doing.
 - **Draft (Claudia):** opening a beacon's view runs the catch-up for that map up to the present and shows the result as a snapshot, which feels like surveillance but costs no live engine time.
 - **Draft (Claudia), sensing (M.U.L.E. and beacon):** silhouettes through the fog, with terrain, items, and buildings still hidden; thermal, so sharper in the cold and blurrier in hot places, near geothermal vents, and around fires; infected creatures run cold and barely show; the M.U.L.E.'s range is larger than a beacon's, with numbers set in testing; enemies can spot, destroy, or steal a planted beacon.
+
+## Region file contents (Claudia, approved by Nathan 2026-11-12)
+
+- Header: file version, generator version, seed, region, size (480 by 480), km per cell, origin on the globe.
+- Layers, one value per cell: biome; water (none, creek, river); salinity on water (fresh, brackish, saline); height at full detail (480 by 480); moisture (0 to 9); territory (owner or none).
+- Calculated, not stored: temperature, music area, infection level, edge crossings, neighbors, traffic.
+- Routes: roads and paths as lists of cells, each with the places it links.  Animal trails stay out of the region file; the local generator scatters them.
+- Landmarks: ID, type, address, tier (canon or seeded), short note.  Spawners are landmarks with a spawner type.
+- Linked-map entrances: address, kind (cave, cellar, bunker, dungeon), what is behind it (template ID or generated), size, number of floors.
+- R5 has no roads or paths today; its route list starts empty.
 
 ## Underground (Nathan, 2026-11-11)
 

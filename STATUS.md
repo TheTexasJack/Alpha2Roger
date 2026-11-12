@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.118, 2026-11-12**
+**STATUS v0.119, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.52.  Nathan approved the region file contents (with salinity).  Zone graph format: point 1 of 5 done; next city files, edge IDs, save file, JSON.
 
 - 2026-11-12 (Claudia): concept v1.10.  Nathan: the M.U.L.E. stays unique and special; no other droid or android is as useful or smart.
 
