@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.02, 2026-11-11**
+**Concept v1.03, 2026-11-11**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -253,10 +253,11 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 
 ## Music (Nathan, 2026-11-11)
 
-- So the music is ours: use Suno (Nathan's SteamMetal Studios account) to get a feel, then create our own MIDI music in the same vein, or do our own merger.  Keeping with the style, chiptunes we create should work great.  Nathan composes on an Akai MPK Mini Plus.
+- The music is ours: we create our own MIDI music, or do our own merger.  Keeping with the style, chiptunes we create should work great.  Nathan composes on an Akai MPK Mini Plus.
+- No Suno at all (Nathan, 2026-11-11): after reading up, Suno has changed, and Nathan would rather have nothing to do with them.
 - No current plan to release on Steam: this is a project for Nathan, and anyone who plays will be people he knows.  Maybe one day.  No concerns about AI use.
 - **Draft (Claudia), fusions by cultural region** (Japanese base plus the second culture): spaceport coast, Persian santur and tar with koto; southern steppe, Mongolian throat singing and horsehead fiddle with taiko; west continent north, German motorik synth with shamisen; central-north island, Slavic choral folk with city pop; the empty east, Irish trad with Japanese min'yo (Kawa Fada's radio).  Off-world Union pop drifts in on night shortwave.
-- **Draft (Claudia), pipeline:** Suno sketches as reference only, never shipped; melodies played on the MPK Mini Plus; chiptune arrangement in LMMS or the Furnace tracker; exported to OGG, since Godot 4 takes live MIDI input but does not play MIDI files natively.
+- **Draft (Claudia), pipeline:** melodies played on the MPK Mini Plus; chiptune arrangement in LMMS or the Furnace tracker; exported to OGG, since Godot 4 takes live MIDI input but does not play MIDI files natively.
 
 ## Narrative presentation (Nathan, 2026-11-11)
 
