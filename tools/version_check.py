@@ -1,4 +1,4 @@
-"""Alpha2-Roger version check v0.1.
+"""Alpha2-Roger version check v0.2.
 
 Every tracked file must carry a version, and VERSIONS.md must match the real version in each file.
 
@@ -7,11 +7,12 @@ Where a version lives, by file type:
   .py               __version__ = "0.1"
   .json             a top-level "version" field
   .png .jpg .jpeg   _vN or _vN.N in the file name
+  .ogg .wav .mid    _vN or _vN.N in the file name
   .gitignore        a comment line: # gitignore vN.N
 
 Run:  python3 tools/version_check.py      (exit code 1 if anything is wrong)
 """
-__version__ = "0.1"
+__version__ = "0.2"
 
 import json, re, subprocess, sys
 from pathlib import Path
@@ -37,7 +38,7 @@ def file_version(path):
         if suf == ".json":
             v = json.loads(path.read_text()).get("version")
             return v and "v" + str(v).lstrip("v")
-        if suf in (".png", ".jpg", ".jpeg"):
+        if suf in (".png", ".jpg", ".jpeg", ".ogg", ".wav", ".mid"):
             m = re.search(r"_v(\d+(?:\.\d+)*)", path.stem)
             return m and "v" + m.group(1)
         if name == ".gitignore":

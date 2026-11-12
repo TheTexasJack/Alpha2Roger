@@ -1,6 +1,6 @@
 # Versions
 
-**VERSIONS v1.100, 2026-11-12**
+**VERSIONS v1.101, 2026-11-12**
 
 Current version of every deliverable.  Update the row whenever a file changes.  Run `python3 tools/version_check.py` to confirm every row matches its file.
 
@@ -8,14 +8,15 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 
 | File | Version | Date | Notes |
 |---|---|---|---|
-| VERSIONS.md | v1.100 | 2026-11-12 | This table |
+| VERSIONS.md | v1.101 | 2026-11-12 | This table |
 | README.md | v0.5 | 2026-11-10 | Pitch, pillars, repo map, license credits |
-| AGENTS.md | v0.4 | 2026-11-10 | Rules for AI collaborators: lanes, conventions, versions, diagnostics |
+| AGENTS.md | v0.5 | 2026-11-12 | Rules for AI collaborators: lanes, conventions, versions, diagnostics; music lane |
 | CLAUDE.md | v0.1 | 2026-11-10 | Pointer to AGENTS.md for Claude Code |
-| STATUS.md | v0.86 | 2026-11-12 | Where things stand and next steps |
+| STATUS.md | v0.87 | 2026-11-12 | Where things stand and next steps |
 | LICENSE.md | v0.2 | 2026-11-09 | All rights reserved, plus Lancer Third Party License terms |
 | .gitignore | v0.2 | 2026-11-10 | Ignores caches, Godot imports, diagnostics/ |
-| docs/design/concept.md | v1.03 | 2026-11-11 | Game design |
+| docs/design/concept.md | v1.04 | 2026-11-12 | Game design |
+| docs/design/music.md | v0.1 | 2026-11-12 | Music bible: tools, sound, the riff, radio music |
 | docs/design/world.md | v0.77 | 2026-11-12 | The planet Verlassen |
 | docs/design/mechanics.md | v0.52 | 2026-11-11 | Master mechanics checklist by build tier |
 | docs/design/zones.md | v0.36 | 2026-11-11 | Zones and travel spec (A2R-102) |
@@ -30,7 +31,7 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 | tools/regions.py | v0.1 | 2026-11-09 | Political regions by overland reach |
 | tools/name_gen.py | v0.1 | 2026-11-09 | Seeded person name generator |
 | tools/planet_pack.py | v0.4 | 2026-11-12 | Packs locked world facts into the planet data file (A2R-101) |
-| tools/version_check.py | v0.1 | 2026-11-10 | Checks every file has a version and VERSIONS.md matches |
+| tools/version_check.py | v0.2 | 2026-11-12 | Checks every file has a version and VERSIONS.md matches; audio and MIDI by file name |
 | tools/system_report.py | v0.1 | 2026-11-10 | One-command diagnostic report for Claudia |
 | tools/data/places_v1.0.json | v1.0 | 2026-11-09 | Ten places with coordinates |
 | tools/data/planet_verlassen.json | v0.4 | 2026-11-12 | Planet data file the engine reads: seed, places, landmarks, regions, currencies (A2R-101, locked) |
@@ -46,4 +47,5 @@ Current version of every deliverable.  Update the row whenever a file changes.  
 | assets/maps/verlassen_places_v1.0.png | v1.0 | 2026-11-09 | Ten named places |
 | assets/maps/verlassen_regions_draft_v0.1.png | v0.1 | 2026-11-09 | Political regions (accepted) |
 | assets/art/mule/ | v1 | 2026-11-09 | M.U.L.E. references: Nathan's miniature and Mara variants |
+| assets/audio/music/drafts/ | v1 | 2026-11-12 | Riff candidates v1 (Shimo, Kaze, Utsushi): MIDI and OGG previews |
 | assets/art/reference/rimworld_reference_pegs_clothing_v1.png | v1 | 2026-11-10 | RimWorld reference screenshot |
