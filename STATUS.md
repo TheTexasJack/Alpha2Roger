@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.114, 2026-11-12**
+**STATUS v0.115, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.51.  Nathan: a toll android counts as the player's people for ticking; androids are distinct from machines like farm robots.
 
 - 2026-11-12 (Claudia): zones.md v0.50.  Nathan: tolls are placed on the local map; everything else rolls into catch-up.  Draft: robot-manned tolls count as the player's people for ticking.
 

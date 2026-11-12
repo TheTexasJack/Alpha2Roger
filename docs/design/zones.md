@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.50, 2026-11-12**
+**Zones v0.51, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -176,8 +176,10 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Tolls (Nathan, 2026-11-12): a gate can charge travelers walking through, as a side source of money.  It must be manned, by one of the player's NPCs (a real sacrifice, since they are valuable) or by a robot.  Travelers complain or agree in a log or chatter, but either way they pay.  It could be abused, so there may be side effects and criteria for creating a toll.  Travelers may turn around and leave, or try to walk around.
 - Toll payments (Nathan, 2026-11-12): a toll robot cannot be robbed of money, since money is tracked electronically; money paid in is recorded by the robot and stored, directly.  Bartering is core to almost every RPG, so travelers and traders may pay in goods instead (a sack of potatoes, an animal, things of equal value), and anything paid that way can be stolen.  The whole robot can also be stolen.
 - Tolls are placed on the player's local map; everything else about them rolls up into the catch-up math (Nathan, 2026-11-12).
-- **Draft (Claudia):** a toll's map ticks because it is manned: the NPC counts as the player's people, and a toll robot counts the same way, so a robot-manned toll gets the catch-up run without using the M.U.L.E.'s tracker.
-- **Draft (Claudia), tolls:** a robot collects less and cannot talk anyone down.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
+- A toll's map ticks because it is manned: the NPC counts as the player's people, and so does a toll android, so an android-manned toll gets the catch-up run without the M.U.L.E.'s tracker (Claudia's suggestion, agreed by Nathan 2026-11-12).
+- In this context the robot is a person.  For separation, it is called an android, as opposed to a machine like a farm robot (Nathan, 2026-11-12).
+- **Draft (Claudia):** an android is a humanoid droid, still dumber than a CompCon, so it fits the near-absence of NHPs; it talks in simple scripted lines.
+- **Draft (Claudia), tolls:** an android collects less and cannot talk anyone down.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
 - **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
 
 ## Montage events (Nathan, 2026-11-11)
