@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.29, 2026-11-11**
+**Zones v0.30, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -109,6 +109,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Paths, smaller than roads but still useful, connect the others, such as 5 to 1 (Khaluun Onsen to Setareh Minato) and 2 to 10 (Ikh Gawa to Kawa Fada).
 - Ferries run between the coastal towns 1, 8, 2, 4, 9, 10 (Setareh Minato, Darya Kako, Ikh Gawa, Svetla Hama, Zimna Toride, Kawa Fada).
 - Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato is about 180 km and Zimna Toride about 300 km from the sea.
+- Ferries to Kawa Fada (10) are long: they go out to the left, through the strait near Shio Loch, and then on down to Kawa Fada (Nathan, 2026-11-11).
+- Checked on the canon globe (Claudia): Kawa Fada sits on an enclosed inner sea whose only opening below the ice line is the strait at X3 and W4, beside Shio Loch (V4).  The traced route from Ikh Gawa runs north past Darya Kako, west along row 3, across the map's wrap edge to X3, through the strait, and south to Kawa Fada: about 42,000 km, roughly 2 to 3 months at ferry speeds, with about 8,000 km along 58 N at the edge of the ice.
+- **Draft (Claudia):** the Kawa Fada ferry is seasonal, closed by ice in winter.  In a cold year the northern route freezes and sea ice roads open instead.  Shio Loch sits on the only sea gate to Kawa Fada, which feeds the brothers' feud.
 - **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
 
 ## Montage events (Nathan, 2026-11-11)
