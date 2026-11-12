@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.81, 2026-11-12**
+**World v0.82, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -156,6 +156,10 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - Model for salt-fed water: Lake Texoma (Nathan, 2026-11-11).  The Red River carries salt from ancient deposits through natural seeps upstream, making the lake brackish; it holds both freshwater and saltwater species, and striped bass, a saltwater fish, reproduce there.
 - Salinity is a property of water (fresh, brackish, saline), not a separate biome (Claudia, approved by Nathan 2026-11-11).  A lake fed by a salt river is brackish, with a mixed fish table (freshwater and sea species), making it one of the richest fishing spots; its water needs treating before drinking.
 - Like Texoma, a brackish lake is one of the few places certain fish can be caught (Nathan, 2026-11-11).
+- Salt zone values (Nathan, 2026-11-12): key areas (sea, brackish, others) are set directly; a salt value per region sets the baseline, so an all-inland region with no salt is 0, while ocean access or nearby salt flats make it salty.
+- Salinity rules (Claudia, approved by Nathan 2026-11-12): the salt value is in parts per thousand (fresh under 0.5, brackish 0.5 to 30, saline over 30; seawater about 35); salt follows the water, flowing downstream from a source (a salt flat or salt lake) and diluting as tributaries join; near a river mouth the sea pushes brackish water a short way upstream; lakes with no outlet in dry areas become salt lakes; the thaw flood freshens brackish water for a season.  R5 is 0 throughout.
+- River flow direction is set during generation.  Some directions are obvious, some are not, and some water is stagnant (Nathan, 2026-11-12).
+- Flow rules (Claudia, approved by Nathan 2026-11-12): each water cell drains downhill to one of its 8 neighbors; stagnant water forms in sinks (ponds, lakes, marshes, and salt lakes in dry areas) and on flats below a minimum slope (oxbows, bogs, backwaters); speed comes from slope and volume (fast mountain streams, slow lowland rivers) and sets fording difficulty, fishing, and boat travel (quick downstream, a crawl upstream); stagnant water is the riskiest to drink; the thaw flood speeds everything up, and dry washes run only in thaw years.
 
 
 - **Draft (Claudia):** features sit on top of a biome rather than being biomes: geothermal valleys, salt flats and salt lakes, small creeks and ponds, impact craters, ruins.  Big rivers and lakes are water biomes.
