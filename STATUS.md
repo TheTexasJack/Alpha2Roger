@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.110, 2026-11-12**
+**STATUS v0.111, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.47.  Nathan: road types (road at full speed, path about 80%, animal trails visual only); defined overmap, region, then local; road edges spawn traffic, so building on a road has consequences.  Drafts: wheels on paths, traffic types and roadside bases.
 
 - 2026-11-12 (Claudia): concept v1.07.  Nathan approved the solar and cold battery physics.
 

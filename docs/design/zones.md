@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.46, 2026-11-12**
+**Zones v0.47, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -168,6 +168,11 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Ferries to Kawa Fada (10) are long: they go out to the left, through the strait near Shio Loch, and then on down to Kawa Fada (Nathan, 2026-11-11).
 - Checked on the canon globe (Claudia): Kawa Fada sits on an enclosed inner sea whose only opening below the ice line is the strait at X3 and W4, beside Shio Loch (V4).  The traced route from Ikh Gawa runs north past Darya Kako, west along row 3, across the map's wrap edge to X3, through the strait, and south to Kawa Fada: about 42,000 km, roughly 2 to 3 months at ferry speeds, with about 8,000 km along 58 N at the edge of the ice.
 - **Draft (Claudia):** the Kawa Fada ferry is seasonal, closed by ice in winter.  In a cold year the northern route freezes and sea ice roads open instead.  Shio Loch sits on the only sea gate to Kawa Fada, which feeds the brothers' feud.
+- Road types (Nathan, 2026-11-12): separate what is visual from what affects movement.  A road gives no speed boost; it simply means travel at your maximum with no limitation.  A path is worn but may be a little muddy, about 80% (an estimate).  Animal trails through a forest and the like are visual only, with no effect on movement: they count as the cells around them, so difficult terrain stays difficult.  A small animal trail might later give some access (like a hole in a wall) once tools and drones exist.
+- Roads, paths, and trails are defined on the overmap, then on the region as it is generated, then on the player's local map as it is generated (Nathan, 2026-11-12).
+- Building on a road has consequences (Nathan, 2026-11-12).  People use the road, unlike RimWorld, where a road is just a generated tile that does not affect who comes or goes.  Road edges spawn traffic like the other spawners, so travelers run right into a base built on a road, and players learn that lesson.
+- **Draft (Claudia), wheels:** on foot, paths are about 80%; carts, wagons, and vehicles run paths at about 50% and cannot use animal trails.  Weather still applies to roads: snow and thaw floods can bury or wash them out.
+- **Draft (Claudia), traffic:** caravans, patrols, refugees, couriers, and bandits; volume by road importance (main city roads busy, paths quiet), changing with seasons, wars, and the cold year.  A roadside base can run an inn, toll, or waystation, but raiders find it easily, and blocking a road is a political act that angers travelers and the road's lord.  Catch-up includes traffic.
 - **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
 
 ## Montage events (Nathan, 2026-11-11)
