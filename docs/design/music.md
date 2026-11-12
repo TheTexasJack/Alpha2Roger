@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.18, 2026-11-12**
+**Music v0.19, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -49,6 +49,17 @@ Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio 
 | 59 | Shule Aroon | D minor, common time | Famous, simple, singable; a likely radio piece |
 | 69 | O'Carolan's Lament | D minor, 3/4 | Carolan (1670 to 1738); harp tune, a natural koto fit |
 | 47 | Rory Dall's Sister's Lament | A Dorian, 3/4 | Dorian sits closest to the Japanese minor sound |
+
+**Scale fit v1 (Claudia, 2026-11-12):** share of each tune's note time that lands in the best-fitting Japanese scale.  Yo is the pentatonic with no half steps; In is the Japanese minor, Kaze's family.  Scored from the O'Neill's Project ABC (analysis only, not stored or shipped); the notes were read through a web tool, so small errors are possible.  Final transcriptions come from the 1903 scan.
+
+| Tune | Yo | In | Notes outside the best scale |
+|---|---|---|---|
+| Rory Dall's Sister's Lament | 95% | 66% | F sharp only |
+| The Coolin | 85% | 66% | C, C sharp, F |
+| The Little Black Rose | 84% | 82% | Fits both; a bridge between the Gaelic region and Kaze |
+| Shule Aroon | 81% | 73% | Several passing notes |
+| O'Carolan's Lament | 77% | 80% | Several passing notes |
+| The Parting Glass | 73% | 67% | D, G, G sharp |
 
 ## Sound (Nathan, 2026-11-11)
 
