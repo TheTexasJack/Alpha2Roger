@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.35, 2026-11-11**
+**Zones v0.36, 2026-11-11**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -35,6 +35,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Correction (Claudia): from a 3,500 m peak the horizon is about 220 km on Verlassen, and S1 is over 1,100 km away, so the tower cannot be seen from the crash site.
 - The 2D map needs a way to show what is in the distance: maybe a spot with a telescope, or pictures from a M.U.L.E. scan that show the relay tower (Nathan, 2026-11-11).
 - **Draft (Claudia), seeing far:** (1) descent footage: the M.U.L.E. recorded on the way down, and a few frames show the snowcapped massif and a glint on the summit, shown as comic panels; (2) a faint beacon: the relay still pings on shortwave, which can bounce off the upper atmosphere over thousands of km, so the M.U.L.E. marks it on the region map; (3) vistas: high spots on local maps with a telescope or binoculars show a horizon panel and reveal landmarks within real line-of-sight range on the region map.  Know it from day one, see it within about 200 km, reach it with cold gear.
+- Descent footage and the beacon: do both (Nathan, 2026-11-11).  Descent footage means the M.U.L.E. scans nearby points of interest on any random drop, which tags early points of interest on every drop as quests and things to do.
+- The M.U.L.E. has a short-range radio, which can introduce local music (Nathan, 2026-11-11).
+- **Draft (Claudia), radio:** short range (VHF and FM, line of sight, roughly 50 to 100 km) carries local stations, camp and caravan chatter, and bandits on open channels.  Long range (shortwave) bounces off the upper atmosphere over thousands of km and carries farther at night: the relay beacon and distant city broadcasts heard after dark.  Local music is original, in each cultural region's style.  Chatter is information (caravans, settlement news, bandit plans).  Night shortwave brings news from the wider world.  Music lifts the camp's mood; silence in a cold-year winter weighs on it.
 
 ## Grid (Nathan, 2026-11-11)
 
