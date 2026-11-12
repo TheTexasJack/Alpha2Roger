@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.16, 2026-11-12**
+**Music v0.17, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -42,6 +42,7 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 - Background music stays calm and relaxing.  Touchstones: Skyrim's background music, RimWorld's plucky western tones, and Caves of Qud's weird, almost tribal tones.
 - Punchy, heavy beats and riffs belong to the radio, based on the region the player is in.
 - No combat music, not directly (Nathan, 2026-11-12).  The background music and the radio have no secret knowledge the player does not have.
+- Tense moments stay for scripted story elements: comics and key points, such as when you learn you are not you anymore (Nathan, 2026-11-12).
 - **Draft (Claudia), what that rules out:** no music that starts when an enemy is near, swells before an ambush, or changes when a fight begins.  Music can follow only what the player already knows: where they are, the time, the weather, the radio signal.
 - **Draft (Claudia):** exploration music stays mostly beatless (soft pulses and texture at most), because the game is turn-based and the player stops to think.  Real beats go to the radio and cities.
 
