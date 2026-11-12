@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.3, 2026-11-12**
+**Music v0.4, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -31,11 +31,13 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 
 ### Nathan's sung guide (Nathan, 2026-11-12)
 
-- Nathan recorded himself singing a guide line ("Darkness") to steer Kaze v2.  The recording stays off the repo.
+- Nathan recorded himself singing a guide line to steer Kaze v2: the melody of "Darkness," a song he wrote long ago.  The recording and lyrics stay off the repo.
 
 **Draft (Claudia), what the guide shows:** a low chant that recites on one home note (C) and circles it with half-step neighbors (B below, C sharp above), lifts a fifth to G with A flat on top, falls back home, then a coda that drops a fourth below home and sinks.  The notes around C are C, D flat, F, G, and A flat: the In scale, the same family as Kaze.  The pace is about one note per eighth at 72 BPM, Kaze's own tempo.
 
-### Kaze v2 (Draft, Claudia, awaiting Nathan's review)
+### Kaze v2
+
+- Nathan, 2026-11-12: v2 is better than v1.
 
 `riff_b_kaze_v2`: the full theme in A, 72 BPM, 12 bars, shaped by the guide with his reciting note moved to E so it lands inside Kaze.
 
@@ -69,5 +71,5 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Nathan reviews Kaze v2.
+- What Kaze v3 needs, if anything, after Nathan sits with v2.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
