@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.5, 2026-11-12**
+**Music v0.6, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -51,7 +51,24 @@ The music bible: sound, tools, the riff, and the radio's music.  Decisions are N
 
 Chords move A, F, C, E: the C is the one warm moment, and the E at the end of B leans back toward A.
 
-### Kaze v3: the song (Draft, Claudia, awaiting Nathan's review)
+### Kaze v4: the riff song (Draft, Claudia, awaiting Nathan's review)
+
+- Nathan, 2026-11-12: v3 went the wrong direction.  The full riff was good: those first 8 notes.
+
+`kaze_song_v4`: the song built on the whole 8-note riff (A E F E C B C A).  Every statement plays all 8 notes intact; only the instruments and the chords under it change.  About 1 minute 7, eight statements at 72 BPM, every note inside A B C E F.
+
+| Statement | Riff on | Under it |
+|---|---|---|
+| 1 | Koto alone | Nothing |
+| 2 | Koto | Bass: A, then F to A |
+| 3 | Shakuhachi, koto an octave under | Bass and drone |
+| 4 | Shakuhachi and koto | Drone and soft pulse: F, then C to A |
+| 5 | Bell, half speed | Pad, the warm one: C, then E to A |
+| 6 | Bell and koto | Cold pad and drone: F, then C to A |
+| 7 | Bell, koto, shakuhachi | Everything: the fullest point |
+| 8 | Koto alone | Home, into the wind |
+
+### Kaze v3: the song (superseded by v4)
 
 `kaze_song_v3`: the full song, core only, every note inside Kaze's set (A B C E F).  About 1 minute 50, 32 bars at 72 BPM, and it begins and ends in wind so it can loop.  v2's second voice in fourths (it hit a tritone, B over F) and the flute's flat scoop into each note are gone, and the koto is now tuned exactly.
 
@@ -87,5 +104,5 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Nathan reviews Kaze v3.
+- Nathan reviews Kaze v4.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.
