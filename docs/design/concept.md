@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.10, 2026-11-12**
+**Concept v1.11, 2026-11-12**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -279,6 +279,16 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No current plan to release on Steam: this is a project for Nathan, and anyone who plays will be people he knows.  Maybe one day.  No concerns about AI use.
 - **Draft (Claudia), fusions by cultural region** (Japanese base plus the second culture): spaceport coast, Persian santur and tar with koto; southern steppe, Mongolian throat singing and horsehead fiddle with taiko; west continent north, German motorik synth with shamisen; central-north island, Slavic choral folk with city pop; the empty east, Irish trad with Japanese min'yo (Kawa Fada's radio).  Off-world Union pop drifts in on night shortwave.
 - Pipeline (Nathan, 2026-11-11): Waveform (Tracktion) is the DAW; Claudia composes, Nathan reviews and finishes.  This replaces the earlier LMMS and Furnace draft.  The full music bible, including the riff, lives in `docs/design/music.md`.
+
+## Potential special NPCs (Nathan, 2026-11-12)
+
+A running list of special NPCs of all types.  Any run might get one.
+
+| Name | What makes them special |
+|---|---|
+| Pam | Intelligence 0.  Reckless.  Ignores every water rule: complains about people pooping in the stagnant water, then drinks it.  Gets dysentery, gives the camp log its best lines. |
+
+- **Draft (Claudia):** each special NPC has a small chance to appear per run, with optional conditions (a biome, a season, a settlement type), and turns up as an ordinary traveler or recruit, so meeting one is a surprise.
 
 ## Narrative presentation (Nathan, 2026-11-11)
 

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.120, 2026-11-12**
+**STATUS v0.121, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.11.  New list: Potential special NPCs.  First entry: Pam (Intelligence 0, drinks the stagnant water she complains about).
 
 - 2026-11-12 (Claudia): world.md v0.82, zones.md v0.53.  Nathan: salt zone values (key areas set, per-region baseline) and river flow direction set at generation, some stagnant.  Claudia's salinity (ppt, downstream flow) and flow rules approved; region file gains flow direction and speed.
 
