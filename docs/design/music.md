@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.19, 2026-11-12**
+**Music v0.20, 2026-11-12**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -60,6 +60,9 @@ Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio 
 | Shule Aroon | 81% | 73% | Several passing notes |
 | O'Carolan's Lament | 77% | 80% | Several passing notes |
 | The Parting Glass | 73% | 67% | D, G, G sharp |
+
+- Approach (Nathan, 2026-11-12): this first pass is to start getting the feel.  The Akai and Nathan's ear come next.  Lean on our strengths, and shift when we have to.
+- **Feel test v1 (Claudia, 2026-11-12):** Rory Dall's Sister's Lament, played as written at 60 BPM.  Koto plays the air once, then shakuhachi plays it with the koto under it, over a low A and E drone in the style of pipe drones.  It is built from the GPL transcription, so it stays off the repo and was sent to Nathan only.
 
 ## Sound (Nathan, 2026-11-11)
 
