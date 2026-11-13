@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.54, 2026-11-12**
+**Zones v0.55, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -235,7 +235,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - City space rules (Claudia, approved by Nathan 2026-11-12): the area is called the city space, made of districts (maps); districts connect by edge walking between neighbors and by the city map for jumps with travel time; each gate opens into a different district; ticking, catch-up, the M.U.L.E., and sensing work the same inside.
 - What can be seen from outside must exist inside (Claudia's point, agreed): this is a city design issue for us, not an engine concern.  Players usually see little from outside, but corridors and canals that cross the walls must be mapped inside (Nathan, 2026-11-12).
 - On the overworld, the land a city covers is blocked off: roughly 8 to 10 region cells, more or less depending on the city, that we do not have to do anything with, since they are technically inside the city.  Walls on the outskirts stop players from crossing.  If someone ever does cross, that is a bug, and it gets marked.  The generator may still generate things in the blocked cells, so the engine needs no special rule; the walls alone keep people out, and they are impenetrable to anything a player has.  Alternative if wall crossing is ever allowed: a player who crosses simply appears at the nearest gate, as if they had entered (Nathan, 2026-11-12).
-- **Draft (Claudia):** the city file lists its blocked region cells and wall line; the montage's pathfinding treats blocked cells as impassable except through a gate; the GM tool logs any position inside a blocked cell as a bug report.
+- (Claudia, approved by Nathan 2026-11-12) the city file lists its blocked region cells and wall line; the montage's pathfinding treats blocked cells as impassable except through a gate; the GM tool logs any position inside a blocked cell as a bug report.
 - An easy build mode is needed to create the cities.  This is the main reason cities wait until the game is established: much of what a city needs is built in the early stages (Nathan, 2026-11-11).  See mechanic #87c.
 - (Claudia, approved by Nathan 2026-11-11) the city as a hub:
   - The gate map is handcrafted: wall, gate, guards, the queue, the arrival event.  The first ID check happens here.

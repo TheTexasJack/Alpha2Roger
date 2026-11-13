@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.64, 2026-11-12**
+**Mechanics v0.65, 2026-11-12**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -96,11 +96,11 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 48 | Weapon feel | Decided | Snappy effects, short shake moments only, speed-up option |
 | 49 | Capture | Decided | Non-lethal tools (Draft) |
 | 50 | Coercion | Decided | Player can coerce NPCs |
-| 50b | Factions and beliefs | Open | To outline formally (Nathan, 2026-11-12): factions plus the beliefs they follow (for example slavery: some practice it, some do not), and a belief structure for individuals, since a faction member may or may not agree with the faction's beliefs |
+| 50b | Factions and beliefs | Open | To outline formally (Nathan, 2026-11-12): factions plus the beliefs they follow (for example slavery: some practice it, some do not), and a belief structure for individuals, since a faction member may or may not agree with the faction's beliefs.  Structure (Claudia, approved): belief axes (such as slavery, the Union, the infection, NHPs, androids, outsiders, heat and who owns it); each faction takes a stance on each axis, and each person holds their own stance, which can differ from their faction's, the source of defectors, informants, and conflicted guards |
 | 51 | Prisoner fates | Decided | Free, kill, or convert; no slave labor |
 | 52 | Prisoners turning | Decided | Unrescued prisoners may join their captors |
 | 52b | Released prisoners return | Decided | A prisoner let go might show up later |
-| 52d | Conditions | Open | To outline formally (Nathan, 2026-11-12): mental conditions, debuffs, illnesses, and other conditions that players and NPCs can get.  Hinted so far: light sanity (#12), dysentery from bad water, kuru, frostbite, snow blindness, carbon monoxide, cold hands, Intelligence drops (0 equals death in rare cases), wounds (#52c), crystal grafts (#95), traits (#37) |
+| 52d | Conditions | Open | To outline formally (Nathan, 2026-11-12): mental conditions, debuffs, illnesses, and other conditions that players and NPCs can get.  Hinted so far: light sanity (#12), dysentery from bad water, kuru, frostbite, snow blindness, carbon monoxide, cold hands, Intelligence drops (0 equals death in rare cases), wounds (#52c), crystal grafts (#95), traits (#37).  Structure (Claudia, approved): sorted into mind, body, environment, illness, and chosen; each with cause, effects, duration, cure or treatment, and whether it spreads |
 | 52c | Injuries | Decided | No limb mechanic; general wounds and conditions (Draft) |
 | 53 | Player capture instead of death | Decided | Kenshi style: wake up in the camp's prison; escape play (Draft) |
 | 54 | Death | Decided | The cold and the wild kill for real |

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.129, 2026-11-12**
+**STATUS v0.130, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.55, mechanics v0.65.  Nathan approved the city blocked-cells draft and the structures for conditions (#52d) and factions and beliefs (#50b).
 
 - 2026-11-12 (Claudia): concept v1.16, mechanics v0.64.  Nathan: Intelligence can reach 0 in rare cases (a gunshot, extreme infection), and 0 equals death.
 
