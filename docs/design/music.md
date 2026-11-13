@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.30, 2026-11-13**
+**Music v0.31, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -206,6 +206,8 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
   - Only one map is active at a time (`zones.md`); neighbors are frozen.  Distant calls come from the neighbors' stored contents, or for a map never visited, from its creatures rolled from the seed, so the creature you heard is there when you walk over.
   - Wind and storms mask distant calls; cold, still nights carry sound farther.  Hearing is the pilot's own sense; the M.U.L.E.'s scans add to it.
   - Recorded samples become raw material: slowed, pitched, and layered animal and outdoor sounds make alien creature voices.
+- Sounds of people and machines (Nathan, 2026-11-13): when recording, the enemies are trains, cars, neighbors, and people walking by.  A plane is fine: it can go in as a very distant sound, way overhead (which means an airport, for the other thread).  Some heard things need a feel in the game: boats (already established), and maybe automobiles near roads.  Forests are too wild and distant for cars; maybe walkers.  The picture is the United States around the turn of the century, with Model T style cars still struggling over long distances.  Trains are a thought for the other thread.
+- **Draft (Claudia), machine sounds follow the network:** engines only on and near roads, boats on ferry routes and water, planes as rare distant drones overhead; forests and wilds get footsteps, pack animals, and voices at most.  Early engines can be sourced from antique tractor and engine shows.
 - **Draft (Claudia), fit with the rules:** ambience follows only what the player knows (biome, time, weather), so it obeys the no-secret-knowledge rule.
 
 ## Open
