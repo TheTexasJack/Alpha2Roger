@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.95, 2026-11-13**
+**World v0.96, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -104,6 +104,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - Checked on the canon globe (Claudia, 2026-11-13): land backs this up.  Even with no ice at all, land blocks every sea lane around the planet in row 11; the only unbroken southern sea ring lies past 75 S, deep in row 12, inside the permanent ice.  The north has no sea ring at any latitude.  On foot over the caps in a cold year it is possible on paper, at -80 to -150 F.
 - **Draft (Claudia), sea ice by latitude:** past 66 degrees the sea is permanent pack ice, with no sailing; from 58 to 66 degrees it is seasonal, open in the summer of a normal year and frozen in winter and through the cold year.  The northern ferry route to Kawa Fada runs in that seasonal band (zones.md, Routes), which is what makes it seasonal.
 - Thermal icebreakers (Nathan, 2026-11-13): a potential future tech, and it slots right into the idea of money: only the rarest of the rare would have one, even in the far future.  A late-game upgrade for the player, for world sea travel (mechanic #72e).
+- Icebreaker over flier (Nathan, 2026-11-13): a thermal icebreaker would still be better than trying to tech a flier, because the airflow works against keeping things warm.
+- Physics note (Claudia): airflow does not stop heat being made; at flight speed it strips heat away far faster (wind chill).  The bigger gap is the surroundings: an icebreaker's hull sits in seawater, which cannot get much colder than about -2 C (28 F) without freezing, while a flier sits in air at -60 to -100 C (-80 to -150 F).  Today's jet fuel freezes at about -47 C, and seals, batteries, and many metals fail well before -100 C.  A cold-rated flier is possible but costs far more to build and run, which fits the money rule.
 - **Draft (Claudia):** real icebreakers today, nuclear ones included, break ice about 3 m thick; a thermal one melts its channel, so it can push into pack ice nothing else can.  For the player it keeps the northern route to Kawa Fada open through winter, and it opens the one southern sea ring past 75 S.  In a cold year the frozen sea is also an ice road for walkers and sleds, so the icebreaker matters most in normal-year winters and on long hauls.
 - **Draft (Claudia):** geothermal valleys are cold-year refuges for animals, clans, and the player, with built-in dangers (boiling pools, gas pockets, thin crust).  The Frostpunk cities sit on geothermal sites, which is why they are where they are.  Salt from the salt lakes preserves food for the cold-year stockpile, making it a precious trade good.
 
