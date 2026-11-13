@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.56, 2026-11-12**
+**Zones v0.57, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -142,6 +142,13 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Landmarks: ID, type, address, tier (canon or seeded), short note.  Spawners are landmarks with a spawner type.
 - Linked-map entrances: address, kind (cave, cellar, bunker, dungeon), what is behind it (template ID or generated), size, number of floors.
 - R5 has no roads or paths today; its route list starts empty.
+
+## Save file
+
+- Free saving (Nathan, 2026-11-13).  Ironman modes always felt weird: just don't load it.  An optional counter can show how many times a save was loaded, for players who want to show it.  Saves are also an easy way to recover from crashes and bugs.
+- Automatic and manual saves (Nathan, 2026-11-13): an autosave at the start of each day, with a number of autosaves kept as backups, set in the system menu (maximum 20).  Manual saves at any time.
+- **Draft (Claudia):** during a montage, autosave once when the trip starts and once when it stops, since daily autosaves would burn through every slot on a long trek; on foot, every dawn.  Default kept: 5 (1 to 20), oldest rolled off first.  Manual saves are kept separately and never rolled off.  The load counter lives in the save's info.
+- **Draft (Claudia), save contents:** a folder with (1) a manifest: save format version, game version, generator version (pinned), seed, real created and played times, playtime, game date and place in the cold cycle, start settings (Intelligence 1 challenge, tracker count, difficulty); (2) people: the player (stats, skills, talents, conditions, gear, address), the lineage (original pilot or successor, past characters), the camp roster (companions and androids, relationships, moods, traits), the M.U.L.E. (battery, scan mode, money, MULEpad pins, tracker location); (3) the world, only what changed: changes by address, baked maps as separate files, the watch list with last-visited days, off-map sites, factions (reputation, charters, stance changes), story (quest flags, legal battle, inbox, comics seen), discovery (visited maps and cells), the camp log; (4) a checksum to catch corrupted saves.
 
 ## Edge IDs (Claudia, approved by Nathan 2026-11-12)
 
