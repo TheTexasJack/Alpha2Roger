@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.165, 2026-11-13**
+**STATUS v0.166, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v1.04.  Parked inspiration for flora and fauna (a talk on life and metals) in Life, with draft hooks: metal-hungry plants that point to ore, the terraformers' oxygen driving old native life underground, and the shared simple-molecule cycles between mirror and Terran life.
 
 - 2026-11-13 (Claudia): world.md v1.03.  Nathan approved: cold years tip air power toward the cities that can afford cold-rated planes; feuds get a cold-year rhythm.
 

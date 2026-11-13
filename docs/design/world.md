@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v1.03, 2026-11-13**
+**World v1.04, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -215,6 +215,12 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - **Draft (Claudia):** animals evolved around the three-year cycle: fattening before the cold year, then migrating or hibernating, so herd movement is another warning sign.
 - **Draft (Claudia):** the infection is the one deliberate exception to "physics stays real," a paracausal mystery that is never fully explained, like the crash.  Each infected place centers on an impact crater landmark; the infection wakes with the thaw after a cold year, and can infect native fauna.
 
+- Parked for the flora and fauna work (Nathan, 2026-11-13): a talk on life and metals, shared as inspiration.  Its points: carbon beats silicon because carbon is far more common, life leans on metals to drive its chemistry, Earth's banded iron rocks record microbes meeting oxygen, and nitrogen has to be fixed into ammonia before life can use it.
+- **Draft (Claudia), hooks from it:**
+  - It backs what we have: carbon-based natives, with the crystal infection as the one silicon-flavored exception.
+  - Metal-hungry native plants.  Real plants hoard metals (some trees bleed nickel-rich sap, and the copper flower grows only over copper deposits), so native flora can point to ore.  The paste printer takes no metals, so printing them leaves metal behind as salvage.
+  - The terraformers' oxygen was a small Great Oxidation Event for native life.  Natives that could not take it retreated to caves, deep water, and under the ice, so underground holds the oldest Verlassen life.
+  - Water, carbon dioxide, ammonia, and nitrate have no handedness, so mirror life and Terran life share the air, the water, and the soil's nitrogen even though neither can eat the other.
 ## Roads and bridges
 
 - A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
