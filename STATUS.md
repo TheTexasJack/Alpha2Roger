@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.164, 2026-11-13**
+**STATUS v0.165, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v1.03.  Nathan approved: cold years tip air power toward the cities that can afford cold-rated planes; feuds get a cold-year rhythm.
 
 - 2026-11-13 (Claudia): world.md v1.02, zones.md v0.68, mechanics v0.81, planet file v0.14.  Nathan: every city has a military and a military air base (centralized, they must defend themselves); Setareh Minato and Svetla Hama add civil airports.  Draft: cold years shift power toward cities that can afford cold-rated planes.
 
