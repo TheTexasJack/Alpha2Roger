@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.143, 2026-11-13**
+**STATUS v0.144, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.86, AGENTS v0.7, new `tools/culture_map.py` v0.1.  Nathan approved the stations and culture map drafts: similar styles grouped, Japanese base left off the map, Kawa Fada to Shio Loch one culture, culture is not ideals (cities and rulers set those).  Culture map built (`tools/data/culture_map.json`, `assets/maps/verlassen_culture_v0.1.png`); matches the music areas below the ice line.  Draft: polar land as base only.  Next: music areas read the culture map.
 
 - 2026-11-13 (Claudia): world.md v0.85.  Nathan: radio and news feed off the culture map, not the music areas (overlap is fine; they are flavor: simple musical elements, voice recordings); weather is separate.  Drafts: stations take their place's cultural region; split a culture map out of `tools/music_areas.py` so culture feeds music, radio, and news.
 

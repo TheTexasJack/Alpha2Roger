@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.85, 2026-11-13**
+**World v0.86, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -15,8 +15,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - (Claudia, approved by Nathan 2026-11-12) a handheld radio cannot catch a broadcast from 50 light years away, so the spaceport's big dish catches the old light-speed broadcasts and local stations rebroadcast them (an "old news hour" on the M.U.L.E.'s radio).  That makes two speeds of news: old light-lagged news free on the radio, and live omninet contact through the spaceport, instant and expensive, the same channel the legal battle's messages use, costing Manna per transmission.
 - Radio and news feed off the culture map, not the other way, and not off the music areas (Nathan, 2026-11-13).  There will be some overlap with the music, but radio and news are mostly flavor elements we need to record: simple musical elements, voice recordings, and things we can create regardless of anything else.
 - Weather is different and is not part of the radio and news flavor (Nathan, 2026-11-13).
-- **Draft (Claudia), stations:** each station belongs to a place (one of the ten, or a seeded settlement) and takes that place's cultural region from the planet file; the player hears whichever stations are in range (radio ranges in `zones.md`).
-- **Draft (Claudia), culture map:** today the only every-spot culture map lives inside `tools/music_areas.py` (land takes the culture of the nearest place reachable overland).  Split it out as its own culture map (`tools/culture_map.py` writing `tools/data/culture_map.json`); music areas then read the culture map and add their own music-only layers (sea shanty, ice dread, Overall, shore water), and radio, news, and settlement names read the culture map too.  Culture feeds music, radio, and news; music feeds nothing.
+- Stations (Claudia, approved by Nathan 2026-11-13): each station belongs to a place (one of the ten, or a seeded settlement) and takes that place's cultural region from the planet file; the player hears whichever stations are in range (radio ranges in `zones.md`).
+- Culture map (Claudia, approved by Nathan 2026-11-13; built, see Culture map): until now the only every-spot culture map lived inside `tools/music_areas.py` (land takes the culture of the nearest place reachable overland).  Split it out as its own culture map (`tools/culture_map.py` writing `tools/data/culture_map.json`); music areas then read the culture map and add their own music-only layers (sea shanty, ice dread, Overall, shore water), and radio, news, and settlement names read the culture map too.  Culture feeds music, radio, and news; music feeds nothing.
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
 - Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
 - **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
@@ -307,6 +307,16 @@ Japanese is the base everywhere.  Each cultural region's second culture flavors 
 | The empty east | Gaelic (Irish) | Japanese first | Shio Loch, Kawa Fada |
 
 - The point is easy generation: the cultural region tells the generator which culture and word order to use.
+
+## Culture map (Nathan, 2026-11-13)
+
+- Areas with similar styles are grouped.  Japanese is the base and influences everything, so the map ignores it and records only the second culture.
+- Kawa Fada to Shio Loch is one culture, since they are the same type; the other groupings work the same way.
+- Culture does not mean the same ideals.  Ideals are set by the cities and their rulers, who might still share a culture.
+- Built by `tools/culture_map.py` v0.1: `tools/data/culture_map.json` (one digit per globe pixel) and `assets/maps/verlassen_culture_v0.1.png`.  Land takes the second culture of the nearest place reachable overland, the same rule the music areas used; water, and land with no place on its landmass (U5, W5, U6, M8), are base only.  Below the ice line it matches the music areas pixel for pixel.
+- Share of land: Gaelic 44.6%, Mongolian 30.7%, Persian 8.4%, Slavic 8.3%, German 7.7%, base only 0.3%.  About 35% of all land lies past the ice line (58 degrees), and most of it reads Gaelic (the north cap) or Mongolian (the south cap).
+- **Draft (Claudia), polar land:** land past the ice line is base only, since nobody lives on the caps.  That leaves Gaelic at 16.7% and Mongolian at 23.8% of land.  Music keeps ice dread there either way.
+- Next: `tools/music_areas.py` reads the culture map and adds its music-only layers, with its output unchanged.
 
 ## Government
 

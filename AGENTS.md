@@ -1,6 +1,6 @@
 # AGENTS.md: Rules for AI collaborators
 
-**AGENTS v0.6, 2026-11-13**
+**AGENTS v0.7, 2026-11-13**
 
 This file is for any AI working in this repository: Claudia (Claude, in chat or Claude Code), Mara (ChatGPT or Codex), or anyone else.  Read it fully before changing anything.
 
@@ -41,8 +41,8 @@ This file is for any AI working in this repository: Claudia (Claude, in chat or 
 | `assets/art/` | Art references and finished art | Nathan and Mara |
 | `assets/audio/music/drafts/` | Claudia's music drafts: MIDI plus preview renders | Claudia |
 | `assets/audio/music/` | Finished music, mixed by Nathan in Waveform, exported as OGG | Nathan |
-| `tools/` | Python world tools (globe, pins, territories, names, planet pack, music areas, region generator) | Claudia |
-| `tools/data/` | Data the tools and the game read (places, names, planet, music areas, `regions/`) | Claudia |
+| `tools/` | Python world tools (globe, pins, territories, names, planet pack, culture map, music areas, region generator) | Claudia |
+| `tools/data/` | Data the tools and the game read (places, names, planet, culture map, music areas, `regions/`) | Claudia |
 | `game/` | The Godot 4 project (created in Stage S or Stage 1) | Claudia |
 
 ## Lanes
