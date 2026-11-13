@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.22, 2026-11-13**
+**Concept v1.23, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -320,6 +320,7 @@ A running list of special NPCs of all types.  Any run might get one.
 - Wilderness is random per seed.
 - Wilderness biomes are tied to a fixed climate layer.
 - Crash site: the player selects a crash region or picks random.  Always away from civilization.  Crashing far from the spaceport can mean years of travel; if that is an issue, do not pick a crash site that far, or live with the random roll.
+- Two starts (Nathan, 2026-11-13): a fixed "Tutorial Start" at S1, one click, and a "Random Start" (`zones.md`, Build order).
 - **Draft (Claudia):** the crash selection screen shows a rough distance to the spaceport for each region.
 - Zone distances are set between fixed areas.  Exact route lengths are decided when we design the maps (since 2026-11-11 they are calculated by pathfinding; see `zones.md`, Routes).
 - Zone based, not open world.

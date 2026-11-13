@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.81, 2026-11-13**
+**Mechanics v0.82, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -141,7 +141,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
-| 71 | Crash site selection | Decided | Pick a region or random; always away from civilization; distance shown (Draft) |
+| 71 | Crash site selection | Decided | Pick a region or random; always away from civilization; distance shown (Draft).  Two starts (Nathan, 2026-11-13): a fixed Tutorial Start at S1, one click, and a Random Start |
 | 72 | Journey prep | Decided | Weight limits, supply caches, who stays behind, point of no return |
 | 72b | Boats | Decided | Needed for lakes, rivers, and seas.  From rafts to river boats and coastal craft; river crossings on the montage (Draft) |
 | 72d | Androids | Later | Creating and building androids in three tiers (Nathan): tier 1 clunkers (basic Star Wars droids, Fallout's first-generation synths); tier 2 human-like (think C-3PO or HK-47); tier 3 super soldier.  Tier 2 has real personalities but is a reprogrammable droid, lesser than a person; tier 3 is a big robot with lots of guns.  Camp-cap slot, built from salvage, battery and cold upkeep (Draft) |
