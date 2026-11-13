@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.32, 2026-11-13**
+**Music v0.33, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -17,6 +17,7 @@ Nathan asked for these notes so the music thread can see what changed outside it
 7. **Words.**  "Region" now means a map square (A to X, 1 to 12); the five culture groups are "cultural regions."  Lines in this file that say region in the culture sense were left as written.  Music thread follow-up (2026-11-13): Claudia's drafts now say "cultural region"; Nathan's own lines keep his words.
 8. **Elsewhere.**  `concept.md` Music: the old fusions-by-cultural-region draft is marked older and points here (2026-11-13 review).  The planet file points to the music files by path only, with no versions, so music changes never force a planet file change.
 9. **Train sounds** (Nathan, 2026-11-13, an idea for when the music thread reaches it).  A spaceport-run bullet train now runs city to city and plows through ice, snow, animals, and avalanches (`world.md`, The rail line).  Nathan wants distant sounds that tell the player the train is coming, so people know what the rumbling and all of the cracking is.  Nothing was composed or changed for this; it is a note only.
+10. **Tech level** (Nathan, 2026-11-13, said in the zones thread).  The Model T style cars in Sounds of people and machines were a concept for the aura, not literal.  The tech level is on par with Nausicaa: wood and almost medieval areas, but everybody might have some guns, flamers, basic things.  There are definitely big airplanes, and a train.  Worth a look against the machine sounds draft; nothing in this file was changed except this note.
 
 ## Tools and pipeline (Nathan, 2026-11-11)
 

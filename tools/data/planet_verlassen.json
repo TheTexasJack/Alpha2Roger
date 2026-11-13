@@ -1,9 +1,9 @@
 {
- "version": "0.9",
+ "version": "0.10",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.9",
+ "generated_by": "tools/planet_pack.py v0.10",
  "sources": {
-  "world": "docs/design/world.md v0.97",
+  "world": "docs/design/world.md v0.98",
   "zones": "docs/design/zones.md v0.64",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
@@ -825,7 +825,11 @@
    "line": "cycles around to cross all the towns",
    "undersea": "underwater rails or waterproof tunnels at a couple of crossings; deadly to walk",
    "train": "bullet train with a front piercer; plows through ice, snow, animals, creatures, avalanches",
-   "in_game": "fast travel from city to city",
+   "in_game": [
+    "fast travel from city to city",
+    "track-side event: when the player builds next to the track, the train occasionally crosses and hits everything"
+   ],
+   "tunnels": "two crossings; each is a point, an explanation of where it connects, and a map (endpoints still drafts)",
    "source": "docs/design/world.md, The rail line (Nathan, 2026-11-13)"
   },
   "types": [
@@ -955,7 +959,7 @@
   "road paths drawn on the globe (the generator's routes layer)",
   "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
   "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
-  "rail: pathway, stations, schedule, ticket prices",
+  "rail: stations, schedule, ticket prices, tunnel endpoints",
   "the two brothers' names",
   "who runs the region's space station"
  ]

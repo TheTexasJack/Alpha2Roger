@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.97, 2026-11-13**
+**World v0.98, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -227,6 +227,7 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 ## The rail line (Nathan, 2026-11-13)
 
 - A Snowpiercer-style train runs from city to city.  It is boarded only in a city; there are no stops out in the forest where a player can jump on.  In the game it is fast travel from city to city.
+- Game mechanics (Nathan, 2026-11-13): only two things to code.  Fast travel between cities, and an occasional event when the player builds next to the track: the train crosses and hits everything.  It is flavor disguised as a combat mechanic, but mostly fast travel.  Distances and science do not need modeling.  Each of the two tunnel crossings needs only a point, an explanation of where it connects, and a map that shows where it is.
 - The spaceport (Setareh Minato) controls it, which controls the money.  The line cycles around to cross all the towns.
 - It is essentially a bullet train with a front piercer that breaks up ice, snow, animals, creatures, anything in its way.  An avalanche over the train does not matter; it keeps moving.
 - Undersea crossings use underwater rails or waterproof tunnels.  This far in the future, after terraforming and space travel, that is easy.  Only a couple of crossings need it.
@@ -236,8 +237,11 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - Checked on the canon globe (Claudia): the crossings are the west continent to the south and east continent (about 800 km of sea at H8) and out to the central island of Svetla Hama and Zimna Toride (about 3,100 km).  On land the legs are long: Kawa Fada to Shio Loch alone is about 11,000 km in a straight line, longer than the Trans-Siberian, the longest real line, at about 9,300 km.
 - **Draft (Claudia):** every one of the ten places is a station.  On land the track follows the road corridors, so roads, rail, and the aggregators' power lines share one corridor.
 - **Draft (Claudia), heated track:** Japan's Joetsu Shinkansen sprays warmed water to keep snow off its tracks.  Here the aggregators' power heats the rails, and the piercer handles everything else.
-- Open: map the pathway (the generator's routes layer), the stations, the schedule, and ticket prices.
-- From the music thread (2026-11-13): Nathan's sound notes there say a plane is fine as a very distant sound way overhead, which means an airport somewhere, and that cars on the roads look like the turn-of-the-century United States, Model T style cars still struggling over long distances.  **Draft (Claudia):** the spaceport at Setareh Minato doubles as the airport, which keeps fliers in the spaceport's money, and the bullet train stands out as the one piece of high tech crossing a Model T world.
+- **Draft (Claudia), tunnel A:** from the west continent's coast in H8 (about 16 S, 71 W, a few hundred km down the coast from Setareh Minato) to the south and east continent's coast in H8 (about 20 S, 66 W).  It joins the spaceport's continent to Ikh Gawa's, along the same crossing the cold-year sea ice turns into a land trip.
+- **Draft (Claudia), tunnel B:** from the central island's south coast in J4 to the west continent's coast in H5, near Darya Kako.  With both tunnels touching the spaceport's continent, it becomes the hub every through trip passes, which suits the spaceport owning the line.  (The other choice, O3 near Zimna Toride to R3 on the south and east continent, is about the same length but leaves the spaceport at one end.)
+- Open: the stations, the schedule, and ticket prices; the map that shows the two tunnels.
+- From the music thread (2026-11-13): Nathan's sound notes there say a plane is fine as a very distant sound way overhead, which means an airport somewhere, and that cars on the roads look like the turn-of-the-century United States, Model T style cars still struggling over long distances.  **Draft (Claudia):** the spaceport at Setareh Minato doubles as the airport, which keeps fliers in the spaceport's money.
+- Tech level (Nathan, 2026-11-13): Model T style cars were a concept for the aura, not literal.  The tech level is on par with Nausicaa: wood and almost medieval areas, but everybody might have some guns, flamers, basic things.  There are definitely big airplanes, and in this case a train.
 
 ## Population
 

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.159, 2026-11-13**
+**STATUS v0.160, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.98, concept v1.22, mechanics v0.78, planet file v0.10, music.md v0.33 (note 10).  Nathan narrowed the rail line to two coded things: fast travel between cities, and the track-side event (the train crosses and hits everything).  Tunnels are a point, an explanation, and a map; no distances or science to model.  Tech level restated: Nausicaa (wood, almost medieval, some guns, flamers; big airplanes and a train); Model T cars were aura only.  Drafts: tunnel A (H8 to H8, spaceport continent to Ikh Gawa's) and tunnel B (J4 to H5, island to the spaceport continent).
 
 - 2026-11-13 (Claudia): the rail line.  world.md v0.97 (new section, The rail line), zones.md v0.65, mechanics v0.77 (#72f), planet file v0.9 (`routes.rail`), music.md v0.32 (note 9 for the music thread: train sounds, note only).  Nathan: spaceport-run bullet train with a front piercer, boarded only in a city, fast travel city to city; undersea tunnels at a couple of crossings, deadly to walk; bait raiders onto the track.  Drafts: all ten places are stations, track in the road corridors, heated rails.  Open: map the pathway.
 

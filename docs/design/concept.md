@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.21, 2026-11-13**
+**Concept v1.22, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -455,6 +455,7 @@ A running list of special NPCs of all types.  Any run might get one.
 - RimWorld has a style; we decide later whether to borrow it or adapt what works in our world.
 - Some conventions simply persist, such as see-through roofs and the top-down camera angle.
 - Style: Nausicaa of the Valley of the Wind is the way to go.  Small settlements are simple, almost medieval, but there are rifles, machines, robots, mutants, and even high tech in places.  Planes of a sort are rare, but a thing.
+- Tech level, restated (Nathan, 2026-11-13): on par with Nausicaa.  Wood and almost medieval areas, but everybody might have some guns, flamers, basic things; definitely big airplanes, and a train (`world.md`, The rail line).  Model T style cars were a concept for the aura only.
 - **Draft (Claudia):** Nausicaa's creeping, toxic wilderness echoes our infection; it inspires the feeling only, with no borrowed creatures or designs.
 - Interface: when the player opens a menu to look at stats, it should feel like opening a menu on the M.U.L.E., even when it is not nearby.  Maybe a wrist display, Fallout style but more advanced.
 - The menus never break, even while the M.U.L.E. is captured: the wrist unit keeps a cached link, maybe with a "signal lost" flicker, but stats always open (Claudia, approved by Nathan 2026-11-11).
