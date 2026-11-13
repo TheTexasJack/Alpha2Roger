@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.75, 2026-11-13**
+**Mechanics v0.76, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -11,7 +11,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 
 | # | Mechanic | Status | Notes |
 |---|---|---|---|
-| 1 | Planet data module | Decided | Fixed map, places, biomes, rules as data; new planets need no engine rewrite |
+| 1 | Planet data module | Decided | Fixed map, places, biomes, rules as data; new planets need no engine rewrite.  The planet's environmental enemy (temperature, exposure, infection) is data too, never cold written into the code (approved 2026-11-13) |
 | 2 | Seeded zone generator | Decided | Fixed places, random wilderness per seed, zone distances between fixed areas |
 | 3 | Zone tile maps | Decided | Grid based, generated from seed plus biome |
 | 4 | Delta saves | Decided | Save only what the player changed; maps the player builds on get baked.  Free saving, dawn autosaves, manual saves, playthrough names, JSON with an escape hatch (`zones.md`, Save file) |

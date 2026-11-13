@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.157, 2026-11-13**
+**STATUS v0.158, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): concept v1.21, mechanics v0.76.  Nathan approved: the planet's environmental enemy is data in the planet module, never cold written into the code (#1).  Applies from A2R-103 on.
 
 - 2026-11-13 (Claudia): concept v1.20, mechanics v0.75.  Nathan approved the shown-not-flown off-planet ending: an orbital launch would remove the cold as the enemy.  Expansions go to new planets with their own environmental enemy (heat, infection).  Draft: the planet's enemy lives in the planet module as data, not cold written into code.
 
