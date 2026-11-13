@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.156, 2026-11-13**
+**STATUS v0.157, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): concept v1.20, mechanics v0.75.  Nathan approved the shown-not-flown off-planet ending: an orbital launch would remove the cold as the enemy.  Expansions go to new planets with their own environmental enemy (heat, infection).  Draft: the planet's enemy lives in the planet module as data, not cold written into code.
 
 - 2026-11-13 (Claudia): concept v1.19, mechanics v0.74.  Nathan: no orbital play in this design; spaceships and orbit belong to the expansions (#87).  Draft: the off-planet ending is shown, not flown, and hands off to an expansion.  Also pointed the old "route lengths decided later" line in concept to the pathfinding rule.
 

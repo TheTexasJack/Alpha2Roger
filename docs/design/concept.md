@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.19, 2026-11-13**
+**Concept v1.20, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -325,7 +325,10 @@ A running list of special NPCs of all types.  Any run might get one.
 - Zone based, not open world.
 - Future planets are planned from the start: each planet is built as a data module, so new planets do not require engine rewrites.
 - No orbital play in this design (Nathan, 2026-11-13): spaceships and orbit belong to the expansions, beyond this design.
-- **Draft (Claudia):** the off-planet pieces of this design ("get yourself off planet" in the premise, and the "build your own way off planet" ending) stay as an ending milestone that is shown, not flown: it closes this game and hands off to an expansion.
+- (Claudia, approved by Nathan 2026-11-13) the off-planet pieces of this design ("get yourself off planet" in the premise, and the "build your own way off planet" ending) stay as an ending milestone that is shown, not flown: it closes this game and hands off to an expansion.
+- Why (Nathan, 2026-11-13): an orbital launch removes the cold as the enemy and negates what we are building.
+- Expansions (Nathan, 2026-11-13): future expansions move to new planets with their own issues, such as heat as the enemy or infection: environmental targets that change how the game is played.
+- **Draft (Claudia):** build the survival systems so the planet's enemy is data in the planet module (temperature, exposure, infection) rather than cold written into the code, so a heat planet reuses the same systems (mechanic #1).
 - Idea: after two or three expansions, the player can return to the first planet and find their old crashed mech, while flying something far better than that old mess.
 
 ## Licenses and the scrap mech
