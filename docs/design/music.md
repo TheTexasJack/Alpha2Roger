@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.29, 2026-11-13**
+**Music v0.30, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -198,6 +198,14 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 - Keep an ear out for crickets, night sounds, rivers, and water.  Nathan may record a lot of it himself on his phone.
 - **Draft (Claudia), recording tips:** set the phone down instead of holding it; shield it from wind (foam, or a sock over the mic); use a recorder app that saves uncompressed audio with noise reduction and auto gain off; record 3 to 5 minutes per take so there is room to cut clean loops; go late at night or early morning, away from roads, air conditioners, and planes; avoid catching people's voices; name each file with what, where, and when.
 - Nathan's recording list (2026-11-12): his older phones as dedicated recorders; Lake Texoma; storms; boat motors (the world has boats); Foley at home, as he and Alex did for a Remnant video.  The cold works in our favor: it is a cold world.  Highway 75 carries on some nights.
+- Layered sound (Nathan, 2026-11-13, idea): layer sounds the same way we layer maps.  A base sound for the area around us: wind in the trees for forest, wind in the grass for open flats and plains, wind over sand for desert.  Each creature on the map gets its own sound that plays now and then, and creatures on the nearby maps play very distant.  Nathan's own samples from outside are not viable directly.
+- **Draft (Claudia), layered sound:**
+  - Stack, bottom to top: base bed (biome), time of day, weather, creature calls, then music and radio.
+  - Each creature is a data entry with its own voice (calls, how often, how far it carries), like planets as data modules.
+  - Hearing is something the character really perceives, so it keeps the no-secret-knowledge rule as long as it is honest: a call plays only when that creature is really there and in earshot.
+  - Only one map is active at a time (`zones.md`); neighbors are frozen.  Distant calls come from the neighbors' stored contents, or for a map never visited, from its creatures rolled from the seed, so the creature you heard is there when you walk over.
+  - Wind and storms mask distant calls; cold, still nights carry sound farther.  Hearing is the pilot's own sense; the M.U.L.E.'s scans add to it.
+  - Recorded samples become raw material: slowed, pitched, and layered animal and outdoor sounds make alien creature voices.
 - **Draft (Claudia), fit with the rules:** ambience follows only what the player knows (biome, time, weather), so it obeys the no-secret-knowledge rule.
 
 ## Open
