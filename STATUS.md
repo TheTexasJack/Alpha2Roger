@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.153, 2026-11-13**
+**STATUS v0.154, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.95, mechanics v0.72.  Nathan: thermal icebreakers as potential future tech, rarest of the rare because money limits it; a late-game player upgrade for world sea travel (#72e).
 
 - 2026-11-13 (Claudia): world.md v0.94.  Nathan: the southern seas are ice, so no travel around the globe along rows 11 and 12; confirmed on the globe (land blocks row 11 anyway; the only southern sea ring is past 75 S).  Draft: permanent sea ice past 66 degrees, seasonal from 58 to 66 (where the Kawa Fada ferry runs).
 
