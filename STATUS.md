@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.135, 2026-11-13**
+**STATUS v0.136, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.58.  Nathan approved the save drafts; daily autosaves on the local map; manual saves capped at 50 per playthrough (adjustable or removable); each playthrough has a name picked at world build that organizes its saves.
 
 - 2026-11-13 (Claudia): zones.md v0.57, new Save file section.  Nathan: free saving with an optional load counter; autosave at the start of each day, number kept set in the system menu (max 20); manual saves anytime.  Drafts: montage autosave rule, defaults, save contents.
 

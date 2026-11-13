@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.57, 2026-11-13**
+**Zones v0.58, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -147,8 +147,12 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 
 - Free saving (Nathan, 2026-11-13).  Ironman modes always felt weird: just don't load it.  An optional counter can show how many times a save was loaded, for players who want to show it.  Saves are also an easy way to recover from crashes and bugs.
 - Automatic and manual saves (Nathan, 2026-11-13): an autosave at the start of each day, with a number of autosaves kept as backups, set in the system menu (maximum 20).  Manual saves at any time.
-- **Draft (Claudia):** during a montage, autosave once when the trip starts and once when it stops, since daily autosaves would burn through every slot on a long trek; on foot, every dawn.  Default kept: 5 (1 to 20), oldest rolled off first.  Manual saves are kept separately and never rolled off.  The load counter lives in the save's info.
-- **Draft (Claudia), save contents:** a folder with (1) a manifest: save format version, game version, generator version (pinned), seed, real created and played times, playtime, game date and place in the cold cycle, start settings (Intelligence 1 challenge, tracker count, difficulty); (2) people: the player (stats, skills, talents, conditions, gear, address), the lineage (original pilot or successor, past characters), the camp roster (companions and androids, relationships, moods, traits), the M.U.L.E. (battery, scan mode, money, MULEpad pins, tracker location); (3) the world, only what changed: changes by address, baked maps as separate files, the watch list with last-visited days, off-map sites, factions (reputation, charters, stance changes), story (quest flags, legal battle, inbox, comics seen), discovery (visited maps and cells), the camp log; (4) a checksum to catch corrupted saves.
+- (Claudia, approved by Nathan 2026-11-13) during a montage, autosave once when the trip starts and once when it stops, since daily autosaves would burn through every slot on a long trek; on foot, every dawn.  Default kept: 5 (1 to 20), oldest rolled off first.  Manual saves are kept separately and never rolled off.  The load counter lives in the save's info.
+- Save contents (Claudia, approved by Nathan 2026-11-13): a folder with (1) a manifest: save format version, game version, generator version (pinned), seed, real created and played times, playtime, game date and place in the cold cycle, start settings (Intelligence 1 challenge, tracker count, difficulty); (2) people: the player (stats, skills, talents, conditions, gear, address), the lineage (original pilot or successor, past characters), the camp roster (companions and androids, relationships, moods, traits), the M.U.L.E. (battery, scan mode, money, MULEpad pins, tracker location); (3) the world, only what changed: changes by address, baked maps as separate files, the watch list with last-visited days, off-map sites, factions (reputation, charters, stance changes), story (quest flags, legal battle, inbox, comics seen), discovery (visited maps and cells), the camp log; (4) a checksum to catch corrupted saves.
+- The daily autosaves happen on the player (local) map; on a montage, saving happens only as it starts and when it stops (Nathan, 2026-11-13).
+- Manual saves: a maximum of 50 per playthrough, with a system menu option to change the number or remove the cap (Nathan, 2026-11-13).
+- Each playthrough has a name, picked by the player when they build the world.  The name organizes the saves and other things (Nathan, 2026-11-13).
+- **Draft (Claudia):** at the manual cap, the game asks which save to overwrite rather than refusing; the playthrough name is the save folder's name and shows on the load screen and the camp log's title; if the player leaves it blank, a default is offered from the seed and start (for example "2718 S1").
 
 ## Edge IDs (Claudia, approved by Nathan 2026-11-12)
 
