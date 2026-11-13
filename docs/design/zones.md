@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.67, 2026-11-13**
+**Zones v0.68, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -196,7 +196,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Ferries run between the coastal towns 1, 8, 2, 4, 9, 10 (Setareh Minato, Darya Kako, Ikh Gawa, Svetla Hama, Zimna Toride, Kawa Fada).
 - Ferry rule (Claudia, approved by Nathan 2026-11-13): any ferry town reaches any other by sea, routed by sea pathfinding, so the route to Kawa Fada runs through the strait by itself.
 - Rail (Nathan, 2026-11-13): a spaceport-run train is fast travel from city to city, boarded only in a city.  Its undersea tunnels are deadly to walk: a warning, then the train.  Eight stations on one loop: Setareh Minato, tunnel H8, Ikh Gawa, Davs Mizuumi, Kawa Fada, Shio Loch, tunnel V5 to V6, Khaluun Onsen, Warmes Tani, Darya Kako.  Svetla Hama and Zimna Toride are reached by plane or ferry.  Details in `world.md`, The rail line (mechanic #72f).
-- Air (Nathan, 2026-11-13): airports at Setareh Minato and Svetla Hama; a ticket between them is fast travel to the island.  Other fields are military, closed to the player.  Details in `world.md`, Airports (mechanic #72g).
+- Air (Nathan, 2026-11-13): airports at Setareh Minato and Svetla Hama; a ticket between them is fast travel to the island.  Every city also has a military air base, closed to the player.  Details in `world.md`, Airports (mechanic #72g).
 - Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato and Zimna Toride each sit about 190 to 195 km from the nearest coast (corrected 2026-11-13; first measured as about 180 and 300 km).  Svetla Hama sits about 670 km from the open sea; the shore it is named for is a small lake about 60 km away (open item).
 - Ferries to Kawa Fada (10) are long: they go out to the left, through the strait near Shio Loch, and then on down to Kawa Fada (Nathan, 2026-11-11).
 - Checked on the canon globe (Claudia): Kawa Fada sits on an enclosed inner sea whose only opening below the ice line is the strait at X3 and W4, beside Shio Loch (V4).  The traced route from Ikh Gawa runs north past Darya Kako, west along row 3, across the map's wrap edge to X3, through the strait, and south to Kawa Fada: about 42,000 km, roughly 2 to 3 months at ferry speeds, with about 8,000 km along 58 N at the edge of the ice.

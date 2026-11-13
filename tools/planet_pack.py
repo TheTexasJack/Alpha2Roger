@@ -1,10 +1,10 @@
-"""Alpha2-Roger planet pack v0.13: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.14: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v1.01       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
+  docs/design/world.md v1.02       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
   docs/design/zones.md v0.64       routes (road, path, ferry) and the region biome rules (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
@@ -12,7 +12,7 @@ is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.13"
+__version__ = "0.14"
 
 import json, math
 from pathlib import Path
@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.13"          # bump on every change to the output
+FILE_VERSION = "0.14"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -97,7 +97,7 @@ def landmasses():
     return lab
 
 
-# ---- Locked facts, copied from docs/design/world.md v1.01 (Nathan's decisions) ----
+# ---- Locked facts, copied from docs/design/world.md v1.02 (Nathan's decisions) ----
 
 PLACE_FACTS = {
     1: ("Star Harbor", "Spaceport city", "spaceport_coast", "B"),
@@ -237,7 +237,7 @@ def build():
         "planet_id": "verlassen",
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
-            "world": "docs/design/world.md v1.01",
+            "world": "docs/design/world.md v1.02",
             "zones": "docs/design/zones.md v0.64",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
@@ -400,7 +400,8 @@ def build():
             "air": {
                 "airports": [1, 4],
                 "flight": "Setareh Minato to Svetla Hama, a ticket as fast travel; grounded in a cold year unless paid at cold-rated prices",
-                "military": "the others only have military bases with airfields, closed to the player",
+                "military_air_bases": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                "military": "every city has a military and a military air base, closed to the player",
                 "source": "docs/design/world.md, Airports (Nathan, 2026-11-13)",
             },
             "types": ["road", "path", "animal_trail"],
@@ -416,7 +417,6 @@ def build():
             "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
             "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
             "rail: schedule and ticket prices; the routes layer draws the line",
-            "air: which places have military airfields (draft reading: 2, 3, 9)",
             "the two brothers' names",
             "who runs the region's space station",
         ],

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.163, 2026-11-13**
+**STATUS v0.164, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v1.02, zones.md v0.68, mechanics v0.81, planet file v0.14.  Nathan: every city has a military and a military air base (centralized, they must defend themselves); Setareh Minato and Svetla Hama add civil airports.  Draft: cold years shift power toward cities that can afford cold-rated planes.
 
 - 2026-11-13 (Claudia): airports.  world.md v1.01 (new section, Airports), zones.md v0.67, mechanics v0.80 (#72g air travel, #97 pirate or smuggler airfield event), planet file v0.13 (`routes.air`).  Nathan: Setareh Minato and Svetla Hama get airports; the others only have military bases with airfields.  Draft: "the others" read as Ikh Gawa, Warmes Tani, Zimna Toride; smugglers as a way to sneak into a hostile town (#60b).
 

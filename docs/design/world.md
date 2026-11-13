@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v1.01, 2026-11-13**
+**World v1.02, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -251,7 +251,8 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 
 - Setareh Minato and Svetla Hama get airports.  The others only have military bases with airfields.
 - From Claudia's tiers, which Nathan liked: the spaceport is the one real airport, running the big airplanes and the cold-rated fleet, the only planes that fly in a cold year, so air travel stays in the spaceport's money.  A scheduled flight from the spaceport to Svetla Hama is the way to the island by air: expensive, and grounded in a cold year unless the player pays cold-rated prices.  Military fields serve the continent-scale feuds (gunships, long-range strikes), are closed to the player, and are where raids, the downed flier event (#94), and the planes heard overhead come from.  Places on the rail loop without a field ride the train.
-- **Draft (Claudia):** "the others" read as Ikh Gawa, Warmes Tani, and Zimna Toride, the other places that had a field in the tiers.
+- Every city has a military and a military air base (Nathan, 2026-11-13).  It would be crazy to think they do not: they are centralized and need to defend themselves.  Setareh Minato and Svetla Hama have their civil airports on top of that.
+- **Draft (Claudia):** in a cold year only the cities that can afford cold-rated planes can still fly, so the cold year shifts the balance of power toward the money.
 - Random event (Nathan, 2026-11-13): a pirate or smuggler airfield found out in the wild (mechanic #97).
 - **Draft (Claudia):** smugglers fly what the spaceport's money would rather they did not, which makes them one of the future ways to sneak into a town that hates the player, with cargo (#60b).
 
