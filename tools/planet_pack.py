@@ -1,10 +1,10 @@
-"""Alpha2-Roger planet pack v0.8: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.9: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v0.89       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
+  docs/design/world.md v0.97       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
   docs/design/zones.md v0.64       routes (road, path, ferry) and the region biome rules (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
@@ -12,7 +12,7 @@ is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.8"
+__version__ = "0.9"
 
 import json, math
 from pathlib import Path
@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.8"          # bump on every change to the output
+FILE_VERSION = "0.9"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -97,7 +97,7 @@ def landmasses():
     return lab
 
 
-# ---- Locked facts, copied from docs/design/world.md v0.83 (Nathan's decisions) ----
+# ---- Locked facts, copied from docs/design/world.md v0.97 (Nathan's decisions) ----
 
 PLACE_FACTS = {
     1: ("Star Harbor", "Spaceport city", "spaceport_coast", "B"),
@@ -233,7 +233,7 @@ def build():
         "planet_id": "verlassen",
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
-            "world": "docs/design/world.md v0.84",
+            "world": "docs/design/world.md v0.97",
             "zones": "docs/design/zones.md v0.64",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
@@ -373,6 +373,15 @@ def build():
             "distances": "calculated, never stored: pathfinding across region cells with a cost per cell "
                          "(biome, climbing, rivers, roads, infected ground) and the speed table; "
                          "the montage planner shows a range of days",
+            "rail": {
+                "owner": 1,
+                "boarding": "only in a city; no stops in the wild",
+                "line": "cycles around to cross all the towns",
+                "undersea": "underwater rails or waterproof tunnels at a couple of crossings; deadly to walk",
+                "train": "bullet train with a front piercer; plows through ice, snow, animals, creatures, avalanches",
+                "in_game": "fast travel from city to city",
+                "source": "docs/design/world.md, The rail line (Nathan, 2026-11-13)",
+            },
             "types": ["road", "path", "animal_trail"],
             "types_rules": "docs/design/zones.md, Routes (road types, wheels)",
         },
@@ -385,6 +394,7 @@ def build():
             "road paths drawn on the globe (the generator's routes layer)",
             "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
             "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
+            "rail: pathway, stations, schedule, ticket prices",
             "the two brothers' names",
             "who runs the region's space station",
         ],

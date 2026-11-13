@@ -1,9 +1,9 @@
 {
- "version": "0.8",
+ "version": "0.9",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.8",
+ "generated_by": "tools/planet_pack.py v0.9",
  "sources": {
-  "world": "docs/design/world.md v0.84",
+  "world": "docs/design/world.md v0.97",
   "zones": "docs/design/zones.md v0.64",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
@@ -819,6 +819,15 @@
    "seeded": "small paths to wild settlements, bandit camps, and similar offshoots are random by the seed"
   },
   "distances": "calculated, never stored: pathfinding across region cells with a cost per cell (biome, climbing, rivers, roads, infected ground) and the speed table; the montage planner shows a range of days",
+  "rail": {
+   "owner": 1,
+   "boarding": "only in a city; no stops in the wild",
+   "line": "cycles around to cross all the towns",
+   "undersea": "underwater rails or waterproof tunnels at a couple of crossings; deadly to walk",
+   "train": "bullet train with a front piercer; plows through ice, snow, animals, creatures, avalanches",
+   "in_game": "fast travel from city to city",
+   "source": "docs/design/world.md, The rail line (Nathan, 2026-11-13)"
+  },
   "types": [
    "road",
    "path",
@@ -946,6 +955,7 @@
   "road paths drawn on the globe (the generator's routes layer)",
   "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
   "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
+  "rail: pathway, stations, schedule, ticket prices",
   "the two brothers' names",
   "who runs the region's space station"
  ]

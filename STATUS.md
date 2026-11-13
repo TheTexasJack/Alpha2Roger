@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.158, 2026-11-13**
+**STATUS v0.159, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): the rail line.  world.md v0.97 (new section, The rail line), zones.md v0.65, mechanics v0.77 (#72f), planet file v0.9 (`routes.rail`), music.md v0.32 (note 9 for the music thread: train sounds, note only).  Nathan: spaceport-run bullet train with a front piercer, boarded only in a city, fast travel city to city; undersea tunnels at a couple of crossings, deadly to walk; bait raiders onto the track.  Drafts: all ten places are stations, track in the road corridors, heated rails.  Open: map the pathway.
 
 - 2026-11-13 (Claudia): concept v1.21, mechanics v0.76.  Nathan approved: the planet's environmental enemy is data in the planet module, never cold written into the code (#1).  Applies from A2R-103 on.
 

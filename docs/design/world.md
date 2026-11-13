@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.96, 2026-11-13**
+**World v0.97, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -223,6 +223,21 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - Road order and paths (approved by Nathan 2026-11-13): each road list is a chain in the order given (Warmes Tani to Darya Kako to Setareh Minato; Ikh Gawa to Davs Mizuumi to Kawa Fada to Shio Loch).  A path joins Svetla Hama and Zimna Toride, which share an island.  The path list is complete; small paths to wild settlements and camps still come from the seed.
 - Sea roads: in the cold year the sea ice opens new routes.  Suddenly, getting from Setareh Minato to Ikh Gawa is a land trip.
 - **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads.  In normal years, crossings like Setareh Minato to Ikh Gawa mean a boat or a long trek around the coast.
+
+## The rail line (Nathan, 2026-11-13)
+
+- A Snowpiercer-style train runs from city to city.  It is boarded only in a city; there are no stops out in the forest where a player can jump on.  In the game it is fast travel from city to city.
+- The spaceport (Setareh Minato) controls it, which controls the money.  The line cycles around to cross all the towns.
+- It is essentially a bullet train with a front piercer that breaks up ice, snow, animals, creatures, anything in its way.  An avalanche over the train does not matter; it keeps moving.
+- Undersea crossings use underwater rails or waterproof tunnels.  This far in the future, after terraforming and space travel, that is easy.  Only a couple of crossings need it.
+- No skipping: the player cannot use the tunnels to cross on foot.  A warning pops up, and going on anyway is suicide: the train plows through before the player gets across.
+- Building next to the rail is strategic play.  Raiders can be baited onto the track when the train is coming.
+- Sound: distant sounds that tell the player the train is coming, so people know what the rumbling and cracking is (a note left for the music thread in `music.md`).
+- Checked on the canon globe (Claudia): the crossings are the west continent to the south and east continent (about 800 km of sea at H8) and out to the central island of Svetla Hama and Zimna Toride (about 3,100 km).  On land the legs are long: Kawa Fada to Shio Loch alone is about 11,000 km in a straight line, longer than the Trans-Siberian, the longest real line, at about 9,300 km.
+- **Draft (Claudia):** every one of the ten places is a station.  On land the track follows the road corridors, so roads, rail, and the aggregators' power lines share one corridor.
+- **Draft (Claudia), heated track:** Japan's Joetsu Shinkansen sprays warmed water to keep snow off its tracks.  Here the aggregators' power heats the rails, and the piercer handles everything else.
+- Open: map the pathway (the generator's routes layer), the stations, the schedule, and ticket prices.
+- From the music thread (2026-11-13): Nathan's sound notes there say a plane is fine as a very distant sound way overhead, which means an airport somewhere, and that cars on the roads look like the turn-of-the-century United States, Model T style cars still struggling over long distances.  **Draft (Claudia):** the spaceport at Setareh Minato doubles as the airport, which keeps fliers in the spaceport's money, and the bullet train stands out as the one piece of high tech crossing a Model T world.
 
 ## Population
 

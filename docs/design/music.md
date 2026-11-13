@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.31, 2026-11-13**
+**Music v0.32, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -16,6 +16,7 @@ Nathan asked for these notes so the music thread can see what changed outside it
 6. **Radio.**  Each station belongs to a place (one of the ten, or a seeded settlement) and takes that place's culture (approved 2026-11-13, `world.md`, Era and location).  The station's music still comes from Radio music below; only the culture lookup moved.  The line "based on the region the player is in" (Sound) now reads as: based on the culture of the stations in range.  Weather is not part of the radio and news flavor (Nathan).
 7. **Words.**  "Region" now means a map square (A to X, 1 to 12); the five culture groups are "cultural regions."  Lines in this file that say region in the culture sense were left as written.  Music thread follow-up (2026-11-13): Claudia's drafts now say "cultural region"; Nathan's own lines keep his words.
 8. **Elsewhere.**  `concept.md` Music: the old fusions-by-cultural-region draft is marked older and points here (2026-11-13 review).  The planet file points to the music files by path only, with no versions, so music changes never force a planet file change.
+9. **Train sounds** (Nathan, 2026-11-13, an idea for when the music thread reaches it).  A spaceport-run bullet train now runs city to city and plows through ice, snow, animals, and avalanches (`world.md`, The rail line).  Nathan wants distant sounds that tell the player the train is coming, so people know what the rumbling and all of the cracking is.  Nothing was composed or changed for this; it is a note only.
 
 ## Tools and pipeline (Nathan, 2026-11-11)
 
