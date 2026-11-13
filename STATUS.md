@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.130, 2026-11-12**
+**STATUS v0.131, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): mechanics v0.66.  Nathan: rabies is no longer a big threat in the far future; common illnesses are easily cured with access to modern medicine; humans brought illnesses and new alien ones get invented.  Draft: sources of alien illness under mirror chemistry.
 
 - 2026-11-12 (Claudia): zones.md v0.55, mechanics v0.65.  Nathan approved the city blocked-cells draft and the structures for conditions (#52d) and factions and beliefs (#50b).
 
