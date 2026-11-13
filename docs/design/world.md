@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v1.04, 2026-11-13**
+**World v1.05, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -202,6 +202,8 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - Each run, a small random infection spawns somewhere on the map, a distance away from the player.  If the player crashes in a remote area far from the major sites, they still have to deal with the infection, just a small bit.
 - **Draft (Claudia):** the small spawn is placed by the run's seed, a few zones from the crash site (never adjacent), and stays small compared to the impact sites.
 - Native life is carbon based with real-science alien traits: silica armor (glassy spines, shell plates, frosty needles, as diatoms and glass sponges do on Earth); copper-based teal blood; mirror chemistry that humans cannot digest, so native food must be processed (possibly by the paste printer) and Terran crops need rare seeds.
+- Natives are glass and silica, but they are still carbon based (Nathan, 2026-11-13).  Silicon-based life is out on the chemistry: Earth's crust already holds over a thousand times more silicon than carbon and life still chose carbon; silicon's oxide is quartz, so a silicon creature would breathe out sand; and silicon chains fall apart in water and burn in oxygen, which a terraformed world is full of.
+- **Draft (Claudia):** natives lean on silica far harder than Earth life does: glass-armored animals, plants stiff with silica that crunch like glass (horsetails and grasses do this on Earth), and silica dust in their remains, a breathing hazard and hard on the paste printer.
 - Big, shaggy, cold-adapted fauna (Bergmann's rule), with migrations as the temperatures change.  Nothing kaiju sized, no giant insects, no Ohmu-style creatures.  Mammoths and giant water creatures are about the largest (water's buoyancy allows whale-scale animals).  Flora is hardy (conifer-like forests, tundra scrub, lichens).
 - **Non-native fauna (Nathan, 2026-11-10):** the settlers brought Terran animals, so people have regular animals to hunt and eat: pigs, turkeys, cows, rabbits, deer, elk, and the like.  Native fauna remains.
 - **Terraforming (Nathan, 2026-11-10):** the settlement ships carried terraforming tech.  The planet would not have matched, so the settlers seeded Terran plants and animals, whatever was needed to support the population.  That is why the world is a mix of Terran and native life.
