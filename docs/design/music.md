@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.28, 2026-11-13**
+**Music v0.29, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -14,7 +14,7 @@ Nathan asked for these notes so the music thread can see what changed outside it
 4. **`tools/music_areas.py` is now v0.2 and only pairs culture to music.**  It reads the culture map and maps gaelic, mongolian, persian, german, slavic to Japanese plus that culture; ice to ice dread; open_water to Japanese plus sea shanties; base_only to the Overall theme.  The output did not change: the rows in `tools/data/music_areas.json` are identical, and `assets/maps/verlassen_music_areas_v0.1.png` is byte-identical.  `music_areas.json` moved to v0.2 only because its header now names the tool version and the culture map it read.
 5. **How to change music areas from now on.**  Change the pairing, or add a music-only exception (such as the spaceport sounding Union, still a draft in `world.md`), inside `tools/music_areas.py`.  Do not edit the culture map for music reasons.  If culture changes in `world.md`, run `tools/culture_map.py` first, then `tools/music_areas.py`.
 6. **Radio.**  Each station belongs to a place (one of the ten, or a seeded settlement) and takes that place's culture (approved 2026-11-13, `world.md`, Era and location).  The station's music still comes from Radio music below; only the culture lookup moved.  The line "based on the region the player is in" (Sound) now reads as: based on the culture of the stations in range.  Weather is not part of the radio and news flavor (Nathan).
-7. **Words.**  "Region" now means a map square (A to X, 1 to 12); the five culture groups are "cultural regions."  Lines in this file that say region in the culture sense were left as written.
+7. **Words.**  "Region" now means a map square (A to X, 1 to 12); the five culture groups are "cultural regions."  Lines in this file that say region in the culture sense were left as written.  Music thread follow-up (2026-11-13): Claudia's drafts now say "cultural region"; Nathan's own lines keep his words.
 8. **Elsewhere.**  `concept.md` Music: the old fusions-by-cultural-region draft is marked older and points here (2026-11-13 review).  The planet file points to the music files by path only, with no versions, so music changes never force a planet file change.
 
 ## Tools and pipeline (Nathan, 2026-11-11)
@@ -36,19 +36,19 @@ Nathan asked for these notes so the music thread can see what changed outside it
   - Transcribe from scans of the original books ourselves.  Online transcriptions carry their own licenses: the O'Neill's Project ABC files are GPL, and Nigel Gatherer's are his own copyright.
   - Log each tune with its source book, page, and year.
 - This has to work for every area of influence (Gaelic, Mongolian, Slavic, Persian, German; see `world.md`).  The tunes are old, and there is molding we can do with them.  Without common ground that works across all of them, we would be learning new styles one by one and forcing Japanese into each, which takes a music master.
-- **Draft (Claudia), one recipe for every region:**
+- **Draft (Claudia), one recipe for every cultural region:**
   1. The Japanese side stays the same everywhere: koto, shakuhachi, shamisen, taiko.  Kaze threads through all of it.
   2. Common ground is the five-note scale.  Keep tunes that fit a pentatonic scale, or bend into one with small changes.  A script can score whole public domain collections for fit.
   3. Each culture brings one signature beyond the melody, played on the Japanese instruments: Gaelic jig lilt; Mongolian drone and long free-time phrases; Slavic minor modes; German march and waltz; Persian ornaments and bent notes (shakuhachi and koto both bend pitch).
-  4. Fit by region, easiest first: Gaelic and Mongolian (both lean pentatonic), Slavic, German, Persian (its scales use notes between our notes).
+  4. Fit by cultural region, easiest first: Gaelic and Mongolian (both lean pentatonic), Slavic, German, Persian (its scales use notes between our notes).
 - If no public domain tunes can be found for a culture, we shift to getting the feel (Nathan, 2026-11-12).  The real challenge is giving it the feel and making the player think they are in that area, and it needs to be reasonable.
 - Oceans and polar caps have their own music too (Nathan, 2026-11-12).
 - From `world.md`: the deep ocean is Japanese plus sea shanties.  The polar ice caps are areas of dread, with deep-cold music.
 - **Draft (Claudia), oceans and poles:** shanties are old work songs, and plenty of traditional ones are public domain, so the ocean can use the same tune-sourcing route as Gaelic: real shanties, verified per tune, on Japanese instruments, with taiko keeping the work rhythm.  For the poles, the dread comes from low drones, long silences, and the sound of ice, with Kaze heard only far off or not at all.
 - Poles (Nathan, 2026-11-12): one lone, constant low tone, with a few notes from various songs interjected here and there.  Just a hint.
 - Ice and open water are cultures of their own (Nathan, 2026-11-13; culture map in `world.md`).  Ice music: cold, long notes with bits of other songs, just small hints.  Open water pairs with sea shanties.
-- **Draft (Claudia):** the game picks those few notes live from the other regions' tunes and Kaze, seeded per run, spaced far apart, so the ice never plays the same thing twice.
-- **Draft (Claudia), feel kit and the test:** each region gets a short kit of three or four markers (scale, rhythm, texture, ornament).  Original tunes written with that kit carry the feel.  The test is blind: someone hears a clip with no label and names the region.  If they can, the feel works.
+- **Draft (Claudia):** the game picks those few notes live from the other cultural regions' tunes and Kaze, seeded per run, spaced far apart, so the ice never plays the same thing twice.
+- **Draft (Claudia), feel kit and the test:** each cultural region gets a short kit of three or four markers (scale, rhythm, texture, ornament).  Original tunes written with that kit carry the feel.  The test is blind: someone hears a clip with no label and names the cultural region.  If they can, the feel works.
 - **Draft (Claudia), why it fits:** many Gaelic airs are pentatonic, and the Japanese Yo scale is pentatonic too, so a lot of these tunes sit on koto and shakuhachi without changing a note.
 
 ### Japanese + Gaelic shortlist v1 (Draft, Claudia, awaiting Nathan's pick)
@@ -70,7 +70,7 @@ Slow airs from O'Neill's Music of Ireland (1903).  Numbers are O'Neill's.  Shio 
 |---|---|---|---|
 | Rory Dall's Sister's Lament | 95% | 66% | F sharp only |
 | The Coolin | 85% | 66% | C, C sharp, F |
-| The Little Black Rose | 84% | 82% | Fits both; a bridge between the Gaelic region and Kaze |
+| The Little Black Rose | 84% | 82% | Fits both; a bridge between the Gaelic cultural region and Kaze |
 | Shule Aroon | 81% | 73% | Several passing notes |
 | O'Carolan's Lament | 77% | 80% | Several passing notes |
 | The Parting Glass | 73% | 67% | D, G, G sharp |
