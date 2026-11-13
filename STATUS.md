@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.136, 2026-11-13**
+**STATUS v0.137, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.59.  Nathan approved the save cap behavior and playthrough name defaults.  Zone graph format: only JSON left.
 
 - 2026-11-13 (Claudia): zones.md v0.58.  Nathan approved the save drafts; daily autosaves on the local map; manual saves capped at 50 per playthrough (adjustable or removable); each playthrough has a name picked at world build that organizes its saves.
 

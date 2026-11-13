@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.58, 2026-11-13**
+**Zones v0.59, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -152,7 +152,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - The daily autosaves happen on the player (local) map; on a montage, saving happens only as it starts and when it stops (Nathan, 2026-11-13).
 - Manual saves: a maximum of 50 per playthrough, with a system menu option to change the number or remove the cap (Nathan, 2026-11-13).
 - Each playthrough has a name, picked by the player when they build the world.  The name organizes the saves and other things (Nathan, 2026-11-13).
-- **Draft (Claudia):** at the manual cap, the game asks which save to overwrite rather than refusing; the playthrough name is the save folder's name and shows on the load screen and the camp log's title; if the player leaves it blank, a default is offered from the seed and start (for example "2718 S1").
+- (Claudia, approved by Nathan 2026-11-13) at the manual cap, the game asks which save to overwrite rather than refusing; the playthrough name is the save folder's name and shows on the load screen and the camp log's title; if the player leaves it blank, a default is offered from the seed and start (for example "2718 S1").
 
 ## Edge IDs (Claudia, approved by Nathan 2026-11-12)
 
