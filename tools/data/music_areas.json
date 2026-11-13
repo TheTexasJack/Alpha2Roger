@@ -1,7 +1,8 @@
 {
-"version": "0.1",
-"generated_by": "tools/music_areas.py v0.1",
+"version": "0.2",
+"generated_by": "tools/music_areas.py v0.2",
 "seed": 2718,
+"culture_map": "tools/data/culture_map.json v0.2",
 "width_px": 720,
 "height_px": 360,
 "areas": [

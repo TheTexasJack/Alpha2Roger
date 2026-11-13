@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.145, 2026-11-13**
+**STATUS v0.146, 2026-11-13**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-0. **Music:** get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
+0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md` (culture map split out, music areas tool now reads it, output unchanged).  Then get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
 1. **Stage 1, A2R-102 (in review):** `docs/design/zones.md` is complete through the zone graph format.  Nathan's final sign-off is next; open items are listed at the bottom of zones.md.
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia, zones thread): `tools/music_areas.py` v0.2 reads the culture map and only pairs culture to music; `music_areas.json` rows and the music areas image are unchanged.  Nathan asked for detailed notes for the music thread: music.md v0.28, "Notes from the zones thread".  world.md v0.88.
 
 - 2026-11-13 (Claudia): culture map v0.2 (`tools/culture_map.py` v0.2), world.md v0.87, music.md v0.27.  Nathan: the ice caps and open water are cultures of their own (ice: cold, long notes with small hints of other songs; open water pairs with sea shanties).  v0.1 had missed them.  The map now pairs one to one with the music areas, pixel for pixel.  Polar base-only draft withdrawn.
 

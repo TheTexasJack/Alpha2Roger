@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.87, 2026-11-13**
+**World v0.88, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -95,7 +95,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 ## Music areas (Nathan, 2026-11-12)
 
-Every spot on the planet has a music area.  It sets the feel of the area's influence and is the trigger the system uses to pick the background music set.  It also drives radio stations, news, and other things, beyond a few key exceptions (changed by Nathan 2026-11-13: radio and news feed off the culture map instead; see Era and location).  Map: `assets/maps/verlassen_music_areas_v0.1.png`; data: `tools/data/music_areas.json`, built by `tools/music_areas.py`.
+Every spot on the planet has a music area.  It sets the feel of the area's influence and is the trigger the system uses to pick the background music set.  It also drives radio stations, news, and other things, beyond a few key exceptions (changed by Nathan 2026-11-13: radio and news feed off the culture map instead; see Era and location).  Map: `assets/maps/verlassen_music_areas_v0.1.png`; data: `tools/data/music_areas.json`, built by `tools/music_areas.py`, which since v0.2 (2026-11-13) reads the culture map and pairs each culture with its music.
 
 - Land takes the culture of the nearest of the ten places reachable overland; each town's influence shapes the music around it (Mongolian throat singing down south, and so on).
 - Land with no town in reach uses the Overall theme, which shows these areas have no direct influence.
@@ -319,7 +319,7 @@ Japanese is the base everywhere.  Each cultural region's second culture flavors 
 - Built by `tools/culture_map.py` v0.2: `tools/data/culture_map.json` (one digit per globe pixel) and `assets/maps/verlassen_culture_v0.2.png`.  Rules, carried over from the music areas: land takes the second culture of the nearest place reachable overland; land with no place on its landmass (U5, W5, U6, M8) is base only; water within about 120 km of land takes that land's culture (for now, with a judgment call when those waters are visited); past the ice line (58 degrees), land and water are ice; all other water is open water.
 - Share of the globe: ice 35.6%, open water 32.5%, Mongolian 11.6%, Gaelic 8.1%, Slavic 4.1%, Persian 4.0%, German 3.8%, base only 0.3%.  Share of land: ice 34.8%, Mongolian 23.8%, Gaelic 16.7%, Slavic 8.3%, Persian 8.4%, German 7.7%, base only 0.3%.
 - Every pixel pairs one to one with its music area (checked against `tools/data/music_areas.json`: no differences): each land culture with Japanese plus that culture, ice with the ice music, open water with sea shanties, base only with the Overall theme.
-- Next: `tools/music_areas.py` reads the culture map and applies that pairing, with its output unchanged.
+- Done (2026-11-13, approved by Nathan): `tools/music_areas.py` v0.2 reads the culture map and applies that pairing; its output is unchanged.  Notes for the music thread are at the top of `music.md`.
 
 ## Government
 

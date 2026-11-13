@@ -1,8 +1,21 @@
 # Alpha2-Roger Music
 
-**Music v0.27, 2026-11-13**
+**Music v0.28, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
+
+## Notes from the zones thread (Claudia, 2026-11-13)
+
+Nathan asked for these notes so the music thread can see what changed outside it.  Nothing here changes a composition, a tune, a draft file, or the Waveform pipeline.  Read this before touching the music areas.
+
+1. **A culture map now exists.**  `tools/culture_map.py` v0.2 writes `tools/data/culture_map.json` and `assets/maps/verlassen_culture_v0.2.png`: the culture of every globe pixel, one of gaelic, mongolian, persian, german, slavic, ice, open_water, or base_only, with the Japanese base implied everywhere.  The rules are in `world.md`, Culture map.
+2. **Why it was split out.**  Nathan decided (2026-11-13) that radio and news feed off the culture map, not the music areas, and that music stays in music: it evolves and grows on its own and should not impact anything else.  The "who lives where" logic used to live inside `tools/music_areas.py`; it moved to the culture map.  Culture now feeds music, radio, and news.  Music feeds nothing.
+3. **Ice caps and open water are cultures of their own** (Nathan, 2026-11-13).  Ice music: cold, long notes with bits of other songs, just small hints (added under the Poles line in this file).  Open water pairs with sea shanties.  The culture map's first version missed both; v0.2 has them.
+4. **`tools/music_areas.py` is now v0.2 and only pairs culture to music.**  It reads the culture map and maps gaelic, mongolian, persian, german, slavic to Japanese plus that culture; ice to ice dread; open_water to Japanese plus sea shanties; base_only to the Overall theme.  The output did not change: the rows in `tools/data/music_areas.json` are identical, and `assets/maps/verlassen_music_areas_v0.1.png` is byte-identical.  `music_areas.json` moved to v0.2 only because its header now names the tool version and the culture map it read.
+5. **How to change music areas from now on.**  Change the pairing, or add a music-only exception (such as the spaceport sounding Union, still a draft in `world.md`), inside `tools/music_areas.py`.  Do not edit the culture map for music reasons.  If culture changes in `world.md`, run `tools/culture_map.py` first, then `tools/music_areas.py`.
+6. **Radio.**  Each station belongs to a place (one of the ten, or a seeded settlement) and takes that place's culture (approved 2026-11-13, `world.md`, Era and location).  The station's music still comes from Radio music below; only the culture lookup moved.  The line "based on the region the player is in" (Sound) now reads as: based on the culture of the stations in range.  Weather is not part of the radio and news flavor (Nathan).
+7. **Words.**  "Region" now means a map square (A to X, 1 to 12); the five culture groups are "cultural regions."  Lines in this file that say region in the culture sense were left as written.
+8. **Elsewhere.**  `concept.md` Music: the old fusions-by-cultural-region draft is marked older and points here (2026-11-13 review).  The planet file points to the music files by path only, with no versions, so music changes never force a planet file change.
 
 ## Tools and pipeline (Nathan, 2026-11-11)
 
