@@ -1,10 +1,10 @@
 {
- "version": "0.7",
+ "version": "0.8",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.7",
+ "generated_by": "tools/planet_pack.py v0.8",
  "sources": {
   "world": "docs/design/world.md v0.84",
-  "zones": "docs/design/zones.md v0.62",
+  "zones": "docs/design/zones.md v0.64",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
   "globe": "tools/globe_candidates.py v0.3.1"
@@ -809,8 +809,8 @@
   "ferry_routes": [
    {
     "to": 10,
-    "via": "the strait at X3 and W4, beside Shio Loch (V4)",
-    "why": "Kawa Fada sits on an enclosed inner sea; the strait is its only opening below the ice line"
+    "via": "the passage east of Shio Loch (W4 and W5), about 900 km wide at its narrowest (W5)",
+    "why": "Kawa Fada's inner sea opens only to the north; ships from the central sea go around the north near the ice"
    }
   ],
   "cold_year": "sea ice opens new routes; Setareh Minato (1) to Ikh Gawa (2) becomes a land trip",
@@ -945,6 +945,7 @@
   "notable people's roles",
   "road paths drawn on the globe (the generator's routes layer)",
   "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
+  "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
   "the two brothers' names",
   "who runs the region's space station"
  ]

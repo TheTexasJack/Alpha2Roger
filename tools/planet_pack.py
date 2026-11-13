@@ -1,18 +1,18 @@
-"""Alpha2-Roger planet pack v0.7: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.8: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
   docs/design/world.md v0.89       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
-  docs/design/zones.md v0.63       routes (road, path, ferry) and the region biome rules (copied in below)
+  docs/design/zones.md v0.64       routes (road, path, ferry) and the region biome rules (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
 is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.7"
+__version__ = "0.8"
 
 import json, math
 from pathlib import Path
@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.7"          # bump on every change to the output
+FILE_VERSION = "0.8"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -130,7 +130,7 @@ IMPACT_GRIDS = ["M3", "T3", "J10"]   # accepted by Nathan
 ROADS = [[3, 8, 1], [2, 6, 10, 7]]   # chains, in the order Nathan listed them (approved 2026-11-13)
 PATHS = [[5, 1], [2, 10], [4, 9]]    # complete (Nathan, 2026-11-13); seeded offshoots come from the seed
 FERRY_TOWNS = [1, 8, 2, 4, 9, 10]
-INLAND_FERRY_TOWNS = [1, 9]          # about 180 km and 300 km from the sea: each gets a landing on the nearest coast
+INLAND_FERRY_TOWNS = [1, 9]          # about 190 km and 195 km from the nearest coast: each gets a landing there
 
 # Climate (world.md, Climate bands; latitude lines approved by Nathan 2026-11-13)
 LATITUDE_LINES = [  # latitude, normal summer high, normal winter low, cold-year high, cold-year low (F)
@@ -234,7 +234,7 @@ def build():
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
             "world": "docs/design/world.md v0.84",
-            "zones": "docs/design/zones.md v0.62",
+            "zones": "docs/design/zones.md v0.64",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
             "globe": "tools/globe_candidates.py v0.3.1",
@@ -362,8 +362,8 @@ def build():
             "ferry_landings": {"towns": INLAND_FERRY_TOWNS,
                                "rule": "an inland ferry town gets a landing, a small port on the nearest coast tied to the town by road"},
             "ferry_routes": [
-                {"to": 10, "via": "the strait at X3 and W4, beside Shio Loch (V4)",
-                 "why": "Kawa Fada sits on an enclosed inner sea; the strait is its only opening below the ice line"},
+                {"to": 10, "via": "the passage east of Shio Loch (W4 and W5), about 900 km wide at its narrowest (W5)",
+                 "why": "Kawa Fada's inner sea opens only to the north; ships from the central sea go around the north near the ice"},
             ],
             "cold_year": "sea ice opens new routes; Setareh Minato (1) to Ikh Gawa (2) becomes a land trip",
             "seed_rules": {
@@ -384,6 +384,7 @@ def build():
             "notable people's roles",
             "road paths drawn on the globe (the generator's routes layer)",
             "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
+            "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
             "the two brothers' names",
             "who runs the region's space station",
         ],

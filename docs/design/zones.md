@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.63, 2026-11-13**
+**Zones v0.64, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -53,7 +53,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 ### Region biome rules (Claudia, approved by Nathan 2026-11-12)
 
-Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.3.png`.  Since generator v0.3 (2026-11-13) the rule numbers, latitude lines, and biome names below are read from the planet file (`region_rules`, `climate`, `biomes`); R5 came out cell for cell identical.
+Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.3.1.png`.  Since generator v0.3 (2026-11-13) the rule numbers, latitude lines, and biome names below are read from the planet file (`region_rules`, `climate`, `biomes`); R5 came out cell for cell identical.
 
 1. Detail: each globe pixel is smoothly upscaled into 16 by 16 region cells, plus fine seeded noise.  Since generator v0.2 (bug fix approved by Nathan 2026-11-12), both the upscaling and the noise are keyed to world coordinates, so neighboring regions agree exactly along shared borders.
 2. Height: meters = 6,500 x (relative elevation) ^ 1.63 (planet top about 6,500 m, R5 top about 3,700 m).
@@ -195,10 +195,11 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Road order and paths (approved by Nathan 2026-11-13): roads are chains in the order listed (3 to 8 to 1; 2 to 6 to 10 to 7).  A path joins 4 and 9 (Svetla Hama and Zimna Toride, on the same island).  The path list is complete; seeded paths to wild settlements and camps come on top.
 - Ferries run between the coastal towns 1, 8, 2, 4, 9, 10 (Setareh Minato, Darya Kako, Ikh Gawa, Svetla Hama, Zimna Toride, Kawa Fada).
 - Ferry rule (Claudia, approved by Nathan 2026-11-13): any ferry town reaches any other by sea, routed by sea pathfinding, so the route to Kawa Fada runs through the strait by itself.
-- Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato is about 180 km and Zimna Toride about 300 km from the sea.
+- Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato and Zimna Toride each sit about 190 to 195 km from the nearest coast (corrected 2026-11-13; first measured as about 180 and 300 km).  Svetla Hama sits about 670 km from the open sea; the shore it is named for is a small lake about 60 km away (open item).
 - Ferries to Kawa Fada (10) are long: they go out to the left, through the strait near Shio Loch, and then on down to Kawa Fada (Nathan, 2026-11-11).
 - Checked on the canon globe (Claudia): Kawa Fada sits on an enclosed inner sea whose only opening below the ice line is the strait at X3 and W4, beside Shio Loch (V4).  The traced route from Ikh Gawa runs north past Darya Kako, west along row 3, across the map's wrap edge to X3, through the strait, and south to Kawa Fada: about 42,000 km, roughly 2 to 3 months at ferry speeds, with about 8,000 km along 58 N at the edge of the ice.
-- **Draft (Claudia):** the Kawa Fada ferry is seasonal, closed by ice in winter.  In a cold year the northern route freezes and sea ice roads open instead.  Shio Loch sits on the only sea gate to Kawa Fada, which feeds the brothers' feud.
+- Correction (Claudia, 2026-11-13, found while drawing the start candidates map): the opening is a passage, not a narrow strait.  Kawa Fada's inner sea opens only to the north, through a passage east of Shio Loch (W4 and W5) that is about 900 km wide at its narrowest (W5).  Ships from the central sea (Setareh Minato, Darya Kako, Ikh Gawa) reach it only by going around the north near the ice.  The route length depends on how far north the ice lets ships go: about 27,000 km with open water up to 66 N, about 35,000 km held below 62 N, and about 42,000 km hugging 58 N.
+- **Draft (Claudia):** the Kawa Fada ferry is seasonal, closed by ice in winter.  In a cold year the northern route freezes and sea ice roads open instead.  Shio Loch sits on the only sea gate to Kawa Fada, which feeds the brothers' feud (2026-11-13: the gate is a passage about 900 km wide and Shio Loch is about 1,200 km from the open sea, so this part needs a rethink).
 - Road types (Nathan, 2026-11-12): separate what is visual from what affects movement.  A road gives no speed boost; it simply means travel at your maximum with no limitation.  A path is worn but may be a little muddy, about 80% (an estimate).  Animal trails through a forest and the like are visual only, with no effect on movement: they count as the cells around them, so difficult terrain stays difficult.  A small animal trail might later give some access (like a hole in a wall) once tools and drones exist.
 - Roads, paths, and trails are defined on the overmap, then on the region as it is generated, then on the player's local map as it is generated (Nathan, 2026-11-12).
 - Building on a road has consequences (Nathan, 2026-11-12).  People use the road, unlike RimWorld, where a road is just a generated tile that does not affect who comes or goes.  Road edges spawn traffic like the other spawners, so travelers run right into a base built on a road, and players learn that lesson.
@@ -211,7 +212,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - In this context the robot is a person.  For separation, it is called an android, as opposed to a machine like a farm robot (Nathan, 2026-11-12).
 - Superseded (Claudia, 2026-11-13 review): an earlier draft here had every android talking in simple scripted lines.  Nathan's android tiers in `concept.md` (Androids) replace it: tier 2 androids can have real personalities and still sit below a person, and none is as smart or useful as the M.U.L.E.
 - **Draft (Claudia), tolls:** an android collects less and cannot talk anyone down.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
-- (Claudia, approved by Nathan 2026-11-13) each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).  This covers Setareh Minato (about 180 km from the sea) and Zimna Toride (about 300 km).
+- (Claudia, approved by Nathan 2026-11-13) each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).  This covers Setareh Minato (about 190 km from the nearest coast) and Zimna Toride (about 195 km) (distances corrected 2026-11-13).
 
 ## Montage events (Nathan, 2026-11-11)
 
@@ -302,6 +303,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 ## Open
 
 - Full montage event tables, once more of the game exists.
+- Svetla Hama is a ferry town but sits about 670 km from the open sea, about 60 km from a small lake: a landing on the sea, a lake ferry only, or no ferry (Nathan's call).
 - River inflow across region borders: feed upstream flow from the globe into each region's window (before a second region is built).
 - `tools/region_gen.py` to write the newer region layers (salinity, flow direction and speed, full-detail height, moisture, territory, routes, landmarks, entrances).
 - Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; region pick flow; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).

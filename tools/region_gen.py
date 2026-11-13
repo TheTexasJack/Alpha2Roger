@@ -1,14 +1,15 @@
-"""Alpha2-Roger region generator v0.3: builds one region's 480 x 480 region cells from the canon globe.
+"""Alpha2-Roger region generator v0.3.1: builds one region's 480 x 480 region cells from the canon globe.
 
 Rules: docs/design/zones.md, Region biome rules (approved by Nathan 2026-11-12).  Since v0.3 (2026-11-13) every
 rule number, the latitude lines, and the biome names come from the planet file (tools/data/planet_verlassen.json,
 "climate", "biomes", "region_rules"); this file holds only the method.  R5's cells came out identical to v0.2.
+v0.3.1 points to the planet file by path only, so an unrelated planet file change does not touch the region files.
 For now it runs for R5 only; ice, water biomes, infection levels, and features come before other regions.
 
 Run:  python3 tools/region_gen.py R5
-Writes: tools/data/regions/R5.json and assets/maps/regions/R5_biomes_v0.3.png
+Writes: tools/data/regions/R5.json and assets/maps/regions/R5_biomes_v0.3.1.png
 """
-__version__ = "0.3"
+__version__ = "0.3.1"
 import sys, json, numpy as np
 from scipy import ndimage
 from PIL import Image, ImageDraw, ImageFont
@@ -130,8 +131,8 @@ import json
 codes = list(COL.keys())
 key = "abcdefghijklmnopqrstuvwxyz"
 Rc = river[c0:c0 + 480, c0:c0 + 480]; Kc = creek[c0:c0 + 480, c0:c0 + 480]
-data = {"version": "0.3", "generated_by": f"tools/region_gen.py v{__version__}", "seed": SEED, "region": REGION,
-        "rules_from": f"tools/data/planet_verlassen.json v{PLANET['version']}",
+data = {"version": __version__, "generated_by": f"tools/region_gen.py v{__version__}", "seed": SEED, "region": REGION,
+        "rules_from": "tools/data/planet_verlassen.json",
         "cells": 480, "km_per_cell": round(KM, 2), "origin_globe_px": [510, 120],
         "biomes": {key[i]: k for i, k in enumerate(codes)},
         "biome_rows": ["".join(key[codes.index(v)] for v in row) for row in Bc],
