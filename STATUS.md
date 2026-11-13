@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.152, 2026-11-13**
+**STATUS v0.153, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.94.  Nathan: the southern seas are ice, so no travel around the globe along rows 11 and 12; confirmed on the globe (land blocks row 11 anyway; the only southern sea ring is past 75 S).  Draft: permanent sea ice past 66 degrees, seasonal from 58 to 66 (where the Kawa Fada ferry runs).
 
 - 2026-11-13 (Claudia): Start_Candidates_v3.0.png drawn (outside the repo, `/home/claude/samples/`) with every decision so far.  Drawing it surfaced corrections, now in zones.md v0.64 and the planet file v0.8: the way into Kawa Fada's sea is a passage about 900 km wide at W5, not a narrow strait; Setareh Minato and Zimna Toride sit about 190 to 195 km from the coast (were 180 and 300); Svetla Hama, a ferry town, sits about 670 km from the open sea by a small lake (Nathan's call).  `tools/region_gen.py` v0.3.1 points to the planet file by path only, so planet changes no longer touch R5 (image now `R5_biomes_v0.3.1.png`).
 
