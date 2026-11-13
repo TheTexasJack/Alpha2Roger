@@ -1,18 +1,22 @@
-"""Alpha2-Roger culture map v0.1: the second culture of every globe pixel, seed 2718.
+"""Alpha2-Roger culture map v0.2: the culture of every globe pixel, seed 2718.
 
 Rules (Nathan, 2026-11-12 and 2026-11-13, recorded in docs/design/world.md):
-  base        Japanese is the base everywhere, so the map ignores it and records only the second culture
+  base        Japanese is the base everywhere, so the map ignores it and records only what sits on top
   land        the second culture of the nearest of the ten places reachable overland
   grouped     places that share a culture share one area (Kawa Fada and Shio Loch are one Gaelic area)
-  none        water, and land with no place on its landmass: Japanese base only
+  base_only   land with no place on its landmass (small town-less islands)
+  shore       water within 2 globe pixels (about 120 km) of land takes that land's culture
+  ice         past the ice line (58 degrees), land and water: the ice caps are their own culture
+  open_water  all other water: the open sea is its own culture
   not ideals  culture is not ideals; cities and their rulers set those (territories, factions)
 
 Readers: music areas, radio, news, and settlement names read this map.  It reads nothing from them.
 
-Run:  python3 tools/culture_map.py       writes tools/data/culture_map.json and assets/maps/verlassen_culture_v0.1.png
+Run:  python3 tools/culture_map.py       writes tools/data/culture_map.json and assets/maps/verlassen_culture_v0.2.png
 """
-__version__ = "0.1"
+__version__ = "0.2"
 import json, heapq, numpy as np
+from scipy import ndimage
 from collections import Counter, defaultdict
 from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
@@ -23,14 +27,15 @@ src = (REPO / "tools/globe_candidates.py").read_text().split("seeds = [")[0]
 G = {}
 exec(src, G)
 W, H = G["W"], G["H"]
-elev, _ = G["sphere_field"](np.random.default_rng(SEED))
+elev, LAT = G["sphere_field"](np.random.default_rng(SEED))
+ICE_LINE = 58
 land = elev > np.quantile(elev, 1 - G["LAND_FRAC"])
 
 planet = json.loads((REPO / "tools/data/planet_verlassen.json").read_text())
 P = planet["places"]
 REGION_OF = {r["id"]: r for r in planet["cultural_regions"]}
 CULTURE_OF_PLACE = {p["id"]: REGION_OF[p["cultural_region"]]["second_culture"] for p in P}
-CULTURES = ["none"] + [r["second_culture"] for r in planet["cultural_regions"]]
+CULTURES = ["base_only"] + [r["second_culture"] for r in planet["cultural_regions"]] + ["ice", "open_water"]
 CODE = {c: i for i, c in enumerate(CULTURES)}
 
 # nearest place reachable overland: multi-source Dijkstra, 8 neighbors, wraps east-west
@@ -53,9 +58,14 @@ while pq:
             owner[ny, nx] = o
             heapq.heappush(pq, (d + c, ny, nx, o))
 
-culture = np.zeros((H, W), np.uint8)               # 0 = none (Japanese base only)
+culture = np.full((H, W), CODE["open_water"], np.uint8)
+culture[land] = CODE["base_only"]
 for pid, c in CULTURE_OF_PLACE.items():
     culture[land & (owner == pid)] = CODE[c]
+dt, (iy, ix) = ndimage.distance_transform_edt(~land, return_indices=True)
+shore = (~land) & (dt <= 2)                         # about 120 km of shore water takes the land's culture
+culture[shore] = culture[iy[shore], ix[shore]]
+culture[np.abs(np.degrees(LAT)) > ICE_LINE] = CODE["ice"]
 
 # summary: share of land and the grid squares where each culture holds most of the land
 GRID = "ABCDEFGHIJKLMNOPQRSTUVWX"
@@ -69,19 +79,21 @@ n_land = int(land.sum())
 summary = []
 for c in CULTURES:
     share = round(float((culture[land] == CODE[c]).sum()) / n_land, 3)
+    globe = round(float((culture == CODE[c]).sum()) / culture.size, 3)
     summary.append({"culture": c, "places": [p for p, pc in CULTURE_OF_PLACE.items() if pc == c],
-                    "land_share": share, "grid_squares": squares.get(c, [])})
-    print(f"{c:<10} land {share:>6.1%}  places {summary[-1]['places']}  squares {len(squares.get(c, []))}")
+                    "land_share": share, "globe_share": globe, "grid_squares": squares.get(c, [])})
+    print(f"{c:<11} land {share:>6.1%}  globe {globe:>6.1%}  places {summary[-1]['places']}  squares {len(squares.get(c, []))}")
 
 data = {
-    "version": "0.1",
+    "version": "0.2",
     "generated_by": f"tools/culture_map.py v{__version__}",
     "seed": SEED,
     "width_px": W, "height_px": H,
     "base_culture": "japanese",
     "cultures": CULTURES,
     "cultural_regions": {r["second_culture"]: r["id"] for r in planet["cultural_regions"]},
-    "rule": "land takes the second culture of the nearest place reachable overland; water and land with no place on its landmass are none (Japanese base only)",
+    "rule": "land takes the second culture of the nearest place reachable overland; land with no place on its landmass is base_only; "
+            "water within 2 px (about 120 km) of land takes that land's culture; past 58 degrees, land and water are ice; other water is open_water",
     "note": "one character per globe pixel, row by row from the top; the digit indexes cultures",
     "summary": summary,
     "rows": ["".join(str(v) for v in row) for row in culture],
@@ -89,12 +101,14 @@ data = {
 (REPO / "tools/data/culture_map.json").write_text(json.dumps(data, indent=0) + "\n")
 
 # image
-COL = {"none": (150, 150, 150), "persian": (214, 160, 60), "german": (90, 120, 190), "mongolian": (180, 90, 60),
+COL = {"base_only": (150, 150, 150), "ice": (225, 235, 245), "open_water": (24, 44, 96), "persian": (214, 160, 60), "german": (90, 120, 190), "mongolian": (180, 90, 60),
        "slavic": (150, 100, 190), "gaelic": (60, 160, 90)}
 img = np.zeros((H, W, 3), np.uint8)
-img[:] = (24, 44, 96)
 for c, col in COL.items():
-    img[land & (culture == CODE[c])] = col
+    img[culture == CODE[c]] = col
+tint = (~land) & ~np.isin(culture, [CODE["open_water"], CODE["ice"]])       # shore water: land color, darkened
+img[tint] = (img[tint] * 0.55 + np.array([24, 44, 96]) * 0.45).astype(np.uint8)
+img[(~land) & (culture == CODE["ice"])] = (170, 190, 215)
 S = 2
 im = Image.fromarray(img).resize((W * S, H * S), Image.NEAREST)
 d = ImageDraw.Draw(im)
@@ -117,15 +131,15 @@ d.text((cx + 8, cy - 8), "S1", fill=(255, 255, 255), font=f, stroke_width=2, str
 lg = Image.new("RGB", (W * S, 40), (20, 20, 20))
 ld = ImageDraw.Draw(lg)
 x0 = 10
-ld.text((x0, 12), "Culture map v0.1 (on a Japanese base):", fill=(255, 255, 255), font=f)
-x0 += 330
+ld.text((x0, 12), "Culture map v0.2 (Japanese base):", fill=(255, 255, 255), font=f)
+x0 += 285
 for c, label in [("gaelic", "Gaelic"), ("mongolian", "Mongolian"), ("slavic", "Slavic"), ("persian", "Persian"),
-                 ("german", "German"), ("none", "Base only")]:
+                 ("german", "German"), ("ice", "Ice"), ("open_water", "Open water"), ("base_only", "Base only")]:
     ld.rectangle([x0, 12, x0 + 18, 28], fill=COL[c], outline=(255, 255, 255))
     ld.text((x0 + 22, 12), label, fill=(255, 255, 255), font=f)
-    x0 += 140
+    x0 += 128
 out = Image.new("RGB", (W * S, H * S + 40))
 out.paste(lg, (0, 0))
 out.paste(im, (0, 40))
-out.save(REPO / "assets/maps/verlassen_culture_v0.1.png")
-print("wrote tools/data/culture_map.json and assets/maps/verlassen_culture_v0.1.png")
+out.save(REPO / "assets/maps/verlassen_culture_v0.2.png")
+print("wrote tools/data/culture_map.json and assets/maps/verlassen_culture_v0.2.png")

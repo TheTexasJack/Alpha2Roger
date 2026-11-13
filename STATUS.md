@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.144, 2026-11-13**
+**STATUS v0.145, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): culture map v0.2 (`tools/culture_map.py` v0.2), world.md v0.87, music.md v0.27.  Nathan: the ice caps and open water are cultures of their own (ice: cold, long notes with small hints of other songs; open water pairs with sea shanties).  v0.1 had missed them.  The map now pairs one to one with the music areas, pixel for pixel.  Polar base-only draft withdrawn.
 
 - 2026-11-13 (Claudia): world.md v0.86, AGENTS v0.7, new `tools/culture_map.py` v0.1.  Nathan approved the stations and culture map drafts: similar styles grouped, Japanese base left off the map, Kawa Fada to Shio Loch one culture, culture is not ideals (cities and rulers set those).  Culture map built (`tools/data/culture_map.json`, `assets/maps/verlassen_culture_v0.1.png`); matches the music areas below the ice line.  Draft: polar land as base only.  Next: music areas read the culture map.
 
