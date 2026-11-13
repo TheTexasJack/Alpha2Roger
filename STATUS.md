@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.155, 2026-11-13**
+**STATUS v0.156, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): concept v1.19, mechanics v0.74.  Nathan: no orbital play in this design; spaceships and orbit belong to the expansions (#87).  Draft: the off-planet ending is shown, not flown, and hands off to an expansion.  Also pointed the old "route lengths decided later" line in concept to the pathfinding rule.
 
 - 2026-11-13 (Claudia): world.md v0.96, mechanics v0.73.  Nathan: a thermal icebreaker beats trying to tech a flier, since airflow works against keeping things warm.  Physics note added: seawater stays near -2 C while flight air is -60 to -100 C; jet fuel freezes about -47 C.
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.18, 2026-11-13**
+**Concept v1.19, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -321,9 +321,11 @@ A running list of special NPCs of all types.  Any run might get one.
 - Wilderness biomes are tied to a fixed climate layer.
 - Crash site: the player selects a crash region or picks random.  Always away from civilization.  Crashing far from the spaceport can mean years of travel; if that is an issue, do not pick a crash site that far, or live with the random roll.
 - **Draft (Claudia):** the crash selection screen shows a rough distance to the spaceport for each region.
-- Zone distances are set between fixed areas.  Exact route lengths are decided when we design the maps.
+- Zone distances are set between fixed areas.  Exact route lengths are decided when we design the maps (since 2026-11-11 they are calculated by pathfinding; see `zones.md`, Routes).
 - Zone based, not open world.
 - Future planets are planned from the start: each planet is built as a data module, so new planets do not require engine rewrites.
+- No orbital play in this design (Nathan, 2026-11-13): spaceships and orbit belong to the expansions, beyond this design.
+- **Draft (Claudia):** the off-planet pieces of this design ("get yourself off planet" in the premise, and the "build your own way off planet" ending) stay as an ending milestone that is shown, not flown: it closes this game and hands off to an expansion.
 - Idea: after two or three expansions, the player can return to the first planet and find their old crashed mech, while flying something far better than that old mess.
 
 ## Licenses and the scrap mech

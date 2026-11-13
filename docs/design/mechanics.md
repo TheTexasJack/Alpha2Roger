@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.73, 2026-11-13**
+**Mechanics v0.74, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -167,7 +167,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 84 | NPC voices | Later | ElevenLabs style or local text to speech |
 | 85 | Babies and genetics | Later | Much later, like RimWorld |
 | 86 | Brawl mechanics | Later | |
-| 87 | Expansion planets | Later | Return to the old wreck after a few expansions |
+| 87 | Expansion planets | Later | Return to the old wreck after a few expansions.  Orbital travel and spaceships live here, beyond this design (Nathan, 2026-11-13) |
 | 87c | City build mode | Decided | An easy build mode to create handcrafted cities.  Waits until the game is established, since much of what it needs (building pieces, NPCs, items) is built in the early stages.  In-game builder in the GM tool that saves to the city's data file, plus Godot's own tile map editor (Draft) |
 | 87g | Crystal hive mind | Later | Sidelined; a possible future expansion, not part of the base game (renumbered from a duplicate 87b in the 2026-11-13 review) |
 | 88 | Headless sim testing | Draft | Seed sweeps and balance runs |
