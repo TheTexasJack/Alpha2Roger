@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.149, 2026-11-13**
+**STATUS v0.150, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.92.  Nathan: Yamajira (M10) is left free, no aggregator; if it erupts it is left alone, and it is far enough away.  Draft: its ash would still reach everyone (world event), and an eruption at the ice edge brings a glacial outburst flood.
 
 - 2026-11-13 (Claudia): world.md v0.91.  Nathan: distance is no limit for volcanic heat (insulate it, or lava to energy to heater); Claudia's 100 to 200 km limit assumed modern tech and is removed.  Draft: heat and power lines as cold-year targets.
 
