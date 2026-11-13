@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.131, 2026-11-12**
+**STATUS v0.132, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): mechanics v0.67.  Nathan: alien illnesses work on alien creatures, so native illnesses get invented too.  Draft: die-offs, erratic sick creatures, warning signs, no jump to people.
 
 - 2026-11-12 (Claudia): mechanics v0.66.  Nathan: rabies is no longer a big threat in the far future; common illnesses are easily cured with access to modern medicine; humans brought illnesses and new alien ones get invented.  Draft: sources of alien illness under mirror chemistry.
 
