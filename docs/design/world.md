@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.82, 2026-11-12**
+**World v0.83, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -287,13 +287,13 @@ Generated with `tools/name_gen.py` (seed 2718) and accepted by Nathan 2026-11-09
 | 9 | Zimna Toride | Radoslav Nishimura |
 | 10 | Kawa Fada | Hina Rafferty |
 
-- Person names follow the region's word order: regional given name plus Japanese family name, flipped to Japanese given name plus regional family name in the Gaelic east.
+- Person names follow the cultural region's word order: regional given name plus Japanese family name, flipped to Japanese given name plus regional family name in the Gaelic east.
 
-## Regions and second cultures
+## Cultural regions and second cultures
 
-Japanese is the base everywhere.  Each region's second culture flavors its names, art, clothing, and culture.  Each region keeps its own word order in hybrid names.
+Japanese is the base everywhere.  Each cultural region's second culture flavors its names, art, clothing, and culture.  Each cultural region keeps its own word order in hybrid names.  (Renamed in the 2026-11-13 review: "region" alone now means a map square.)
 
-| Region | Second culture | Word order | Places |
+| Cultural region | Second culture | Word order | Places |
 |---|---|---|---|
 | Spaceport coast | Persian (KTB) | Persian first | Setareh Minato, Darya Kako |
 | West continent north | German | German first | Warmes Tani |
@@ -301,11 +301,11 @@ Japanese is the base everywhere.  Each region's second culture flavors its names
 | Central-north island | Slavic | Slavic first | Svetla Hama, Zimna Toride |
 | The empty east | Gaelic (Irish) | Japanese first | Shio Loch, Kawa Fada |
 
-- The point is easy generation: the region tells the generator which culture and word order to use.
+- The point is easy generation: the cultural region tells the generator which culture and word order to use.
 
 ## Government
 
-- There is no central global government.  Each of the ten places is the capital of its region.
+- There is no central global government.  Each of the ten places is the capital of its territory.
 - A mix of Lords and Mayors leads the places.
 - Each town has a council, not defined yet.
 - We follow the 3 tier government method: executive, legislative, and judicial.
@@ -370,11 +370,10 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 
 ## Open
 
-- Detailed biomes per region.
 - Currency names and exchange rates.
 - The two brothers' names, and where the fleeing brother came from.
 - Who runs the region's single space station.
-- Final road network on the globe.
+- Road paths drawn on the globe: which places link is decided (Roads and bridges); the generator's routes layer still has to draw the paths.
 
 ## Lancer canon notes (alignment reference)
 

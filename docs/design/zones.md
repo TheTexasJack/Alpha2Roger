@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.61, 2026-11-13**
+**Zones v0.62, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -29,7 +29,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 - R5 from the canon globe (Claudia, approved by Nathan 2026-11-11): latitude 15 to 30 N, all warm band; all land, with the sea just off the west (Q5) and north (R4) edges; the far southeast is about 1,600 km from any coast, the driest interior; about 20% highlands, a massif across the south-center whose highest peaks (the top 5% of land) continue into R6; S1's river runs north to the R4 coast; creeks run east toward S5; no lakes.
 - Expected biomes (Claudia, approved by Nathan 2026-11-11): warm forest along the wetter north and west, warm grassland across the middle, scrub desert toward the dry interior, highlands on the massif, a river corridor along S1's river.
-- Peak height (Claudia, approved by Nathan 2026-11-11): the R5 peaks stand about 3,500 m, about 40 F colder than the lowlands by the lapse rate: cool summers and freezing winters up top, deep below zero in a cold year, a snowcap visible from far off in the warm band.
+- Peak height (Claudia, approved by Nathan 2026-11-11): the R5 peaks stand about 3,500 m (revised 2026-11-12 to about 3,700 m; see Nathan's calls below), about 40 F colder than the lowlands by the lapse rate: cool summers and freezing winters up top, deep below zero in a cold year, a snowcap visible from far off in the warm band.
 - Height and difficulty (Nathan, 2026-11-11): the higher up, traditionally, the more chance of caves and such.  As in traditional RPGs, the more complicated and harder a place is to reach, the better the chance of finding something rare.  A peak in the negatives is a good early challenge for dealing with extreme cold, so put something there the player needs.  Reward effort, even when it is impossible at the time.
 - The R5 peak holds a derelict relay station, since real relay towers sit on the highest ground for line of sight (Claudia, approved by Nathan 2026-11-11).  It is unreachable without cold gear.  Restoring it could give long-range comms (an early thread for the legal battle), weather warnings, or a region map reveal.  The massif's flanks carry caves and mineral veins.
 - Correction (Claudia): from a 3,500 m peak the horizon is about 220 km on Verlassen, and S1 is over 1,100 km away, so the tower cannot be seen from the crash site.
@@ -39,7 +39,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - The M.U.L.E. has a short-range radio, which can introduce local music (Nathan, 2026-11-11).
 - **Draft (Claudia), radio:** short range (VHF and FM, line of sight, roughly 50 to 100 km) carries local stations, camp and caravan chatter, and bandits on open channels.  Long range (shortwave) bounces off the upper atmosphere over thousands of km and carries farther at night: the relay beacon and distant city broadcasts heard after dark.  Local music is original, in each cultural region's style.  Chatter is information (caravans, settlement news, bandit plans).  Night shortwave brings news from the wider world.  Music lifts the camp's mood; silence in a cold-year winter weighs on it.
 
-- R5 biome placement draft v0.2 (Claudia, 2026-11-12): heights from the globe in meters, temperature from the latitude lines minus the lapse rate, moisture from coast distance plus rivers, biome from temperature band and moisture, highlands above 2,000 m, river corridors.  Image: `r5_biomes_v0.2.png` (outside the repo until the generator is approved).
+- R5 biome placement draft v0.2 (Claudia, 2026-11-12): heights from the globe in meters, temperature from the latitude lines minus the lapse rate, moisture from coast distance plus rivers, biome from temperature band and moisture, highlands above 2,000 m, river corridors.  Image: now in the repo as `assets/maps/regions/R5_biomes_v0.2.png`, built by `tools/region_gen.py` v0.2.
 - Nathan's calls on the draft (2026-11-12): the planet height scale is fine (planet top about 6,500 m, R5 summit about 3,700 m); uplands reading as temperate is fine; S1 landing in warm grassland is fine; lots of rivers is fine, since the cold year's ice and snow melts every third year and makes rivers.
 - When a player picks an area on the world map, they pick the region, and that tells the game which 9 maps to load (Nathan, 2026-11-12).
 - Scale note (Claudia): one region cell (about 3.8 km) holds 16 by 16 local maps; the 9-map section is about 720 m.  At region detail, the nearest creek is about 80 km south of S1 and the nearest river about 126 km.
@@ -89,10 +89,10 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 | Layer | One cell is | Used for |
 |---|---|---|
 | Globe | about 61 km (the canon 720 by 360 map) | Strategic view: where the player is, where the cities are.  Canon, never changes |
-| Region map | about 4 km | Montage travel, roads, rivers, biomes, points of interest, events |
-| Local map | 250 by 250 tiles, about 250 m | Turn-based play, camp, combat, walking from map edge to map edge |
+| Region map | about 3.8 km | Montage travel, roads, rivers, biomes, points of interest, events |
+| Local map | 256 by 256 tiles, about 240 m | Turn-based play, camp, combat, walking from map edge to map edge |
 
-- (Claudia, approved by Nathan 2026-11-11) about 16 by 16 local maps per region cell and about 15 by 15 region cells per globe pixel, an even step at each layer.
+- (Claudia, approved by Nathan 2026-11-11) about 16 by 16 local maps per region cell and about 16 by 16 region cells per globe pixel, an even step at each layer (numbers corrected in the 2026-11-13 review to match the Grid section).
 - (Claudia, approved by Nathan 2026-11-11; chunk size superseded 2026-11-11 by one map grid square per region) region maps are fixed square chunks of the globe, not the territories, since about 65% of habitable land belongs to no territory.  Chunks tile seamlessly; territory borders are drawn on top as data.
 - (Claudia, approved by Nathan 2026-11-11) each layer is built from the one above it.  The globe feeds the region chunk; the region cell feeds the local map.  A river on the globe stays a river on the region map and in the local map.
 
@@ -183,7 +183,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - On the player (local) map, speed goes by feel and gets tested.
 - The overworld uses modern assumptions on travel speed.
 - A group is as slow as its slowest unit.
-- **Draft (Claudia), overworld baselines,** about 8 travel hours a day, in km per day: on foot on a road with a light load 30 to 35; on foot in wilderness 15 to 25; hauling a heavy load or sled 10 to 15; deep snow without snowshoes 5 to 10; snowshoes or skis 15 to 30; wagon or cart 25 to 30 (the Oregon Trail's 15 to 20 miles); horse or pack animal 30 to 40; dog sled 40 to 80; vehicle off road 100 to 250; boat downstream 50 to 100, upstream 15 to 25.  Climbing follows Naismith's rule, about one extra hour per 600 m of ascent.
+- (Claudia, approved by Nathan 2026-11-11 as starters; marker fixed in the 2026-11-13 review) overworld baselines: about 8 travel hours a day, in km per day: on foot on a road with a light load 30 to 35; on foot in wilderness 15 to 25; hauling a heavy load or sled 10 to 15; deep snow without snowshoes 5 to 10; snowshoes or skis 15 to 30; wagon or cart 25 to 30 (the Oregon Trail's 15 to 20 miles); horse or pack animal 30 to 40; dog sled 40 to 80; vehicle off road 100 to 250; boat downstream 50 to 100, upstream 15 to 25.  Climbing follows Naismith's rule, about one extra hour per 600 m of ascent.
 - (Claudia, approved by Nathan 2026-11-11 as starters) what slows a group: terrain (biome, snow depth, climbing; roads speed it up); weather (rain, wind, fog, blizzard); daylight (no moon, so little night travel, and short winter days); load against carrying capacity; condition (wounds, sickness, hunger, fatigue, cold, anyone being carried); animals' grazing time and vehicles' fuel; river crossings; caution through dangerous or infected ground; and the cold year, which multiplies most of these.
 
 ## Routes (Nathan, 2026-11-11)
@@ -207,7 +207,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Tolls are placed on the player's local map; everything else about them rolls up into the catch-up math (Nathan, 2026-11-12).
 - A toll's map ticks because it is manned: the NPC counts as the player's people, and so does a toll android, so an android-manned toll gets the catch-up run without the M.U.L.E.'s tracker (Claudia's suggestion, agreed by Nathan 2026-11-12).
 - In this context the robot is a person.  For separation, it is called an android, as opposed to a machine like a farm robot (Nathan, 2026-11-12).
-- **Draft (Claudia):** an android is a humanoid droid, still dumber than a CompCon, so it fits the near-absence of NHPs; it talks in simple scripted lines.
+- Superseded (Claudia, 2026-11-13 review): an earlier draft here had every android talking in simple scripted lines.  Nathan's android tiers in `concept.md` (Androids) replace it: tier 2 androids can have real personalities and still sit below a person, and none is as smart or useful as the M.U.L.E.
 - **Draft (Claudia), tolls:** an android collects less and cannot talk anyone down.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
 - **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
 
@@ -221,7 +221,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 
 - Stop rules are simple: food, unable to progress, too many people sick, and the like.
 - (Claudia, approved by Nathan 2026-11-11) forced stops: food or water below a set number of days left; the party cannot progress (impassable river, cliff, blizzard, vehicle out of fuel or broken); too many sick or hurt (for example half the party, or anyone critical); someone dying; an event that needs a choice; hostile contact; arrival at the destination or a marked point.
-- **Draft (Claudia), player-set stops,** like Oregon Trail's pace and rations: stop at any settlement, stop if food drops below X days, stop at anything interesting.
+- (Claudia, approved by Nathan 2026-11-11; marker fixed in the 2026-11-13 review) player-set stops, like Oregon Trail's pace and rations: stop at any settlement, stop if food drops below X days, stop at anything interesting.
 - (Claudia, approved by Nathan 2026-11-11) nightly camp happens inside the montage and is not a stop, unless something goes wrong in the night.
 - Before starting a montage, the player can set how hard they push it (Nathan, 2026-11-11).
 - (Claudia, approved by Nathan 2026-11-11) montage settings: Pace (Easy, Steady, Hard, Grueling: more km per day against fatigue, injury, sickness, and gear wear); Rations (Full, Reduced, Bare: food lasts longer against health, mood, and cold resistance, since fewer calories means less body heat); Rest days (none, or every N days); Caution (Bold, Normal, Careful: risky shortcuts and fewer events, or detours around danger and slower travel).  Settings stack with the slowest-unit rule and can be changed at any stop.
@@ -285,7 +285,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 
 ## Performance notes (Claudia, approved by Nathan 2026-11-11)
 
-- Turn-based play costs work per move, not per frame.  A 250 by 250 map is 62,500 tiles, small for the target PC.  The real cost is creature AI and pathfinding each turn; dozens of creatures on a map is fine.
+- Turn-based play costs work per move, not per frame.  A 256 by 256 map is 65,536 tiles, small for the target PC.  The real cost is creature AI and pathfinding each turn; dozens of creatures on a map is fine.
 
 ## Zone graph format (approved by Nathan 2026-11-12 to 2026-11-13)
 
@@ -301,4 +301,4 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Full montage event tables, once more of the game exists.
 - River inflow across region borders: feed upstream flow from the globe into each region's window (before a second region is built).
 - `tools/region_gen.py` to write the newer region layers (salinity, flow direction and speed, full-detail height, moisture, territory, routes, landmarks, entrances).
-- Remaining drafts to review: beacon snapshot view, M.U.L.E. sensing mode details, the rest of the city file contents (item 3 above).
+- Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; region pick flow; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); ferry landings for inland towns; unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).

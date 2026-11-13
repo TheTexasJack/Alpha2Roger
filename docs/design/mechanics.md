@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.68, 2026-11-12**
+**Mechanics v0.69, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -14,7 +14,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 1 | Planet data module | Decided | Fixed map, places, biomes, rules as data; new planets need no engine rewrite |
 | 2 | Seeded zone generator | Decided | Fixed places, random wilderness per seed, zone distances between fixed areas |
 | 3 | Zone tile maps | Decided | Grid based, generated from seed plus biome |
-| 4 | Delta saves | Draft | Save only what the player changed |
+| 4 | Delta saves | Decided | Save only what the player changed; maps the player builds on get baked.  Free saving, dawn autosaves, manual saves, playthrough names, JSON with an escape hatch (`zones.md`, Save file) |
 | 5 | Turn-based grid movement | Decided | Enemies move when you do |
 | 6 | Fog of war | Decided | Sword of Fargoal style: explored map remembered |
 | 6b | Line of sight | Decided | Brutal, Caves of Qud style; camp stays visible, wilderness on line of sight (Draft); night and blizzards shrink it (Draft) |
@@ -24,6 +24,10 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 8 | Layered peg sprites | Decided | Body, head, hat, gun, maybe circle hands; no limb animation |
 | 9 | One survival pressure | Decided | First test of the survival loop |
 | 10 | Zone transitions | Decided | Move between zones on the graph |
+| 10b | Edge walking | Decided | Walk off a local map's edge into the next; the 9-map section around camp loads together (`zones.md`) |
+| 10c | Montage travel | Decided | Long trips set a destination on the region map; route by pathfinding, days shown as a range; supplies, events, stops, pace and rations (`zones.md`) |
+| 10d | Catch-up on return | Decided | Maps with the player's people (NPCs, androids) tick; others run seeded catch-up math when the player returns; camp log reports it (`zones.md`) |
+| 10e | Linked maps | Decided | Underground, interiors, the RV, and city districts hang off local maps as linked maps (`zones.md`) |
 
 ## Tier 2: Survival core (Stage 4 and next)
 
@@ -63,6 +67,9 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 32 | Translator calibration | Decided | Tutorial calibrates through sample languages (563 detected), then English |
 | 32b | Wrist display interface | Decided | Menus feel like checking in with the M.U.L.E., even when it is away; Fallout-style but more advanced; never breaks (Draft) |
 | 33 | Subtitles and message log | Draft | Always on, rereadable |
+| 87a | MULEpad | Decided | In-game notes in the M.U.L.E.: pin addresses to the notepad, track and find them.  Pin, track, find, linked log entries (approved) |
+| 87d | M.U.L.E. tracker | Decided | One zone loader: the tracked zone works like the camp (catch-up on return); a settings flag can raise the count; removing it returns the zone to normal.  Quests and story events flag their spots automatically |
+| 87f | M.U.L.E. sensing | Decided | Scan modes: thermal, outline, motion, lidar, EM/crystal (ghost box style); the player cycles the mode in his menu, it persists until off or the battery runs out, and extra scans drain the battery faster |
 
 ## Tier 4: Character and companions
 
@@ -158,14 +165,9 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 84 | NPC voices | Later | ElevenLabs style or local text to speech |
 | 85 | Babies and genetics | Later | Much later, like RimWorld |
 | 86 | Brawl mechanics | Later | |
-| 87b | Crystal hive mind | Later | Sidelined; a possible future expansion, not part of the base game |
 | 87 | Expansion planets | Later | Return to the old wreck after a few expansions |
-| 87a | MULEpad | Decided | In-game notes in the M.U.L.E.: pin addresses to the notepad, track and find them.  Pin, track, find, linked log entries (approved) |
-| 87e | Performance readout | Decided | The GM tool and the system report need machine CPU, GPU, and memory usage, to test a live tracked map (Nathan).  In game: Godot's Performance monitors plus a custom monitor timing the tracked map's simulation; outside: `tools/system_report.py` adds CPU, memory, and GPU load and VRAM via nvidia-smi (approved) |
-| 87f | M.U.L.E. sensing | Decided | Scan modes: thermal, outline, motion, lidar, EM/crystal (ghost box style); the player cycles the mode in his menu, it persists until off or the battery runs out, and extra scans drain the battery faster |
-| 87d | M.U.L.E. tracker | Decided | One zone loader: the tracked zone works like the camp (catch-up on return); a settings flag can raise the count; removing it returns the zone to normal.  Quests and story events flag their spots automatically |
-| 87b | GM tool | Decided | Built early to skip around while testing (no waiting a year to test something), hidden later.  Jump, time skip, spawn, fire events, edit, run catch-up, load seed; debug builds only (approved) |
 | 87c | City build mode | Decided | An easy build mode to create handcrafted cities.  Waits until the game is established, since much of what it needs (building pieces, NPCs, items) is built in the early stages.  In-game builder in the GM tool that saves to the city's data file, plus Godot's own tile map editor (Draft) |
+| 87g | Crystal hive mind | Later | Sidelined; a possible future expansion, not part of the base game (renumbered from a duplicate 87b in the 2026-11-13 review) |
 | 88 | Headless sim testing | Draft | Seed sweeps and balance runs |
 | 93 | Forced truce | Later | On hold.  Engine mechanic; criteria established later.  Idea: wars pause in the cold year, restart with the thaw |
 | 95 | Crystal grafts | Later | After infection synthesis: purposeful infections, small benefits with trade-offs (lose one stat, gain another), visible crystals on the pawn.  Seasonal, social, and spread costs; no cold immunity; costly removal; successors start clean |
@@ -181,3 +183,5 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 90 | Credits screen | Decided | Lancer Third Party License requirements in the game itself |
 | 91 | Boredom log | Decided | Nathan reports fade points |
 | 92 | Diagnostics export | Draft | One key writes a report: build version, seed, save state, log tail, settings.  Mirrors tools/system_report.py |
+| 87b | GM tool | Decided | Built early to skip around while testing (no waiting a year to test something), hidden later.  Jump, time skip, spawn, fire events, edit, run catch-up, load seed; debug builds only (approved) |
+| 87e | Performance readout | Decided | The GM tool and the system report need machine CPU, GPU, and memory usage, to test a live tracked map (Nathan).  In game: Godot's Performance monitors plus a custom monitor timing the tracked map's simulation; outside: `tools/system_report.py` adds CPU, memory, and GPU load and VRAM via nvidia-smi (approved) |

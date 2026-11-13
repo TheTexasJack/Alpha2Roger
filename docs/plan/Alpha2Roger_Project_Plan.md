@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.29, 2026-11-13**
+**Plan v0.30, 2026-11-13**
 
 ## What this project is
 
@@ -27,7 +27,7 @@ Goal: settle the decisions that everything else is built on.
 | A2R-003 | Art style | Decided | Layered peg people, RimWorld style.  Older style with modern color selection |
 | A2R-004 | Time scale | Deferred | Day, season, and run length decided after we see gameplay |
 | A2R-005 | Survival pressures | Decided | Biome specific: heat and cold, food and sleep, light sanity (mood debuffs, no insanity), light relationships |
-| A2R-006 | Planet basics | Decided | All recorded in `docs/design/world.md`: Verlassen (Kepler-64432p), 5071u (was 5016u), between Cinder Crown and the KTB; Sun-like star, 14-month year, cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
+| A2R-006 | Planet basics | Decided | All recorded in `docs/design/world.md`: Verlassen (Kepler-64432p), 5071u (was 5016u), between Cinder Crown and the KTB; Sun-like star, a year of about 14 Earth months (calendar: 12 months of 35 days, 420 days), cold year every third year from a gas giant's 3:1 resonance; globe seed 2718; ten named places and regions; peoples, cultures, government; three infection impact sites |
 | A2R-007 | Local currency | In progress | Five regional currencies grouped by place (see `docs/design/world.md`); Manna off-world.  Open: currency names, exchange rates |
 
 **Gate:** every Stage 0 item decided or explicitly deferred, and recorded in `docs/design/concept.md`.  **Passed 2026-11-10: Stage 0 closed.**
@@ -44,7 +44,7 @@ Goal: Claude hand-holds Nathan through setting up Beast for local Godot developm
 | A2R-S04 | Lock down Claude Code permissions | Not started | Ask-before-acting permission mode; deny rules for destructive commands (for example recursive deletes and anything outside the project folder) |
 | A2R-S05 | Git as the undo button | Not started | Clone the repo into the project folder; GitHub is the off-machine backup; small commits to main |
 | A2R-S06 | Install Godot 4 | Not started | Pin the exact version in the README |
-| A2R-S07 | Shared rules file | Not started | `AGENTS.md` at the repo root (read by Claude Code and by Codex-style tools on Mara's side): style, versioning, compartmentalized steps, one AI per file at a time |
+| A2R-S07 | Shared rules file | Done | `AGENTS.md` at the repo root (read by Claude Code and by Codex-style tools on Mara's side): style, versioning, compartmentalized steps, one AI per file at a time |
 | A2R-S08 | Headless test check | Not started | A Godot test add-on runs from the command line, so changes can be verified without clicking through the game |
 | A2R-S09 | Plan check | Not started | Start on the current plan; move to Max, then Ultra, only if usage limits actually bite |
 
@@ -120,6 +120,7 @@ Goal: the core loop.
 - Plan v0.28, 2026-11-12 (Nathan): the year is 5071u; planet data file v0.4.
 - Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
 - Plan v0.26, 2026-11-11 (Nathan): planet data file v0.2 with the 12 by 35 day calendar.
+- Plan v0.30, 2026-11-13 (Claudia): review fixes.  A2R-006 year wording matches the 12-month calendar; A2R-S07 marked Done (`AGENTS.md` exists since plan v0.22).
 - Plan v0.29, 2026-11-13 (Nathan): A2R-102 in review; zone graph format complete.
 - Plan v0.25, 2026-11-10 (Nathan): A2R-102 in progress; zones and travel direction recorded in `docs/design/zones.md`.
 - Plan v0.24, 2026-11-10 (Nathan): A2R-101 locked and done; biome regions and route distance ranges moved to A2R-102.

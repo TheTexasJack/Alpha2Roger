@@ -1,13 +1,13 @@
 # Status
 
-**STATUS v0.139, 2026-11-13**
+**STATUS v0.140, 2026-11-13**
 
 ## Where things stand
 
 - **Stage 0 (concept lock): closed 2026-11-10.**  The concept, the world of Verlassen, and the mechanics list are written down.
 - No game code exists yet.  The Godot project has not been created.
 - Every file carries a version.  `tools/version_check.py` verifies them against `VERSIONS.md`.  `tools/system_report.py` writes a full diagnostic report to `diagnostics/`.
-- World tools exist in `tools/` (globe, places, regions, person names), with canon maps in `assets/maps/`.
+- World tools exist in `tools/` (globe, places, territories, person names, planet pack, music areas, region generator), with canon maps in `assets/maps/` and the first region (R5) in `tools/data/regions/`.
 
 ## Next steps (Nathan picks the order)
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): full review.  Data rebuilds byte-identical; version check clean.  Fixed: zones.md v0.62 (layer table and tile counts now 3.8 km / 256 tiles / 16 cells per globe pixel, R5 peak pointer, R5 image path, two approved drafts that kept their Draft markers, superseded android draft, full list of open zones drafts); mechanics v0.69 (duplicate #87b, hive mind now #87g; #4 saves Decided; new #10b to #10e for edge walking, montage, catch-up, linked maps; GM tool and performance readout moved to Always on, M.U.L.E. items to Tier 3); world.md v0.83 (cultural region wording, Open list); concept v1.17 (Open items, music draft pointer); plan v0.30 (A2R-006 year wording, A2R-S07 Done); README v0.6 and AGENTS v0.6 repo maps.  Decisions for Nathan listed in chat.
 
 - 2026-11-13 (Claudia): zones.md v0.61.  Restored the first-city decision (Kawa Fada) to the Cities section after the Open list refresh dropped it.
 
