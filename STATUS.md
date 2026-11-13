@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.142, 2026-11-13**
+**STATUS v0.143, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.85.  Nathan: radio and news feed off the culture map, not the music areas (overlap is fine; they are flavor: simple musical elements, voice recordings); weather is separate.  Drafts: stations take their place's cultural region; split a culture map out of `tools/music_areas.py` so culture feeds music, radio, and news.
 
 - 2026-11-13 (Claudia): planet file v0.6 (`tools/planet_pack.py` v0.6), world.md v0.84, concept v1.18.  Nathan named the highest point Yamajira (M10, 53.4 S, 8.5 E, about 6,500 m); the packer finds it on the globe and checks it stays in M10.  Music stays in music: it evolves on its own and should not impact anything else, so the planet file only points to the music files.  Next: Nathan's calls on the remaining planet file items (latitude lines, biomes as data, road order, paths, ferries, cold-year cause).
 

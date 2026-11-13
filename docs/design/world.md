@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.84, 2026-11-13**
+**World v0.85, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -11,8 +11,12 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - Current time: 5071u (Nathan, 2026-11-12), roughly 50 years after the events on Halas at Nathan's Lancer table.  Note (Claudia): the Lancer core book's present is 5016u, so the game is set about 55 years after canon's present day.  Earlier drafts said 5016u.
 - Verlassen is about 50 light years away, and the planet is only now getting signals, feeds, and other things from the spaceport and elsewhere.  So current material from Nathan's Lancer tables can be used as news and other in-world information, and it is lore appropriate (Nathan, 2026-11-12).
 - Local stations rebroadcast the old news (Nathan, 2026-11-12).  Each puts its local spin on it: moving to another zone, the player hears the same story told with that zone's spin.
-- Spin (Claudia, approved by Nathan 2026-11-12): one source story, retold through each region's concerns (the steppe asks about the horses, the salt traders about salt prices, the spaceport sounds dry and official).  Shio Loch and Kawa Fada tell the same story in opposite ways, each making the other brother look bad, so the feud plays out on the air.  Built as one story file plus one spin per region.
+- Spin (Claudia, approved by Nathan 2026-11-12): one source story, retold through each region's concerns (the steppe asks about the horses, the salt traders about salt prices, the spaceport sounds dry and official).  Shio Loch and Kawa Fada tell the same story in opposite ways, each making the other brother look bad, so the feud plays out on the air.  Built as one story file plus one spin per cultural region.
 - (Claudia, approved by Nathan 2026-11-12) a handheld radio cannot catch a broadcast from 50 light years away, so the spaceport's big dish catches the old light-speed broadcasts and local stations rebroadcast them (an "old news hour" on the M.U.L.E.'s radio).  That makes two speeds of news: old light-lagged news free on the radio, and live omninet contact through the spaceport, instant and expensive, the same channel the legal battle's messages use, costing Manna per transmission.
+- Radio and news feed off the culture map, not the other way, and not off the music areas (Nathan, 2026-11-13).  There will be some overlap with the music, but radio and news are mostly flavor elements we need to record: simple musical elements, voice recordings, and things we can create regardless of anything else.
+- Weather is different and is not part of the radio and news flavor (Nathan, 2026-11-13).
+- **Draft (Claudia), stations:** each station belongs to a place (one of the ten, or a seeded settlement) and takes that place's cultural region from the planet file; the player hears whichever stations are in range (radio ranges in `zones.md`).
+- **Draft (Claudia), culture map:** today the only every-spot culture map lives inside `tools/music_areas.py` (land takes the culture of the nearest place reachable overland).  Split it out as its own culture map (`tools/culture_map.py` writing `tools/data/culture_map.json`); music areas then read the culture map and add their own music-only layers (sea shanty, ice dread, Overall, shore water), and radio, news, and settlement names read the culture map too.  Culture feeds music, radio, and news; music feeds nothing.
 - On the galaxy map, about 50 years from the worlds of Nathan's current game tables.  Reachable, but out of the way and untouched by any current table or players.
 - Location on the Errans Inter Astra Atlas of the Known Diaspora: far to the left, between Cinder Crown (deep-field relay) and the Karrakin Trade Baronies.  Nothing else is charted there; well out of the way, near the horizontal line through the galactic core.
 - **Draft (Claudia):** Cinder Crown is the relay every blink message from the planet passes through, which is why replies take weeks or months.
@@ -91,7 +95,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 ## Music areas (Nathan, 2026-11-12)
 
-Every spot on the planet has a music area.  It sets the feel of the area's influence and is the trigger the system uses to pick the background music set.  It also drives radio stations, news, and other things, beyond a few key exceptions.  Map: `assets/maps/verlassen_music_areas_v0.1.png`; data: `tools/data/music_areas.json`, built by `tools/music_areas.py`.
+Every spot on the planet has a music area.  It sets the feel of the area's influence and is the trigger the system uses to pick the background music set.  It also drives radio stations, news, and other things, beyond a few key exceptions (changed by Nathan 2026-11-13: radio and news feed off the culture map instead; see Era and location).  Map: `assets/maps/verlassen_music_areas_v0.1.png`; data: `tools/data/music_areas.json`, built by `tools/music_areas.py`.
 
 - Land takes the culture of the nearest of the ten places reachable overland; each town's influence shapes the music around it (Mongolian throat singing down south, and so on).
 - Land with no town in reach uses the Overall theme, which shows these areas have no direct influence.
