@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.70, 2026-11-13**
+**Zones v0.71, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -46,7 +46,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - (Claudia, approved by Nathan 2026-11-13) pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  Small creeks and ponds are local-map features anywhere.
 - Start choice built in from the start (Nathan, 2026-11-13): the random and player-picked start is worked in now, but during development we always click and enter S1 to start.
 - Two starts (Nathan, 2026-11-13): a fixed "Tutorial Start" and a "Random Start".  S1 is the Tutorial Start, so the player gets both worlds: a one-click start, and the option to go random.
-- **Draft (Claudia), tutorial:** the Tutorial Start also uses a fixed run seed, so S1's local maps come out the same every time and tutorial beats can be placed at known spots.  The translator calibration (#32) and the mech computer's voice already work as the tutorial; building and testing S1 during development builds the tutorial at the same time.
+- (Claudia, approved by Nathan 2026-11-13) tutorial: the Tutorial Start also uses a fixed run seed, so S1's local maps come out the same every time and tutorial beats can be placed at known spots.  The translator calibration (#32) and the mech computer's voice already work as the tutorial; building and testing S1 during development builds the tutorial at the same time.
 - Note (Claudia): picking your own region (`concept.md`, Crash site; mechanic #71) is still canon and sits beside Random Start until Nathan says otherwise.
 - **Draft (Claudia), how:**
   - The region baker adds a start layer to each region: the cells allowed as a crash spot.  Rule draft: land, below the ice line, at least 2,000 km from any of the ten places, and at least 600 km from an impact site.  That leaves about 63% of usable land across about 125 regions; S1 passes easily (about 5,600 km from Zimna Toride, about 5,000 km from an impact site).  The river preference was for testing only.

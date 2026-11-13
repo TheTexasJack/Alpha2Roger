@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.169, 2026-11-13**
+**STATUS v0.170, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.71.  Nathan approved the fixed run seed for the Tutorial Start.  Next: the run seed.
 
 - 2026-11-13 (Claudia): zones.md v0.70, concept v1.23, mechanics v0.82 (#71).  Nathan: two starts, a fixed Tutorial Start at S1 (one click) and a Random Start.  Draft: the tutorial uses a fixed run seed too.  Picking your own region stays canon beside Random until Nathan says otherwise.
 
