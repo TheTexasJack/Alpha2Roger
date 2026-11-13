@@ -1,17 +1,18 @@
-"""Alpha2-Roger planet pack v0.4: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.5: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v0.74       planet facts, regions, currencies, notable people (copied in below)
+  docs/design/world.md v0.83       planet facts, cultural regions, currencies, notable people, road network (copied in below)
+  docs/design/zones.md v0.62       routes: road, path, and ferry decisions (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
 is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.4"
+__version__ = "0.5"
 
 import json, math
 from pathlib import Path
@@ -19,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.4"          # bump on every change to the output
+FILE_VERSION = "0.5"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -64,7 +65,25 @@ def impact_sites():
     return [(int(y), int(x)) for y, x in imp]
 
 
-# ---- Locked facts, copied from docs/design/world.md v0.74 (Nathan's decisions) ----
+def landmasses():
+    """Label each landmass on the canon globe (8-connected, wrapping east-west), as tools/music_areas.py reads the land."""
+    import numpy as np
+    from scipy import ndimage
+    src = (HERE / "globe_candidates.py").read_text().split("seeds = [")[0]
+    G = {}
+    exec(src, G)
+    elev, _ = G["sphere_field"](np.random.default_rng(SEED))
+    land = elev > np.quantile(elev, 1 - G["LAND_FRAC"])
+    lab, _ = ndimage.label(land, structure=np.ones((3, 3)))
+    for y in range(H):                       # join masses that touch across the wrap edge
+        for dy in (-1, 0, 1):
+            yy = y + dy
+            if 0 <= yy < H and land[y, 0] and land[yy, W - 1] and lab[y, 0] != lab[yy, W - 1]:
+                lab[lab == lab[yy, W - 1]] = lab[y, 0]
+    return lab
+
+
+# ---- Locked facts, copied from docs/design/world.md v0.83 (Nathan's decisions) ----
 
 PLACE_FACTS = {
     1: ("Star Harbor", "Spaceport city", "spaceport_coast", "B"),
@@ -92,6 +111,11 @@ CURRENCIES = [  # id, issued by, also used in
     ("E", [4, 9], []),
 ]
 IMPACT_GRIDS = ["M3", "T3", "J10"]   # accepted by Nathan
+
+# Routes (Nathan, 2026-11-11 and 2026-11-12; world.md Roads and bridges, zones.md Routes)
+ROADS = [[3, 8, 1], [2, 6, 10, 7]]   # places in the order Nathan listed them
+PATHS = [[5, 1], [2, 10]]            # "such as": the full path list is still open
+FERRY_TOWNS = [1, 8, 2, 4, 9, 10]
 
 
 def build():
@@ -134,6 +158,11 @@ def build():
     ids = sorted(coords)
     distances = {str(a): {str(b): great_circle_km(coords[a], coords[b]) for b in ids if b != a} for a in ids}
 
+    lab = landmasses()
+    mass = {p["id"]: int(lab[p["px"]["y"], p["px"]["x"]]) for p in places}
+    for link in ROADS + PATHS:                # every road and path must stay on one landmass
+        assert len({mass[i] for i in link}) == 1, f"route crosses water: {link}"
+
     cultural = []
     for key, rule in names["regions"].items():
         cultural.append({
@@ -150,7 +179,8 @@ def build():
         "planet_id": "verlassen",
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
-            "world": "docs/design/world.md v0.74",
+            "world": "docs/design/world.md v0.83",
+            "zones": "docs/design/zones.md v0.62",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
             "globe": "tools/globe_candidates.py v0.3.1",
@@ -221,14 +251,37 @@ def build():
                 "towns have banks",
             ],
         },
+        "routes": {
+            "roads": [{"places": r} for r in ROADS],
+            "roads_note": "places listed in Nathan's order; the generator's routes layer draws the paths on the globe, then each region, then each local map",
+            "paths": [{"places": p} for p in PATHS],
+            "paths_complete": False,
+            "ferry_towns": FERRY_TOWNS,
+            "ferry_routes": [
+                {"to": 10, "via": "the strait at X3 and W4, beside Shio Loch (V4)",
+                 "why": "Kawa Fada sits on an enclosed inner sea; the strait is its only opening below the ice line"},
+            ],
+            "cold_year": "sea ice opens new routes; Setareh Minato (1) to Ikh Gawa (2) becomes a land trip",
+            "seed_rules": {
+                "canon": "roads between the ten places are the same on every seed",
+                "seeded": "small paths to wild settlements, bandit camps, and similar offshoots are random by the seed",
+            },
+            "distances": "calculated, never stored: pathfinding across region cells with a cost per cell "
+                         "(biome, climbing, rivers, roads, infected ground) and the speed table; "
+                         "the montage planner shows a range of days",
+            "types": ["road", "path", "animal_trail"],
+            "types_rules": "docs/design/zones.md, Routes (road types, wheels)",
+        },
         "straight_line_km": distances,
         "open": [
             "currency names and exchange rates",
             "day length (calendar assumes 24 hours)",
             "leader title (lord or mayor) per place",
             "notable people's roles",
-            "detailed biomes per region",
-            "final road network and route distance ranges",
+            "road paths drawn on the globe (the generator's routes layer)",
+            "paths beyond 5 to 1 and 2 to 10 (4 and 9 share an island with no land link set)",
+            "which ferry towns connect directly (only the Kawa Fada route is set)",
+            "where ferries dock for Setareh Minato (about 180 km inland) and Zimna Toride (about 300 km inland)",
             "the two brothers' names",
             "who runs the region's space station",
         ],

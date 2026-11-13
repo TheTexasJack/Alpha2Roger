@@ -1,9 +1,10 @@
 {
- "version": "0.4",
+ "version": "0.5",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.4",
+ "generated_by": "tools/planet_pack.py v0.5",
  "sources": {
-  "world": "docs/design/world.md v0.74",
+  "world": "docs/design/world.md v0.83",
+  "zones": "docs/design/zones.md v0.62",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
   "globe": "tools/globe_candidates.py v0.3.1"
@@ -451,6 +452,68 @@
    "towns have banks"
   ]
  },
+ "routes": {
+  "roads": [
+   {
+    "places": [
+     3,
+     8,
+     1
+    ]
+   },
+   {
+    "places": [
+     2,
+     6,
+     10,
+     7
+    ]
+   }
+  ],
+  "roads_note": "places listed in Nathan's order; the generator's routes layer draws the paths on the globe, then each region, then each local map",
+  "paths": [
+   {
+    "places": [
+     5,
+     1
+    ]
+   },
+   {
+    "places": [
+     2,
+     10
+    ]
+   }
+  ],
+  "paths_complete": false,
+  "ferry_towns": [
+   1,
+   8,
+   2,
+   4,
+   9,
+   10
+  ],
+  "ferry_routes": [
+   {
+    "to": 10,
+    "via": "the strait at X3 and W4, beside Shio Loch (V4)",
+    "why": "Kawa Fada sits on an enclosed inner sea; the strait is its only opening below the ice line"
+   }
+  ],
+  "cold_year": "sea ice opens new routes; Setareh Minato (1) to Ikh Gawa (2) becomes a land trip",
+  "seed_rules": {
+   "canon": "roads between the ten places are the same on every seed",
+   "seeded": "small paths to wild settlements, bandit camps, and similar offshoots are random by the seed"
+  },
+  "distances": "calculated, never stored: pathfinding across region cells with a cost per cell (biome, climbing, rivers, roads, infected ground) and the speed table; the montage planner shows a range of days",
+  "types": [
+   "road",
+   "path",
+   "animal_trail"
+  ],
+  "types_rules": "docs/design/zones.md, Routes (road types, wheels)"
+ },
  "straight_line_km": {
   "1": {
    "2": 7212,
@@ -568,8 +631,10 @@
   "day length (calendar assumes 24 hours)",
   "leader title (lord or mayor) per place",
   "notable people's roles",
-  "detailed biomes per region",
-  "final road network and route distance ranges",
+  "road paths drawn on the globe (the generator's routes layer)",
+  "paths beyond 5 to 1 and 2 to 10 (4 and 9 share an island with no land link set)",
+  "which ferry towns connect directly (only the Kawa Fada route is set)",
+  "where ferries dock for Setareh Minato (about 180 km inland) and Zimna Toride (about 300 km inland)",
   "the two brothers' names",
   "who runs the region's space station"
  ]

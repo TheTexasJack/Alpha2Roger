@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.140, 2026-11-13**
+**STATUS v0.141, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): planet file v0.5 (`tools/planet_pack.py` v0.5).  Nathan asked for the road decisions in the planet file: roads 3-8-1 and 2-6-10-7, paths 5-1 and 2-10, ferry towns 1, 8, 2, 4, 9, 10, the Kawa Fada ferry through the strait by Shio Loch, cold-year sea ice, canon vs seeded routes, distances calculated never stored.  The packer now checks every road and path stays on one landmass.  Stale open items replaced; sources now world.md v0.83 and zones.md v0.62.
 
 - 2026-11-13 (Claudia): full review.  Data rebuilds byte-identical; version check clean.  Fixed: zones.md v0.62 (layer table and tile counts now 3.8 km / 256 tiles / 16 cells per globe pixel, R5 peak pointer, R5 image path, two approved drafts that kept their Draft markers, superseded android draft, full list of open zones drafts); mechanics v0.69 (duplicate #87b, hive mind now #87g; #4 saves Decided; new #10b to #10e for edge walking, montage, catch-up, linked maps; GM tool and performance readout moved to Always on, M.U.L.E. items to Tier 3); world.md v0.83 (cultural region wording, Open list); concept v1.17 (Open items, music draft pointer); plan v0.30 (A2R-006 year wording, A2R-S07 Done); README v0.6 and AGENTS v0.6 repo maps.  Decisions for Nathan listed in chat.
 
