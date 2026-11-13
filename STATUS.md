@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.148, 2026-11-13**
+**STATUS v0.149, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.91.  Nathan: distance is no limit for volcanic heat (insulate it, or lava to energy to heater); Claudia's 100 to 200 km limit assumed modern tech and is removed.  Draft: heat and power lines as cold-year targets.
 
 - 2026-11-13 (Claudia): world.md v0.90.  Nathan's terraforming idea: eruptions are celebrated, and geothermic aggregators on the peaks pump lava around the cities.  Drafts: lava tubes and gravity for the run down (Undara about 160 km), why eruptions are celebrated (greenhouse; explosive ones are the disaster), aggregator lords and lava-ring moats.  Open: which peaks are volcanic.
 
