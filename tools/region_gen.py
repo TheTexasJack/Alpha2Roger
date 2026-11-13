@@ -1,19 +1,19 @@
-"""Alpha2-Roger region generator v0.1: builds one region's 480 x 480 region cells from the canon globe.
+"""Alpha2-Roger region generator v0.2: builds one region's 480 x 480 region cells from the canon globe.
 
 Rules: docs/design/zones.md, Region biome rules (approved by Nathan 2026-11-12).
 For now it runs for R5 only; ice, water biomes, infection levels, and features come before other regions.
 
 Run:  python3 tools/region_gen.py R5
-Writes: tools/data/regions/R5.json and assets/maps/regions/R5_biomes_v0.1.png
+Writes: tools/data/regions/R5.json and assets/maps/regions/R5_biomes_v0.2.png
 """
-__version__ = "0.1"
+__version__ = "0.2"
 import sys, numpy as np
 from scipy import ndimage
 from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 REPO = str(Path(__file__).resolve().parent.parent)
 REGION = (sys.argv[1] if len(sys.argv) > 1 else 'R5').upper()
-assert REGION == 'R5', 'v0.1 only supports R5; ice, water biomes, infection, and features come first'
+assert REGION == 'R5', 'v0.2 only supports R5; ice, water biomes, infection, and features come first'
 src = open(f"{REPO}/tools/globe_candidates.py").read().split("seeds = [")[0]
 G = {}; exec(src, G)
 W0, H0 = G["W"], G["H"]
@@ -24,13 +24,34 @@ Lmax = elev[landg].max()
 X0, Y0, N, M = 506, 116, 38, 4          # window with a 4 px margin around R5 (x 510..539, y 120..149)
 CELLS = 16; KM = 44082 / W0 / CELLS        # about 3.83 km per region cell
 win = np.take(elev, range(X0, X0 + N), axis=1, mode="wrap")[Y0:Y0 + N]
-up = ndimage.zoom(win, CELLS, order=3)
-rng = np.random.default_rng(2718 * 1000 + 17 * 12 + 5)   # seed plus region id
+# v0.2: everything below is keyed to world coordinates, so neighboring regions agree along shared borders.
+# Interpolation is local (cubic B-spline without the global prefilter), and noise is hashed from absolute cell coordinates.
+n = N * CELLS
+GX = (X0 * CELLS + np.arange(n))[None, :].repeat(n, 0)          # absolute cell column (wraps at W0 * CELLS)
+GY = (Y0 * CELLS + np.arange(n))[:, None].repeat(n, 1)          # absolute cell row
+coords = np.stack([(GY - Y0 * CELLS + 0.5) / CELLS - 0.5, (GX - X0 * CELLS + 0.5) / CELLS - 0.5])
+up = ndimage.map_coordinates(win, coords, order=3, prefilter=False, mode="nearest")
+WRAP = W0 * CELLS
+def _hash(ix, iy, salt):
+    h = (ix.astype(np.uint64) * np.uint64(0x9E3779B1) ^ iy.astype(np.uint64) * np.uint64(0x85EBCA77) ^ np.uint64(salt) * np.uint64(0xC2B2AE3D) ^ np.uint64(2718))
+    h ^= h >> np.uint64(15); h *= np.uint64(0x2C1B3C6D); h ^= h >> np.uint64(12); h *= np.uint64(0x297A2D39); h ^= h >> np.uint64(15)
+    return (h & np.uint64(0xFFFFFF)).astype(np.float64) / 0xFFFFFF * 2 - 1
+def value_noise(scale, salt):
+    """Smooth value noise on a lattice of `scale` cells, from absolute cell coordinates (wraps east-west)."""
+    fx, fy = GX / scale, GY / scale
+    x0, y0 = np.floor(fx).astype(np.int64), np.floor(fy).astype(np.int64)
+    tx, ty = fx - x0, fy - y0
+    sx, sy = tx * tx * (3 - 2 * tx), ty * ty * (3 - 2 * ty)
+    per = int(round(WRAP / scale))
+    def h(ix, iy): return _hash(np.mod(ix, per), iy, salt)
+    a, b, c, d = h(x0, y0), h(x0 + 1, y0), h(x0, y0 + 1), h(x0 + 1, y0 + 1)
+    return (a + (b - a) * sx) + ((c + (d - c) * sx) - (a + (b - a) * sx)) * sy
 def fbm(shape, sig):
-    f = ndimage.gaussian_filter(rng.standard_normal(shape), sig); return f / f.std()
+    salt = int(sig * 101)
+    f = value_noise(sig * 2, salt) + 0.5 * value_noise(sig, salt + 7)
+    return f / 0.6
 std = elev.std()
 up = up + std * (0.05 * fbm(up.shape, 6) + 0.025 * fbm(up.shape, 2))
-n = up.shape[0]
 lat = 90 - (Y0 + (np.arange(n) + 0.5) / CELLS) * 180 / (H0 - 1)
 LATc = np.repeat(lat[:, None], n, 1)
 land = up > sea
@@ -89,12 +110,12 @@ for i, k in enumerate(order):
     od.rectangle([x, y, x + 16, y + 16], fill=COL[k]); od.text((x + 22, y), f"{k} {100 * (Bc == k).mean():.0f}%", fill=(255, 255, 255), font=f)
 out.paste(im, (0, H_leg))
 Path(f"{REPO}/assets/maps/regions").mkdir(parents=True, exist_ok=True)
-out.save(f"{REPO}/assets/maps/regions/{REGION}_biomes_v0.1.png")
+out.save(f"{REPO}/assets/maps/regions/{REGION}_biomes_v0.2.png")
 import json
 codes = list(COL.keys())
 key = "abcdefghijklmnopqrstuvwxyz"
 Rc = river[c0:c0 + 480, c0:c0 + 480]; Kc = creek[c0:c0 + 480, c0:c0 + 480]
-data = {"version": "0.1", "generated_by": f"tools/region_gen.py v{__version__}", "seed": 2718, "region": REGION,
+data = {"version": "0.2", "generated_by": f"tools/region_gen.py v{__version__}", "seed": 2718, "region": REGION,
         "cells": 480, "km_per_cell": round(KM, 2), "origin_globe_px": [510, 120],
         "biomes": {key[i]: k for i, k in enumerate(codes)},
         "biome_rows": ["".join(key[codes.index(v)] for v in row) for row in Bc],
@@ -103,6 +124,6 @@ data = {"version": "0.1", "generated_by": f"tools/region_gen.py v{__version__}",
         "height_m_rows": [[int(round(v)) for v in row] for row in Mc[::4, ::4]],
         "height_note": "every 4th cell in each direction (120 x 120)"}
 open(f"{REPO}/tools/data/regions/{REGION}.json", "w").write(json.dumps(data, separators=(",", ":")) + "\n")
-print(f"wrote tools/data/regions/{REGION}.json and assets/maps/regions/{REGION}_biomes_v0.1.png")
+print(f"wrote tools/data/regions/{REGION}.json and assets/maps/regions/{REGION}_biomes_v0.2.png")
 for k in order: print(f"{k:15s} {100 * (Bc == k).mean():5.1f}%")
 print("temp range F", round(float(Tc[Bc != 'Ocean'].min()), 1), round(float(Tc.max()), 1), " peak m", round(float(Mc.max())), " S1 biome:", Bc[sy, sx], " S1 temp", round(float(Tc[sy, sx]), 1), "m", round(float(Mc[sy, sx])))

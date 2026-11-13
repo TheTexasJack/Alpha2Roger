@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.55, 2026-11-12**
+**Zones v0.56, 2026-11-12**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -53,9 +53,9 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 ### Region biome rules (Claudia, approved by Nathan 2026-11-12)
 
-Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.1.png`.
+Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.2.png`.
 
-1. Detail: each globe pixel is smoothly upscaled into 16 by 16 region cells, plus fine seeded noise (seed plus region ID).
+1. Detail: each globe pixel is smoothly upscaled into 16 by 16 region cells, plus fine seeded noise.  Since generator v0.2 (bug fix approved by Nathan 2026-11-12), both the upscaling and the noise are keyed to world coordinates, so neighboring regions agree exactly along shared borders.
 2. Height: meters = 6,500 x (relative elevation) ^ 1.63 (planet top about 6,500 m, R5 top about 3,700 m).
 3. Temperature: the latitude-line yearly average (midpoint of summer high and winter low), minus about 3.5 F per 1,000 ft.
 4. Band: warm at 60 F or more, temperate 45 to 60 F, cold below 45 F.
@@ -142,6 +142,14 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Landmarks: ID, type, address, tier (canon or seeded), short note.  Spawners are landmarks with a spawner type.
 - Linked-map entrances: address, kind (cave, cellar, bunker, dungeon), what is behind it (template ID or generated), size, number of floors.
 - R5 has no roads or paths today; its route list starts empty.
+
+## Edge IDs (Claudia, approved by Nathan 2026-11-12)
+
+- Every edge between two neighboring local maps is named from one side only: the map to the west (for an east-west crossing) or to the north (for a north-south crossing), plus E or S.  Example: the edge between R5-152.136-08.08 and its east neighbor is R5-152.136-08.08:E.  Only E and S appear; a map's west edge is its west neighbor's E edge.
+- The rule holds across cell borders, region borders, and the east-west wrap, since the name always uses the full address of the west or north map.
+- Crossing points come from the seed, the edge ID, and the generator version (which tile a river or road crosses at, and its width); whether anything crosses comes from the region file (water, flow, routes).
+- Handcrafted maps (city gates) write their crossings under the same IDs, and neighboring generated maps read them instead of rolling their own.
+- Known follow-up (Claudia): river flow is still traced inside each region's window, so a river whose catchment starts outside the window can be undercounted at a border.  Fix before a second region: feed upstream flow in from the globe at the window edges.
 
 ## Underground (Nathan, 2026-11-11)
 

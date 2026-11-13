@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.133, 2026-11-12**
+**STATUS v0.134, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): zones.md v0.56.  Nathan approved the edge ID convention and the seam fix.  `tools/region_gen.py` v0.2 keys interpolation and noise to world coordinates (seam test: 0.0 difference); R5 regenerated as `R5.json` v0.2 and `R5_biomes_v0.2.png`.  Follow-up noted: river inflow across region borders.
 
 - 2026-11-12 (Claudia): mechanics v0.68.  Nathan approved the illness drafts: rabies as a rare travel event, sources of alien illness, medicine access, native illnesses.
 
