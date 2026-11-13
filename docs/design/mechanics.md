@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.63, 2026-11-12**
+**Mechanics v0.64, 2026-11-12**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -100,7 +100,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 51 | Prisoner fates | Decided | Free, kill, or convert; no slave labor |
 | 52 | Prisoners turning | Decided | Unrescued prisoners may join their captors |
 | 52b | Released prisoners return | Decided | A prisoner let go might show up later |
-| 52d | Conditions | Open | To outline formally (Nathan, 2026-11-12): mental conditions, debuffs, illnesses, and other conditions that players and NPCs can get.  Hinted so far: light sanity (#12), dysentery from bad water, kuru, frostbite, snow blindness, carbon monoxide, cold hands, Intelligence drops, wounds (#52c), crystal grafts (#95), traits (#37) |
+| 52d | Conditions | Open | To outline formally (Nathan, 2026-11-12): mental conditions, debuffs, illnesses, and other conditions that players and NPCs can get.  Hinted so far: light sanity (#12), dysentery from bad water, kuru, frostbite, snow blindness, carbon monoxide, cold hands, Intelligence drops (0 equals death in rare cases), wounds (#52c), crystal grafts (#95), traits (#37) |
 | 52c | Injuries | Decided | No limb mechanic; general wounds and conditions (Draft) |
 | 53 | Player capture instead of death | Decided | Kenshi style: wake up in the camp's prison; escape play (Draft) |
 | 54 | Death | Decided | The cold and the wild kill for real |

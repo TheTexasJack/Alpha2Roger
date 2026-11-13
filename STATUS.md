@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.128, 2026-11-12**
+**STATUS v0.129, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): concept v1.16, mechanics v0.64.  Nathan: Intelligence can reach 0 in rare cases (a gunshot, extreme infection), and 0 equals death.
 
 - 2026-11-12 (Claudia): mechanics v0.63.  Nathan added two topics to outline formally: Conditions (#52d: mental conditions, debuffs, illnesses, other conditions) and Factions and beliefs (#50b: faction beliefs such as slavery, and individuals who agree or disagree).
 
