@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.150, 2026-11-13**
+**STATUS v0.151, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.93, mechanics v0.71.  Nathan approved the Yamajira eruption draft as a possible future special event or challenge (#96).
 
 - 2026-11-13 (Claudia): world.md v0.92.  Nathan: Yamajira (M10) is left free, no aggregator; if it erupts it is left alone, and it is far enough away.  Draft: its ash would still reach everyone (world event), and an eruption at the ice edge brings a glacial outburst flood.
 

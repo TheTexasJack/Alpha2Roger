@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.92, 2026-11-13**
+**World v0.93, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -132,7 +132,7 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - Height scale (Nathan, 2026-11-12, from Claudia's draft): the planet's highest point is about 6,500 m; R5's peaks reach about 3,500 to 3,700 m.
 - The highest point sits in grid M10, about 53 S, 8.5 E, in the Mongolian belt near Davs Mizuumi at the edge of the southern ice.  Its name is Yamajira (Nathan, 2026-11-13).
 - Yamajira is left free (Nathan, 2026-11-13): no aggregator.  It is so massive that if for some reason it erupts, it is left alone, and it is far enough away (Davs Mizuumi, the nearest place, is about 2,100 km off).
-- **Draft (Claudia):** distance keeps its lava and quakes away from every town, but a big eruption's ash would still circle the planet, so a Yamajira eruption is the one volcanic event that reaches everyone: a possible world event, and a brutal one if it lands on a cold year.  Erupting at the edge of the southern ice, it would also melt ice into a glacial outburst flood (an Icelandic jokulhlaup) that reshapes the rivers below it.
+- (Claudia, approved by Nathan 2026-11-13, noted as a possible future special event or challenge, mechanic #96) distance keeps its lava and quakes away from every town, but a big eruption's ash would still circle the planet, so a Yamajira eruption is the one volcanic event that reaches everyone: a possible world event, and a brutal one if it lands on a cold year.  Erupting at the edge of the southern ice, it would also melt ice into a glacial outburst flood (an Icelandic jokulhlaup) that reshapes the rivers below it.
 
 ## Biomes
 

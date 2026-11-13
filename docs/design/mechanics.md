@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.70, 2026-11-13**
+**Mechanics v0.71, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -173,6 +173,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 93 | Forced truce | Later | On hold.  Engine mechanic; criteria established later.  Idea: wars pause in the cold year, restart with the thaw |
 | 95 | Crystal grafts | Later | After infection synthesis: purposeful infections, small benefits with trade-offs (lose one stat, gain another), visible crystals on the pawn.  Seasonal, social, and spread costs; no cold immunity; costly removal; successors start clean |
 | 94 | Downed flier event | Later | Future seed-spawned random event; resources, someone to save, faction gains |
+| 96 | Yamajira eruption | Later | Possible future special event or challenge (Nathan, 2026-11-13): the ash circles the planet and reaches everyone, brutal if it lands on a cold year; the melt at the ice edge sends a glacial outburst flood that reshapes the rivers below (`world.md`, Heights) |
 
 ## Always on
 
