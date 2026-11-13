@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.99, 2026-11-13**
+**World v1.00, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -231,7 +231,8 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - The spaceport (Setareh Minato) controls it, which controls the money.  The line cycles around to cross all the towns.
 - The route (Nathan, 2026-11-13, after looking over the map): Svetla Hama and Zimna Toride are left off; to reach that land you take a plane or a ferry.  The loop runs Setareh Minato, the tunnel at H8, Ikh Gawa, Davs Mizuumi (on the edge of Yamajira: a great chance to show it through a window during a montage), Kawa Fada, Shio Loch, the tunnel from V5 to V6, then down and across to Khaluun Onsen, up to Warmes Tani, Darya Kako, and back to Setareh Minato.
 - Checked on the canon globe (Claudia, 2026-11-13): both tunnels join Ikh Gawa's continent to the west continent.  The land in V6 is the far side of the west continent, which wraps around past X to Khaluun Onsen, so the leg from V6 runs overland the whole way.  The H8 tunnel is about 800 km (about 16 S 71 W to 20 S 66 W); the V5 to V6 tunnel is about 1,400 km (about 25 N 143 E to 14 N 146 E).
-- Yamajira from the train (Claudia, 2026-11-13): Davs Mizuumi itself sits about 2,100 km from Yamajira, and a 6,500 m summit is visible from at most about 300 km.  **Draft (Claudia):** the Davs Mizuumi to Kawa Fada leg swings south past Yamajira's foot, within about 250 km, so the montage window shot is real.  It also puts the line in reach of a Yamajira eruption (#96).
+- Yamajira from the train (Claudia, 2026-11-13): Davs Mizuumi itself sits about 2,100 km from Yamajira, and a 6,500 m summit is visible from at most about 300 km.  (Claudia, approved by Nathan 2026-11-13) the Davs Mizuumi to Kawa Fada leg swings south past Yamajira's foot, within about 250 km (passing near 55 S, 9 E), so the montage window shot is real.  It also puts the line in reach of a Yamajira eruption (#96).
+- Key shot (Nathan, 2026-11-13): it gives a way to show the mountain in a key shot we would not get anywhere else, a view from a window as the train rushes by.  That is box art, if games still had boxes.  On the real globe the shortest line from Davs Mizuumi to Kawa Fada already passes about 240 km from Yamajira, so the swing is honest geography too (the game's map keeps every square the same size, where it reads as a bend).
 - It is essentially a bullet train with a front piercer that breaks up ice, snow, animals, creatures, anything in its way.  An avalanche over the train does not matter; it keeps moving.
 - Undersea crossings use underwater rails or waterproof tunnels.  This far in the future, after terraforming and space travel, that is easy.  Only a couple of crossings need it.
 - No skipping: the player cannot use the tunnels to cross on foot.  A warning pops up, and going on anyway is suicide: the train plows through before the player gets across.
@@ -242,7 +243,7 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - **Draft (Claudia), heated track:** Japan's Joetsu Shinkansen sprays warmed water to keep snow off its tracks.  Here the aggregators' power heats the rails, and the piercer handles everything else.
 - Tunnel A (matches Nathan's H8 tunnel, 2026-11-13): from the west continent's coast in H8 (about 16 S, 71 W, a few hundred km down the coast from Setareh Minato) to the south and east continent's coast in H8 (about 20 S, 66 W).  It joins the spaceport's continent to Ikh Gawa's, along the same crossing the cold-year sea ice turns into a land trip.
 - Superseded draft (Claudia), tunnel B: from the central island's south coast in J4 to the west continent's coast in H5, near Darya Kako.  With both tunnels touching the spaceport's continent, it becomes the hub every through trip passes, which suits the spaceport owning the line.  (The other choice, O3 near Zimna Toride to R3 on the south and east continent, is about the same length but leaves the spaceport at one end.)
-- Open: the schedule and ticket prices.  Map: `Start_Candidates_v3.1.png` (a working map kept with the samples, outside the repo) shows the loop and both tunnels.
+- Open: the schedule and ticket prices.  Map: `Start_Candidates_v3.2.png` (a working map kept with the samples, outside the repo) shows the loop and both tunnels.
 - From the music thread (2026-11-13): Nathan's sound notes there say a plane is fine as a very distant sound way overhead, which means an airport somewhere, and that cars on the roads look like the turn-of-the-century United States, Model T style cars still struggling over long distances.  **Draft (Claudia):** the spaceport at Setareh Minato doubles as the airport, which keeps fliers in the spaceport's money.
 - Tech level (Nathan, 2026-11-13): Model T style cars were a concept for the aura, not literal.  The tech level is on par with Nausicaa: wood and almost medieval areas, but everybody might have some guns, flamers, basic things.  There are definitely big airplanes, and in this case a train.
 

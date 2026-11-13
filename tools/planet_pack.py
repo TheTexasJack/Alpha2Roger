@@ -1,10 +1,10 @@
-"""Alpha2-Roger planet pack v0.11: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.12: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v0.99       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
+  docs/design/world.md v1.00       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
   docs/design/zones.md v0.64       routes (road, path, ferry) and the region biome rules (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
@@ -12,7 +12,7 @@ is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.11"
+__version__ = "0.12"
 
 import json, math
 from pathlib import Path
@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.11"          # bump on every change to the output
+FILE_VERSION = "0.12"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -97,7 +97,7 @@ def landmasses():
     return lab
 
 
-# ---- Locked facts, copied from docs/design/world.md v0.99 (Nathan's decisions) ----
+# ---- Locked facts, copied from docs/design/world.md v1.00 (Nathan's decisions) ----
 
 PLACE_FACTS = {
     1: ("Star Harbor", "Spaceport city", "spaceport_coast", "B"),
@@ -237,7 +237,7 @@ def build():
         "planet_id": "verlassen",
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
-            "world": "docs/design/world.md v0.99",
+            "world": "docs/design/world.md v1.00",
             "zones": "docs/design/zones.md v0.64",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
@@ -393,7 +393,8 @@ def build():
                     {"id": "V5-V6", "between": [7, 5], "from": {"grid": "V5", "lat": 24.8, "lon": 143.0}, "to": {"grid": "V6", "lat": 13.8, "lon": 145.5},
                      "km": 1400, "connects": "Shio Loch's continent to the far side of the west continent, which runs down and across the wrap to Khaluun Onsen"},
                 ],
-                "window_view": "Yamajira, from the Davs Mizuumi leg, shown during a montage",
+                "window_view": {"what": "Yamajira from a window as the train rushes by, shown during a montage (a key shot)",
+                                "leg": [6, 10], "passes_near": {"lat": -55.4, "lon": 9.0, "km_from_peak": 250}},
                 "source": "docs/design/world.md, The rail line (Nathan, 2026-11-13)",
             },
             "types": ["road", "path", "animal_trail"],

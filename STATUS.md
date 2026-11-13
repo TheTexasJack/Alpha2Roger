@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.161, 2026-11-13**
+**STATUS v0.162, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v1.00, planet file v0.12.  Nathan approved the Davs Mizuumi to Kawa Fada leg swinging within about 250 km of Yamajira: the window view as the train rushes by is the key shot (box art).  On the real globe the shortest line already passes about 240 km from it.  Map: `Start_Candidates_v3.2.png` (samples).
 
 - 2026-11-13 (Claudia): rail route set by Nathan.  world.md v0.99, zones.md v0.66, mechanics v0.79, planet file v0.11 (`routes.rail`: eight stations in loop order, tunnels H8 and V5 to V6 with points, Svetla Hama and Zimna Toride off the line by plane or ferry; the packer checks each rail leg's landmass).  V6 is the far side of the west continent, so the loop closes overland through the wrap to Khaluun Onsen.  Draft: swing the Davs Mizuumi to Kawa Fada leg within about 250 km of Yamajira for the montage window view (Davs Mizuumi is about 2,100 km away; the summit shows from about 300 km).  Map: `Start_Candidates_v3.1.png` (samples).
 
