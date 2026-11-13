@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.138, 2026-11-13**
+**STATUS v0.139, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.61.  Restored the first-city decision (Kawa Fada) to the Cities section after the Open list refresh dropped it.
 
 - 2026-11-13 (Claudia): zones.md v0.60, plan v0.29.  Nathan approved JSON with the format escape hatch.  Zone graph format complete; A2R-102 in review.  Open list in zones.md refreshed.
 

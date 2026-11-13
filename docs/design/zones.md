@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.60, 2026-11-13**
+**Zones v0.61, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -255,6 +255,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - What can be seen from outside must exist inside (Claudia's point, agreed): this is a city design issue for us, not an engine concern.  Players usually see little from outside, but corridors and canals that cross the walls must be mapped inside (Nathan, 2026-11-12).
 - On the overworld, the land a city covers is blocked off: roughly 8 to 10 region cells, more or less depending on the city, that we do not have to do anything with, since they are technically inside the city.  Walls on the outskirts stop players from crossing.  If someone ever does cross, that is a bug, and it gets marked.  The generator may still generate things in the blocked cells, so the engine needs no special rule; the walls alone keep people out, and they are impenetrable to anything a player has.  Alternative if wall crossing is ever allowed: a player who crosses simply appears at the nearest gate, as if they had entered (Nathan, 2026-11-12).
 - (Claudia, approved by Nathan 2026-11-12) the city file lists its blocked region cells and wall line; the montage's pathfinding treats blocked cells as impassable except through a gate; the GM tool logs any position inside a blocked cell as a bug report.
+- First city: Kawa Fada (Nathan, 2026-11-11).  It was going to be Shio Loch or Kawa Fada, since the build extends outward from S1.  Shio Loch is the natural second city, along the road from 10 to 7.  On foot from S1: Kawa Fada about 6,300 km (about 400 days), Shio Loch about 9,600 km (about 620 days); the GM tool removes the wait during testing.
 - An easy build mode is needed to create the cities.  This is the main reason cities wait until the game is established: much of what a city needs is built in the early stages (Nathan, 2026-11-11).  See mechanic #87c.
 - (Claudia, approved by Nathan 2026-11-11) the city as a hub:
   - The gate map is handcrafted: wall, gate, guards, the queue, the arrival event.  The first ID check happens here.
