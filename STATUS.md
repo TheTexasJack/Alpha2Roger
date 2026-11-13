@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.132, 2026-11-12**
+**STATUS v0.133, 2026-11-12**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-12 (Claudia): mechanics v0.68.  Nathan approved the illness drafts: rabies as a rare travel event, sources of alien illness, medicine access, native illnesses.
 
 - 2026-11-12 (Claudia): mechanics v0.67.  Nathan: alien illnesses work on alien creatures, so native illnesses get invented too.  Draft: die-offs, erratic sick creatures, warning signs, no jump to people.
 
