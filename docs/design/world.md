@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v1.00, 2026-11-13**
+**World v1.01, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -244,8 +244,16 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - Tunnel A (matches Nathan's H8 tunnel, 2026-11-13): from the west continent's coast in H8 (about 16 S, 71 W, a few hundred km down the coast from Setareh Minato) to the south and east continent's coast in H8 (about 20 S, 66 W).  It joins the spaceport's continent to Ikh Gawa's, along the same crossing the cold-year sea ice turns into a land trip.
 - Superseded draft (Claudia), tunnel B: from the central island's south coast in J4 to the west continent's coast in H5, near Darya Kako.  With both tunnels touching the spaceport's continent, it becomes the hub every through trip passes, which suits the spaceport owning the line.  (The other choice, O3 near Zimna Toride to R3 on the south and east continent, is about the same length but leaves the spaceport at one end.)
 - Open: the schedule and ticket prices.  Map: `Start_Candidates_v3.2.png` (a working map kept with the samples, outside the repo) shows the loop and both tunnels.
-- From the music thread (2026-11-13): Nathan's sound notes there say a plane is fine as a very distant sound way overhead, which means an airport somewhere, and that cars on the roads look like the turn-of-the-century United States, Model T style cars still struggling over long distances.  **Draft (Claudia):** the spaceport at Setareh Minato doubles as the airport, which keeps fliers in the spaceport's money.
+- From the music thread (2026-11-13): Nathan's sound notes there say a plane is fine as a very distant sound way overhead, which means an airport somewhere, and that cars on the roads look like the turn-of-the-century United States, Model T style cars still struggling over long distances.  Setareh Minato's airport settles this (Nathan, 2026-11-13; see Airports).
 - Tech level (Nathan, 2026-11-13): Model T style cars were a concept for the aura, not literal.  The tech level is on par with Nausicaa: wood and almost medieval areas, but everybody might have some guns, flamers, basic things.  There are definitely big airplanes, and in this case a train.
+
+## Airports (Nathan, 2026-11-13)
+
+- Setareh Minato and Svetla Hama get airports.  The others only have military bases with airfields.
+- From Claudia's tiers, which Nathan liked: the spaceport is the one real airport, running the big airplanes and the cold-rated fleet, the only planes that fly in a cold year, so air travel stays in the spaceport's money.  A scheduled flight from the spaceport to Svetla Hama is the way to the island by air: expensive, and grounded in a cold year unless the player pays cold-rated prices.  Military fields serve the continent-scale feuds (gunships, long-range strikes), are closed to the player, and are where raids, the downed flier event (#94), and the planes heard overhead come from.  Places on the rail loop without a field ride the train.
+- **Draft (Claudia):** "the others" read as Ikh Gawa, Warmes Tani, and Zimna Toride, the other places that had a field in the tiers.
+- Random event (Nathan, 2026-11-13): a pirate or smuggler airfield found out in the wild (mechanic #97).
+- **Draft (Claudia):** smugglers fly what the spaceport's money would rather they did not, which makes them one of the future ways to sneak into a town that hates the player, with cargo (#60b).
 
 ## Population
 

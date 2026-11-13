@@ -1,9 +1,9 @@
 {
- "version": "0.12",
+ "version": "0.13",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.12",
+ "generated_by": "tools/planet_pack.py v0.13",
  "sources": {
-  "world": "docs/design/world.md v1.00",
+  "world": "docs/design/world.md v1.01",
   "zones": "docs/design/zones.md v0.64",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
@@ -900,6 +900,15 @@
    },
    "source": "docs/design/world.md, The rail line (Nathan, 2026-11-13)"
   },
+  "air": {
+   "airports": [
+    1,
+    4
+   ],
+   "flight": "Setareh Minato to Svetla Hama, a ticket as fast travel; grounded in a cold year unless paid at cold-rated prices",
+   "military": "the others only have military bases with airfields, closed to the player",
+   "source": "docs/design/world.md, Airports (Nathan, 2026-11-13)"
+  },
   "types": [
    "road",
    "path",
@@ -1028,6 +1037,7 @@
   "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
   "Svetla Hama is a ferry town about 670 km from the open sea, by a small lake: sea landing, lake ferry, or no ferry",
   "rail: schedule and ticket prices; the routes layer draws the line",
+  "air: which places have military airfields (draft reading: 2, 3, 9)",
   "the two brothers' names",
   "who runs the region's space station"
  ]

@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.162, 2026-11-13**
+**STATUS v0.163, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): airports.  world.md v1.01 (new section, Airports), zones.md v0.67, mechanics v0.80 (#72g air travel, #97 pirate or smuggler airfield event), planet file v0.13 (`routes.air`).  Nathan: Setareh Minato and Svetla Hama get airports; the others only have military bases with airfields.  Draft: "the others" read as Ikh Gawa, Warmes Tani, Zimna Toride; smugglers as a way to sneak into a hostile town (#60b).
 
 - 2026-11-13 (Claudia): world.md v1.00, planet file v0.12.  Nathan approved the Davs Mizuumi to Kawa Fada leg swinging within about 250 km of Yamajira: the window view as the train rushes by is the key shot (box art).  On the real globe the shortest line already passes about 240 km from it.  Map: `Start_Candidates_v3.2.png` (samples).
 

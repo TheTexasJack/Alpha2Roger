@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.79, 2026-11-13**
+**Mechanics v0.80, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -148,6 +148,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 72c | Road tolls | Later | A manned gate (NPC or robot) charges road traffic; travelers complain, pay, turn back, or go around; criteria and side effects against abuse (charter on a lord's road, rerouting traffic; Draft) |
 | 72e | Thermal icebreaker | Later | Late-game upgrade for world sea travel through the polar pack ice; future tech that only the rarest of the rare have, because money limits it; better than trying to tech a flier (Nathan, 2026-11-13) |
 | 72f | Rail line | Decided | Only two things to code: fast travel between cities (boarded only in a city), and an occasional event when the player builds next to the track: the train crosses and hits everything (bait raiders onto it).  One loop of eight stations with tunnels at H8 and V5 to V6; Svetla Hama and Zimna Toride are off the line.  Tunnels are a point, an explanation, and a map; walking one is a warning, then the train.  Flavor disguised as a combat mechanic, mostly fast travel (Nathan, 2026-11-13; `world.md`, The rail line) |
+| 72g | Air travel | Decided | Airports at Setareh Minato and Svetla Hama only; a flight ticket between them is fast travel, grounded in a cold year unless paid at cold-rated prices.  The others only have military bases with airfields, closed to the player (Nathan, 2026-11-13; `world.md`, Airports) |
 | 73 | Sea roads | Decided | Sea ice opens routes in the cold year; Setareh Minato to Ikh Gawa becomes a land trip |
 | 74 | Identity questline | Decided | Legal battle by holo, email, and blink messages; new name at License Level 0 |
 | 75 | Inbox | Decided | Blink messages bundled and slow; cost per message (Draft); letters from the other self (Draft) |
@@ -176,6 +177,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 95 | Crystal grafts | Later | After infection synthesis: purposeful infections, small benefits with trade-offs (lose one stat, gain another), visible crystals on the pawn.  Seasonal, social, and spread costs; no cold immunity; costly removal; successors start clean |
 | 94 | Downed flier event | Later | Future seed-spawned random event; resources, someone to save, faction gains |
 | 96 | Yamajira eruption | Later | Possible future special event or challenge (Nathan, 2026-11-13): the ash circles the planet and reaches everyone, brutal if it lands on a cold year; the melt at the ice edge sends a glacial outburst flood that reshapes the rivers below (`world.md`, Heights) |
+| 97 | Pirate or smuggler airfield | Later | Random event: a pirate or smuggler airfield found out in the wild (Nathan, 2026-11-13) |
 
 ## Always on
 
