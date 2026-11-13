@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.147, 2026-11-13**
+**STATUS v0.148, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v0.90.  Nathan's terraforming idea: eruptions are celebrated, and geothermic aggregators on the peaks pump lava around the cities.  Drafts: lava tubes and gravity for the run down (Undara about 160 km), why eruptions are celebrated (greenhouse; explosive ones are the disaster), aggregator lords and lava-ring moats.  Open: which peaks are volcanic.
 
 - 2026-11-13 (Claudia): planet file v0.7, `tools/region_gen.py` v0.3, R5.json v0.3, world.md v0.89, zones.md v0.63, mechanics v0.70, plan v0.32.  Nathan approved: latitude lines, with the terraformers rule (the terraformers can compensate for science errors in planet, flora, and fauna lore; first use, a thicker greenhouse under 80% sunlight); biomes and region rules stored in the planet file (region_gen reads them; R5 cell for cell identical, image now `R5_biomes_v0.3.png`); roads as chains; path 4 to 9, path list complete; ferries any to any by sea, landings for inland ferry towns; future note on entering towns when hated (#60b).  Cold-year cause: dust or pull, decided with the map and art designs.
 

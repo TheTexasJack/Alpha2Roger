@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.89, 2026-11-13**
+**World v0.90, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -88,6 +88,10 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 
 - The globe: candidate B, seed 2718, is canon.  Map: `assets/maps/verlassen_globe_v1.0.png` (generator `tools/globe_candidates.py`).  Its continents stretch across the globe, so in the cold year, with frozen straits, the whole planet can be traversed on foot.  Climate bands on the map are placeholders; cities, spaceport, and final impact sites are still to be placed.
 - Volcanic and geothermal areas that do not freeze: springs and Yellowstone-type geysers.
+- Volcanoes and lava (Nathan, 2026-11-13, a terraforming idea): volcanic eruptions are not feared; they are celebrated.  At the tops of the peaks are geothermic aggregators that pump flowing, ejected lava around the cities.
+- **Draft (Claudia), making it hold up:** lava runs downhill, so on the way down the aggregators mostly catch and steer it, through engineered lava tubes.  A roofed tube keeps lava molten over long runs: real tubes run tens of km (Kazumura in Hawaii is about 65 km), and Australia's Undara flow ran about 160 km.  Pumping is needed only for the ring around the city itself, and the terraformers rule covers that.  So a city fed this way needs a volcanic peak within roughly 100 to 200 km; Yamajira is over 2,000 km from the nearest place.
+- **Draft (Claudia), why they celebrate:** each eruption refills the channels and feeds the terraformers' greenhouse with fresh gas.  The celebrated eruptions are the gentle, flowing kind.  An explosive one throws ash high enough to cool the whole world (Tambora's eruption in 1815 brought the year without a summer), so one landing on a cold year is a disaster event.
+- **Draft (Claudia):** whoever holds an aggregator holds the heat, so the heat lords (Government drafts) are lords of the aggregators, and a city's lava ring doubles as a moat.
 - Salt lakes that might never freeze, except on the coldest days of the third year.
 - Rivers.  All major cities sit near rivers.
 - Three infection impact sites on the globe.
@@ -398,6 +402,7 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 - Who runs the region's single space station.
 - Road paths drawn on the globe: which places link is decided (Roads and bridges); the generator's routes layer still has to draw the paths.
 - Cold-year cause detail: a dust band the gas giant herds, or its pull.  Decide with the map and art designs.
+- Volcanoes: which peaks are volcanic and which cities they feed (the globe marks no volcanoes yet).
 
 ## Lancer canon notes (alignment reference)
 
