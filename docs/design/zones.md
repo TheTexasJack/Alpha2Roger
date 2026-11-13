@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.62, 2026-11-13**
+**Zones v0.63, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -53,7 +53,7 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 
 ### Region biome rules (Claudia, approved by Nathan 2026-11-12)
 
-Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.2.png`.
+Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `assets/maps/regions/R5_biomes_v0.3.png`.  Since generator v0.3 (2026-11-13) the rule numbers, latitude lines, and biome names below are read from the planet file (`region_rules`, `climate`, `biomes`); R5 came out cell for cell identical.
 
 1. Detail: each globe pixel is smoothly upscaled into 16 by 16 region cells, plus fine seeded noise.  Since generator v0.2 (bug fix approved by Nathan 2026-11-12), both the upscaling and the noise are keyed to world coordinates, so neighboring regions agree exactly along shared borders.
 2. Height: meters = 6,500 x (relative elevation) ^ 1.63 (planet top about 6,500 m, R5 top about 3,700 m).
@@ -192,7 +192,9 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - No zigzag concern on the region or world maps: there is no WASD travel.  The player sets a path and is taken along it, so diagonals stay as they are.
 - Roads run between most major settlements on a continent: 3, 8, 1 (Warmes Tani, Darya Kako, Setareh Minato) and 2, 6, 10, 7 (Ikh Gawa, Davs Mizuumi, Kawa Fada, Shio Loch).
 - Paths, smaller than roads but still useful, connect the others, such as 5 to 1 (Khaluun Onsen to Setareh Minato) and 2 to 10 (Ikh Gawa to Kawa Fada).
+- Road order and paths (approved by Nathan 2026-11-13): roads are chains in the order listed (3 to 8 to 1; 2 to 6 to 10 to 7).  A path joins 4 and 9 (Svetla Hama and Zimna Toride, on the same island).  The path list is complete; seeded paths to wild settlements and camps come on top.
 - Ferries run between the coastal towns 1, 8, 2, 4, 9, 10 (Setareh Minato, Darya Kako, Ikh Gawa, Svetla Hama, Zimna Toride, Kawa Fada).
+- Ferry rule (Claudia, approved by Nathan 2026-11-13): any ferry town reaches any other by sea, routed by sea pathfinding, so the route to Kawa Fada runs through the strait by itself.
 - Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato is about 180 km and Zimna Toride about 300 km from the sea.
 - Ferries to Kawa Fada (10) are long: they go out to the left, through the strait near Shio Loch, and then on down to Kawa Fada (Nathan, 2026-11-11).
 - Checked on the canon globe (Claudia): Kawa Fada sits on an enclosed inner sea whose only opening below the ice line is the strait at X3 and W4, beside Shio Loch (V4).  The traced route from Ikh Gawa runs north past Darya Kako, west along row 3, across the map's wrap edge to X3, through the strait, and south to Kawa Fada: about 42,000 km, roughly 2 to 3 months at ferry speeds, with about 8,000 km along 58 N at the edge of the ice.
@@ -209,7 +211,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - In this context the robot is a person.  For separation, it is called an android, as opposed to a machine like a farm robot (Nathan, 2026-11-12).
 - Superseded (Claudia, 2026-11-13 review): an earlier draft here had every android talking in simple scripted lines.  Nathan's android tiers in `concept.md` (Androids) replace it: tier 2 androids can have real personalities and still sit below a person, and none is as smart or useful as the M.U.L.E.
 - **Draft (Claudia), tolls:** an android collects less and cannot talk anyone down.  The rate is a setting: low rates mostly get paid with grumbling, high rates send more travelers back or around the gate off-road (walls stop that, at a cost).  The camp log carries the chatter.  Charisma collects more and calms complaints, Strength discourages arguing, and bandits attack instead of paying.  Traffic remembers: gouging reroutes caravans over a season.  Criteria come from ownership: a lord's road needs a charter (permission and a cut), and tolling without one is banditry that brings a patrol; unclaimed land can be tolled freely, but traffic there is thin.
-- **Draft (Claudia):** each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).
+- (Claudia, approved by Nathan 2026-11-13) each inland ferry town gets a landing, a small port on the nearest coast tied to the town by road, where the ferry docks (like Athens and Piraeus).  This covers Setareh Minato (about 180 km from the sea) and Zimna Toride (about 300 km).
 
 ## Montage events (Nathan, 2026-11-11)
 
@@ -250,6 +252,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Stepping into a town should be a big event.  Depending on where the player steps in, they may get Al-Qadim or Aladdin, New York or Berlin.  This is what sets it apart from RimWorld's random generation: we build story for our hero instead of making just another survival game (Nathan, 2026-11-10).
 - We do not map every square of a city, only the areas that are important and that the player needs to go to.  Nobody wants to travel miles of homes with no value in going into them (Nathan, 2026-11-10).
 - Each city has a wall, and the player crosses through a gate.  There is an entrance on the side of a map, or just the entrance; the player enters, then gets the city map.  City maps are different from world maps (Nathan, 2026-11-10).
+- Entering towns when hated (Nathan, 2026-11-13, a small note for the future): there may be future ways to sneak in, such as with cargo (mechanic #60b).
 - The city as a linked space (Nathan, 2026-11-12): a player approaches the gate and deals with the gate guard (or whatever that gate's obstacle is).  The gate acts as an entrance to another space, the same way dungeons, buildings, and RVs work.  Inside, the rules are the same, but the player is no longer on the overmap: the city is like a region of its own whose size we choose.  It can be any shape, any number of maps, and it does not have to match the planet's landscape.  Only maps that tell the story are made (quests, special vendors, story beats); no filler, unlike Skyrim's and Oblivion's houses.  From these maps, the player can drill further into businesses, dungeons, castles, and wherever the main people are.
 - City space rules (Claudia, approved by Nathan 2026-11-12): the area is called the city space, made of districts (maps); districts connect by edge walking between neighbors and by the city map for jumps with travel time; each gate opens into a different district; ticking, catch-up, the M.U.L.E., and sensing work the same inside.
 - What can be seen from outside must exist inside (Claudia's point, agreed): this is a city design issue for us, not an engine concern.  Players usually see little from outside, but corridors and canals that cross the walls must be mapped inside (Nathan, 2026-11-12).
@@ -301,4 +304,4 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Full montage event tables, once more of the game exists.
 - River inflow across region borders: feed upstream flow from the globe into each region's window (before a second region is built).
 - `tools/region_gen.py` to write the newer region layers (salinity, flow direction and speed, full-detail height, moisture, territory, routes, landmarks, entrances).
-- Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; region pick flow; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); ferry landings for inland towns; unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).
+- Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; region pick flow; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).

@@ -1,18 +1,18 @@
-"""Alpha2-Roger planet pack v0.6: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.7: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v0.84       planet facts, the highest point, cultural regions, currencies, notable people, road network (copied in below)
-  docs/design/zones.md v0.62       routes: road, path, and ferry decisions (copied in below)
+  docs/design/world.md v0.89       planet facts, climate lines, biomes, the highest point, cultural regions, currencies, notable people, road network (copied in below)
+  docs/design/zones.md v0.63       routes (road, path, ferry) and the region biome rules (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
 is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.6"
+__version__ = "0.7"
 
 import json, math
 from pathlib import Path
@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.6"          # bump on every change to the output
+FILE_VERSION = "0.7"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -127,9 +127,41 @@ CURRENCIES = [  # id, issued by, also used in
 IMPACT_GRIDS = ["M3", "T3", "J10"]   # accepted by Nathan
 
 # Routes (Nathan, 2026-11-11 and 2026-11-12; world.md Roads and bridges, zones.md Routes)
-ROADS = [[3, 8, 1], [2, 6, 10, 7]]   # places in the order Nathan listed them
-PATHS = [[5, 1], [2, 10]]            # "such as": the full path list is still open
+ROADS = [[3, 8, 1], [2, 6, 10, 7]]   # chains, in the order Nathan listed them (approved 2026-11-13)
+PATHS = [[5, 1], [2, 10], [4, 9]]    # complete (Nathan, 2026-11-13); seeded offshoots come from the seed
 FERRY_TOWNS = [1, 8, 2, 4, 9, 10]
+INLAND_FERRY_TOWNS = [1, 9]          # about 180 km and 300 km from the sea: each gets a landing on the nearest coast
+
+# Climate (world.md, Climate bands; latitude lines approved by Nathan 2026-11-13)
+LATITUDE_LINES = [  # latitude, normal summer high, normal winter low, cold-year high, cold-year low (F)
+    (0, 90, 72, 40, 22), (10, 93, 66, 43, 16), (20, 97, 55, 47, 5), (30, 97, 38, 47, -12),
+    (40, 88, 20, 38, -30), (50, 76, 3, 26, -47), (60, 66, -15, 16, -65)]
+
+# Biomes (world.md, Biomes; approved by Nathan 2026-11-11): id, name, where, feel or notes
+LAND_BIOMES = [
+    (1, "Warm forest", "warm band, wet", "evergreen oak and pine, richest forage"),
+    (2, "Warm grassland", "warm band, medium", "open plains, herds"),
+    (3, "Scrub desert", "warm band, dry", "thorn brush, scarce water"),
+    (4, "Mixed forest", "temperate, wet", "deciduous and conifer woods"),
+    (5, "Prairie", "temperate, medium", "tall grass, good farming soil"),
+    (6, "Steppe", "temperate, dry", "short grass, wind"),
+    (7, "Marsh", "wet lowlands, any band", "reeds, bogs, slow travel, bad water"),
+    (8, "Taiga", "cold band", "dense conifers, deep snow"),
+    (9, "Tundra", "cold band, open", "moss, lichen, migrating herds"),
+    (10, "Cold barrens", "cold band, dry", "rock and gravel"),
+    (11, "Highlands", "elevation, any band", "ridges, scree, passes, caves"),
+    (12, "Ice", "poles, highest peaks", "permanent ice"),
+    (13, "Coast", "edge of land", "beaches, cliffs, tidal flats"),
+]
+WATER_BIOMES = [
+    (14, "Deep ocean", "open water; boats, or sea ice in a cold year"),
+    (15, "Warm ocean", "warm-band shallows, good fishing; chills hard in the cold year"),
+    (16, "Coral reef", "cold-water reefs, since tropical reef corals would die every cold year; rich fishing, navigation hazard"),
+    (17, "Inland sea", "huge enclosed water, can be brackish, like the Caspian"),
+    (18, "Inland lake", "fresh water, fish, freezes in winter"),
+    (19, "River", "river corridor: channel plus floodplain; big rivers only"),
+    (20, "Salt river", "saline, flowing from the salt basins; undrinkable, a trade route"),
+]
 
 HIGHEST = {"name": "Yamajira", "grid": "M10", "height_m": 6500}   # Nathan named it 2026-11-13
 
@@ -231,6 +263,7 @@ def build():
                 "length_planet_years": 1,
                 "temperature_shift_f": -50,
                 "cause": "gas giant neighbor in a 3:1 orbital resonance",
+                "cause_detail": None,
             },
             "population": 10_000_000,
             "union_presence": "none; Union holds no sway, reached only through Baronic trade",
@@ -245,6 +278,42 @@ def build():
             "grid": {"cols": GRID_COLS, "rows": GRID_ROWS, "col_letters": "A-X", "equator_between_rows": [6, 7]},
             "circumference_km": round(CIRCUMFERENCE_KM),
             "km_per_px_equator": round(KM_PER_PX, 1),
+        },
+        "climate": {
+            "latitude_lines_f": [
+                {"lat": la, "normal_high": nh, "normal_low": nl, "cold_year_high": ch, "cold_year_low": cl}
+                for la, nh, nl, ch, cl in LATITUDE_LINES
+            ],
+            "ice_caps_f": {"normal_low": -80, "cold_year_low": [-150, -130]},
+            "lines_note": "inland temperatures, summer high and winter low; hemispheres run opposite seasons",
+            "lapse_f_per_m": 0.01148,
+            "lapse_note": "about 3.5 F per 1,000 ft",
+            "greenhouse": "Earth-like temperatures under about 80% of Earth's sunlight: the terraformers thickened the greenhouse "
+                          "to make up for the dimmer sun (Nathan, 2026-11-13)",
+        },
+        "biomes": [{"id": i, "name": n, "kind": "land", "where": w, "feel": f} for i, n, w, f in LAND_BIOMES]
+                  + [{"id": i, "name": n, "kind": "water", "notes": f} for i, n, f in WATER_BIOMES],
+        "region_rules": {
+            "source": "docs/design/zones.md, Region biome rules (approved by Nathan 2026-11-12); read by tools/region_gen.py",
+            "cells_per_globe_px": 16,
+            "height": {"top_m": HIGHEST["height_m"], "exponent": 1.63},
+            "temperature": "latitude-line yearly mean (summer high plus winter low, halved) minus the lapse rate",
+            "bands_f": {"warm_min": 60, "temperate_min": 45},
+            "moisture": {"coast_fade_km": 700, "river_boost": 0.35, "river_fade_km": 25, "noise": 0.08,
+                         "wet_min": 0.55, "dry_below": 0.30},
+            "base_biomes": {"warm": [1, 2, 3], "temperate": [4, 5, 6], "cold": [8, 9, 10],
+                            "order": "wet, middle, dry"},
+            "overrides": [
+                {"biome": 11, "min_m": 2000},
+                {"biome": 7, "max_m": 150, "min_moisture": 0.75, "max_river_km": 15},
+                {"biome": 19, "max_river_km": 5, "max_m": 2000},
+                {"biome": 13, "touches_sea": True, "max_m": 300},
+            ],
+            "overrides_note": "applied in this order on land; a later rule wins; all water is ocean until the water biomes are built",
+            "rivers": {"river_min_flow_cells": 1800, "creek_min_flow_cells": 450,
+                       "river_drains_km2": 26000, "creek_drains_km2": 6600},
+            "salinity_ppt": {"fresh_below": 0.5, "brackish_to": 30, "seawater": 35},
+            "not_yet": ["ice rule", "water biomes", "infection levels", "features"],
         },
         "places": places,
         "landmarks": {
@@ -284,11 +353,14 @@ def build():
             ],
         },
         "routes": {
-            "roads": [{"places": r} for r in ROADS],
-            "roads_note": "places listed in Nathan's order; the generator's routes layer draws the paths on the globe, then each region, then each local map",
-            "paths": [{"places": p} for p in PATHS],
-            "paths_complete": False,
+            "roads": [{"from": a, "to": b} for r in ROADS for a, b in zip(r, r[1:])],
+            "roads_note": "chains in the order Nathan listed them; the generator's routes layer draws the paths on the globe, then each region, then each local map",
+            "paths": [{"from": a, "to": b} for a, b in PATHS],
+            "paths_complete": True,
             "ferry_towns": FERRY_TOWNS,
+            "ferry_rule": "any ferry town reaches any other by sea; routes come from sea pathfinding",
+            "ferry_landings": {"towns": INLAND_FERRY_TOWNS,
+                               "rule": "an inland ferry town gets a landing, a small port on the nearest coast tied to the town by road"},
             "ferry_routes": [
                 {"to": 10, "via": "the strait at X3 and W4, beside Shio Loch (V4)",
                  "why": "Kawa Fada sits on an enclosed inner sea; the strait is its only opening below the ice line"},
@@ -311,9 +383,7 @@ def build():
             "leader title (lord or mayor) per place",
             "notable people's roles",
             "road paths drawn on the globe (the generator's routes layer)",
-            "paths beyond 5 to 1 and 2 to 10 (4 and 9 share an island with no land link set)",
-            "which ferry towns connect directly (only the Kawa Fada route is set)",
-            "where ferries dock for Setareh Minato (about 180 km inland) and Zimna Toride (about 300 km inland)",
+            "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
             "the two brothers' names",
             "who runs the region's space station",
         ],

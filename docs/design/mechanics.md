@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.69, 2026-11-13**
+**Mechanics v0.70, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -124,6 +124,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 58 | Infection | Decided | Three impact sites plus a small random spawn per run; weaker in the cold year; Crystalline damage type; beams refract off crystal; complicators that drive story (infected survivors, infected dead); seed crystal: converts salt, minerals, bone, teeth; piezoelectric control of the infected; standalone crystal entities or infected versions of existing enemies, decide with gameplay |
 | 59 | Regions and control | Decided | Ten capitals, no global government |
 | 60 | Factions and reputation | Decided | Faction-based reputation, no Qud web; bandits are factionless (the factionless faction) but tracked per group (#57b) |
+| 60b | Entering towns when hated | Later | Possible future ways to sneak in, such as with cargo (Nathan, 2026-11-13) |
 | 61 | Town governments | Decided | Lords or mayors, councils, judiciary |
 | 62 | Cold-year city laws | Draft | Frostpunk: rationing, curfews, heat allocation |
 | 63 | Work camps | Decided | Maybe: profit or labor; NPCs justify them; no sugar coating |

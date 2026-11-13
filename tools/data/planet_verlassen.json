@@ -1,7 +1,7 @@
 {
- "version": "0.6",
+ "version": "0.7",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.6",
+ "generated_by": "tools/planet_pack.py v0.7",
  "sources": {
   "world": "docs/design/world.md v0.84",
   "zones": "docs/design/zones.md v0.62",
@@ -36,7 +36,8 @@
    "every_n_years": 3,
    "length_planet_years": 1,
    "temperature_shift_f": -50,
-   "cause": "gas giant neighbor in a 3:1 orbital resonance"
+   "cause": "gas giant neighbor in a 3:1 orbital resonance",
+   "cause_detail": null
   },
   "population": 10000000,
   "union_presence": "none; Union holds no sway, reached only through Baronic trade",
@@ -60,6 +61,284 @@
   },
   "circumference_km": 44082,
   "km_per_px_equator": 61.2
+ },
+ "climate": {
+  "latitude_lines_f": [
+   {
+    "lat": 0,
+    "normal_high": 90,
+    "normal_low": 72,
+    "cold_year_high": 40,
+    "cold_year_low": 22
+   },
+   {
+    "lat": 10,
+    "normal_high": 93,
+    "normal_low": 66,
+    "cold_year_high": 43,
+    "cold_year_low": 16
+   },
+   {
+    "lat": 20,
+    "normal_high": 97,
+    "normal_low": 55,
+    "cold_year_high": 47,
+    "cold_year_low": 5
+   },
+   {
+    "lat": 30,
+    "normal_high": 97,
+    "normal_low": 38,
+    "cold_year_high": 47,
+    "cold_year_low": -12
+   },
+   {
+    "lat": 40,
+    "normal_high": 88,
+    "normal_low": 20,
+    "cold_year_high": 38,
+    "cold_year_low": -30
+   },
+   {
+    "lat": 50,
+    "normal_high": 76,
+    "normal_low": 3,
+    "cold_year_high": 26,
+    "cold_year_low": -47
+   },
+   {
+    "lat": 60,
+    "normal_high": 66,
+    "normal_low": -15,
+    "cold_year_high": 16,
+    "cold_year_low": -65
+   }
+  ],
+  "ice_caps_f": {
+   "normal_low": -80,
+   "cold_year_low": [
+    -150,
+    -130
+   ]
+  },
+  "lines_note": "inland temperatures, summer high and winter low; hemispheres run opposite seasons",
+  "lapse_f_per_m": 0.01148,
+  "lapse_note": "about 3.5 F per 1,000 ft",
+  "greenhouse": "Earth-like temperatures under about 80% of Earth's sunlight: the terraformers thickened the greenhouse to make up for the dimmer sun (Nathan, 2026-11-13)"
+ },
+ "biomes": [
+  {
+   "id": 1,
+   "name": "Warm forest",
+   "kind": "land",
+   "where": "warm band, wet",
+   "feel": "evergreen oak and pine, richest forage"
+  },
+  {
+   "id": 2,
+   "name": "Warm grassland",
+   "kind": "land",
+   "where": "warm band, medium",
+   "feel": "open plains, herds"
+  },
+  {
+   "id": 3,
+   "name": "Scrub desert",
+   "kind": "land",
+   "where": "warm band, dry",
+   "feel": "thorn brush, scarce water"
+  },
+  {
+   "id": 4,
+   "name": "Mixed forest",
+   "kind": "land",
+   "where": "temperate, wet",
+   "feel": "deciduous and conifer woods"
+  },
+  {
+   "id": 5,
+   "name": "Prairie",
+   "kind": "land",
+   "where": "temperate, medium",
+   "feel": "tall grass, good farming soil"
+  },
+  {
+   "id": 6,
+   "name": "Steppe",
+   "kind": "land",
+   "where": "temperate, dry",
+   "feel": "short grass, wind"
+  },
+  {
+   "id": 7,
+   "name": "Marsh",
+   "kind": "land",
+   "where": "wet lowlands, any band",
+   "feel": "reeds, bogs, slow travel, bad water"
+  },
+  {
+   "id": 8,
+   "name": "Taiga",
+   "kind": "land",
+   "where": "cold band",
+   "feel": "dense conifers, deep snow"
+  },
+  {
+   "id": 9,
+   "name": "Tundra",
+   "kind": "land",
+   "where": "cold band, open",
+   "feel": "moss, lichen, migrating herds"
+  },
+  {
+   "id": 10,
+   "name": "Cold barrens",
+   "kind": "land",
+   "where": "cold band, dry",
+   "feel": "rock and gravel"
+  },
+  {
+   "id": 11,
+   "name": "Highlands",
+   "kind": "land",
+   "where": "elevation, any band",
+   "feel": "ridges, scree, passes, caves"
+  },
+  {
+   "id": 12,
+   "name": "Ice",
+   "kind": "land",
+   "where": "poles, highest peaks",
+   "feel": "permanent ice"
+  },
+  {
+   "id": 13,
+   "name": "Coast",
+   "kind": "land",
+   "where": "edge of land",
+   "feel": "beaches, cliffs, tidal flats"
+  },
+  {
+   "id": 14,
+   "name": "Deep ocean",
+   "kind": "water",
+   "notes": "open water; boats, or sea ice in a cold year"
+  },
+  {
+   "id": 15,
+   "name": "Warm ocean",
+   "kind": "water",
+   "notes": "warm-band shallows, good fishing; chills hard in the cold year"
+  },
+  {
+   "id": 16,
+   "name": "Coral reef",
+   "kind": "water",
+   "notes": "cold-water reefs, since tropical reef corals would die every cold year; rich fishing, navigation hazard"
+  },
+  {
+   "id": 17,
+   "name": "Inland sea",
+   "kind": "water",
+   "notes": "huge enclosed water, can be brackish, like the Caspian"
+  },
+  {
+   "id": 18,
+   "name": "Inland lake",
+   "kind": "water",
+   "notes": "fresh water, fish, freezes in winter"
+  },
+  {
+   "id": 19,
+   "name": "River",
+   "kind": "water",
+   "notes": "river corridor: channel plus floodplain; big rivers only"
+  },
+  {
+   "id": 20,
+   "name": "Salt river",
+   "kind": "water",
+   "notes": "saline, flowing from the salt basins; undrinkable, a trade route"
+  }
+ ],
+ "region_rules": {
+  "source": "docs/design/zones.md, Region biome rules (approved by Nathan 2026-11-12); read by tools/region_gen.py",
+  "cells_per_globe_px": 16,
+  "height": {
+   "top_m": 6500,
+   "exponent": 1.63
+  },
+  "temperature": "latitude-line yearly mean (summer high plus winter low, halved) minus the lapse rate",
+  "bands_f": {
+   "warm_min": 60,
+   "temperate_min": 45
+  },
+  "moisture": {
+   "coast_fade_km": 700,
+   "river_boost": 0.35,
+   "river_fade_km": 25,
+   "noise": 0.08,
+   "wet_min": 0.55,
+   "dry_below": 0.3
+  },
+  "base_biomes": {
+   "warm": [
+    1,
+    2,
+    3
+   ],
+   "temperate": [
+    4,
+    5,
+    6
+   ],
+   "cold": [
+    8,
+    9,
+    10
+   ],
+   "order": "wet, middle, dry"
+  },
+  "overrides": [
+   {
+    "biome": 11,
+    "min_m": 2000
+   },
+   {
+    "biome": 7,
+    "max_m": 150,
+    "min_moisture": 0.75,
+    "max_river_km": 15
+   },
+   {
+    "biome": 19,
+    "max_river_km": 5,
+    "max_m": 2000
+   },
+   {
+    "biome": 13,
+    "touches_sea": true,
+    "max_m": 300
+   }
+  ],
+  "overrides_note": "applied in this order on land; a later rule wins; all water is ocean until the water biomes are built",
+  "rivers": {
+   "river_min_flow_cells": 1800,
+   "creek_min_flow_cells": 450,
+   "river_drains_km2": 26000,
+   "creek_drains_km2": 6600
+  },
+  "salinity_ppt": {
+   "fresh_below": 0.5,
+   "brackish_to": 30,
+   "seawater": 35
+  },
+  "not_yet": [
+   "ice rule",
+   "water biomes",
+   "infection levels",
+   "features"
+  ]
  },
  "places": [
   {
@@ -475,37 +754,42 @@
  "routes": {
   "roads": [
    {
-    "places": [
-     3,
-     8,
-     1
-    ]
+    "from": 3,
+    "to": 8
    },
    {
-    "places": [
-     2,
-     6,
-     10,
-     7
-    ]
+    "from": 8,
+    "to": 1
+   },
+   {
+    "from": 2,
+    "to": 6
+   },
+   {
+    "from": 6,
+    "to": 10
+   },
+   {
+    "from": 10,
+    "to": 7
    }
   ],
-  "roads_note": "places listed in Nathan's order; the generator's routes layer draws the paths on the globe, then each region, then each local map",
+  "roads_note": "chains in the order Nathan listed them; the generator's routes layer draws the paths on the globe, then each region, then each local map",
   "paths": [
    {
-    "places": [
-     5,
-     1
-    ]
+    "from": 5,
+    "to": 1
    },
    {
-    "places": [
-     2,
-     10
-    ]
+    "from": 2,
+    "to": 10
+   },
+   {
+    "from": 4,
+    "to": 9
    }
   ],
-  "paths_complete": false,
+  "paths_complete": true,
   "ferry_towns": [
    1,
    8,
@@ -514,6 +798,14 @@
    9,
    10
   ],
+  "ferry_rule": "any ferry town reaches any other by sea; routes come from sea pathfinding",
+  "ferry_landings": {
+   "towns": [
+    1,
+    9
+   ],
+   "rule": "an inland ferry town gets a landing, a small port on the nearest coast tied to the town by road"
+  },
   "ferry_routes": [
    {
     "to": 10,
@@ -652,9 +944,7 @@
   "leader title (lord or mayor) per place",
   "notable people's roles",
   "road paths drawn on the globe (the generator's routes layer)",
-  "paths beyond 5 to 1 and 2 to 10 (4 and 9 share an island with no land link set)",
-  "which ferry towns connect directly (only the Kawa Fada route is set)",
-  "where ferries dock for Setareh Minato (about 180 km inland) and Zimna Toride (about 300 km inland)",
+  "cold-year cause detail: a dust band the gas giant herds, or its pull (decide with the map and art designs)",
   "the two brothers' names",
   "who runs the region's space station"
  ]

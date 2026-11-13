@@ -1,28 +1,34 @@
-"""Alpha2-Roger region generator v0.2: builds one region's 480 x 480 region cells from the canon globe.
+"""Alpha2-Roger region generator v0.3: builds one region's 480 x 480 region cells from the canon globe.
 
-Rules: docs/design/zones.md, Region biome rules (approved by Nathan 2026-11-12).
+Rules: docs/design/zones.md, Region biome rules (approved by Nathan 2026-11-12).  Since v0.3 (2026-11-13) every
+rule number, the latitude lines, and the biome names come from the planet file (tools/data/planet_verlassen.json,
+"climate", "biomes", "region_rules"); this file holds only the method.  R5's cells came out identical to v0.2.
 For now it runs for R5 only; ice, water biomes, infection levels, and features come before other regions.
 
 Run:  python3 tools/region_gen.py R5
-Writes: tools/data/regions/R5.json and assets/maps/regions/R5_biomes_v0.2.png
+Writes: tools/data/regions/R5.json and assets/maps/regions/R5_biomes_v0.3.png
 """
-__version__ = "0.2"
-import sys, numpy as np
+__version__ = "0.3"
+import sys, json, numpy as np
 from scipy import ndimage
 from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 REPO = str(Path(__file__).resolve().parent.parent)
 REGION = (sys.argv[1] if len(sys.argv) > 1 else 'R5').upper()
-assert REGION == 'R5', 'v0.2 only supports R5; ice, water biomes, infection, and features come first'
+assert REGION == 'R5', 'v0.3 only supports R5; ice, water biomes, infection, and features come first'
+PLANET = json.load(open(f"{REPO}/tools/data/planet_verlassen.json"))
+RR, CLIMATE = PLANET["region_rules"], PLANET["climate"]
+BIOME = {b["id"]: b["name"] for b in PLANET["biomes"]}
+SEED = PLANET["globe"]["seed"]
 src = open(f"{REPO}/tools/globe_candidates.py").read().split("seeds = [")[0]
 G = {}; exec(src, G)
 W0, H0 = G["W"], G["H"]
-elev, LAT = G["sphere_field"](np.random.default_rng(2718))
+elev, LAT = G["sphere_field"](np.random.default_rng(SEED))
 sea = np.quantile(elev, 1 - G["LAND_FRAC"])
 landg = elev > sea
 Lmax = elev[landg].max()
 X0, Y0, N, M = 506, 116, 38, 4          # window with a 4 px margin around R5 (x 510..539, y 120..149)
-CELLS = 16; KM = 44082 / W0 / CELLS        # about 3.83 km per region cell
+CELLS = RR["cells_per_globe_px"]; KM = PLANET["globe"]["circumference_km"] / W0 / CELLS   # about 3.83 km per region cell
 win = np.take(elev, range(X0, X0 + N), axis=1, mode="wrap")[Y0:Y0 + N]
 # v0.2: everything below is keyed to world coordinates, so neighboring regions agree along shared borders.
 # Interpolation is local (cubic B-spline without the global prefilter), and noise is hashed from absolute cell coordinates.
@@ -33,7 +39,7 @@ coords = np.stack([(GY - Y0 * CELLS + 0.5) / CELLS - 0.5, (GX - X0 * CELLS + 0.5
 up = ndimage.map_coordinates(win, coords, order=3, prefilter=False, mode="nearest")
 WRAP = W0 * CELLS
 def _hash(ix, iy, salt):
-    h = (ix.astype(np.uint64) * np.uint64(0x9E3779B1) ^ iy.astype(np.uint64) * np.uint64(0x85EBCA77) ^ np.uint64(salt) * np.uint64(0xC2B2AE3D) ^ np.uint64(2718))
+    h = (ix.astype(np.uint64) * np.uint64(0x9E3779B1) ^ iy.astype(np.uint64) * np.uint64(0x85EBCA77) ^ np.uint64(salt) * np.uint64(0xC2B2AE3D) ^ np.uint64(SEED))
     h ^= h >> np.uint64(15); h *= np.uint64(0x2C1B3C6D); h ^= h >> np.uint64(12); h *= np.uint64(0x297A2D39); h ^= h >> np.uint64(15)
     return (h & np.uint64(0xFFFFFF)).astype(np.float64) / 0xFFFFFF * 2 - 1
 def value_noise(scale, salt):
@@ -55,40 +61,49 @@ up = up + std * (0.05 * fbm(up.shape, 6) + 0.025 * fbm(up.shape, 2))
 lat = 90 - (Y0 + (np.arange(n) + 0.5) / CELLS) * 180 / (H0 - 1)
 LATc = np.repeat(lat[:, None], n, 1)
 land = up > sea
-meters = np.where(land, 6500 * np.clip((up - sea) / (Lmax - sea), 0, 1) ** 1.63, 0)   # planet top about 6,500 m; R5 top about 3,500 m
-# latitude lines (world.md draft table), annual mean F = (summer high + winter low) / 2
-lines = np.array([[0, 90, 72], [10, 93, 66], [20, 97, 55], [30, 97, 38], [40, 88, 20], [50, 76, 3], [60, 66, -15]])
+hgt = RR["height"]                                       # planet top about 6,500 m; R5 top about 3,700 m
+meters = np.where(land, hgt["top_m"] * np.clip((up - sea) / (Lmax - sea), 0, 1) ** hgt["exponent"], 0)
+# latitude lines (planet file, climate), annual mean F = (summer high + winter low) / 2
+lines = np.array([[r["lat"], r["normal_high"], r["normal_low"]] for r in CLIMATE["latitude_lines_f"]])
 mean_lat = np.interp(np.abs(LATc), lines[:, 0], (lines[:, 1] + lines[:, 2]) / 2)
-temp = mean_lat - 0.01148 * meters                       # 3.5 F per 1,000 ft
+temp = mean_lat - CLIMATE["lapse_f_per_m"] * meters      # about 3.5 F per 1,000 ft
 # rivers at region-cell resolution
 G["H"], G["W"] = n, n
 filled = G["priority_flood"](up, land); acc, down, sink = G["flow"](filled, land)
-river = land & (acc > 1800)
-creek = land & (acc > 450) & ~river
+RV = RR["rivers"]
+river = land & (acc > RV["river_min_flow_cells"])
+creek = land & (acc > RV["creek_min_flow_cells"]) & ~river
 # moisture: coast and rivers
 dcoast = ndimage.distance_transform_edt(land) * KM
 driver = ndimage.distance_transform_edt(~river) * KM
-moist = np.exp(-dcoast / 700) + 0.35 * np.exp(-driver / 25) + 0.08 * fbm(up.shape, 20)
+MO = RR["moisture"]
+moist = np.exp(-dcoast / MO["coast_fade_km"]) + MO["river_boost"] * np.exp(-driver / MO["river_fade_km"]) + MO["noise"] * fbm(up.shape, 20)
 coast = land & (dcoast <= KM * 1.01)
 B = np.full((n, n), "", dtype=object)
-warm, temperate = temp >= 60, (temp >= 45) & (temp < 60)
-def band(mask, wet, mid, dry):
-    B[mask & (moist >= 0.55)] = wet; B[mask & (moist >= 0.30) & (moist < 0.55)] = mid; B[mask & (moist < 0.30)] = dry
-band(land & warm, "Warm forest", "Warm grassland", "Scrub desert")
-band(land & temperate, "Mixed forest", "Prairie", "Steppe")
-band(land & (temp < 45), "Taiga", "Tundra", "Cold barrens")
-B[land & (meters > 2000)] = "Highlands"
-B[land & (meters < 150) & (moist > 0.75) & (driver < 15)] = "Marsh"
-corridor = land & (driver <= 5) & (meters < 2000)
-B[corridor] = "River"
-B[coast & (meters < 300)] = "Coast"
-B[~land] = "Ocean"
+BF = RR["bands_f"]
+warm, temperate = temp >= BF["warm_min"], (temp >= BF["temperate_min"]) & (temp < BF["warm_min"])
+def band(mask, ids):
+    wet, mid, dry = (BIOME[i] for i in ids)
+    B[mask & (moist >= MO["wet_min"])] = wet; B[mask & (moist >= MO["dry_below"]) & (moist < MO["wet_min"])] = mid; B[mask & (moist < MO["dry_below"])] = dry
+BB = RR["base_biomes"]
+band(land & warm, BB["warm"])
+band(land & temperate, BB["temperate"])
+band(land & (temp < BF["temperate_min"]), BB["cold"])
+for rule in RR["overrides"]:                             # in order on land; a later rule wins
+    mask = land.copy()
+    if "min_m" in rule: mask &= meters > rule["min_m"]
+    if "max_m" in rule: mask &= meters < rule["max_m"]
+    if "min_moisture" in rule: mask &= moist > rule["min_moisture"]
+    if "max_river_km" in rule: mask &= driver < rule["max_river_km"]
+    if rule.get("touches_sea"): mask &= coast
+    B[mask] = BIOME[rule["biome"]]
+B[~land] = "Ocean"                                       # placeholder until the water biomes are built
 COL = {"Warm forest": (52, 110, 58), "Warm grassland": (150, 170, 80), "Scrub desert": (196, 170, 110), "Mixed forest": (70, 120, 70),
        "Prairie": (160, 180, 90), "Steppe": (180, 170, 110), "Taiga": (40, 80, 60), "Tundra": (150, 160, 140), "Cold barrens": (150, 140, 130),
        "Highlands": (120, 100, 80), "Marsh": (90, 120, 100), "River": (110, 150, 120), "Coast": (220, 205, 150), "Ocean": (30, 60, 110)}
 img = np.zeros((n, n, 3), np.uint8)
 for k, c in COL.items(): img[B == k] = c
-shade = np.clip(meters / 3500, 0, 1)[..., None]
+shade = np.clip(meters / 3500, 0, 1)[..., None]           # image shading scale only
 img = (img * (1 - 0.35 * shade) + np.array([235, 235, 235]) * 0.35 * shade * (meters[..., None] > 2600)).astype(np.uint8)
 img[creek] = (90, 140, 200); img[river] = (40, 100, 190)
 c0 = M * CELLS; cut = img[c0:c0 + 30 * CELLS, c0:c0 + 30 * CELLS]; Bc = B[c0:c0 + 480, c0:c0 + 480]; Tc = temp[c0:c0 + 480, c0:c0 + 480]; Mc = meters[c0:c0 + 480, c0:c0 + 480]
@@ -110,12 +125,13 @@ for i, k in enumerate(order):
     od.rectangle([x, y, x + 16, y + 16], fill=COL[k]); od.text((x + 22, y), f"{k} {100 * (Bc == k).mean():.0f}%", fill=(255, 255, 255), font=f)
 out.paste(im, (0, H_leg))
 Path(f"{REPO}/assets/maps/regions").mkdir(parents=True, exist_ok=True)
-out.save(f"{REPO}/assets/maps/regions/{REGION}_biomes_v0.2.png")
+out.save(f"{REPO}/assets/maps/regions/{REGION}_biomes_v{__version__}.png")
 import json
 codes = list(COL.keys())
 key = "abcdefghijklmnopqrstuvwxyz"
 Rc = river[c0:c0 + 480, c0:c0 + 480]; Kc = creek[c0:c0 + 480, c0:c0 + 480]
-data = {"version": "0.2", "generated_by": f"tools/region_gen.py v{__version__}", "seed": 2718, "region": REGION,
+data = {"version": "0.3", "generated_by": f"tools/region_gen.py v{__version__}", "seed": SEED, "region": REGION,
+        "rules_from": f"tools/data/planet_verlassen.json v{PLANET['version']}",
         "cells": 480, "km_per_cell": round(KM, 2), "origin_globe_px": [510, 120],
         "biomes": {key[i]: k for i, k in enumerate(codes)},
         "biome_rows": ["".join(key[codes.index(v)] for v in row) for row in Bc],
@@ -124,6 +140,6 @@ data = {"version": "0.2", "generated_by": f"tools/region_gen.py v{__version__}",
         "height_m_rows": [[int(round(v)) for v in row] for row in Mc[::4, ::4]],
         "height_note": "every 4th cell in each direction (120 x 120)"}
 open(f"{REPO}/tools/data/regions/{REGION}.json", "w").write(json.dumps(data, separators=(",", ":")) + "\n")
-print(f"wrote tools/data/regions/{REGION}.json and assets/maps/regions/{REGION}_biomes_v0.2.png")
+print(f"wrote tools/data/regions/{REGION}.json and assets/maps/regions/{REGION}_biomes_v{__version__}.png")
 for k in order: print(f"{k:15s} {100 * (Bc == k).mean():5.1f}%")
 print("temp range F", round(float(Tc[Bc != 'Ocean'].min()), 1), round(float(Tc.max()), 1), " peak m", round(float(Mc.max())), " S1 biome:", Bc[sy, sx], " S1 temp", round(float(Tc[sy, sx]), 1), "m", round(float(Mc[sy, sx])))

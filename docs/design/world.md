@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.88, 2026-11-13**
+**World v0.89, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -33,6 +33,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - The system is crowded: "p" makes Verlassen at least the 15th planet catalogued around its star.  This leaves room for the gas giant behind the cold year.
 - The star: Sun-like and yellow (G type), about one solar mass.  Chosen by the physics: with a year of about 14 Earth months, Verlassen orbits at about 1.1 times Earth's distance and receives roughly 80% of Earth's sunlight, which matches temperate but colder than some.  A massive star would put the temperate zone so far out that a year would take decades; an orange star would leave a 14-month orbit too cold.
 - Science and physics win over hip shots: when a stated detail conflicts with real physics, the physics decides.
+- The terraformers rule (Nathan, 2026-11-13): when a science error turns up in the lore about the planet, its flora, its fauna, and the like, the terraformers can compensate for it.  First use: Earth-like temperatures under about 80% of Earth's sunlight, because the terraformers thickened the greenhouse to make up for the dimmer sun.
 - **Draft (Claudia):** with the 3:1 resonance, the gas giant orbits about every 3.5 years.
 - **Draft (Claudia):** optional lore: the star is aging, for flavor only.
 - Temperate, but colder than some.
@@ -49,6 +50,8 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - The cold year is something the player builds up for.
 - **Draft (Claudia):** consequences to design around: the cold year has no real growing season, so the camp must stockpile about a full year of food beforehand; -50 and colder makes exposure lethal fast, so shelter, heat, and clothing layers matter; long journeys during a cold year are effectively impossible.
 - The mechanism behind the three-year cycle: a gas giant neighbor in a 3:1 orbital resonance pulls the planet onto a wider orbit every third year.  Normal axial-tilt seasons happen in the other years.
+- Physics note (Claudia, 2026-11-13 review): a resonance builds up over many orbits, so it cannot push the orbit out one year in three without destabilizing the system.  Options: the gas giant herds a dust band inside Verlassen's orbit that lines up between the planet and the sun every third year and dims it by about a third for roughly a year, or the pull stays as lore.
+- Nathan (2026-11-13): either the dust or the pull is fine.  It matters more for the lore than for play.  The night sky will not be visible in gameplay, though maybe on a global map.  Decide when the map and art designs are done.
 
 ## The warning
 
@@ -63,7 +66,7 @@ This file holds the world facts that become the planet data file (A2R-101).  The
 - Similar to Earth: warmest along the equator, colder toward the poles.
 - The upper edges take the cold year's -50 shift on top of the cold they already have, so they might reach -150 F once the cold year is established (Nathan, 2026-11-10).
 - The -50 shift stays (Nathan, 2026-11-11).  Cold is the enemy, so no city sits in the 50s in a cold year.  Freezing at night is fine: out in the wilderness, a day above freezing would not thaw things before they freeze and ice again.
-- **Draft (Claudia), latitude lines,** Earth-like inland temperatures in F (normal summer high / normal winter low, then cold year high / low at -50):
+- Latitude lines (Claudia, approved by Nathan 2026-11-13; the terraformers' thicker greenhouse explains the Earth-like numbers; stored in the planet file), Earth-like inland temperatures in F (normal summer high / normal winter low, then cold year high / low at -50):
 
 | Latitude | Normal high | Normal low | Cold year high | Cold year low |
 |---|---|---|---|---|
@@ -127,6 +130,7 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 
 - **Draft (Claudia):** no jungle anywhere.  Every third year even the equator freezes at night, which kills frost-sensitive plants, and the terraformers planted frost-hardy species.  The warmest forests are evergreen oak and pine, like the southern US or southern China.
 - 13 land biomes (Claudia, approved by Nathan 2026-11-11):
+- Stored as data (Nathan, 2026-11-13): the biomes, the latitude lines, and the region biome rules live in the planet file (`tools/data/planet_verlassen.json`), and `tools/region_gen.py` reads them.  Centralizing is fine when there is plenty of room.
 
 | # | Biome | Where | Feel |
 |---|---|---|---|
@@ -201,6 +205,7 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 - A road and bridge system, basic and RimWorld style.  Instead of random, it is mostly fixed.
 - Small offshoots are random: random settlements in the wild, bandit camps, and similar may have paths.
 - Road network (Nathan, 2026-11-11): roads link 3, 8, 1 and 2, 6, 10, 7; paths link others such as 5 to 1 and 2 to 10; ferries run between 1, 8, 2, 4, 9, 10.  Details in `zones.md`, Routes.
+- Road order and paths (approved by Nathan 2026-11-13): each road list is a chain in the order given (Warmes Tani to Darya Kako to Setareh Minato; Ikh Gawa to Davs Mizuumi to Kawa Fada to Shio Loch).  A path joins Svetla Hama and Zimna Toride, which share an island.  The path list is complete; small paths to wild settlements and camps still come from the seed.
 - Sea roads: in the cold year the sea ice opens new routes.  Suddenly, getting from Setareh Minato to Ikh Gawa is a land trip.
 - **Draft (Claudia):** main roads follow the land (river valleys, mountain passes, coasts) and link the ten places, with fixed bridges at major river crossings.  Random paths fork toward seeded settlements and camps, so a path in the wild means someone is out there.  Vehicles keep to roads and open land.  In the cold year, snow buries roads.  In normal years, crossings like Setareh Minato to Ikh Gawa mean a boat or a long trek around the coast.
 
@@ -392,6 +397,7 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 - The two brothers' names, and where the fleeing brother came from.
 - Who runs the region's single space station.
 - Road paths drawn on the globe: which places link is decided (Roads and bridges); the generator's routes layer still has to draw the paths.
+- Cold-year cause detail: a dust band the gas giant herds, or its pull.  Decide with the map and art designs.
 
 ## Lancer canon notes (alignment reference)
 
