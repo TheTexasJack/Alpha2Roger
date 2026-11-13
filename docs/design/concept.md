@@ -1,6 +1,6 @@
 # Alpha2-Roger Concept
 
-**Concept v1.17, 2026-11-13**
+**Concept v1.18, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -279,6 +279,7 @@ What sets us apart from those games: a voiced mech computer, Subnautica style, t
 - No current plan to release on Steam: this is a project for Nathan, and anyone who plays will be people he knows.  Maybe one day.  No concerns about AI use.
 - **Draft (Claudia), older; `music.md` now holds the current direction (one recipe for every region),** fusions by cultural region (Japanese base plus the second culture): spaceport coast, Persian santur and tar with koto; southern steppe, Mongolian throat singing and horsehead fiddle with taiko; west continent north, German motorik synth with shamisen; central-north island, Slavic choral folk with city pop; the empty east, Irish trad with Japanese min'yo (Kawa Fada's radio).  Off-world Union pop drifts in on night shortwave.
 - Pipeline (Nathan, 2026-11-11): Waveform (Tracktion) is the DAW; Claudia composes, Nathan reviews and finishes.  This replaces the earlier LMMS and Furnace draft.  The full music bible, including the riff, lives in `docs/design/music.md`.
+- Music stays in music (Nathan, 2026-11-13): it evolves and grows as a feel all on its own, and should not impact anything else.  Other files only point to it.
 
 ## Potential special NPCs (Nathan, 2026-11-12)
 

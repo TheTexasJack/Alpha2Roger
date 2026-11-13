@@ -1,10 +1,10 @@
-"""Alpha2-Roger planet pack v0.5: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
+"""Alpha2-Roger planet pack v0.6: packs every locked Verlassen fact into one data file the engine reads (A2R-101).
 
 Sources (the pack never invents data; it only gathers and converts):
   tools/data/places_v1.0.json      the ten places and their pixel coordinates
   tools/data/names_v0.1.json       cultural regions, second cultures, word order
   tools/globe_candidates.py        the canon globe, seed 2718, for the three impact sites
-  docs/design/world.md v0.83       planet facts, cultural regions, currencies, notable people, road network (copied in below)
+  docs/design/world.md v0.84       planet facts, the highest point, cultural regions, currencies, notable people, road network (copied in below)
   docs/design/zones.md v0.62       routes: road, path, and ferry decisions (copied in below)
 
 Only decisions go in the file.  Drafts stay in world.md until Nathan approves them.  Anything still undecided
@@ -12,7 +12,7 @@ is null and listed under "open".
 
 Run:  python3 tools/planet_pack.py      writes tools/data/planet_verlassen.json
 """
-__version__ = "0.5"
+__version__ = "0.6"
 
 import json, math
 from pathlib import Path
@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 OUT = DATA / "planet_verlassen.json"
-FILE_VERSION = "0.5"          # bump on every change to the output
+FILE_VERSION = "0.6"          # bump on every change to the output
 
 SEED = 2718
 W, H = 720, 360               # globe raster, equirectangular, wraps east-west
@@ -65,15 +65,29 @@ def impact_sites():
     return [(int(y), int(x)) for y, x in imp]
 
 
-def landmasses():
-    """Label each landmass on the canon globe (8-connected, wrapping east-west), as tools/music_areas.py reads the land."""
+def globe_land():
+    """The canon globe's elevation field and land mask, read the way tools/music_areas.py reads them."""
     import numpy as np
-    from scipy import ndimage
     src = (HERE / "globe_candidates.py").read_text().split("seeds = [")[0]
     G = {}
     exec(src, G)
     elev, _ = G["sphere_field"](np.random.default_rng(SEED))
-    land = elev > np.quantile(elev, 1 - G["LAND_FRAC"])
+    return elev, elev > np.quantile(elev, 1 - G["LAND_FRAC"])
+
+
+def highest_point():
+    """The globe pixel with the highest elevation: the planet's top, about 6,500 m by the height scale."""
+    import numpy as np
+    elev, _ = globe_land()
+    y, x = np.unravel_index(int(np.argmax(elev)), elev.shape)
+    return int(y), int(x)
+
+
+def landmasses():
+    """Label each landmass on the canon globe (8-connected, wrapping east-west)."""
+    import numpy as np
+    from scipy import ndimage
+    _, land = globe_land()
     lab, _ = ndimage.label(land, structure=np.ones((3, 3)))
     for y in range(H):                       # join masses that touch across the wrap edge
         for dy in (-1, 0, 1):
@@ -117,6 +131,8 @@ ROADS = [[3, 8, 1], [2, 6, 10, 7]]   # places in the order Nathan listed them
 PATHS = [[5, 1], [2, 10]]            # "such as": the full path list is still open
 FERRY_TOWNS = [1, 8, 2, 4, 9, 10]
 
+HIGHEST = {"name": "Yamajira", "grid": "M10", "height_m": 6500}   # Nathan named it 2026-11-13
+
 
 def build():
     places_src = json.loads((DATA / "places_v1.0.json").read_text())["places"]
@@ -155,6 +171,12 @@ def build():
     for n, i in enumerate(impacts, 1):
         i["id"] = n
 
+    hy, hx = highest_point()
+    assert grid_ref(hy, hx) == HIGHEST["grid"], f"highest point moved: {grid_ref(hy, hx)}"
+    hla, hlo = latlon(hy, hx)
+    top = {"name": HIGHEST["name"], "grid": HIGHEST["grid"], "px": {"x": hx, "y": hy}, "lat": hla, "lon": hlo,
+           "height_m": HIGHEST["height_m"]}
+
     ids = sorted(coords)
     distances = {str(a): {str(b): great_circle_km(coords[a], coords[b]) for b in ids if b != a} for a in ids}
 
@@ -179,7 +201,7 @@ def build():
         "planet_id": "verlassen",
         "generated_by": f"tools/planet_pack.py v{__version__}",
         "sources": {
-            "world": "docs/design/world.md v0.83",
+            "world": "docs/design/world.md v0.84",
             "zones": "docs/design/zones.md v0.62",
             "places": f"tools/data/places_v1.0.json v1.0",
             "names": f"tools/data/names_v{names['version']}.json v{names['version']}",
@@ -227,6 +249,16 @@ def build():
         "places": places,
         "landmarks": {
             "infection_impact_sites": impacts,
+            "highest_point": top,
+        },
+        "heights": {
+            "planet_top_m": HIGHEST["height_m"],
+            "rule": "docs/design/zones.md, Region biome rules, step 2",
+        },
+        "music": {
+            "areas": "tools/data/music_areas.json",
+            "bible": "docs/design/music.md",
+            "rule": "music lives in its own files and evolves on its own; the planet file only points to it (Nathan, 2026-11-13)",
         },
         "cultural_regions": cultural,
         "territories": {

@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v0.83, 2026-11-13**
+**World v0.84, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -110,13 +110,14 @@ Every spot on the planet has a music area.  It sets the feel of the area's influ
 | Ice dread | (none) | rows 1, 2, 11, 12 | 96 |
 | Overall | (none) | small town-less islands (U5, W5, U6, M8) | partial |
 
+- Music stays in music (Nathan, 2026-11-13): as it evolves and grows, it is a feel all on its own and should not impact anything else.  The planet file only points to the music areas; music data lives in its own files (`tools/data/music_areas.json`, `docs/design/music.md`).
 - **Draft (Claudia):** music crossfades over a few region cells at each border, so it shifts as the player walks instead of snapping.
 - **Draft (Claudia):** key exceptions override the area, for example the spaceport sounding Union and off-world.
 
 ## Heights
 
 - Height scale (Nathan, 2026-11-12, from Claudia's draft): the planet's highest point is about 6,500 m; R5's peaks reach about 3,500 to 3,700 m.
-- The highest point sits in grid M10, about 53 S, 8.5 E, in the Mongolian belt near Davs Mizuumi at the edge of the southern ice.  Name to be set by Nathan.
+- The highest point sits in grid M10, about 53 S, 8.5 E, in the Mongolian belt near Davs Mizuumi at the edge of the southern ice.  Its name is Yamajira (Nathan, 2026-11-13).
 
 ## Biomes
 

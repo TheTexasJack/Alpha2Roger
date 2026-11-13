@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.141, 2026-11-13**
+**STATUS v0.142, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): planet file v0.6 (`tools/planet_pack.py` v0.6), world.md v0.84, concept v1.18.  Nathan named the highest point Yamajira (M10, 53.4 S, 8.5 E, about 6,500 m); the packer finds it on the globe and checks it stays in M10.  Music stays in music: it evolves on its own and should not impact anything else, so the planet file only points to the music files.  Next: Nathan's calls on the remaining planet file items (latitude lines, biomes as data, road order, paths, ferries, cold-year cause).
 
 - 2026-11-13 (Claudia): planet file v0.5 (`tools/planet_pack.py` v0.5).  Nathan asked for the road decisions in the planet file: roads 3-8-1 and 2-6-10-7, paths 5-1 and 2-10, ferry towns 1, 8, 2, 4, 9, 10, the Kawa Fada ferry through the strait by Shio Loch, cold-year sea ice, canon vs seeded routes, distances calculated never stored.  The packer now checks every road and path stays on one landmass.  Stale open items replaced; sources now world.md v0.83 and zones.md v0.62.
 

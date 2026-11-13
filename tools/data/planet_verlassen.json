@@ -1,9 +1,9 @@
 {
- "version": "0.5",
+ "version": "0.6",
  "planet_id": "verlassen",
- "generated_by": "tools/planet_pack.py v0.5",
+ "generated_by": "tools/planet_pack.py v0.6",
  "sources": {
-  "world": "docs/design/world.md v0.83",
+  "world": "docs/design/world.md v0.84",
   "zones": "docs/design/zones.md v0.62",
   "places": "tools/data/places_v1.0.json v1.0",
   "names": "tools/data/names_v0.1.json v0.1",
@@ -305,7 +305,27 @@
     "lon": -34.5,
     "id": 3
    }
-  ]
+  ],
+  "highest_point": {
+   "name": "Yamajira",
+   "grid": "M10",
+   "px": {
+    "x": 377,
+    "y": 286
+   },
+   "lat": -53.4,
+   "lon": 8.5,
+   "height_m": 6500
+  }
+ },
+ "heights": {
+  "planet_top_m": 6500,
+  "rule": "docs/design/zones.md, Region biome rules, step 2"
+ },
+ "music": {
+  "areas": "tools/data/music_areas.json",
+  "bible": "docs/design/music.md",
+  "rule": "music lives in its own files and evolves on its own; the planet file only points to it (Nathan, 2026-11-13)"
  },
  "cultural_regions": [
   {
