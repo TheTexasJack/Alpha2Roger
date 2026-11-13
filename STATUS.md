@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.167, 2026-11-13**
+**STATUS v0.168, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.69.  Working through review item 2, option A (Python bakes regions ahead of time; the baker is permanent, run on Beast, never shipped).  Nathan: build the random and player-picked start in from the start, but always click S1 during development; the pick flow draft is approved.  Drafts: a baked start layer per region (land, below the ice line, 2,000 km from places, 600 km from impacts), the start screen, baked regions unlock as they are built, GM quick start.
 
 - 2026-11-13 (Claudia): world.md v1.05.  Nathan: natives are glass and silica, but still carbon based.  Draft: natives lean hard on silica (glass armor, crunchy silica plants, silica dust in remains).
 

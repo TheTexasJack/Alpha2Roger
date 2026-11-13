@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.68, 2026-11-13**
+**Zones v0.69, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -43,7 +43,12 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - Nathan's calls on the draft (2026-11-12): the planet height scale is fine (planet top about 6,500 m, R5 summit about 3,700 m); uplands reading as temperate is fine; S1 landing in warm grassland is fine; lots of rivers is fine, since the cold year's ice and snow melts every third year and makes rivers.
 - When a player picks an area on the world map, they pick the region, and that tells the game which 9 maps to load (Nathan, 2026-11-12).
 - Scale note (Claudia): one region cell (about 3.8 km) holds 16 by 16 local maps; the 9-map section is about 720 m.  At region detail, the nearest creek is about 80 km south of S1 and the nearest river about 126 km.
-- **Draft (Claudia):** pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  Small creeks and ponds are local-map features anywhere.
+- (Claudia, approved by Nathan 2026-11-13) pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  Small creeks and ponds are local-map features anywhere.
+- Start choice built in from the start (Nathan, 2026-11-13): the random and player-picked start is worked in now, but during development we always click and enter S1 to start.
+- **Draft (Claudia), how:**
+  - The region baker adds a start layer to each region: the cells allowed as a crash spot.  Rule draft: land, below the ice line, at least 2,000 km from any of the ten places, and at least 600 km from an impact site.  That leaves about 63% of usable land across about 125 regions; S1 passes easily (about 5,600 km from Zimna Toride, about 5,000 km from an impact site).  The river preference was for testing only.
+  - Start screen: the globe, then a region (or Random), then the region map with allowed cells shaded, then a cell (or Random), then the 9-map section loads and the crash plays.  Random draws a region, then a cell, from the allowed set with the run's seed.
+  - Only baked regions can be clicked.  At first that is R5 alone, so the click is always S1; regions light up as they get baked.  The GM tool can add a quick start at S1 to skip the clicks.
 - The only reason to be on a river is testing on a river; the randomness of the seed generation guides the specifics, so S1 stays where the seed put it (Nathan, 2026-11-12).
 - We need a measurement like the overmap's (R5 and so on) to pinpoint places better (Nathan, 2026-11-12).
 - Addresses (Claudia, approved by Nathan 2026-11-12): one block per zoom level: region (A to X, 1 to 12), region cell (column.row, 0 to 479), local map inside the cell (column.row, 0 to 15), tile inside the map (column.row, 0 to 255).  Example: S1's camp spot is R5-152.136-08.08-128.128; dropping blocks zooms out.  Numbers after the first block, since letters run out at 480 columns.  Used by the GM tool (jump to an address, such as a river cell for river testing), seed sharing, bug reports, the camp log, and a cursor readout on the region map.
@@ -309,4 +314,4 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Svetla Hama is a ferry town but sits about 670 km from the open sea, about 60 km from a small lake: a landing on the sea, a lake ferry only, or no ferry (Nathan's call).
 - River inflow across region borders: feed upstream flow from the globe into each region's window (before a second region is built).
 - `tools/region_gen.py` to write the newer region layers (salinity, flow direction and speed, full-detail height, moisture, territory, routes, landmarks, entrances).
-- Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; region pick flow; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).
+- Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).
