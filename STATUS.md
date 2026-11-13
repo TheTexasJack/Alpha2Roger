@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.137, 2026-11-13**
+**STATUS v0.138, 2026-11-13**
 
 ## Where things stand
 
@@ -12,7 +12,7 @@
 ## Next steps (Nathan picks the order)
 
 0. **Music:** get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
-1. **Stage 1, A2R-102 (in progress):** `docs/design/zones.md`.  R5 biome rules approved and `tools/region_gen.py` v0.1 built R5.  Left: the zone graph format, then the spec goes to Nathan for approval.
+1. **Stage 1, A2R-102 (in review):** `docs/design/zones.md` is complete through the zone graph format.  Nathan's final sign-off is next; open items are listed at the bottom of zones.md.
 2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
 3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
 4. **Design gaps:** stats and skills (#35, the biggest), conditions (#52d), factions and beliefs (#50b), trade (#70), currency names and rates, what the infection does.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.60, plan v0.29.  Nathan approved JSON with the format escape hatch.  Zone graph format complete; A2R-102 in review.  Open list in zones.md refreshed.
 
 - 2026-11-13 (Claudia): zones.md v0.59.  Nathan approved the save cap behavior and playthrough name defaults.  Zone graph format: only JSON left.
 

@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.59, 2026-11-13**
+**Zones v0.60, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -286,11 +286,18 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 
 - Turn-based play costs work per move, not per frame.  A 250 by 250 map is 62,500 tiles, small for the target PC.  The real cost is creature AI and pathfinding each turn; dozens of creatures on a map is fine.
 
+## Zone graph format (approved by Nathan 2026-11-12 to 2026-11-13)
+
+1. Store only what math cannot derive: neighbors, edge crossings, and local maps are calculated (see Stored and unstored maps).
+2. Region files: see Region file contents.
+3. City files: a city is a linked space (see Cities): its districts, how they connect, which gate opens where, the linked maps hanging off each district, and its blocked region cells and wall line on the overworld.  **Draft (Claudia), the rest of a city file:** header (ID, version, culture, music area, territory, place in the planet file), gate maps with fixed edge crossings, districts (contents, travel time on the city map), named NPCs (district, role, faction, special or not), story beats (arrival comic, quests, local news spin), rules (curfew, weapons, papers, what is illegal); handcrafted maps saved as Godot scenes, referenced by the city file.
+4. Edge IDs: see Edge IDs.
+5. Save file: see Save file.
+6. Format: JSON to start, with the escape hatch built in (Claudia, approved by Nathan 2026-11-13): one save module, the only code that touches save files; every saved thing has to_dict and from_dict with explicit types (Godot's JSON reader returns every number as a decimal and does not know Godot's coordinate types); the manifest records the format and save format version; migrations chain version to version so old saves never break; big grids stay packed; compression on early (Godot writes compressed files directly, including zstd).  Switching formats later means swapping the writer and adding one converter.
+
 ## Open
 
-- Exact local map size in tiles, and meters per tile.
-- Region cell size and chunk size.
 - Full montage event tables, once more of the game exists.
-- Biome placement per region cell in R5 (the expected biomes are set).
-- First city: Kawa Fada (Nathan, 2026-11-11).  It was going to be Shio Loch or Kawa Fada, since the build extends outward from S1.  Shio Loch is the natural second city, along the road from 10 to 7.  On foot from S1: Kawa Fada about 6,300 km (about 400 days), Shio Loch about 9,600 km (about 620 days); the GM tool removes the wait during testing.
-- The zone graph output format for A2R-103.
+- River inflow across region borders: feed upstream flow from the globe into each region's window (before a second region is built).
+- `tools/region_gen.py` to write the newer region layers (salinity, flow direction and speed, full-detail height, moisture, territory, routes, landmarks, entrances).
+- Remaining drafts to review: beacon snapshot view, M.U.L.E. sensing mode details, the rest of the city file contents (item 3 above).

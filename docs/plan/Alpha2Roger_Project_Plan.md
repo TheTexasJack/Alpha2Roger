@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.28, 2026-11-12**
+**Plan v0.29, 2026-11-13**
 
 ## What this project is
 
@@ -57,7 +57,7 @@ Goal: prove the seeded map works before any graphics exist.
 | ID | Task | Status | Notes |
 |---|---|---|---|
 | A2R-101 | Planet data file | Done | Locked by Nathan 2026-11-10 at v0.1; v0.2 (2026-11-11) adds the calendar: `tools/data/planet_verlassen.json` (built by `tools/planet_pack.py`), with seed, ten places, impact sites, regions, cultures, currencies, straight-line distances.  Data only, no engine code.  Fixed file name, version inside.  Biome regions and route distance ranges moved to A2R-102 |
-| A2R-102 | Generator spec | In progress | Spec in `docs/design/zones.md`.  Inputs (planet file, seed) and outputs (zone graph).  Also defines biome regions and route distance ranges (moved from A2R-101).  Written and approved before code |
+| A2R-102 | Generator spec | In review | Spec in `docs/design/zones.md`; the zone graph format is complete (2026-11-13), awaiting Nathan's final sign-off.  First region R5 built by `tools/region_gen.py`.  Inputs (planet file, seed) and outputs (zone graph).  Also defines biome regions and route distance ranges (moved from A2R-101).  Written and approved before code |
 | A2R-103 | Generator prototype | Not started | Built in Godot, outputs a readable text map, for example "Crash Site > Spore Thicket > Collapsed Arcology".  Doubles as a first Godot lesson (**Draft (Claudia)**) |
 | A2R-104 | Determinism test | Not started | Same seed gives the same map every time; different seeds give different maps |
 
@@ -120,6 +120,7 @@ Goal: the core loop.
 - Plan v0.28, 2026-11-12 (Nathan): the year is 5071u; planet data file v0.4.
 - Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
 - Plan v0.26, 2026-11-11 (Nathan): planet data file v0.2 with the 12 by 35 day calendar.
+- Plan v0.29, 2026-11-13 (Nathan): A2R-102 in review; zone graph format complete.
 - Plan v0.25, 2026-11-10 (Nathan): A2R-102 in progress; zones and travel direction recorded in `docs/design/zones.md`.
 - Plan v0.24, 2026-11-10 (Nathan): A2R-101 locked and done; biome regions and route distance ranges moved to A2R-102.
 - Plan v0.23, 2026-11-10 (Claudia): A2R-101 in review; planet data file v0.1 packed.
