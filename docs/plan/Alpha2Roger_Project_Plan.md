@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.33, 2026-11-13**
+**Plan v0.34, 2026-11-13**
 
 ## What this project is
 
@@ -47,7 +47,7 @@ Goal: Claude hand-holds Nathan through setting up Beast for local Godot developm
 | A2R-S07 | Shared rules file | Done | `AGENTS.md` at the repo root (read by Claude Code and by Codex-style tools on Mara's side): style, versioning, compartmentalized steps, one AI per file at a time |
 | A2R-S08 | Headless test check | Not started | A Godot test add-on runs from the command line, so changes can be verified without clicking through the game |
 | A2R-S09 | Plan check | Not started | Start on the current plan; move to Max, then Ultra, only if usage limits actually bite |
-| A2R-S10 | Python for the baker | Not started | **Draft (Claudia):** Python 3 with numpy, scipy, and Pillow on Beast (Mint ships Python; one install line), so the world tools and the region baker run there |
+| A2R-S10 | Python for the baker | Not started | Python 3 with numpy, scipy, and Pillow on Beast, so the world tools and the region baker run there.  Nathan likely has Python and Pillow already; confirm versions when it is time (Nathan, 2026-11-13): `python3 tools/system_report.py` lists all four.  The tools were verified with Python 3.13, numpy 2.5, scipy 1.18, and Pillow 12.3 |
 
 **Gate:** Nathan restores a test file from Timeshift and from git, confirming both safety nets work, and Claude Code runs one harmless test command inside the fenced folder.
 
@@ -122,6 +122,7 @@ Goal: the core loop.
 - Plan v0.28, 2026-11-12 (Nathan): the year is 5071u; planet data file v0.4.
 - Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
 - Plan v0.26, 2026-11-11 (Nathan): planet data file v0.2 with the 12 by 35 day calendar.
+- Plan v0.34, 2026-11-13 (Nathan): A2R-S10 accepted; versions get confirmed when Stage S runs.
 - Plan v0.33, 2026-11-13 (Nathan): option A, regions baked ahead of time by the Python baker.  Stage 1 renamed; A2R-103 and A2R-104 rewritten; A2R-105 (region baker) and A2R-S10 (Python on Beast) added as drafts.
 - Plan v0.32, 2026-11-13 (Claudia): A2R-101 note: planet file v0.7 holds the climate lines, biomes, and region rules.
 - Plan v0.31, 2026-11-13 (Claudia): A2R-101 note: planet file v0.5 carries the route network.
