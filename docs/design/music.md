@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.33, 2026-11-13**
+**Music v0.34, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -214,6 +214,6 @@ Each MIDI holds seven tracks: koto pluck, bass pluck, hand drums, drone, shakuha
 
 ## Open
 
-- Now required (Nathan, 2026-11-12): set up the Akai so Waveform records from the keyboard.  Known so far: Linux sees it (client 28, port 0 carries the keys), notes reach Waveform, but the instrument plays one note at a time and nothing records.
+- Akai setup done (Nathan, 2026-11-13): the keyboard records into Waveform.  The fix: click the red dot next to the track's input first (that arms it), then hit record.  Notes recorded with the input set to "MPK mini Plus II MIDI Port."  Settings that work: the MIDI Port enabled, the DAW and Plugin ports disabled; 4OSC in Poly mode plays chords.
 - Nathan's next direction for Kaze, after he ruminates.  v4 is the strongest version so far.
 - Tempo, key, and length for the first wilderness bed once the riff is locked.

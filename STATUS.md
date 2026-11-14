@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.177, 2026-11-13**
+**STATUS v0.178, 2026-11-13**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md` (culture map split out, music areas tool now reads it, output unchanged).  Then get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
+0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md`.  The Akai now records in Waveform (2026-11-13).  Next: Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
 1. **A2R-102: done** (signed off by Nathan 2026-11-13; the remaining zones drafts are parked as later items).
 2. **Stage S at Beast (guided):** Timeshift snapshot, project folder, Claude Code with locked-down permissions, clone the repo, Godot 4 (pin the version), headless test add-on, plan check, Python versions via `tools/system_report.py`.
 3. **A2R-103, First Godot load:** can start on R5 as baked today (biomes, rivers, heights); A2R-105 (full layers) is a draft that does not block it.
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia, music thread): music.md Akai line updated.  Nathan got the Akai recording in Waveform: arm the input with the red dot first, then hit record.
 
 - 2026-11-13 (Claudia): Stage S prep.  Nathan bought an 8 TB external drive; Beast measured (Mint 22.3, one ext4 disk, about 356 GB of home to back up with Steam installs, AI models, caches, and trash skipped, but the City of Heroes Homecoming Proton folder and Steam userdata kept).  Python on Beast is 3.12 with numpy 1.26 and no scipy; draft venv with pinned versions plus a byte-for-byte rebuild check (A2R-S10).  Stage S starts next session: Timeshift snapshot, format the drive ext4, rsync home, test restore.
 
