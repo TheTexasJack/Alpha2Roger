@@ -1,6 +1,6 @@
 # Alpha2-Roger World
 
-**World v1.05, 2026-11-13**
+**World v1.06, 2026-11-13**
 
 Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.
 
@@ -432,7 +432,7 @@ Five regional currencies, grouped by place (names and exchange rates still open)
 - The long distances between rivals are good.  Feuds run at continent scale, like the wars in Nausicaa of the Valley of the Wind: airplanes, missiles, and other long-range attacks make them feasible.
 - Some areas are low tech, but this is the far, far future.  Fliers, droids, and mutants all exist.  The planet was terraformed, and these people live thousands of years after that.
 - Cold-year flight (Nathan, 2026-11-10): grounding by the extreme cold is a modern standard.  These vehicles are thousands of years in the future, and a people who traveled through space and terraformed a planet may have found a solution.  Still, cold is cold and metal is metal, and there may be physics that limit what can happen.  Lack of money is what prevents most innovation.
-- **Draft (Claudia):** cold-rated fliers exist but cost more to build and run, so who flies in the cold year comes down to money: rich powers keep flying, poor ones are grounded.
+- (Claudia; covered by Nathan's 2026-11-13 approval of the cold-year air power line under Airports) cold-rated fliers exist but cost more to build and run, so who flies in the cold year comes down to money: rich powers keep flying, poor ones are grounded.
 - Remote crashes: downed fliers and wreckage out in the deep wild are places for the player to find resources, maybe someone to save, and potential faction increases.
 - Droids are dumber than a CompCon.  The M.U.L.E. is smarter than a standard CompCon, and very smart compared to most common droids.
 - **Draft (Claudia):** mutants trace back to the terraforming, the infection, or old bioengineering, case by case.

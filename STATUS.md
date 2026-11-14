@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.174, 2026-11-13**
+**STATUS v0.175, 2026-11-13**
 
 ## Where things stand
 
@@ -12,16 +12,18 @@
 ## Next steps (Nathan picks the order)
 
 0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md` (culture map split out, music areas tool now reads it, output unchanged).  Then get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
-1. **Stage 1, A2R-102 (in review):** `docs/design/zones.md` is complete through the zone graph format.  Nathan's final sign-off is next; open items are listed at the bottom of zones.md.
-2. **Draft for Nathan:** cold-rated fliers cost more, so money decides who flies in the cold year (world.md).
-3. **Stage S:** guided, secured setup of Nathan's PC (Timeshift, Claude Code, Godot 4).  Best done at the machine.
-4. **Design gaps:** stats and skills (#35, the biggest), conditions (#52d), factions and beliefs (#50b), trade (#70), currency names and rates, what the infection does.
+1. **A2R-102 sign-off (Nathan):** zones.md is complete; its 10 open drafts are later systems that A2R-103 does not need.  Draft (Claudia): sign off with them parked as later items.
+2. **Stage S at Beast (guided):** Timeshift snapshot, project folder, Claude Code with locked-down permissions, clone the repo, Godot 4 (pin the version), headless test add-on, plan check, Python versions via `tools/system_report.py`.
+3. **A2R-103, First Godot load:** can start on R5 as baked today (biomes, rivers, heights); A2R-105 (full layers) is a draft that does not block it.
+4. **Not blocking, any time:** Svetla Hama's ferry (sea landing, lake ferry, or none); turn and day length (needed by Stage 3); the draft sweep (concept 77, world about 56, music 20, zones 12); design gaps (stats #35, conditions #52d, factions and beliefs #50b, trade #70, currency names and rates, what the infection does).
 
 ## Open decisions
 
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): world.md v1.06; STATUS next steps refreshed for the road to A2R-103.  The cold-rated fliers draft is marked covered by the approved cold-year air power line.
 
 - 2026-11-13 (Claudia): plan v0.34.  A2R-S10 accepted: confirm Python, numpy, scipy, and Pillow versions with `tools/system_report.py` when Stage S runs.
 
