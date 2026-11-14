@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.72, 2026-11-13**
+**Zones v0.73, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -163,7 +163,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - (Claudia, approved by Nathan 2026-11-13) at the manual cap, the game asks which save to overwrite rather than refusing; the playthrough name is the save folder's name and shows on the load screen and the camp log's title; if the player leaves it blank, a default is offered from the seed and start (for example "2718 S1").
 - Seeds and names (Nathan, 2026-11-13): the tutorial is just the preset seed 2718 S1.  The playthrough name includes the run seed by default along with the character's name, as "NAME 48213 R7"; the player can rename it, and the seed is baked into the save either way.
 - Grouping (Nathan, 2026-11-13): saves are grouped by character, so Brad has all of his saves under him, Janet has hers under her, and Rocky's stay separate, each under the run seed they generated.
-- **Draft (Claudia), save layout:**
+- (Claudia, approved by Nathan 2026-11-13) save layout:
   - The load screen lists run seeds, then the characters under each seed, then that character's saves.  Two characters on the same seed (Brad and Janet both on 2718, say) sit side by side under it.
   - A successor who finds the M.U.L.E. lands under the same seed as a new character, so the load screen shows the line of pilots in one world.
   - Folders use a fixed ID (the seed plus a short character ID), and the display name lives in the manifest, so renaming never moves files.
