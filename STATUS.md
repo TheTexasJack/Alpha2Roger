@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.175, 2026-11-13**
+**STATUS v0.176, 2026-11-13**
 
 ## Where things stand
 
@@ -12,16 +12,18 @@
 ## Next steps (Nathan picks the order)
 
 0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md` (culture map split out, music areas tool now reads it, output unchanged).  Then get the Akai recording in Waveform (now required).  Then Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
-1. **A2R-102 sign-off (Nathan):** zones.md is complete; its 10 open drafts are later systems that A2R-103 does not need.  Draft (Claudia): sign off with them parked as later items.
+1. **A2R-102: done** (signed off by Nathan 2026-11-13; the remaining zones drafts are parked as later items).
 2. **Stage S at Beast (guided):** Timeshift snapshot, project folder, Claude Code with locked-down permissions, clone the repo, Godot 4 (pin the version), headless test add-on, plan check, Python versions via `tools/system_report.py`.
 3. **A2R-103, First Godot load:** can start on R5 as baked today (biomes, rivers, heights); A2R-105 (full layers) is a draft that does not block it.
-4. **Not blocking, any time:** Svetla Hama's ferry (sea landing, lake ferry, or none); turn and day length (needed by Stage 3); the draft sweep (concept 77, world about 56, music 20, zones 12); design gaps (stats #35, conditions #52d, factions and beliefs #50b, trade #70, currency names and rates, what the infection does).
+4. **Not blocking, any time:** turn and day length (needed by Stage 3); the draft sweep (concept 77, world about 56, music 20, zones 12); design gaps (stats #35, conditions #52d, factions and beliefs #50b, trade #70, currency names and rates, what the infection does).
 
 ## Open decisions
 
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): A2R-102 signed off and done (plan v0.35); zones drafts parked as later items.  Nathan parked the equipment catalog (#37d: weapons, tools, armor, clothing, and their settings) and set ferries as fast travel spots for now (#72h; seasons and delays later; Svetla Hama's lake question parked).  Next: Stage S at Beast, then A2R-103.
 
 - 2026-11-13 (Claudia): world.md v1.06; STATUS next steps refreshed for the road to A2R-103.  The cold-rated fliers draft is marked covered by the approved cold-year air power line.
 

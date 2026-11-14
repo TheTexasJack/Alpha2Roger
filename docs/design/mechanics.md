@@ -1,6 +1,6 @@
 # Alpha2-Roger Mechanics List
 
-**Mechanics v0.82, 2026-11-13**
+**Mechanics v0.83, 2026-11-13**
 
 Every mechanic the design calls for, pulled from `docs/design/concept.md`, `docs/design/world.md`, and the plan.  Use it as a checklist.
 
@@ -81,6 +81,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 36 | NPC generation | Decided | Rolled once and locked; core plus changing state (Draft) |
 | 37b | Pilot talents | Decided | Lancer has no pilot talents; we create our own, buffs at the end of the day.  Three ranks (Draft) |
 | 37c | Gear from Lancer | Decided | Lancer names, our system effects; weapons are a start that we flavor; pilot gear adapted to a traditional form, heavy weapons need STR.  Weapon classes, tags, item traits (Draft) |
+| 37d | Equipment catalog | Later | Parked (Nathan, 2026-11-13): weapons, tools, armor, clothing, and their respective settings, tackled once a working concept is confirmed |
 | 37 | Traits | Decided | Includes negative and dark traits, balanced, never glorified |
 | 38 | Relationships | Decided | Organic, RimWorld-like, light; family to protect; romance and intimacy only at 18 and up |
 | 39 | Orientation | Decided | Varies per pawn, including ace; romantic and sexual dials (Draft) |
@@ -149,6 +150,7 @@ Tier: the suggested build order.  Tier 1 is the foundation; each tier builds on 
 | 72e | Thermal icebreaker | Later | Late-game upgrade for world sea travel through the polar pack ice; future tech that only the rarest of the rare have, because money limits it; better than trying to tech a flier (Nathan, 2026-11-13) |
 | 72f | Rail line | Decided | Only two things to code: fast travel between cities (boarded only in a city), and an occasional event when the player builds next to the track: the train crosses and hits everything (bait raiders onto it).  One loop of eight stations with tunnels at H8 and V5 to V6; Svetla Hama and Zimna Toride are off the line.  Tunnels are a point, an explanation, and a map; walking one is a warning, then the train.  Flavor disguised as a combat mechanic, mostly fast travel (Nathan, 2026-11-13; `world.md`, The rail line) |
 | 72g | Air travel | Decided | Airports at Setareh Minato and Svetla Hama only; a flight ticket between them is fast travel, grounded in a cold year unless paid at cold-rated prices.  Every city has a military and a military air base, closed to the player (Nathan, 2026-11-13; `world.md`, Airports) |
+| 72h | Ferries | Decided | For now, ferries are fast travel spots; seasons or time delays may be assigned in the future (Nathan, 2026-11-13) |
 | 73 | Sea roads | Decided | Sea ice opens routes in the cold year; Setareh Minato to Ikh Gawa becomes a land trip |
 | 74 | Identity questline | Decided | Legal battle by holo, email, and blink messages; new name at License Level 0 |
 | 75 | Inbox | Decided | Blink messages bundled and slow; cost per message (Draft); letters from the other self (Draft) |

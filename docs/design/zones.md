@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.74, 2026-11-13**
+**Zones v0.75, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -211,6 +211,7 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Road order and paths (approved by Nathan 2026-11-13): roads are chains in the order listed (3 to 8 to 1; 2 to 6 to 10 to 7).  A path joins 4 and 9 (Svetla Hama and Zimna Toride, on the same island).  The path list is complete; seeded paths to wild settlements and camps come on top.
 - Ferries run between the coastal towns 1, 8, 2, 4, 9, 10 (Setareh Minato, Darya Kako, Ikh Gawa, Svetla Hama, Zimna Toride, Kawa Fada).
 - Ferry rule (Claudia, approved by Nathan 2026-11-13): any ferry town reaches any other by sea, routed by sea pathfinding, so the route to Kawa Fada runs through the strait by itself.
+- Ferries for now (Nathan, 2026-11-13): ferries are fast travel spots.  Seasons or time delays can be assigned in the future.  Until then the ferry details below (seasons, landings, Svetla Hama's lake) are parked.
 - Rail (Nathan, 2026-11-13): a spaceport-run train is fast travel from city to city, boarded only in a city.  Its undersea tunnels are deadly to walk: a warning, then the train.  Eight stations on one loop: Setareh Minato, tunnel H8, Ikh Gawa, Davs Mizuumi, Kawa Fada, Shio Loch, tunnel V5 to V6, Khaluun Onsen, Warmes Tani, Darya Kako.  Svetla Hama and Zimna Toride are reached by plane or ferry.  Details in `world.md`, The rail line (mechanic #72f).
 - Air (Nathan, 2026-11-13): airports at Setareh Minato and Svetla Hama; a ticket between them is fast travel to the island.  Every city also has a military air base, closed to the player.  Details in `world.md`, Airports (mechanic #72g).
 - Checked on the canon globe (Claudia): every road and path stays on one landmass.  S1 shares a continent with 2, 6, 10, and 7.  Setareh Minato and Zimna Toride each sit about 190 to 195 km from the nearest coast (corrected 2026-11-13; first measured as about 180 and 300 km).  Svetla Hama sits about 670 km from the open sea; the shore it is named for is a small lake about 60 km away (open item).
@@ -323,7 +324,8 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 
 - Full montage event tables, once more of the game exists.
 - Draw the rail loop with the routes layer (stations and tunnels are set).
-- Svetla Hama is a ferry town but sits about 670 km from the open sea, about 60 km from a small lake: a landing on the sea, a lake ferry only, or no ferry (Nathan's call).
+- Parked (ferries are fast travel spots for now, Nathan 2026-11-13): Svetla Hama is a ferry town but sits about 670 km from the open sea, about 60 km from a small lake: a landing on the sea, a lake ferry only, or no ferry.
 - River inflow across region borders: feed upstream flow from the globe into each region's window (before a second region is built).
 - `tools/region_gen.py` to write the newer region layers (salinity, flow direction and speed, full-detail height, moisture, territory, routes, landmarks, entrances).
-- Drafts still open in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).
+- A2R-102 signed off (Nathan, 2026-11-13): the drafts below are parked as later items, to be tackled once a working concept is confirmed.
+- Drafts parked in this file (full list from the 2026-11-13 review): seeing far part 3, vistas (the descent footage and beacon are decided); radio ranges; thaw floods; beacon snapshot view; M.U.L.E. and beacon sensing details; Kawa Fada ferry seasons; tolls (rates, chatter, charters, rerouting); unattended goods; off-map site numbers; the rest of the city file contents (Zone graph format, item 3).
