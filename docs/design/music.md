@@ -1,6 +1,6 @@
 # Alpha2-Roger Music
 
-**Music v0.34, 2026-11-13**
+**Music v0.35, 2026-11-13**
 
 The music bible: sound, tools, the riff, and the radio's music.  Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestions until Nathan approves them.  News, ads, and talk on the radio live in `docs/design/world.md`; this file covers only the music.
 
@@ -24,6 +24,8 @@ Nathan asked for these notes so the music thread can see what changed outside it
 - The DAW is Waveform (Tracktion).  It runs on Beast (Linux Mint).
 - No Suno and no other music generator on this project.  Nathan's Suno account belongs to SteamMetal Studio and stays off Alpha2-Roger.
 - Claudia composes.  Nathan reviews, modifies, and adds beats that are pleasant on the ear.  If a composition is weak, Nathan may keep only the beat and tone and rebuild the rest.
+- No third-party sample libraries (Nathan, 2026-11-13): the entire point is that this will be Nathan's own, so outside libraries such as Pianobook are skipped.
+- **Draft (Claudia), our own instruments:** Claudia renders her from-scratch koto, shinobue, and other instruments as one sample per note, and Nathan loads them into Waveform's built-in sampler; Waveform's own synths can also be shaped by hand.  Both keep every sound ours.
 - **Draft (Claudia), handoff:** Claudia delivers a MIDI file (one track per part, tempo and key set) plus a preview render and a short note (key, tempo, mood, where it plays, loop point).  Nathan mixes in Waveform and exports the final as OGG Vorbis for Godot.  Waveform project files stay on Beast; the repo holds only MIDI and exports.
 - **Draft (Claudia), files:** drafts go in `assets/audio/music/drafts/`, finals in `assets/audio/music/`.  Every file carries `_vN` in its name, like the art.
 
