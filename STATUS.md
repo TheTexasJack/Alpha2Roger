@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.178, 2026-11-13**
+**STATUS v0.179, 2026-11-13**
 
 ## Where things stand
 
@@ -11,7 +11,7 @@
 
 ## Next steps (Nathan picks the order)
 
-0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md`.  The Akai now records in Waveform (2026-11-13).  Next: Nathan cleans up the Rory Dall feel test and adds an undertone or beat.  Target: the Irish wilds with samurai.
+0. **Music:** first read "Notes from the zones thread" at the top of `docs/design/music.md`.  The Akai records in Waveform (2026-11-13).  Next is on Nathan: learning the keyboard and Waveform (training videos, getting familiar).  Then he cleans up the Rory Dall feel test and adds an undertone or beat.  Claudia's own-instrument note sets (draft A) wait for his go.  Target: the Irish wilds with samurai.
 1. **A2R-102: done** (signed off by Nathan 2026-11-13; the remaining zones drafts are parked as later items).
 2. **Stage S at Beast (guided):** Timeshift snapshot, project folder, Claude Code with locked-down permissions, clone the repo, Godot 4 (pin the version), headless test add-on, plan check, Python versions via `tools/system_report.py`.
 3. **A2R-103, First Godot load:** can start on R5 as baked today (biomes, rivers, heights); A2R-105 (full layers) is a draft that does not block it.
