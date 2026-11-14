@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.176, 2026-11-13**
+**STATUS v0.177, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): Stage S prep.  Nathan bought an 8 TB external drive; Beast measured (Mint 22.3, one ext4 disk, about 356 GB of home to back up with Steam installs, AI models, caches, and trash skipped, but the City of Heroes Homecoming Proton folder and Steam userdata kept).  Python on Beast is 3.12 with numpy 1.26 and no scipy; draft venv with pinned versions plus a byte-for-byte rebuild check (A2R-S10).  Stage S starts next session: Timeshift snapshot, format the drive ext4, rsync home, test restore.
 
 - 2026-11-13 (Claudia): A2R-102 signed off and done (plan v0.35); zones drafts parked as later items.  Nathan parked the equipment catalog (#37d: weapons, tools, armor, clothing, and their settings) and set ferries as fast travel spots for now (#72h; seasons and delays later; Svetla Hama's lake question parked).  Next: Stage S at Beast, then A2R-103.
 

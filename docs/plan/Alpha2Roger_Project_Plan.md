@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.35, 2026-11-13**
+**Plan v0.36, 2026-11-13**
 
 ## What this project is
 
@@ -38,7 +38,7 @@ Goal: Claude hand-holds Nathan through setting up Beast for local Godot developm
 
 | ID | Task | Status | Notes |
 |---|---|---|---|
-| A2R-S01 | Safety net first | Not started | Timeshift system snapshot (built into Linux Mint) before anything else; confirm a backup of the home folder |
+| A2R-S01 | Safety net first | Not started | Timeshift system snapshot (built into Linux Mint) before anything else; confirm a backup of the home folder.  Prep done 2026-11-13: an 8 TB external drive bought; Beast measured (one ext4 system disk with room for the snapshot; about 356 GB of home to back up after skipping redownloadable game and model data) |
 | A2R-S02 | Fence the workspace | Not started | One dedicated project folder; Claude Code runs only inside it, never as root or with sudo |
 | A2R-S03 | Install Claude Code | Not started | Native Linux install; log in with the Claude plan (no API key set, so usage stays on the plan) |
 | A2R-S04 | Lock down Claude Code permissions | Not started | Ask-before-acting permission mode; deny rules for destructive commands (for example recursive deletes and anything outside the project folder) |
@@ -47,7 +47,7 @@ Goal: Claude hand-holds Nathan through setting up Beast for local Godot developm
 | A2R-S07 | Shared rules file | Done | `AGENTS.md` at the repo root (read by Claude Code and by Codex-style tools on Mara's side): style, versioning, compartmentalized steps, one AI per file at a time |
 | A2R-S08 | Headless test check | Not started | A Godot test add-on runs from the command line, so changes can be verified without clicking through the game |
 | A2R-S09 | Plan check | Not started | Start on the current plan; move to Max, then Ultra, only if usage limits actually bite |
-| A2R-S10 | Python for the baker | Not started | Python 3 with numpy, scipy, and Pillow on Beast, so the world tools and the region baker run there.  Nathan likely has Python and Pillow already; confirm versions when it is time (Nathan, 2026-11-13): `python3 tools/system_report.py` lists all four.  The tools were verified with Python 3.13, numpy 2.5, scipy 1.18, and Pillow 12.3 |
+| A2R-S10 | Python for the baker | Not started | Python 3 with numpy, scipy, and Pillow on Beast, so the world tools and the region baker run there.  Nathan likely has Python and Pillow already; confirm versions when it is time (Nathan, 2026-11-13): `python3 tools/system_report.py` lists all four.  The tools were verified with Python 3.13, numpy 2.5, scipy 1.18, and Pillow 12.3.  Measured on Beast (2026-11-13): Python 3.12.3, numpy 1.26.4, Pillow 10.2.0, scipy missing.  **Draft (Claudia):** a project venv with the matching versions (Mint's own Python stays untouched), then rebuild the planet file, culture map, and R5 on Beast and confirm they come out byte for byte identical, since the globe comes from numpy's random generator and numpy only promises identical results within a version |
 
 **Gate:** Nathan restores a test file from Timeshift and from git, confirming both safety nets work, and Claude Code runs one harmless test command inside the fenced folder.
 
@@ -119,6 +119,7 @@ Goal: the core loop.
 
 ## Changelog
 
+- Plan v0.36, 2026-11-13 (Claudia): Stage S prep notes: backup drive and Beast measurements (A2R-S01); Python versions on Beast and a venv draft (A2R-S10).
 - Plan v0.35, 2026-11-13 (Nathan): A2R-102 signed off and done; remaining zones drafts parked as later items.
 - Plan v0.28, 2026-11-12 (Nathan): the year is 5071u; planet data file v0.4.
 - Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
