@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.71, 2026-11-13**
+**Zones v0.72, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -161,6 +161,13 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
 - Manual saves: a maximum of 50 per playthrough, with a system menu option to change the number or remove the cap (Nathan, 2026-11-13).
 - Each playthrough has a name, picked by the player when they build the world.  The name organizes the saves and other things (Nathan, 2026-11-13).
 - (Claudia, approved by Nathan 2026-11-13) at the manual cap, the game asks which save to overwrite rather than refusing; the playthrough name is the save folder's name and shows on the load screen and the camp log's title; if the player leaves it blank, a default is offered from the seed and start (for example "2718 S1").
+- Seeds and names (Nathan, 2026-11-13): the tutorial is just the preset seed 2718 S1.  The playthrough name includes the run seed by default along with the character's name, as "NAME 48213 R7"; the player can rename it, and the seed is baked into the save either way.
+- Grouping (Nathan, 2026-11-13): saves are grouped by character, so Brad has all of his saves under him, Janet has hers under her, and Rocky's stay separate, each under the run seed they generated.
+- **Draft (Claudia), save layout:**
+  - The load screen lists run seeds, then the characters under each seed, then that character's saves.  Two characters on the same seed (Brad and Janet both on 2718, say) sit side by side under it.
+  - A successor who finds the M.U.L.E. lands under the same seed as a new character, so the load screen shows the line of pilots in one world.
+  - Folders use a fixed ID (the seed plus a short character ID), and the display name lives in the manifest, so renaming never moves files.
+  - The autosave and manual caps count per character.
 
 ## Edge IDs (Claudia, approved by Nathan 2026-11-12)
 
@@ -278,10 +285,11 @@ Built by `tools/region_gen.py`; R5 output in `tools/data/regions/R5.json` and `a
   - The population lives in the background as crowds, noise, prices, rumors, and faction pressure.
   - Each city has its own data file (districts, vendors, banks, factions, dungeons, story beats, arrival event); the planet file points to it.
 - (Claudia, approved by Nathan 2026-11-11) outside the wall are ordinary local maps, with fields, roads, shanties, and traffic thickening toward the gate.
-- (Claudia, approved by Nathan 2026-11-11) in early builds with one city, the seed places the crash within reach of that city.  Planet-wide random crashes return as more of the world is built.
+- Superseded (2026-11-13): (Claudia, approved by Nathan 2026-11-11) in early builds with one city, the seed places the crash within reach of that city.  Planet-wide random crashes return as more of the world is built.  The Tutorial Start at S1 and baked regions unlocking replace this.
 
 ## Seeds
 
+- Two seeds (Nathan, 2026-11-13, from Claudia's draft): the world seed, 2718, builds the canon planet and never changes; the run seed is one per playthrough and controls everything in the "same for the same seed" tiers below.  Where this file says "the seed" in those tiers, it means the run seed.  The Random Start rolls a run seed, shown on the new-game screen with an edit box, so a player can type in a friend's seed.
 - Most landmarks are random by the seed, which makes setting the seed at generation key.  A player with seed X gets the same world as another player with seed X; seed Y may get something different.  Key areas stay the same, but on Y there may be an oasis nearby in a desert area (Nathan, 2026-11-10).
 - Landmarks follow the land: a seed picks among places the world allows (an oasis only where water can exist) and never breaks the physics (agreed by Nathan, 2026-11-10).
 - Seeds are tied to a generator version.  A save records the generator version that built it, and a shared seed is good for that release (agreed by Nathan, 2026-11-10).

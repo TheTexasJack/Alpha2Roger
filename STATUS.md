@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.170, 2026-11-13**
+**STATUS v0.171, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): zones.md v0.72.  Nathan: tutorial is the preset seed 2718 S1; playthrough name defaults to "NAME seed start", renamable, seed baked into the save; saves grouped by character under their run seed.  Two seeds named (world seed 2718, run seed per playthrough).  The old one-city crash line is superseded.  Drafts: load screen seed, then character, then saves; successors under the same seed; fixed folder IDs; caps per character.
 
 - 2026-11-13 (Claudia): zones.md v0.71.  Nathan approved the fixed run seed for the Tutorial Start.  Next: the run seed.
 
