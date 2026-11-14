@@ -1,6 +1,6 @@
 # Alpha2-Roger Zones and Travel
 
-**Zones v0.73, 2026-11-13**
+**Zones v0.74, 2026-11-13**
 
 The spec for A2R-102: how the world is layered, generated, traveled, and saved.  It reads the planet data file (`tools/data/planet_verlassen.json`) and a seed.
 
@@ -44,12 +44,13 @@ Decisions are Nathan's unless marked **Draft (Claudia)**.  Drafts are suggestion
 - When a player picks an area on the world map, they pick the region, and that tells the game which 9 maps to load (Nathan, 2026-11-12).
 - Scale note (Claudia): one region cell (about 3.8 km) holds 16 by 16 local maps; the 9-map section is about 720 m.  At region detail, the nearest creek is about 80 km south of S1 and the nearest river about 126 km.
 - (Claudia, approved by Nathan 2026-11-13) pick flow: world map region, then a region cell on the region map, then the game drops the player into a local map in that cell and loads the 9-map section around it.  Small creeks and ponds are local-map features anywhere.
+- Where regions are built (Nathan, 2026-11-13, option A from the review): region maps are baked ahead of time by the Python baker (`tools/region_gen.py` and the world tools) on Beast, and the game loads the baked files.  Godot builds only what changes per run: seeded landmarks, wild settlements, the start spot, and the local maps.  The baker is permanent, a build tool that never ships to players; a new planet is a new planet file plus a new bake.
 - Start choice built in from the start (Nathan, 2026-11-13): the random and player-picked start is worked in now, but during development we always click and enter S1 to start.
 - Two starts (Nathan, 2026-11-13): a fixed "Tutorial Start" and a "Random Start".  S1 is the Tutorial Start, so the player gets both worlds: a one-click start, and the option to go random.
 - (Claudia, approved by Nathan 2026-11-13) tutorial: the Tutorial Start also uses a fixed run seed, so S1's local maps come out the same every time and tutorial beats can be placed at known spots.  The translator calibration (#32) and the mech computer's voice already work as the tutorial; building and testing S1 during development builds the tutorial at the same time.
 - Note (Claudia): picking your own region (`concept.md`, Crash site; mechanic #71) is still canon and sits beside Random Start until Nathan says otherwise.
 - **Draft (Claudia), how:**
-  - The region baker adds a start layer to each region: the cells allowed as a crash spot.  Rule draft: land, below the ice line, at least 2,000 km from any of the ten places, and at least 600 km from an impact site.  That leaves about 63% of usable land across about 125 regions; S1 passes easily (about 5,600 km from Zimna Toride, about 5,000 km from an impact site).  The river preference was for testing only.
+  - The region baker (option A) adds a start layer to each region: the cells allowed as a crash spot.  Rule draft: land, below the ice line, at least 2,000 km from any of the ten places, and at least 600 km from an impact site.  That leaves about 63% of usable land across about 125 regions; S1 passes easily (about 5,600 km from Zimna Toride, about 5,000 km from an impact site).  The river preference was for testing only.
   - Start screen: the globe, then a region (or Random), then the region map with allowed cells shaded, then a cell (or Random), then the 9-map section loads and the crash plays.  Random draws a region, then a cell, from the allowed set with the run's seed.
   - Only baked regions can be clicked.  At first that is R5 alone, so the click is always S1; regions light up as they get baked.  The GM tool can add a quick start at S1 to skip the clicks.
 - The only reason to be on a river is testing on a river; the randomness of the seed generation guides the specifics, so S1 stays where the seed put it (Nathan, 2026-11-12).

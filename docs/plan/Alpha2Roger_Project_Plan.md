@@ -1,6 +1,6 @@
 # Alpha2-Roger Project Plan
 
-**Plan v0.32, 2026-11-13**
+**Plan v0.33, 2026-11-13**
 
 ## What this project is
 
@@ -47,21 +47,23 @@ Goal: Claude hand-holds Nathan through setting up Beast for local Godot developm
 | A2R-S07 | Shared rules file | Done | `AGENTS.md` at the repo root (read by Claude Code and by Codex-style tools on Mara's side): style, versioning, compartmentalized steps, one AI per file at a time |
 | A2R-S08 | Headless test check | Not started | A Godot test add-on runs from the command line, so changes can be verified without clicking through the game |
 | A2R-S09 | Plan check | Not started | Start on the current plan; move to Max, then Ultra, only if usage limits actually bite |
+| A2R-S10 | Python for the baker | Not started | **Draft (Claudia):** Python 3 with numpy, scipy, and Pillow on Beast (Mint ships Python; one install line), so the world tools and the region baker run there |
 
 **Gate:** Nathan restores a test file from Timeshift and from git, confirming both safety nets work, and Claude Code runs one harmless test command inside the fenced folder.
 
-## Stage 1: Zone graph generator (text only)
+## Stage 1: World generator (baked regions, first local maps, text output)
 
-Goal: prove the seeded map works before any graphics exist.
+Goal: prove the seeded world works before any graphics exist.  Region maps are baked ahead of time by the Python baker on Beast; Godot builds the local maps from them (option A, decided by Nathan 2026-11-13).
 
 | ID | Task | Status | Notes |
 |---|---|---|---|
 | A2R-101 | Planet data file | Done | Locked by Nathan 2026-11-10 at v0.1; v0.2 (2026-11-11) adds the calendar; v0.5 to v0.7 (2026-11-13) add the route network, the highest point (Yamajira), the climate lines, the biomes, and the region rules: `tools/data/planet_verlassen.json` (built by `tools/planet_pack.py`), with seed, ten places, impact sites, regions, cultures, currencies, straight-line distances.  Data only, no engine code.  Fixed file name, version inside.  Biome regions and route distance ranges moved to A2R-102 |
-| A2R-102 | Generator spec | In review | Spec in `docs/design/zones.md`; the zone graph format is complete (2026-11-13), awaiting Nathan's final sign-off.  First region R5 built by `tools/region_gen.py`.  Inputs (planet file, seed) and outputs (zone graph).  Also defines biome regions and route distance ranges (moved from A2R-101).  Written and approved before code |
-| A2R-103 | Generator prototype | Not started | Built in Godot, outputs a readable text map, for example "Crash Site > Spore Thicket > Collapsed Arcology".  Doubles as a first Godot lesson (**Draft (Claudia)**) |
-| A2R-104 | Determinism test | Not started | Same seed gives the same map every time; different seeds give different maps |
+| A2R-102 | Generator spec | In review | Spec in `docs/design/zones.md`; the zone graph format is complete (2026-11-13), awaiting Nathan's final sign-off.  First region R5 built by `tools/region_gen.py`.  Inputs (planet file, world seed, run seed); outputs: baked region files (Python baker) and seeded local maps (Godot).  Also defines biome regions and route distance ranges (moved from A2R-101).  Written and approved before code |
+| A2R-103 | First Godot load | Not started | Godot reads the planet file and R5's baked region file, takes the Tutorial Start (world seed 2718, run seed 2718, S1), and builds S1's 9-map section of local maps from the run seed, printing a text summary of each map (biome, water, edges, crossing points).  Doubles as a first Godot lesson.  Rewritten 2026-11-13 for option A; the old text zone chain ("Crash Site > Spore Thicket > Collapsed Arcology") is retired |
+| A2R-104 | Determinism test | Not started | The same run seed gives the same local maps every time; different run seeds give different maps; neighboring maps agree on their shared edges.  Runs headless (A2R-S08).  Rewritten 2026-11-13 for option A |
+| A2R-105 | Region baker, full layers | Not started | **Draft (Claudia):** `tools/region_gen.py` writes the remaining layers (salinity, flow, full-detail height, moisture, territory, routes, landmarks, entrances, and the start cells) in a packed format; R5 first, then the 147 regions with land below the ice line |
 
-**Gate:** Nathan runs several seeds and approves the results.
+**Gate:** Nathan runs the Tutorial Start and a few run seeds at S1 and approves the results.
 
 ## Stage 2: One zone, on screen
 
@@ -120,6 +122,7 @@ Goal: the core loop.
 - Plan v0.28, 2026-11-12 (Nathan): the year is 5071u; planet data file v0.4.
 - Plan v0.27, 2026-11-11 (Nathan): planet data file v0.3, political regions renamed territories; cultural regions get their own key.
 - Plan v0.26, 2026-11-11 (Nathan): planet data file v0.2 with the 12 by 35 day calendar.
+- Plan v0.33, 2026-11-13 (Nathan): option A, regions baked ahead of time by the Python baker.  Stage 1 renamed; A2R-103 and A2R-104 rewritten; A2R-105 (region baker) and A2R-S10 (Python on Beast) added as drafts.
 - Plan v0.32, 2026-11-13 (Claudia): A2R-101 note: planet file v0.7 holds the climate lines, biomes, and region rules.
 - Plan v0.31, 2026-11-13 (Claudia): A2R-101 note: planet file v0.5 carries the route network.
 - Plan v0.30, 2026-11-13 (Claudia): review fixes.  A2R-006 year wording matches the 12-month calendar; A2R-S07 marked Done (`AGENTS.md` exists since plan v0.22).

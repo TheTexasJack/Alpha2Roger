@@ -1,6 +1,6 @@
 # Status
 
-**STATUS v0.172, 2026-11-13**
+**STATUS v0.173, 2026-11-13**
 
 ## Where things stand
 
@@ -22,6 +22,8 @@
 - Listed at the bottom of `docs/design/concept.md` (Open items) and `docs/design/world.md` (Open).
 
 ## Last session
+
+- 2026-11-13 (Claudia): plan v0.33, zones.md v0.74.  Nathan locked option A: regions baked ahead of time by the Python baker on Beast; Godot builds per-run content and local maps.  Stage 1 renamed; A2R-103 (first Godot load: R5 plus S1's 9-map section, text summary) and A2R-104 (determinism of local maps and shared edges) rewritten; A2R-105 (region baker, full layers) and A2R-S10 (Python on Beast) added as drafts.  Review queue left: draft sweep, turn and day length, Svetla Hama's ferry, A2R-102 sign-off.
 
 - 2026-11-13 (Claudia): zones.md v0.73.  Nathan approved the save layout drafts (seed, then character, then saves; successors under the same seed; fixed folder IDs; caps per character).  Next in the review queue: option A decision, then A2R-103 and A2R-104 rewrite.
 
